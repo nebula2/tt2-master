@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             xmlns:arti="clr-namespace:TT2Master.Views.Arti"
+             xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+             x:Class="TT2Master.ArtOptImageGridPage"
+             Title="{Binding Title}"
+             BackgroundColor="Transparent"
+             x:Name="root">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:BoolConverter x:Key="boolConvert" />
+            <converter:DirectionConverter x:Key="directionConvert" />
+            <converter:IntEnumConverter x:Key="IntEnum"/>
+            <converter:ArtStepConverter x:Key="ArtStep" />
+            <converter:DoneToColorConverter x:Key="DoneToColorConverter"/>
+            <converter:AmountVisibleConverter x:Key="AmountVisibleConverter"/>
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+
+            <DataTemplate x:Key="ArtOptCellTemplate">
+                <arti:ArtOptCell />
+            </DataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="EditSettings" Command="{Binding GoToSettingsCommand}" Icon="edit_icon"/>
+        <ToolbarItem Name="EditViewSettings" Command="{Binding GoToViewSettingsCommand}" Icon="aspect_icon"/>
+        <ToolbarItem Name="ReloadArts" Command="{Binding ReloadArtifactLevelCommand}" Icon="reload_icon"/>
+        <ToolbarItem Name="Help" Command="{Binding HelpCommand}" Icon="help_icon"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        <!-- default view -->
+        <Grid Grid.Row="0"
+              IsVisible="{Binding IsDefaultViewActive}"
+            HorizontalOptions="FillAndExpand" 
+            VerticalOptions="FillAndExpand">
+            <ListView CachingStrategy="RetainElement" 
+                  Grid.Row="0" 
+                  ItemsSource="{Binding OptimizeList}" 
+                  ItemTemplate="{StaticResource ArtOptCellTemplate}"
+                  HasUnevenRows="True" 
+                  Margin="2"
+                  BackgroundColor="Transparent" 
+                  SelectionMode="None" 
+                  HorizontalOptions="FillAndExpand" 
+                  VerticalOptions="FillAndExpand"
+                  IsPullToRefreshEnabled="True" 
+                  RefreshCommand="{Binding ReloadArtifactLevelCommand}" 
+                  IsRefreshing="{Binding IsRefreshing}">
+
+                <ListView.Behaviors>
+                    <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding MarkAsDoneCommand}" Converter="{StaticResource ItemTappedConverter}" />
+                </ListView.Behaviors>
+            </ListView>
+        </Grid>
+
+        <!-- image grid view -->
+        <Grid Grid.Row="0" 
+              IsVisible="{Binding IsDefaultViewActive, Converter={StaticResource boolConvert}, ConverterParameter=true}">
+            
+            <ScrollView Orientation="Both">
+                <FlexLayout x:Name="FleyLayoutCtrls"
+                        BindableLayout.ItemsSource="{Binding OptimizeList}"
+                        Wrap="Wrap"
+                        Direction="{Binding ArtDirectionMode, Converter={StaticResource directionConvert}}"
+                        JustifyContent="SpaceAround"
+                        AlignItems="Start"
+                        AlignContent="Start"
+                        Padding="8"
+                        >
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                            <Grid FlexLayout.AlignSelf="Center" HeightRequest="{Binding Source={x:Reference root}, Path=BindingContext.CellSize}">
+                                <Frame Margin="1" Padding="8" BackgroundColor="{Binding IsTaggedAsDone, Converter={StaticResource DoneToColorConverter}}">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={x:Reference root}, Path=BindingContext.MarkAsDoneCommand}" CommandParameter="{Binding .}"/>
+                                    </Frame.GestureRecognizers>
+                                    
+                                    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="50" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label Grid.Column="0" Text="{Binding Rank}" VerticalOptions="Center"/>
+                                        <Image Grid.Column="1" Source="{Binding ImagePath}" 
+                                           WidthRequest="{Binding Source={x:Reference root}, Path=BindingContext.CellSize}" 
+                                           HeightRequest="{Binding Source={x:Reference root}, Path=BindingContext.CellSize}" />
+
+                                        <!-- Click Amount -->
+                                        <Label Grid.Column="1" 
+                                               Text="{Binding ClickAmount, Converter={StaticResource ArtStep}}" 
+                                               WidthRequest="{Binding Source={x:Reference root}, Path=BindingContext.CellSize}" 
+                                               HeightRequest="{Binding Source={x:Reference root}, Path=BindingContext.CellSize}"     
+                                               Margin="2" 
+                                               HorizontalTextAlignment="Center"
+                                               VerticalTextAlignment="Center"
+                                               TextColor="WhiteSmoke"
+                                               IsVisible="{Binding ClickAmount, Converter={StaticResource AmountVisibleConverter}}"/>
+                                    </Grid>
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </FlexLayout>
+            </ScrollView>
+
+            <ActivityIndicator Grid.Row="0"
+                               IsRunning="{Binding IsRefreshing}"
+                               IsVisible="{Binding IsRefreshing}"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="CenterAndExpand"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>

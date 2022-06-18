@@ -1,0 +1,11 @@
+PetQuestDifficulty,PetName,Localization,Note,QuestDuration,NumberOfPetsRequired,MinTeamRequirement,MaxTeamRequirement,RewardXP,Reward_ID,SpecificPetsRequired
+0,Nova,PET_QUEST_ID_0,Common,120,1,1,5,14,0,1
+1,Toto,PET_QUEST_ID_1,Common +,120,1,3,10,15,1,1
+2,Cerberus,PET_QUEST_ID_2,Uncommon,240,2,12,30,15,2,1
+3,Mousy,PET_QUEST_ID_3,Uncommon +,240,2,30,250,16,3,1
+4,Harker,PET_QUEST_ID_4,Rare,480,2,180,350,17,4,1
+5,Bubbles,PET_QUEST_ID_5,Rare +,480,2,360,450,18,5,1
+6,Demos,PET_QUEST_ID_6,Legendary,600,3,675,1350,18,6,1
+7,Tempest,PET_QUEST_ID_7,Legendary +,600,3,1350,2025,19,7,1
+8,Basky,PET_QUEST_ID_8,Mythic,720,3,1620,2150,20,8,1
+9,Scraps,PET_QUEST_ID_9,Mythic +,720,3,2160,3050,21,9,1

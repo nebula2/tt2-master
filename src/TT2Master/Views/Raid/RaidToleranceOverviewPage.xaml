@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:TT2Master"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             mc:Ignorable="d"
+             x:Class="TT2Master.Views.Raid.RaidToleranceOverviewPage"
+             x:Name="rootPage"
+             Title="{Binding Title}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Add" Command="{Binding AddCommand}" Icon="add_icon"/>
+    </ContentPage.ToolbarItems>
+
+    <!-- Items -->
+    <ListView CachingStrategy="RetainElement" 
+              ItemsSource="{Binding Items}" 
+              HasUnevenRows="True" 
+              SelectionMode="None"
+              SeparatorVisibility="None"
+              BackgroundColor="Transparent">
+
+        <ListView.Behaviors>
+            <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EditCommand}" Converter="{StaticResource ItemTappedConverter}" />
+        </ListView.Behaviors>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.ContextActions>
+                        <MenuItem Text="{x:Static resource:AppResources.DeleteText}" 
+                                  Command="{Binding Source={x:Reference rootPage}, Path=BindingContext.DeleteCommand}" 
+                                  CommandParameter="{Binding .}"/>
+                        <MenuItem Text="{x:Static resource:AppResources.Rename}" 
+                                  Command="{Binding Source={x:Reference rootPage}, Path=BindingContext.RenameCommand}" 
+                                  CommandParameter="{Binding .}"/>
+                    </ViewCell.ContextActions>
+                    
+                    <Frame OutlineColor="{StaticResource ForegroundDark}" 
+                           BackgroundColor="{StaticResource FrameBackground}" 
+                           Margin="5">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="0" Text="{Binding Name}" />
+                            <Label Grid.Row="1" Text="{Binding Description}" />
+                        </Grid>
+                    </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

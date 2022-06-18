@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:TT2Master"
+             xmlns:resource="clr-namespace:TT2Master.Resources" 
+             xmlns:raid="clr-namespace:TT2Master.ViewModels.Raid"
+             x:DataType="raid:RaidSeedViewModel"
+             mc:Ignorable="d"
+             x:Class="TT2Master.Views.Raid.RaidSeedPage"
+             x:Name="rootPage"
+             Title="{Binding Title}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Add" Command="{Binding LoadCommand}" Icon="add_icon"/>
+    </ContentPage.ToolbarItems>
+
+    <!-- Items -->
+    <ListView CachingStrategy="RetainElement"
+              ItemsSource="{Binding Items}" 
+              HasUnevenRows="True" 
+              SelectionMode="None"
+              IsGroupingEnabled="True"
+              GroupDisplayBinding="{Binding LongName}"
+              GroupShortNameBinding="{Binding ShortName}"
+              BackgroundColor="Transparent">
+
+        <ListView.GroupHeaderTemplate>
+            <DataTemplate>
+                <ViewCell x:DataType="raid:GroupedRaidSeedEnemyViewModel">
+                    <Grid Padding="5" 
+                          HorizontalOptions="FillAndExpand" 
+                          VerticalOptions="FillAndExpand"
+                          BackgroundColor="{StaticResource OptimizerLevelFrameColor}"
+                          ColumnDefinitions="Auto, *">
+                        <Label Text="{Binding StateIcon}" 
+                               FontFamily="{StaticResource FontAwesome}" 
+                               FontAttributes="Bold" 
+                               VerticalOptions="Center" 
+                               HorizontalTextAlignment="Start"
+                               TextColor="White" 
+                               Margin="0, 0, 20, 0" 
+                               FontSize="16"
+                               Grid.Column="0"/>
+                        <Label Text="{Binding LongName}" 
+                               TextColor="White" 
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start" 
+                               HorizontalOptions="Start" 
+                               FontAttributes="Bold" 
+                               FontSize="16"
+                               Grid.Column="1"/>
+                        <Button Grid.ColumnSpan="2" 
+                                BackgroundColor="Transparent" 
+                                CornerRadius="0"
+                                BorderColor="Aqua"
+                                BorderWidth="0">
+                            <Button.Behaviors>
+                                <local:EventToCommandBehavior EventName="Clicked" 
+                                                              Command="{Binding Source={x:Reference rootPage}, Path=BindingContext.ExpandCommand}"
+                                                              Converter="{StaticResource ItemTappedConverter}"
+                                                              CommandParameter="{Binding .}"/>
+                            </Button.Behaviors>
+                        </Button>
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.GroupHeaderTemplate>
+        
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Frame OutlineColor="{StaticResource ForegroundDark}" 
+                           BackgroundColor="{StaticResource FrameBackground}" 
+                           Margin="5">
+                        <StackLayout Orientation="Vertical"
+                                     x:DataType="raid:RaidSeedEnemyViewModel">
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <Span Text="{Binding Name}" />
+                                            <Span Text=": " />
+                                            <Span Text="{Binding TotalHp, StringFormat='{}{0:N0}'}"/>
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <Span Text="{Binding AreaDebuffBonusAmount, StringFormat='{}{0:N2}', FallbackValue=''}"/>
+                                            <Span Text=" " />
+                                            <Span Text="{Binding AreaDebuffBonusType, FallbackValue=''}" />
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Grid ColumnDefinitions="Auto, *" 
+                                  RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto">
+                                <Label Grid.Row="0"
+                                       Grid.Column="0"
+                                       Text="{x:Static resource:AppResources.Head}" />
+                                <Label Grid.Row="0"
+                                       Grid.Column="1"
+                                       Text="{Binding BodyHead, StringFormat='{}{0:N0}'}"/>
+
+                                <Label Grid.Row="1"
+                                       Grid.Column="0"
+                                       Text="{x:Static resource:AppResources.Torso}" />
+                                <Label Grid.Row="1"
+                                       Grid.Column="1"
+                                       Text="{Binding BodyChestUpper, StringFormat='{}{0:N0}'}"/>
+
+                                <Label Grid.Row="2"
+                                       Grid.Column="0"
+                                       Text="{x:Static resource:AppResources.RightShoulder}" />
+                                <Label Grid.Row="2"
+                                       Grid.Column="1"
+                                       Text="{Binding BodyArmUpperRight, StringFormat='{}{0:N0}'}"/>
+
+                                <Label Grid.Row="3"
+                                       Grid.Column="0"
+                                       Text="{x:Static resource:AppResources.LeftShoulder}" />
+                                <Label Grid.Row="3"
+                                       Grid.Column="1"
+                                       Text="{Binding BodyArmUpperLeft, StringFormat='{}{0:N0}'}"/>
+
+                                <Label Grid.Row="4"
+                                       Grid.Column="0"
+                                       Text="{x:Static resource:AppResources.RightHand}" />
+                                <Label Grid.Row="4"
+                                       Grid.Column="1"
+                                       Text="{Binding BodyHandRight, StringFormat='{}{0:N0}'}"/>
+
+                                <Label Grid.Row="5"
+                                       Grid.Column="0"
+                                       Text="{x:Static resource:AppResources.LeftHand}" />
+                                <Label Grid.Row="5"
+                                       Grid.Column="1"
+                                       Text="{Binding BodyHandLeft, StringFormat='{}{0:N0}'}"/>
+
+                                <Label Grid.Row="6"
+                                       Grid.Column="0"
+                                       Text="{x:Static resource:AppResources.RightLeg}" />
+                                <Label Grid.Row="6"
+                                       Grid.Column="1"
+                                       Text="{Binding BodyLegUpperRight, StringFormat='{}{0:N0}'}"/>
+
+                                <Label Grid.Row="7"
+                                       Grid.Column="0"
+                                       Text="{x:Static resource:AppResources.LeftLeg}" />
+                                <Label Grid.Row="7"
+                                       Grid.Column="1"
+                                       Text="{Binding BodyLegUpperLeft, StringFormat='{}{0:N0}'}"/>
+                            </Grid>
+                        </StackLayout>
+                    </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

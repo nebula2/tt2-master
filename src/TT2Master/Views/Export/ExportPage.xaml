@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:TT2Master.Resources" 
+             xmlns:tt2master="clr-namespace:TT2Master" 
+             x:DataType="tt2master:ExportViewModel"
+             x:Class="TT2Master.ExportPage"
+             Title="{Binding Title}"
+             >
+
+    <ScrollView>
+        <StackLayout>
+            <Label Text="{x:Static resource:AppResources.ExportText}" HorizontalTextAlignment="Center"/>
+            <Button Text="{x:Static resource:AppResources.ExportTitle}" Command="{Binding ExportCommand}"/>
+            <Button Text="{x:Static resource:AppResources.ExportSmallTitle}" Command="{Binding ExportSmallCommand}"/>
+            <Button Text="{x:Static resource:AppResources.Profile}" Command="{Binding ExportProfileCommand}"/>
+            <Button Text="{x:Static resource:AppResources.Raid}" Command="{Binding ExportRaidCommand}"/>
+            <Button Text="{x:Static resource:AppResources.ExportRaidAsJson}" Command="{Binding ExportRaidJsonCommand}"/>
+            <Button Text="{x:Static resource:AppResources.ExportSnapshotDiff}" Command="{Binding ExportSnapshotDiffCommand}"/>
+            <Label Text="Snapshot from (ID)" />
+            <Entry Text="{Binding SnapshotFromId, Mode=TwoWay}" Keyboard="Numeric" />
+            <Label Text="Snapshot to (ID)" />
+            <Entry Text="{Binding SnapshotToId, Mode=TwoWay}" Keyboard="Numeric" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

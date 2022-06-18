@@ -1,0 +1,4774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutMeHeader" xml:space="preserve">
+    <value>Hakkımda</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="CompareValueHeader" xml:space="preserve">
+    <value>Değeri karşılaştırın:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="CQAutoResetHeader" xml:space="preserve">
+    <value>CQ otomatik sıfırlama:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="CQCounterHeader" xml:space="preserve">
+    <value>CQ Counter:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="DescriptionHeader" xml:space="preserve">
+    <value>Açıklama:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="HelloWorld" xml:space="preserve">
+    <value>Merhaba App kaynaklardan</value>
+    <comment>Test</comment>
+  </data>
+  <data name="MinsBeforeHeader" xml:space="preserve">
+    <value>Ortaçağ halk ozanı. daha önce:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="MyMailHeader" xml:space="preserve">
+    <value>Adres:</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="MyNameHeader" xml:space="preserve">
+    <value>Benim adım:</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="NotifyHeader" xml:space="preserve">
+    <value>Bildir:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ResetDayHeader" xml:space="preserve">
+    <value>Gün sıfırlama:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ResetLastNotifiedBoss" xml:space="preserve">
+    <value>Sıfırlama en son patron bildirimde</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ResetTimeHeader" xml:space="preserve">
+    <value>Zaman reset:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="StartService" xml:space="preserve">
+    <value>Hizmeti Başlat</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ToSayHeader" xml:space="preserve">
+    <value>Demek için:</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="WeeklyCQHeader" xml:space="preserve">
+    <value>Haftalık CQ:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="AppSettings" xml:space="preserve">
+    <value>Uygulama Ayarları</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="ArtifactHeader" xml:space="preserve">
+    <value>Yapıtlar</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="AutoUpdateHeader" xml:space="preserve">
+    <value>Otomatik güncelleştirme</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="BuildHeader" xml:space="preserve">
+    <value>Yapı</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="CostCoefficientHeader" xml:space="preserve">
+    <value>Maliyet katsayısı:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="CostExpoHeader" xml:space="preserve">
+    <value>Maliyet üs:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="CurrentHeader" xml:space="preserve">
+    <value>Geçerli?</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="DamageBonusHeader" xml:space="preserve">
+    <value>Hasar prim:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="DefaultCategoryHeader" xml:space="preserve">
+    <value>Varsayılan Kategori:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="DeleteText" xml:space="preserve">
+    <value>Sil</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="DisableAllAds" xml:space="preserve">
+    <value>Tüm reklamları devre dışı bırakma</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="DisableSmallAds" xml:space="preserve">
+    <value>Küçük reklamlar devre dışı bırakma</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="EffectHeader" xml:space="preserve">
+    <value>Etkisi:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="EffectPerLvlHeader" xml:space="preserve">
+    <value>Lvl başına etkisi:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="FoundTT2Version" xml:space="preserve">
+    <value>TT2 sürümü bulundu</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="GeneralHeader" xml:space="preserve">
+    <value>Genel</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="GoldSourceHeader" xml:space="preserve">
+    <value>Altın kaynak</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="GrowthExpoHeader" xml:space="preserve">
+    <value>Büyüme üs:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="GrowthMaximumHeader" xml:space="preserve">
+    <value>En fazla büyüme:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="GrowthRateHeader" xml:space="preserve">
+    <value>Büyüme hızı:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="HeroHeader" xml:space="preserve">
+    <value>Kahraman</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="HighHeader" xml:space="preserve">
+    <value>Yüksek</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="IngoredArtifactsHeader" xml:space="preserve">
+    <value>İngored eserler</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="InputCCText" xml:space="preserve">
+    <value>Kategori için giriş ad</value>
+    <comment>CustomCategoryInputPopupPage</comment>
+  </data>
+  <data name="LevelHeader" xml:space="preserve">
+    <value>Düzeyi:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="LifeTimeHeader" xml:space="preserve">
+    <value>Ömür boyu %</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="LinksHeader" xml:space="preserve">
+    <value>Bağlantılar</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Yükle</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LocalizationHeader" xml:space="preserve">
+    <value>Yerelleştirme</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LoggingHeader" xml:space="preserve">
+    <value>Günlük</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LoggingSwitch" xml:space="preserve">
+    <value>Oturum açma/kapama</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LowHeader" xml:space="preserve">
+    <value>Düşük</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="MediumHeader" xml:space="preserve">
+    <value>Orta</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="MilestoneHeader" xml:space="preserve">
+    <value>Kilometre taşı</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="NameHeader" xml:space="preserve">
+    <value>Adı</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="NoAds" xml:space="preserve">
+    <value>Hayır Ads</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="NumbersScientific" xml:space="preserve">
+    <value>Sayıları bilimsel</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="OnlyRelevantHeader" xml:space="preserve">
+    <value>Sadece ilgili</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="OpenHeader" xml:space="preserve">
+    <value>Aç</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerHeader" xml:space="preserve">
+    <value>En iyi duruma getiricisi</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="PushingTypeHeader" xml:space="preserve">
+    <value>İterek türü</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="RangeHeader" xml:space="preserve">
+    <value>aralık</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="RelicsSpentHeader" xml:space="preserve">
+    <value>Emanetler harcanan:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="ReloadCsvAndVersion" xml:space="preserve">
+    <value>CSV ve sürüm yeniden</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="ReloadDefaultBuilds" xml:space="preserve">
+    <value>Yeniden yükle varsayılan yapılar</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="ResetCompareValue" xml:space="preserve">
+    <value>Comparevalue sıfırlama</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="SaveText" xml:space="preserve">
+    <value>Kaydet</value>
+    <comment>CustomCategoryInputPopupPage</comment>
+  </data>
+  <data name="SettingsHeader" xml:space="preserve">
+    <value>Ayarlar</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="ShortHeader" xml:space="preserve">
+    <value>Kısa</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="SmallAds" xml:space="preserve">
+    <value>Küçük reklamlar</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="StepAmountHeader" xml:space="preserve">
+    <value>Adım tutar</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="Supporter" xml:space="preserve">
+    <value>Destekçisi</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="SupporterDesc" xml:space="preserve">
+    <value>Tüm reklamları devre dışı bırakmak ve sadece destekçileri özelliklerine erişebilirsiniz. 
+Özellikleri şu anda şunlardır:
+- kendi yapıları
+- Düzen yapılar ve ağırlık
+- Paylaşım yapılar
+oluşturmak - özel kategoriler
+oluşturmak - klan sohbet
+- otomatik günlük anlık
+- Save yapılar iyi bir his var içimde</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="SwipeText" xml:space="preserve">
+    <value>Üst ve sağ&gt; tokatlamak spin basarsınız</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="ToBeContinued" xml:space="preserve">
+    <value>Devam edecek</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="UsageHeader" xml:space="preserve">
+    <value>Kullanım</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="VersionHeader" xml:space="preserve">
+    <value>Sürüm</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="VideosHeader" xml:space="preserve">
+    <value>Videolar</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="WeightsHeader" xml:space="preserve">
+    <value>Ağırlıklar</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="YoutubeVideo" xml:space="preserve">
+    <value>YouTube Video</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="AlertHeader" xml:space="preserve">
+    <value>Uyar</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckDefaultSpBuildsText" xml:space="preserve">
+    <value>Varsayılan SP denetimi oluşturur</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckingDefaultBuildsText" xml:space="preserve">
+    <value>Denetimi varsayılan artifakı oluşturur</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckingPermissionsText" xml:space="preserve">
+    <value>izinleri denetleme</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckingPurchasementsText" xml:space="preserve">
+    <value>Purchasements kontrol</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotCatchFileText" xml:space="preserve">
+    <value>dosya yakalamak değil</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotFindFileText" xml:space="preserve">
+    <value>Dosya bulunamadı</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotFindSavefileText" xml:space="preserve">
+    <value>Dosya bulunamadı. Normalde altında olmalıdır: {0}. aramak istiyor musunuz?</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotGetAdIdText" xml:space="preserve">
+    <value>AdId alınamadı. TT2 çalışan?</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotGetFilepathText" xml:space="preserve">
+    <value>Dosya yolu alınamadı</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotReadGHDbText" xml:space="preserve">
+    <value>{0} GH veritabanı okunamadı</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotRecreateDefaultBuildsText" xml:space="preserve">
+    <value>Varsayılan yapılar yeniden değil</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DbFileNotExistsText" xml:space="preserve">
+    <value>DB dosyası yok.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DbFileNotPickedText" xml:space="preserve">
+    <value>Veritabanı dosyası kullanıcı tarafından alınmış değil.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DontCareText" xml:space="preserve">
+    <value>Umurumda değil</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="FirstStartInfoText" xml:space="preserve">
+    <value>İlk başlatma sırasında - dokunun Titans çalıştırıyor olmanız gerekir</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="KeepUpText" xml:space="preserve">
+    <value>Pes etme. Yeniden Deneyin. Başlangıç bazen başarısız olabilir</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="LoadingSavefileText" xml:space="preserve">
+    <value>SAVEFILE yükleme</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="NoText" xml:space="preserve">
+    <value>Hayır</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="PermissionNotGrantedText" xml:space="preserve">
+    <value>İzin verilmiş</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="PromptDbFilePath" xml:space="preserve">
+    <value>Lütfen veritabanı dosyası seçin. Normalde {0} olmalıdır</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="SendToDevText" xml:space="preserve">
+    <value>geliştirici için göndermek</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="StartMainAppText" xml:space="preserve">
+    <value>Başlangıç ana App</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="YesText" xml:space="preserve">
+    <value>Evet</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="AlreadyPurchasedIncludingText" xml:space="preserve">
+    <value>zaten bu içeren bir paket satın</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="AlreadyPurchasedText" xml:space="preserve">
+    <value>zaten bu satın</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="BuildsRestoredText" xml:space="preserve">
+    <value>Geri yapılar</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ErrorHeader" xml:space="preserve">
+    <value>Hata</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="FilesDownloadedText" xml:space="preserve">
+    <value>İndirilen dosyaları</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="InfoHeader" xml:space="preserve">
+    <value>Bilgi</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ItemNotPurchasedText" xml:space="preserve">
+    <value>Madde satın değil</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ItemPurchasedText" xml:space="preserve">
+    <value>Teşekkürler :) Lütfen app yeniden başlatın</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="LoggingActiveText" xml:space="preserve">
+    <value>günlüğe kaydetme etkin durumda. Devre dışı bırakmak?</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="LoggingInactiveText" xml:space="preserve">
+    <value>Günlük kaydını etkinleştirmek? {0} altındaki Belgeler klasörünüzde saklanır</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="NotSet" xml:space="preserve">
+    <value>Ayarlanmamış</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="OKText" xml:space="preserve">
+    <value>Tamam</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ProblemRestoringDefaultBuildsText" xml:space="preserve">
+    <value>Varsayılan yapılar geri yükleme bir hata oluştu</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ArtifactDetailHeader" xml:space="preserve">
+    <value>Yapı detay</value>
+    <comment>ArtDetailVM</comment>
+  </data>
+  <data name="ArtifactOverviewHeader" xml:space="preserve">
+    <value>Yapı genel bakış</value>
+    <comment>ArtOverviewVM</comment>
+  </data>
+  <data name="AttentionHeader" xml:space="preserve">
+    <value>Dikkat</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="AvailableSPInfoText" xml:space="preserve">
+    <value>SP sen geçirebilirsiniz miktarını gösterir.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="BosInfoText" xml:space="preserve">
+    <value>Ne kadar tüm kazanılan zaman kutsal kitap gölge yatırım?</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="BossTimerDescription" xml:space="preserve">
+    <value>Yeni bir patronun görüntülendiğinde bu özelliği size bildirir. "Bildirmek" olarak ayarlayın. Bundan sonra patron hakkında önceden bilgi almak istediğinizde dakikada bir değere ayarlayın. 0 ile 300 arasında bir değer girin. İlk kullanırken, "Hizmeti Başlat" düğmesine basın gerekir. "Reset son bildirilen patron"-düğmesi (tür a araştırma gibi) henüz bir şey yok haberdar olduğunu hizmet sağlar.</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="BuildExistsText" xml:space="preserve">
+    <value>Yapı bulunmaktadır. Üzerine yazmak istiyor musunuz?</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="BuildFirstLetterRestrictionText" xml:space="preserve">
+    <value>İlk harfi "_" olamaz. Bu varsayılan yapılar için ayrılmıştır</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="BuildImportedText" xml:space="preserve">
+    <value>Başarıyla içe inşa</value>
+    <comment>BuildsVM</comment>
+  </data>
+  <data name="BuildInfoText" xml:space="preserve">
+    <value>Senin playstile bağlı olarak - takip için bir yapı seçin.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="BuildNotImportedText" xml:space="preserve">
+    <value>Aktarılmayan inşa</value>
+    <comment>BuildsVM</comment>
+  </data>
+  <data name="BuildsHeader" xml:space="preserve">
+    <value>Yapılar</value>
+    <comment>BuildsVM</comment>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>İptal</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="CategoryAlreadyExistsText" xml:space="preserve">
+    <value>Kategori zaten var</value>
+    <comment>CCInputVM</comment>
+  </data>
+  <data name="ChangesSavedText" xml:space="preserve">
+    <value>Değişiklikler kaydedildi</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="CouldNotFillArtifactsText" xml:space="preserve">
+    <value>Değil doldurmak eserler</value>
+    <comment>ArtOverviewVM</comment>
+  </data>
+  <data name="CouldNotFillDataText" xml:space="preserve">
+    <value>Veri doldurmak değil</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="CouldNotFindText" xml:space="preserve">
+    <value>bir şey bulamadım</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="CouldNotLoadFileText" xml:space="preserve">
+    <value>Dosya yüklenemedi</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="CouldNotLoadSkillsText" xml:space="preserve">
+    <value>Becerileri yüklenemedi</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="CouldNotSaveExceptionText" xml:space="preserve">
+    <value>kaydedilemedi: </value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="CurrentBuildCannotBeDeletedText" xml:space="preserve">
+    <value>Geçerli yapı silinemez</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="CurrSPInfoText" xml:space="preserve">
+    <value>Şu anda var SP miktarını gösterir</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="DeletedText" xml:space="preserve">
+    <value>Silindi</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="DestroyText" xml:space="preserve">
+    <value>Yok et</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="EditBuildHeader" xml:space="preserve">
+    <value>Yapı düzenleme</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="ExportedToText" xml:space="preserve">
+    <value>İhraç: </value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="ExportQuestionText" xml:space="preserve">
+    <value>Bu vermek istiyor musunuz?</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="FileNotExportedText" xml:space="preserve">
+    <value>verilmeyen dosya</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="FileSavedToText" xml:space="preserve">
+    <value>Kaydedilen dosya:</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="FillNameFirstText" xml:space="preserve">
+    <value>İlk adı girin</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="FinishedText" xml:space="preserve">
+    <value>Bitti</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="HeroDamageInfoText" xml:space="preserve">
+    <value>Ne tür bir hasar en güçlü kahraman baş ediyor?</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="HeroDamageTypeHeader" xml:space="preserve">
+    <value>Kahraman hasar türü</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="HeroRangeInfoText" xml:space="preserve">
+    <value>Geçerli kahraman melee ya da değişiyordu.</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="LifeTimeInfoText" xml:space="preserve">
+    <value>Sonucunu önerilen düzeyi işlemek için bir değer. Bu değer, önerilen yüksek yüksek. (Sadece görsel ölçmek için)</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="MenuAboutTitle" xml:space="preserve">
+    <value>Hakkımda</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuArtifactOverviewTitle" xml:space="preserve">
+    <value>Yapı genel bakış</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuBossTimerTitle" xml:space="preserve">
+    <value>Patron Zamanlayıcı ayarları</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuInfoTitle" xml:space="preserve">
+    <value>Kılavuzlar</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuOptimizerTitle" xml:space="preserve">
+    <value>Sanat. En iyi duruma getiricisi</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuPrivacyPolicyTitle" xml:space="preserve">
+    <value>Gizlilik İlkesi</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuPurchaseTitle" xml:space="preserve">
+    <value>Satın Al</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuSettingsTitle" xml:space="preserve">
+    <value>Ayarlar</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MilestoneInfoText" xml:space="preserve">
+    <value>SPBuilds birkaç adım harcama senin beceri noktası Kılavuzu. Onlar içine kilometre taşları sözde ayrılır. Her kilometre taşı SP bunu yerine getirmek için gereken bir miktarda vardır.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="NoCurrentBuildSelectedText" xml:space="preserve">
+    <value>Lütfen önce geçerli bir yapı seçin. Ana Menü'den gitmek için Terazi simgesi. Orada bir yapı ve seçin 'geçerli' e dokunun. Kaydedin ve gitmek iyidir.</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="OnlyForSupporterInfoText" xml:space="preserve">
+    <value>taraftar paketi satın alan kullanıcılar için</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="OpenVideoText" xml:space="preserve">
+    <value>Açık Video</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="PrivacyPolicyHeader" xml:space="preserve">
+    <value>Gizlilik İlkesi</value>
+    <comment>PrivacyPolicyVM</comment>
+  </data>
+  <data name="PushTypeInfoText" xml:space="preserve">
+    <value>Çevrimiçi veya çevrimdışı oynar mısın? etkin/etkin değil</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="RelationshipDeletedText" xml:space="preserve">
+    <value>İlişki silindi</value>
+    <comment>ArtDetailVM</comment>
+  </data>
+  <data name="ResetCQCompareValueText" xml:space="preserve">
+    <value>Katlardaki CqCompareValue senin şu anki cq saymak (çevrimiçi depolanan değeri)</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="ResetLastBossText" xml:space="preserve">
+    <value>Katlardaki son patron</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="SaveFirstText" xml:space="preserve">
+    <value>Önce bunu kaydetmek</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="SelectCurrentBuildPromptText" xml:space="preserve">
+    <value>Lütfen geçerli bir yapı seçin</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="ServiceStartedText" xml:space="preserve">
+    <value>Başlatan veya çalıştıran güncelleştirilerek hizmeti</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="SettingsSavedText" xml:space="preserve">
+    <value>Kaydedilmiş ayarlar</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="ShortInfoText" xml:space="preserve">
+    <value>Seçili yapıda olan becerilerini göstermek. Sonra yeniden etkin duruma gelir</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="SomeWeightsNotLoadedText" xml:space="preserve">
+    <value>Belki de biraz ağırlık yüklenmedi. Lütfen kaydetmek ve tekrar girin</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="SPBuildDescText" xml:space="preserve">
+    <value>SP oluşturur takipçisi ile ortak yapılar takip edebilirsiniz.</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="SPEditBuildsTitle" xml:space="preserve">
+    <value>SP Düzenle oluşturur</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="SPReqInfoText" xml:space="preserve">
+    <value>Bu dönüm noktası geçmek için {0} SP gerekir</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="StepAmountInfoText" xml:space="preserve">
+    <value>Düzey öneriler için yuvarlanır</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="SureToDeleteText" xml:space="preserve">
+    <value>Tabii ki bunu silmek için mi?</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="VersionInfoText" xml:space="preserve">
+    <value>TT2-versiyonu bu kurmak için tasarlanmıştır</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="WantToSaveBuildText" xml:space="preserve">
+    <value>Yapı kaydedilmez. Kurtarmak mı istiyorsun?</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="WidgetDescriptionText" xml:space="preserve">
+    <value>Biliyor muydun?
+Senin için bir widget var. Her zaman bir sonraki turnuva başladığında hakkında bilgi ve alabilirsiniz fiyatları-tap Titans başlatmak zorunda kalmadan.</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="Artifact1" xml:space="preserve">
+    <value>Kahramanca kalkan</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact10" xml:space="preserve">
+    <value>Ragnarok yağdıran</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact11" xml:space="preserve">
+    <value>Titan maskesi</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact12" xml:space="preserve">
+    <value>Bataklık dayağı</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact13" xml:space="preserve">
+    <value>Yasak kaydırma</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact14" xml:space="preserve">
+    <value>Aegis</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact15" xml:space="preserve">
+    <value>Sadakat halkası</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact16" xml:space="preserve">
+    <value>Buzul balta</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact17" xml:space="preserve">
+    <value>Kask delilik</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact18" xml:space="preserve">
+    <value>Servet yumurta</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact19" xml:space="preserve">
+    <value>Göğüs ifadeyle</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact2" xml:space="preserve">
+    <value>Valrunes taştan</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact20" xml:space="preserve">
+    <value>Kehanet kitabı</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact21" xml:space="preserve">
+    <value>Kutsal kadehi</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact22" xml:space="preserve">
+    <value>Gölgeler Kitabı '</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact23" xml:space="preserve">
+    <value>Titanyum kaplama</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact24" xml:space="preserve">
+    <value>Radiance personelin</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact25" xml:space="preserve">
+    <value>Kılıç Demokles'in</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact26" xml:space="preserve">
+    <value>Heavenly Sword</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact27" xml:space="preserve">
+    <value>Kuma eldiven</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact28" xml:space="preserve">
+    <value>Ametist personel</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact29" xml:space="preserve">
+    <value>Sarhoş çekiç</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact3" xml:space="preserve">
+    <value>Arcana pelerin</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact30" xml:space="preserve">
+    <value>Etkili iksiri</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact31" xml:space="preserve">
+    <value>İlahi intikam</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact32" xml:space="preserve">
+    <value>Fırtınalar kılıcı</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact33" xml:space="preserve">
+    <value>Furies yay</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact34" xml:space="preserve">
+    <value>Eski cazibesini</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact35" xml:space="preserve">
+    <value>Kahraman'ın bıçak</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact36" xml:space="preserve">
+    <value>Infinity sarkaç</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact37" xml:space="preserve">
+    <value>Meşe personel</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact38" xml:space="preserve">
+    <value>Eden meyvesi</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact39" xml:space="preserve">
+    <value>Titan mızrak</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact4" xml:space="preserve">
+    <value>Muerte balta</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact40" xml:space="preserve">
+    <value>Calisto halkası</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact41" xml:space="preserve">
+    <value>Kraliyet toksin</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact42" xml:space="preserve">
+    <value>Kuş tüyü</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact43" xml:space="preserve">
+    <value>Zakynthos sikke</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact44" xml:space="preserve">
+    <value>Büyük Fay madalyon</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact45" xml:space="preserve">
+    <value>Neko heykel</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact46" xml:space="preserve">
+    <value>Bozuk Rune kalp</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact47" xml:space="preserve">
+    <value>İstilacı'nın Gjalarhorn</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact48" xml:space="preserve">
+    <value>Hayalet kronometre</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact49" xml:space="preserve">
+    <value>Master kılıç</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact5" xml:space="preserve">
+    <value>İstilacı'nın kalkan</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact50" xml:space="preserve">
+    <value>Ambrosia iksiri</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact51" xml:space="preserve">
+    <value>Samosek kılıç</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact52" xml:space="preserve">
+    <value>Fırtınalar kalbinde</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact53" xml:space="preserve">
+    <value>Apollo Orb</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact54" xml:space="preserve">
+    <value>Kitsune özü</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact55" xml:space="preserve">
+    <value>Durendal kılıç</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact56" xml:space="preserve">
+    <value>Helheim kafatası</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact57" xml:space="preserve">
+    <value>Aram mızrak</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact58" xml:space="preserve">
+    <value>Mistik personel</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact59" xml:space="preserve">
+    <value>Retaliator</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact6" xml:space="preserve">
+    <value>Eden iksiri</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact60" xml:space="preserve">
+    <value>Ward Darkness</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact61" xml:space="preserve">
+    <value>Küçük Titan ağaç</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact62" xml:space="preserve">
+    <value>Hermes dümen</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact63" xml:space="preserve">
+    <value>Kral'ın maskesi kaybetti</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact64" xml:space="preserve">
+    <value>O'Ryan'ın çekicilik</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact65" xml:space="preserve">
+    <value>Sabırsız bir kum saati</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact66" xml:space="preserve">
+    <value>Khrysos kase</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact67" xml:space="preserve">
+    <value>Portara küpe</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact68" xml:space="preserve">
+    <value>Senzu mistik fasulye</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact69" xml:space="preserve">
+    <value>Şanslı ayak Al-mi'raj</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact7" xml:space="preserve">
+    <value>Öngörü parşömen</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact70" xml:space="preserve">
+    <value>Hermes çizme</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact71" xml:space="preserve">
+    <value>Morgelai kılıç</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact72" xml:space="preserve">
+    <value>Oberon kolye</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact73" xml:space="preserve">
+    <value>Ay ışığı bilezik</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact74" xml:space="preserve">
+    <value>İlişkisiz dayağı</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact75" xml:space="preserve">
+    <value>Yemin'ın yük</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact76" xml:space="preserve">
+    <value>Taç takımyıldızı</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact77" xml:space="preserve">
+    <value>Titania'nın Asası</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact78" xml:space="preserve">
+    <value>Fagin'ın kavrama</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact79" xml:space="preserve">
+    <value>Ebizu sikkeleri</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact8" xml:space="preserve">
+    <value>Bir avcının merhem</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact80" xml:space="preserve">
+    <value>Büyüteç'i</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact81" xml:space="preserve">
+    <value>Fergus hazinesi</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact82" xml:space="preserve">
+    <value>Bronz pusula</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact83" xml:space="preserve">
+    <value>Stryfe'nın barış</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact84" xml:space="preserve">
+    <value>Solist flüt</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact85" xml:space="preserve">
+    <value>Beyaz cüce</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact9" xml:space="preserve">
+    <value>İşçi 's kolye</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="AboutMeMessage" xml:space="preserve">
+    <value>Bu hiç benim ilk uygulaması var. Lütfen nazik ol :) Yukarıdaki adresine bugreports ya da öneriler posta için. Bana daha fazla dağıtım gerçekleştirmek için destek güzel olurdu. Herhangi bir sorununuz olursa, mutlu etmek göndermek beni tt2startuplog.txt. Belgeler klasörünüzde bulabilirsiniz.</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="AvailableSPText" xml:space="preserve">
+    <value>Kullanılabilir SP</value>
+    <comment>SPOptimizerPage</comment>
+  </data>
+  <data name="CategoryHeader" xml:space="preserve">
+    <value>Kategori</value>
+    <comment>Artifact</comment>
+  </data>
+  <data name="CostText" xml:space="preserve">
+    <value>Mlyt</value>
+    <comment>SPOptimizerPage</comment>
+  </data>
+  <data name="LevelUpAmountText" xml:space="preserve">
+    <value>Artır</value>
+    <comment>SPOptimizerPage</comment>
+  </data>
+  <data name="PurchaseHeader" xml:space="preserve">
+    <value>Satın Al</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="NewLanguageHeader" xml:space="preserve">
+    <value>Yeni dil</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="NewLanguageText" xml:space="preserve">
+    <value>Ana diliniz istiyor musunuz? Bana ulaşın ve bunu birlikte yapacağız :)</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Çevrimdışı</value>
+    <comment>PushTypeEnum</comment>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Çevrimiçi</value>
+    <comment>PushTypeEnum</comment>
+  </data>
+  <data name="BossGold" xml:space="preserve">
+    <value>Patron altın</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="ChestersonGold" xml:space="preserve">
+    <value>Chesterson altın</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="FairyGold" xml:space="preserve">
+    <value>Peri altın</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="Flying" xml:space="preserve">
+    <value>Uçuş</value>
+    <comment>HeroBaseTypeEnum</comment>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Cuma</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Ground" xml:space="preserve">
+    <value>Zemin</value>
+    <comment>HeroBaseTypeEnum</comment>
+  </data>
+  <data name="Melee" xml:space="preserve">
+    <value>Meydan kavgası</value>
+    <comment>HeroDmgTypeEnum</comment>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Pazartesi</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="NormalMobGold" xml:space="preserve">
+    <value>Normal mafya altın</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="pHoM" xml:space="preserve">
+    <value>pHoM</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="Ranged" xml:space="preserve">
+    <value>Arasında değişiyordu</value>
+    <comment>HeroDmgTypeEnum</comment>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Cumartesi</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Spell" xml:space="preserve">
+    <value>Büyü</value>
+    <comment>HeroDmgTypeEnum</comment>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Pazar</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Perşembe</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Salı</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Çarşamba</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="MyMailText" xml:space="preserve">
+    <value>Posta Gönder</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="BeginSavingX" xml:space="preserve">
+    <value>{0} kaydetme başlar</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="CheckingDefaultBuilds" xml:space="preserve">
+    <value>Varsayılan denetimi oluşturur</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="CurrentBuildExists" xml:space="preserve">
+    <value>Geçerli yapı var</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="DeletingX" xml:space="preserve">
+    <value>{0} öğesinin silinmesi</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="InitSpBuildList" xml:space="preserve">
+    <value>SP yapı listesi başlatılıyor</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="LookingForX" xml:space="preserve">
+    <value>{0} için arıyorsunuz</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="MilestoneX" xml:space="preserve">
+    <value>Kilometre taşı {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="NoCurrentBuildReaction" xml:space="preserve">
+    <value>Hiçbir geçerli yapı bulundu. {0} için ayarlama</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="RetrievingStoredDefaultBuilds" xml:space="preserve">
+    <value>Alınırken saklı varsayılan yapılar</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="SavingX" xml:space="preserve">
+    <value>{0} kaydediliyor</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="SecuringCurrentBuild" xml:space="preserve">
+    <value>Geçerli yapı güvenliğini sağlama</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="ExportTitle" xml:space="preserve">
+    <value>Dışarı aktar</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ExportText" xml:space="preserve">
+    <value>Yapı ve SP bilgilerini verme</value>
+    <comment>Export</comment>
+  </data>
+  <data name="BuildNotFoundText" xml:space="preserve">
+    <value>Geçerli varsayılan bulunamadı. {0} için ayarlama</value>
+    <comment>SPOptimizerVM</comment>
+  </data>
+  <data name="ErrorOccuredText" xml:space="preserve">
+    <value>Bir hata oluştu</value>
+    <comment>ExportVM</comment>
+  </data>
+  <data name="ClanTitle" xml:space="preserve">
+    <value>Klan</value>
+    <comment>ClanOverviewPage</comment>
+  </data>
+  <data name="AverageMaxStage" xml:space="preserve">
+    <value>Ortalama max sahne</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Açıklama</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="Member" xml:space="preserve">
+    <value>Üye</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>Derece</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="ReadingClanData" xml:space="preserve">
+    <value>Klan veri okuma</value>
+    <comment>SafeFile</comment>
+  </data>
+  <data name="ReadingClanMemberX" xml:space="preserve">
+    <value>Klan üye {0} okuma</value>
+    <comment>SafeFile</comment>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Puan</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="ClanMemberTitle" xml:space="preserve">
+    <value>Klan üyesi</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="CQAmount" xml:space="preserve">
+    <value>CQ tutar</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="CurrentStage" xml:space="preserve">
+    <value>Geçerli aşaması</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="LastTimeSeen" xml:space="preserve">
+    <value>Son ne zaman</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="MaximumStage" xml:space="preserve">
+    <value>En fazla. sahne</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="TournamenAmount" xml:space="preserve">
+    <value>Turnuva tutar</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="ClanMessagesTitle" xml:space="preserve">
+    <value>Klan iletileri</value>
+    <comment>ClanMessages</comment>
+  </data>
+  <data name="ClickToView" xml:space="preserve">
+    <value>Görmek için tıklatın</value>
+    <comment>ClanMessage</comment>
+  </data>
+  <data name="SharedBuildFrom" xml:space="preserve">
+    <value>Paylaşılan kurmak--dan</value>
+    <comment>ClanMessage</comment>
+  </data>
+  <data name="Artifact86" xml:space="preserve">
+    <value>Kılıç Royals</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact87" xml:space="preserve">
+    <value>Spearit'ın gece nöbeti</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact88" xml:space="preserve">
+    <value>Kobalt plaka</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact89" xml:space="preserve">
+    <value>Yargı Sigils</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact90" xml:space="preserve">
+    <value>Gardiyan'ın yeşillik</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="ExportSmallTitle" xml:space="preserve">
+    <value>Küçük verme</value>
+    <comment>Export</comment>
+  </data>
+  <data name="BannedPlayersTitle" xml:space="preserve">
+    <value>Yasaklı oyuncular</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="NotDeletedText" xml:space="preserve">
+    <value>Silmek mi değil</value>
+    <comment>General</comment>
+  </data>
+  <data name="SureToBanText" xml:space="preserve">
+    <value>Bu oyuncu yasağı istiyor musunuz?</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="BannedReason" xml:space="preserve">
+    <value>Sebep</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="PlayerAlreadyBanned" xml:space="preserve">
+    <value>Oyuncu zaten yasaklandı</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="BannedPlayersInClan" xml:space="preserve">
+    <value>Yasaklı oyuncular klan!</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="PlayerIsBanned" xml:space="preserve">
+    <value>Oyuncu yasaklandı</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="NotAllValuesEntered" xml:space="preserve">
+    <value>Tüm değerleri girilmiş</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="ClickSuggestionInfoHeader" xml:space="preserve">
+    <value>Öneriyi tıklatın</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="ClickSuggestionInfoText" xml:space="preserve">
+    <value>Bu en iyi duruma getiricisi ayarlarsanız tıklama her objeyi yapmanız gereken miktarını hesaplar. Hesaplama Bu seçenek etkin olduğunda biraz zaman alabilir lütfen göz önünde bulundurun. 
+PS: şu anda en iyi önerilen yapı - bile bir düzey satın almak için yeterli emanetler yoksa tek bir obje optimizasyonu listesinde gösterilecek</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="RelicsTooLow" xml:space="preserve">
+    <value>Emanetler tutar işlemek için çok düşüktür.</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="StepAmountTooLow" xml:space="preserve">
+    <value>Adım miktarı çok düşüktür. En iyi duruma getirme işlemi uzun zaman alır. 
+Lütfen artış adım tutar ya da ömür boyu %</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="BosTourneyInfoText" xml:space="preserve">
+    <value>BoS-yüzde bir turnuvada</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="Copied" xml:space="preserve">
+    <value>Kopyalandı</value>
+    <comment>Export</comment>
+  </data>
+  <data name="CopyContentToClipboard" xml:space="preserve">
+    <value>Pano içeriği Kopyala</value>
+    <comment>Export</comment>
+  </data>
+  <data name="FeatureNotImplementedYet" xml:space="preserve">
+    <value>Özellik henüz uygulanmadı</value>
+    <comment>General</comment>
+  </data>
+  <data name="SaveToDownloads" xml:space="preserve">
+    <value>Yüklemeler için kaydetmek</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ShareFile" xml:space="preserve">
+    <value>Dosyayı paylaş</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>İstatistikler</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Kaydedildi</value>
+    <comment>General</comment>
+  </data>
+  <data name="DeleteOldClanData" xml:space="preserve">
+    <value>Eski klan veri silmek</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="MaxSnapshotAmount" xml:space="preserve">
+    <value>Max. Anlık görüntü-miktar</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="HundredDays" xml:space="preserve">
+    <value>100 gün</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="IncreasedXStages" xml:space="preserve">
+    <value>Artan {0} aşamaları</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="SevenDays" xml:space="preserve">
+    <value>7 gün</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="ThirtyDays" xml:space="preserve">
+    <value>30 gün</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="PleaseCheckSettings" xml:space="preserve">
+    <value>Lütfen ayarlarınızı denetleyin</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Dili değiştir</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="Changelog" xml:space="preserve">
+    <value>Değişiklik günlüğü</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildFromChat" xml:space="preserve">
+    <value>Alma kurmak--dan sohbet</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="HowTo" xml:space="preserve">
+    <value>Nasıl?</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="WidgetOutsideDescription" xml:space="preserve">
+    <value>Mevcut çalışma için ücretsiz ekipman damla hakkında bilgi de vardır. 
+Son ama en azından günlük başarıları hakkında bilgi almak. </value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildFromChatDesc" xml:space="preserve">
+    <value>Klan sohbet - Eğer birisi senin klan beceri bir ağaca posta Eğer bu kendi ve kurtarmak o karşılaştırmak anlamına gelir bir SP yapıyı içe aktarabilirsiniz. Bunu yapmak - klan iletileri yönlendirmek için 
+</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildImgOneDesc" xml:space="preserve">
+    <value>"Build" altında bir yapı üzerinde açmak için tıklatabilirsiniz.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildImgTwoDesc" xml:space="preserve">
+    <value>Oradan becerileri farkları görüntüleyebilirsiniz veya kaydetmek için tıklatabilirsiniz.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildImgOneDesc" xml:space="preserve">
+    <value>Araç çubuğunda bazı düğmeler bulacaksınız. Soldan sağa doğru onlar için aşağıdakileri yapın: kaydetme, silme, kopyalama, ihracat. Sen are belgili tanımlık "genel"-etiket üzerinde bir yapı girerken 
+. Adı ve altın kaynağı ayarlayabilirsiniz. 
+Kayıt bul ağırlık almak için sağa.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildImgThreeDesc" xml:space="preserve">
+    <value>Burada anahtardaki tıklatarak eserler göz ardı edebilirsiniz. Eğer bir obje gözardı bu optimizasyon sürecinde dikkate alınmayacaktır.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildImgTwoDesc" xml:space="preserve">
+    <value>Her kategori için bir ağırlık seti vardır. Kategoriler hangi sen-ebilmek girmek artifakı genel bakış artifakı ayrıntılı olarak görüntülenebilir. 
+Ağırlık değeri bir kategori verimli ise en iyi duruma getiricisi veya değil. daha yüksek değer daha verimli Kategori söylüyor. 
+Kayıt bul yoksayılan yapıları almak için sağa.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildIntroduction" xml:space="preserve">
+    <value>Obje en iyi duruma getiricisi yapılar eserler verimliliğini belirlemek için kullanır. Bu öğretici anlamak ve onları kişisel tercihlerinize uyacak şekilde işlemek için gereken bilgileri vermelidir. Bir yapının düzenlemek için 
+yapılar için gidin ve düzenlemek istediğiniz Oluştur'u tıklatın.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgFourDesc" xml:space="preserve">
+    <value>Listedeki son artifakı MAX vardır. Bu, Eğer buraya geliyorsanız, size en büyük adım tutarını değiştirmeli ve emanetler geri kalanını bu artifakte koymalısınız.
+
+Eğer mesajı alırsanız "yeterli emanetler" o zaman bu iki şey anlamına gelir:
+1. daha fazla emanetler kazanmak zorunda. Oyun, prestij oynamak ve Optimizer yeniden
+2. BoS% ayarlarındaki değerden daha düşük. Gölgelerin kitap içine emanetler koymak veya ayarlarında miktarını azaltmak</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgOneDesc" xml:space="preserve">
+    <value>Optimizer ile çalışmaya başlamadan önce ayarlarınızı doğru olduğundan emin olun. 
+Onları girmek için resimde vurgulanan kalem tıklayın.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgThreeDesc" xml:space="preserve">
+    <value>En iyi duruma getiricisi bu işi yaptıktan sonra yükseltmek için eserler listesini almak. 
+Yukarıdan aşağıya doğru git. 
+Bir resim ve düzey için artifakı adını görürsünüz. Adı altında geçerli seviyesini görmek ve parantez içinde ne kadar ömür boyu harcanan kalıntılar bu artifakı gitti bakın.
+
+Bunun yanında ne sıklıkta düğmesine bu artifakı tuşuna basın gerektiğini söyleyen bir kutu görmek. Burada 12x (Yani bu artifakı yükseltme düğmesi 12 kez basın anlamına gelir) diyor. </value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgTwoDesc" xml:space="preserve">
+    <value>Burada yapabilirsiniz ayarları görürsünüz. 
+Her ayarın solunda bir bilgi düğmesi bulacaksınız. Ne ayarlayabilirim kısa bir açıklamasını almak için üzerine tıklayın.
+
+Önce playstile uyan bir yapı seçin. Önceden tanımlanmış bir yapı (ilk harf olarak _) veya kendi olanlarından birini kullanabilirsiniz.
+
+Bundan sonra, itme türünü ayarlayın. Eğer sessiz yürüyüş yararlanmak istiyorum ama esas olarak "set değil" Bu set online oynamak.
+
+Sonraki adım tutar. Burada INAME kullandığınız aynı değeri ayarlayın! 
+Daha düşük adım tutarı optimizasyon daha kesin. Ama çok düşük olmamalıdır. En uygun değer% 5 ' tir. 
+
+BoS Royalty bir turnuva dışında gölgeler Book içine koymak istediğiniz kalıntılar yüzde miktarıdır. 
+Çoğu oyuncu BoS turnuvalar dışında itmek ve turnuvaların içinde onlar görmezden. 
+
+BoS T-royalty turnuvaların içinde aynıdır. Bu değer bir turnuvanın dışında daha yüksek olmamalıdır. Çoğu oyuncu bu değeri 0 olarak ayarlarken, bu da bir turnuvaya katılırken Gölgeler Kitabı 'nın tamamen göz ardı edileceği anlamına gelir.
+
+Kahraman: hasar türü büyü, melee veya değişen mı? Bu ayar, yapıları yoksay için kullanılır. Eğer melee ayarlarsanız kahramanlar değişen bir artifakı artırmak gerekmez
+
+Menzil: Yukarıdaki gibi
+
+Altın kaynak: altın kaynak ayarlayın. Altınlarını nereden alacaksın?</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerIntroduction" xml:space="preserve">
+    <value>Bu yazının artifakı Optimizer anlayış yardımcı olmaktır. Bu iyileştirici kullanarak elde avantajı herhangi bir değer izlemek zorunda değilsiniz. Bunu bir kez ayarladıktan sonra koşmak iyidir. Doğru kullanım ile çok zaman kaydedebilirsiniz. 
+Başlamadan önce son bir şey: sizin eserler seviye zaman telefonunuzun splitscreen-fonksiyonunu kullanmanız önerilir. Üstünde sen-si olmak tap Titans açık ve düğmeye Optimizer var. 
+Şimdi başlayalım. Önce ayarlara dalacağız. Bundan sonra Optimizer tarafından üretilen listeye bir göz atın.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="SPFollowerHeader" xml:space="preserve">
+    <value>SP takipçisi</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="SPFollowerImgOneDesc" xml:space="preserve">
+    <value>Girişine yaptı INFO butonuna tıklayın ne alanları anlama bir açıklama alırsınız.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="SPFollowerIntroduction" xml:space="preserve">
+    <value>SP takipçisi ile beceri ağaç başkaları ile karşılaştırmak ve onları izleyin. Bazı yapılar hangi izleme kolaylaştırır ayrılmış içine birden çok kilometre taşları vardır. 
+Becerileri sekmesinde - renk farklılıkları ve bir beceri düzeyi yukarı göze belirtmiş olursunuz. 
+Yeşil: yeterli beceri puan
+üst düzeydeki turuncu var: Bu seviye ancak yeterli beceri puan
+kırmızı olması gerekir: Bu beceri düzeyi çok yüksek
+tarafsız: seviyesi gayet iyi</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsImgOneDesc" xml:space="preserve">
+    <value>İstatistik ana menüden yeni anlık görüntüleri oluşturabilirsiniz. Destekçisi için auto-snapshotting app her açtığınızda bir anlık görüntü oluşturur (ve bir günlük tutar) vardır. 
+Yukarıdaki düğmeyi ile el ile yeni bir anlık görüntü oluşturabilirsiniz. 
+Yanında tıkırtı üstünde girebileceğiniz anlık görüntüleriniz saklı bir listesini aşağıda bulabilirsiniz.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsImgThreeDesc" xml:space="preserve">
+    <value>Bir klan üyesi girerseniz saklı anlık görüntülerini toplanan bazı bilgileri görebilirsiniz. 
+Seni görmek kaç aşamaları, TP ve klan görevler oyuncu arttı</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsImgTwoDesc" xml:space="preserve">
+    <value>Bu bir anlık görüntü detaylı görünümüdür. klanınıza her üye adı ya da en fazla gibi bazı bilgileri görebilirsiniz. 
+Burada olduğunu ne demek alanları listesi:
+CQ-T: Toplam klan misafirler
+CQ-W: klan görevler bu hafta
+Tourn.: tutarı turnuvaları
+TP oyuncu katıldı: TP kazanılan oyuncu toplam miktarını.
+ 
+Depo size anlık görüntüyü Sil ve üzerindeki oku tıklatarak rapor anlık görüntüsünü bir csv dosyasına aktarır.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsIntroduction" xml:space="preserve">
+    <value>İstatistikler modülü, sen ve sen klan arkadaşları ilerleme durumu hakkında bilgi verebilir anlamına da gelmektedir ve ayrılmış "Anlık görüntüler" içine vardır. 
+Her bir anlık görüntü verme veya çok yüksek bir koleksiyon Ayarlar menüsünde depolanması gereken en fazla ayarlayabilirsiniz anlık görüntüleri önlemek için uygulama
+görünümünde ilgili bilgileri tutar.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="DeleteArtSettings" xml:space="preserve">
+    <value>En iyi duruma getiricisi ayarları sil</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="DashboardHeader" xml:space="preserve">
+    <value>Pano</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="Tournament" xml:space="preserve">
+    <value>Turnuva</value>
+    <comment>Tournament</comment>
+  </data>
+  <data name="HS" xml:space="preserve">
+    <value>HS</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="Pet" xml:space="preserve">
+    <value>Evde beslenen hayvan</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="SC" xml:space="preserve">
+    <value>RE</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="Ship" xml:space="preserve">
+    <value>Sevk et</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="Tap" xml:space="preserve">
+    <value>Dokunma</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="ClickGoldTypeInfoText" xml:space="preserve">
+    <value>Ana altın kaynağınız ayarla</value>
+    <comment>ArtOpt</comment>
+  </data>
+  <data name="GoldTypeInfoHeader" xml:space="preserve">
+    <value>Altın türü</value>
+    <comment>ArtOpt</comment>
+  </data>
+  <data name="SupporterAboDesc" xml:space="preserve">
+    <value>Tüm özellikleri etkin kilidi var ve bu app aylık zaman içinde destek.</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="SupTimeHeader" xml:space="preserve">
+    <value>Destek Abo</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="TimeHeader" xml:space="preserve">
+    <value>Zaman</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="Aura_BlackEnergy" xml:space="preserve">
+    <value>Karanlık enerji</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_BoneTribe" xml:space="preserve">
+    <value>Antik bilgelik</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Bugs" xml:space="preserve">
+    <value>Kelebek etkisi</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Captain" xml:space="preserve">
+    <value>Kahramanca parlaklık</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Chains" xml:space="preserve">
+    <value>Gears'ı taşlama</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_CNY" xml:space="preserve">
+    <value>Kağıt fenerler</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Colors" xml:space="preserve">
+    <value>Renk Pop</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Crow" xml:space="preserve">
+    <value>Ölümcül tüyler</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Cyborg" xml:space="preserve">
+    <value>Şarj edilmiş alan</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_DarkAlien" xml:space="preserve">
+    <value>İşkence ruhları</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Diamonds" xml:space="preserve">
+    <value>Elmas yüzük</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Dragon" xml:space="preserve">
+    <value>Dragon deprem</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Embers" xml:space="preserve">
+    <value>Düşen kor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Fur" xml:space="preserve">
+    <value>Çığ</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Ghost" xml:space="preserve">
+    <value>Hayalet sis</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_GoldenRays" xml:space="preserve">
+    <value>Yıldönümü Aura</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Green" xml:space="preserve">
+    <value>Demetleri olacak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_HighTecLightning" xml:space="preserve">
+    <value>Boyutlar arası küpleri</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Knight" xml:space="preserve">
+    <value>Daybreak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_LightBunny" xml:space="preserve">
+    <value>Bahar ateş</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Mage" xml:space="preserve">
+    <value>Rünik güç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Mech" xml:space="preserve">
+    <value>D.R.O.I.D.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Monk" xml:space="preserve">
+    <value>İç barış</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Pirate" xml:space="preserve">
+    <value>Mistik sis</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Platinum" xml:space="preserve">
+    <value>Platin Aura</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Poet" xml:space="preserve">
+    <value>İpek esinti</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Pumpkin" xml:space="preserve">
+    <value>Kabak yama</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Quinn" xml:space="preserve">
+    <value>Piroteknik</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Rockstar" xml:space="preserve">
+    <value>Equalizer</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Samurai" xml:space="preserve">
+    <value>Kiraz çiçekleri</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Skulls" xml:space="preserve">
+    <value>Grim parlaklık</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Slayer" xml:space="preserve">
+    <value>Uğursuz sis</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Sled" xml:space="preserve">
+    <value>Festival pırıltı</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_SnowStorm" xml:space="preserve">
+    <value>Kar fırtınası</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Surf" xml:space="preserve">
+    <value>İzlerken defne</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Thief" xml:space="preserve">
+    <value>Star atma</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Titan" xml:space="preserve">
+    <value>Titan Buhar</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Travel" xml:space="preserve">
+    <value>Dönen anılar</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Viking" xml:space="preserve">
+    <value>Valhalla ruhu</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Wolf" xml:space="preserve">
+    <value>Ay aşamaları</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Wonder" xml:space="preserve">
+    <value>Kurşun geçirmez</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_BatRed" xml:space="preserve">
+    <value>Kızıl Knight</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_BoneTribe" xml:space="preserve">
+    <value>Sabertooth taç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Cap" xml:space="preserve">
+    <value>Her gün kap</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Captain" xml:space="preserve">
+    <value>Kaptan'ın baca şapkası</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Cat" xml:space="preserve">
+    <value>Kedi kask</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Chains" xml:space="preserve">
+    <value>Platin şeytan</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_CNY" xml:space="preserve">
+    <value>Kırmızı çiçekleri</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Crow" xml:space="preserve">
+    <value>Üç gözlü parlama</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_DarkAlien" xml:space="preserve">
+    <value>İzci maskesi</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Dragon" xml:space="preserve">
+    <value>Dragonplate kask</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Ears" xml:space="preserve">
+    <value>Kulaklar</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Fur" xml:space="preserve">
+    <value>Tusked taç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Ghost" xml:space="preserve">
+    <value>Hayalet saç modeli</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Gold" xml:space="preserve">
+    <value>Yıldönümü dümen</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Green" xml:space="preserve">
+    <value>Kask cennet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HelmHorned" xml:space="preserve">
+    <value>Boynuzlu miğfer</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HelmWhite" xml:space="preserve">
+    <value>Beyaz savaşçı kask</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HighTecLightning" xml:space="preserve">
+    <value>Icarus Wings</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Ice" xml:space="preserve">
+    <value>Buz Walker kask</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Kid" xml:space="preserve">
+    <value>Harika çocuk'ın Cap</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Knight" xml:space="preserve">
+    <value>Valkür'ü Ciclet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_LightBunny" xml:space="preserve">
+    <value>Işık Bunny kask</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Mage" xml:space="preserve">
+    <value>Mage Hood</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Mech" xml:space="preserve">
+    <value>V.I.S.O.R.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Monk" xml:space="preserve">
+    <value>Asil sembolleri</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Music" xml:space="preserve">
+    <value>Boom Box Head</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Pirate" xml:space="preserve">
+    <value>Kaplama oyalı</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Platinum" xml:space="preserve">
+    <value>Platin dümen</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Poet" xml:space="preserve">
+    <value>Sanatsal Beret</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Pumpkin" xml:space="preserve">
+    <value>İçi boş kabak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Quinn" xml:space="preserve">
+    <value>Aceleci Pigtails</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Robot" xml:space="preserve">
+    <value>Sibernetik güneşlik</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Rockstar" xml:space="preserve">
+    <value>İmza Bandana</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Samurai" xml:space="preserve">
+    <value>Bushido şapkalar</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Skulls" xml:space="preserve">
+    <value>Güçlendirilmiş kafatası</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Slayer" xml:space="preserve">
+    <value>Esmer bomba</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Sled" xml:space="preserve">
+    <value>Güvenilir Toque</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Snowman" xml:space="preserve">
+    <value>Kardan adam kafa</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Surf" xml:space="preserve">
+    <value>Sevişmek iliklerine</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Thief" xml:space="preserve">
+    <value>Shinobi şal</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Titan" xml:space="preserve">
+    <value>Prodigy saç kesimi</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Travel" xml:space="preserve">
+    <value>Safari şapka</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Tribal" xml:space="preserve">
+    <value>Kabile kask</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Viking" xml:space="preserve">
+    <value>Savaş boynuzları</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Wolf" xml:space="preserve">
+    <value>Fenrir'ın bakışları</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Wonder" xml:space="preserve">
+    <value>Amazon telif</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_BoneTribe" xml:space="preserve">
+    <value>İlkel Strike</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Captain" xml:space="preserve">
+    <value>Şerit ucuz bira</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Chains" xml:space="preserve">
+    <value>Chainlink</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_CNY" xml:space="preserve">
+    <value>Fişekler</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Crow" xml:space="preserve">
+    <value>Karga eğik çizgi</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_DarkAlien" xml:space="preserve">
+    <value>Asidik sır</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Darkness" xml:space="preserve">
+    <value>Döküm gölgeler</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_DeepPurple" xml:space="preserve">
+    <value>Deep Purple</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Dragon" xml:space="preserve">
+    <value>Ejderha Ruhu'yla</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireOrange" xml:space="preserve">
+    <value>Summoner alevler</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireTribe" xml:space="preserve">
+    <value>Kazanılan yara</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Fur" xml:space="preserve">
+    <value>Soğuk dalgası</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Ghost" xml:space="preserve">
+    <value>Hayalet Strike</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Gold" xml:space="preserve">
+    <value>Yıldönümü eğik çizgi</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Green" xml:space="preserve">
+    <value>Bozuk orman</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_HighTecLightning" xml:space="preserve">
+    <value>İlahi ayırmak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Knight" xml:space="preserve">
+    <value>Güneş çizgileri</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Lava" xml:space="preserve">
+    <value>Sıcak lav</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Leaves" xml:space="preserve">
+    <value>Düşen yapraklar</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_LightBunny" xml:space="preserve">
+    <value>Sarısı Splash</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Lightning" xml:space="preserve">
+    <value>Mavi Yıldırım</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Mage" xml:space="preserve">
+    <value>Mistik yankı</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Mech" xml:space="preserve">
+    <value>B.U.R.S.T.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Monk" xml:space="preserve">
+    <value>Kutsal komut dosyaları</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_MouthWash" xml:space="preserve">
+    <value>Bit çizgileri</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Paint" xml:space="preserve">
+    <value>Boya çizgileri</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Pirate" xml:space="preserve">
+    <value>Servet Strike</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Platinum" xml:space="preserve">
+    <value>Platin eğik çizgi</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Poet" xml:space="preserve">
+    <value>Kadife öpücük</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Quinn" xml:space="preserve">
+    <value>Aşık</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_RedPaint" xml:space="preserve">
+    <value>Kırmızı boya</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Rockstar" xml:space="preserve">
+    <value>Ritmik eğik çizgi</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Samurai" xml:space="preserve">
+    <value>Kazanılan yara</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Skulls" xml:space="preserve">
+    <value>Kemik kırıcı</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Slayer" xml:space="preserve">
+    <value>Lanetli keser</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Sled" xml:space="preserve">
+    <value>Candystripes</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_SnowFlakes" xml:space="preserve">
+    <value>Kar topları</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_SpiderWeb" xml:space="preserve">
+    <value>Örümcek dokuma</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Surf" xml:space="preserve">
+    <value>Yüksek gelgit</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Thief" xml:space="preserve">
+    <value>Fısıltılar</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Titan" xml:space="preserve">
+    <value>Kanca</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Travel" xml:space="preserve">
+    <value>Papercuts</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Viking" xml:space="preserve">
+    <value>Işık grev</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Wolf" xml:space="preserve">
+    <value>Kötü niyetli kontur</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Wonder" xml:space="preserve">
+    <value>Kayan yıldız</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorFace" xml:space="preserve">
+    <value>Bilinmeyen yüz</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorGreen" xml:space="preserve">
+    <value>Orman Fighter</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorIce" xml:space="preserve">
+    <value>Buzlu zırh</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorPurple" xml:space="preserve">
+    <value>Ametist zırh</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorScale" xml:space="preserve">
+    <value>Pullu elbise</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorWhite" xml:space="preserve">
+    <value>Beyaz savaşçı</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_BoneTribe" xml:space="preserve">
+    <value>Kemik kabile</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Captain" xml:space="preserve">
+    <value>Vatansever giysi</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Casual" xml:space="preserve">
+    <value>Her gün kazak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Chains" xml:space="preserve">
+    <value>Deri ve dantel</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_CNY" xml:space="preserve">
+    <value>Hanedanı elbise</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Crow" xml:space="preserve">
+    <value>Morrigan'ın zırh</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_DarkAlien" xml:space="preserve">
+    <value>Stealthweave</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Dragon" xml:space="preserve">
+    <value>Dragonplate zırh</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Farmer" xml:space="preserve">
+    <value>Çiftçi tulum</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Fur" xml:space="preserve">
+    <value>Watcher gardırop</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Ghost" xml:space="preserve">
+    <value>Hayalet zırh</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Gold" xml:space="preserve">
+    <value>Yıldönümü zırh</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Green" xml:space="preserve">
+    <value>Zırh cennet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_HighTecLightning" xml:space="preserve">
+    <value>İlahi zırh</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Knight" xml:space="preserve">
+    <value>Parlak Platemail</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_LightBunny" xml:space="preserve">
+    <value>Işık Bunny zırh</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Mage" xml:space="preserve">
+    <value>Usta elbiseler</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Mech" xml:space="preserve">
+    <value>C.H.A.S.S.I.S.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Monk" xml:space="preserve">
+    <value>Zamansız tamamladı</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Pirate" xml:space="preserve">
+    <value>Kaptan'ın kıyafeti</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Platinum" xml:space="preserve">
+    <value>Platin zırh</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Poet" xml:space="preserve">
+    <value>Şiirsel kazak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Quinn" xml:space="preserve">
+    <value>Sevdalı Acrobat</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Robot" xml:space="preserve">
+    <value>Robot kabuk</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Rockstar" xml:space="preserve">
+    <value>Tur ceket</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Samurai" xml:space="preserve">
+    <value>Atalarının zırh</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Scarecrow" xml:space="preserve">
+    <value>Korkuluk</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Skulls" xml:space="preserve">
+    <value>Dış iskelet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Slayer" xml:space="preserve">
+    <value>Yüzden elbise</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Sled" xml:space="preserve">
+    <value>Yetenekli kazak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Snowman" xml:space="preserve">
+    <value>Kardan adam vücut</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Surf" xml:space="preserve">
+    <value>Tahtasını</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Thief" xml:space="preserve">
+    <value>Sessiz takım elbise</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Titan" xml:space="preserve">
+    <value>Highflyer'ın emniyet kemeri</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Travel" xml:space="preserve">
+    <value>Bel çantası</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Viking" xml:space="preserve">
+    <value>Dişli baskın</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Wizard" xml:space="preserve">
+    <value>Sihirbazı kazak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Wolf" xml:space="preserve">
+    <value>Ya üst karakter</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Wonder" xml:space="preserve">
+    <value>Savaş etek</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Basic" xml:space="preserve">
+    <value>Ortalama kılıç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_BattleAxe" xml:space="preserve">
+    <value>Balta yaştan</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Beam" xml:space="preserve">
+    <value>Işın kılıcı</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_BlueSword" xml:space="preserve">
+    <value>Hayalet kılıç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_BoneTribe" xml:space="preserve">
+    <value>Tören Blade</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Buster" xml:space="preserve">
+    <value>Buster Blade</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Captain" xml:space="preserve">
+    <value>Kahraman'ın kalkan</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Carrot" xml:space="preserve">
+    <value>Kardan adam burun</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Chains" xml:space="preserve">
+    <value>Eşitleyici</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Club" xml:space="preserve">
+    <value>Kulüp Müziği</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_CNY" xml:space="preserve">
+    <value>Servet Fan</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Crow" xml:space="preserve">
+    <value>Nevermore</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_DarkAlien" xml:space="preserve">
+    <value>Shadowsteel</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Dragon" xml:space="preserve">
+    <value>Dragonbreath</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Fur" xml:space="preserve">
+    <value>Sky'nın kenar</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Gear" xml:space="preserve">
+    <value>Dişli bıçak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_GoldSword" xml:space="preserve">
+    <value>Yıldönümü kılıç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Green" xml:space="preserve">
+    <value>Deforester</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_HighTecLightning" xml:space="preserve">
+    <value>Rune kılıç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Katana" xml:space="preserve">
+    <value>Narsil Katana</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Key" xml:space="preserve">
+    <value>Kilitleme Blade</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Knight" xml:space="preserve">
+    <value>Kanatlı mızrak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Laser" xml:space="preserve">
+    <value>Enerji kılıç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_LightBunny" xml:space="preserve">
+    <value>Çırpıcı</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Mage" xml:space="preserve">
+    <value>Sihirli değnek</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Mech" xml:space="preserve">
+    <value>B.L.A.D.E.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Monk" xml:space="preserve">
+    <value>Personel sonsuzluğun</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Ninja" xml:space="preserve">
+    <value>Ninja Dagger</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Pirate" xml:space="preserve">
+    <value>Kartpostallar</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Platinum" xml:space="preserve">
+    <value>Platin Lance</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Poet" xml:space="preserve">
+    <value>Yere bakan yürek yakan</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Quinn" xml:space="preserve">
+    <value>Kalp atışları</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Rockstar" xml:space="preserve">
+    <value>Parçalayıcı</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Samurai" xml:space="preserve">
+    <value>Son Katana</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Skull" xml:space="preserve">
+    <value>Kafatası-kırıcı kılıç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Skulls" xml:space="preserve">
+    <value>Omurilik kılıç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Slayer" xml:space="preserve">
+    <value>Kehanet kılıç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Sled" xml:space="preserve">
+    <value>Gül goncası</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Spear" xml:space="preserve">
+    <value>Hızlı mızrak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Steel" xml:space="preserve">
+    <value>Çelik kılıç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_StreetLamp" xml:space="preserve">
+    <value>Sokak lambası</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Surf" xml:space="preserve">
+    <value>Mumlu yönetim kurulu</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Sythe" xml:space="preserve">
+    <value>Ölüm Sythe</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Thief" xml:space="preserve">
+    <value>İnce bıçak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Titan" xml:space="preserve">
+    <value>Rectable bıçak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Viking" xml:space="preserve">
+    <value>Nordic helikopter</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Wolf" xml:space="preserve">
+    <value>Alfa pençe</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Wonder" xml:space="preserve">
+    <value>Titan katil</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_WoodAxe" xml:space="preserve">
+    <value>Oduncu balta</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Star" xml:space="preserve">
+    <value>Star Shine</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireGray" xml:space="preserve">
+    <value>Gri alevler</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_StarsBlue" xml:space="preserve">
+    <value>Yıldızlı yolu</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Rose" xml:space="preserve">
+    <value>Gül buketi</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Staff" xml:space="preserve">
+    <value>Alacakaranlık personel</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="AllDamage" xml:space="preserve">
+    <value>Tüm hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="AllHelperDamage" xml:space="preserve">
+    <value>Bütün kahraman hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="AllProbabilityBoost" xml:space="preserve">
+    <value>Tüm olasılıkları</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="Armor" xml:space="preserve">
+    <value>Zırh</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="Aura" xml:space="preserve">
+    <value>Aura</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="BossDamage" xml:space="preserve">
+    <value>Patron hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="BossGoldx10Chance" xml:space="preserve">
+    <value>10 x patron altın şans</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="BurstDamageSkillAmount" xml:space="preserve">
+    <value>İlahi Strike hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ChestAmount" xml:space="preserve">
+    <value>Chesterson altın</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ChestChance" xml:space="preserve">
+    <value>Chesterson şans</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ChestGoldx10Chance" xml:space="preserve">
+    <value>Chesterson altın şans x 10</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ClanShipDamage" xml:space="preserve">
+    <value>Klan gemi hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="CritBoostSkillAmount" xml:space="preserve">
+    <value>Deadly Strike hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="CritChance" xml:space="preserve">
+    <value>Kritik şans</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="CritDamage" xml:space="preserve">
+    <value>Kritik vuruş</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="DeadlyChance" xml:space="preserve">
+    <value>Ölümcül grev şans</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="EquipAdvisor" xml:space="preserve">
+    <value>Danışmanı donatmak</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="EquippedText" xml:space="preserve">
+    <value>Donatılmış</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="FairySpawnChance" xml:space="preserve">
+    <value>Birden fazla peri şans</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="FlyingHelperDamage" xml:space="preserve">
+    <value>Uçan kahraman hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="GoldAll" xml:space="preserve">
+    <value>Tüm altın</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="GoldBoss" xml:space="preserve">
+    <value>Patron altın</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="GroundHelperDamage" xml:space="preserve">
+    <value>Zemin kahraman hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="HandOfMidasSkillAmount" xml:space="preserve">
+    <value>El Midas altın</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="Helmet" xml:space="preserve">
+    <value>Kask</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="HelmetBoost" xml:space="preserve">
+    <value>Kask birincil destek</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="HelperBoostSkillAmount" xml:space="preserve">
+    <value>Savaş narası hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="InactiveAllDamage" xml:space="preserve">
+    <value>Etkin olmayan hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="InactiveGold" xml:space="preserve">
+    <value>Etkin olmayan altın</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ManaMonsterSpawnChance" xml:space="preserve">
+    <value>Manni Mana şans</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="MeleeHelperDamage" xml:space="preserve">
+    <value>Melee kahraman hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="MultiMonsters" xml:space="preserve">
+    <value>Birden çok Spawn şans</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Hiçbiri</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="PerkGold" xml:space="preserve">
+    <value>Altın dikmek</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="PetDamage" xml:space="preserve">
+    <value>Evde beslenen hayvan hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="PetGoldQTEAmount" xml:space="preserve">
+    <value>Midas altın kalpli</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="RangedHelperDamage" xml:space="preserve">
+    <value>Kahraman zarar değişmekteydi</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ShadowCloneSkillAmount" xml:space="preserve">
+    <value>Gölge Clone hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="Slash" xml:space="preserve">
+    <value>Eğik çizgi</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="SlashBoost" xml:space="preserve">
+    <value>Eğik çizgi birincil destek</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SpellHelperDamage" xml:space="preserve">
+    <value>Yazım kahraman zarar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="StageSkipMonsterSpawnChance" xml:space="preserve">
+    <value>Portar Spawn şans</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SwordAttackDamage" xml:space="preserve">
+    <value>Kılıç saldırı hasarı</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SwordBoost" xml:space="preserve">
+    <value>Kılıç birincil destek</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="TapBoostSkillAmount" xml:space="preserve">
+    <value>Yangın kılıç hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="TapDamage" xml:space="preserve">
+    <value>Hasar dokunun</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="TitanDamage" xml:space="preserve">
+    <value>Patron hasar</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="UnskilledGold" xml:space="preserve">
+    <value>Stealth altın</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="Weapon" xml:space="preserve">
+    <value>Silah</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="Aura_Valentines" xml:space="preserve">
+    <value>Sevgi Çemberi</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Kitty" xml:space="preserve">
+    <value>Kitty Hood</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Took" xml:space="preserve">
+    <value>Çivili kabuk</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Valentines" xml:space="preserve">
+    <value>Şapka aşk</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_OrangeTribe" xml:space="preserve">
+    <value>Turuncu ucuz bira</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_PitchFork" xml:space="preserve">
+    <value>Yaba</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Poison" xml:space="preserve">
+    <value>Zehirli Spellblade</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_SwordMaster" xml:space="preserve">
+    <value>Kılıç Master kılıç</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Valentines" xml:space="preserve">
+    <value>Kalbin Bane</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_ZigZag" xml:space="preserve">
+    <value>Eğri bıçak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Anniversary" xml:space="preserve">
+    <value>Yıldönümü altın</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="BoneTribe" xml:space="preserve">
+    <value>Eski savaşçı</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Captain" xml:space="preserve">
+    <value>Kaptan Titan</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Chains" xml:space="preserve">
+    <value>Zincirleme Clockwork</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="CNY" xml:space="preserve">
+    <value>Ay Festivali</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Crow" xml:space="preserve">
+    <value>Gece yarısı kuzgun</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Cyborg" xml:space="preserve">
+    <value>Sibernetik geliştirmeleri</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="DarkAlien" xml:space="preserve">
+    <value>Karanlık Predator</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Dragon" xml:space="preserve">
+    <value>Ejderha avcısı</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Fur" xml:space="preserve">
+    <value>Frost müdür</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Ghost" xml:space="preserve">
+    <value>Hayalet varlığı</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Bozuk zümrüt Knight</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="HighTecLightning" xml:space="preserve">
+    <value>Melek Guardian</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Knight" xml:space="preserve">
+    <value>Güneş Paragon</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="LightBunny" xml:space="preserve">
+    <value>Yumurta savunucusu</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Mage" xml:space="preserve">
+    <value>Meydan okuyan Spellsinger</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Mech" xml:space="preserve">
+    <value>Mekanize kılıç</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Monk" xml:space="preserve">
+    <value>Sonsuz keşiş</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Pirate" xml:space="preserve">
+    <value>Hazine avcısı</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Platinum" xml:space="preserve">
+    <value>Yıldönümü Platin</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Poet" xml:space="preserve">
+    <value>Kalp kıran</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Quinn" xml:space="preserve">
+    <value>Heartly Kraliçe</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Rockstar" xml:space="preserve">
+    <value>Rockstar</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Samurai" xml:space="preserve">
+    <value>Ölümcül samuray</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Scarecrow" xml:space="preserve">
+    <value>Korkuluk Jack</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Skulls" xml:space="preserve">
+    <value>Acımasız büyücü</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Slayer" xml:space="preserve">
+    <value>Toksik avcı</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Sled" xml:space="preserve">
+    <value>Kızak sezon</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Snowman" xml:space="preserve">
+    <value>Kar Master</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Surf" xml:space="preserve">
+    <value>Suft Strike</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Thief" xml:space="preserve">
+    <value>Gölge öğrencisi</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Titan" xml:space="preserve">
+    <value>Titan saldırgan</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Viking" xml:space="preserve">
+    <value>Viking kralı</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Kurnaz kurt</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Wonder" xml:space="preserve">
+    <value>Amazon Prenses</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="BossKills" xml:space="preserve">
+    <value>Patron öldürür</value>
+    <comment>BossKills</comment>
+  </data>
+  <data name="KillTime" xml:space="preserve">
+    <value>Zaman öldürmek</value>
+    <comment>Boss</comment>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>Süre: </value>
+    <comment>Boss</comment>
+  </data>
+  <data name="EquipAdvisorSpecialThanks" xml:space="preserve">
+    <value>Dem matematik için özel Cauchy teşekkür!</value>
+    <comment>EquipAdvisor</comment>
+  </data>
+  <data name="CompendiumDiscordText" xml:space="preserve">
+    <value>Bir anlaşmazlık sunucu da vardır. Oraya için düğmesini tıklatın.</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="CompendiumIntroduction" xml:space="preserve">
+    <value>Yapılar ve katkıları Özet en iyi duruma getirilmiş SP oluşturur yanı sıra çok yararlı topluluk katkıları sağlar bir takım var. 
+Bunu
+ nereden yer burası seçin veya yardıma gereksinim ne yapı ile ilgili herhangi bir sorunuz varsa 
+ 
+Bunu kontrol etmelisiniz! 
+</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="CompendiumWebsiteText" xml:space="preserve">
+    <value>Aşağıdaki düğmeyi tıklatırsanız Web sitesine alırsınız.</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="MyDiscordButton" xml:space="preserve">
+    <value>Anlaşmazlık</value>
+    <comment>AboutMe</comment>
+  </data>
+  <data name="MyDiscordHeader" xml:space="preserve">
+    <value>Ayrıca biz Discord sunucu var bilmeni istedim. Bize katılmak çekinmeyin</value>
+    <comment>AboutMe</comment>
+  </data>
+  <data name="Aura_Dizzy" xml:space="preserve">
+    <value>Fırıldak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Fire" xml:space="preserve">
+    <value>Alevler dans</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Kookie" xml:space="preserve">
+    <value>Gelişiyor girdap</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Leaves" xml:space="preserve">
+    <value>Yaprak kalkan</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Water" xml:space="preserve">
+    <value>Jakuzi</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Chicken" xml:space="preserve">
+    <value>Tavuk bere</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HeadPhones" xml:space="preserve">
+    <value>Kulaklıklar</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HelmDevil" xml:space="preserve">
+    <value>Şeytan kask</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_PowerRanger" xml:space="preserve">
+    <value>Gümüş maskesi</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_RedTopHat" xml:space="preserve">
+    <value>Red Hat</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Top" xml:space="preserve">
+    <value>Silindir şapka</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_EmbersBlue" xml:space="preserve">
+    <value>Buzlu köz</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireBlack" xml:space="preserve">
+    <value>Kızıl alevler</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Rainbow" xml:space="preserve">
+    <value>Gökkuşağı yolu</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Smelly" xml:space="preserve">
+    <value>Bir şeyler dönüyor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorHighTec" xml:space="preserve">
+    <value>Fütüristik gladyatör</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorOrange" xml:space="preserve">
+    <value>Sunrise zırh</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorRoyal" xml:space="preserve">
+    <value>Kraliyet ailesi için uygun</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_KungFu" xml:space="preserve">
+    <value>KungFu Master</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Fan" xml:space="preserve">
+    <value>Fan</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_FriedEgg" xml:space="preserve">
+    <value>Kızartma tavası</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="CompendiumHowToText" xml:space="preserve">
+    <value>Reddit sonrası kullanımı ile ilgili buraya</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="NotSaved" xml:space="preserve">
+    <value>Kaydetmemiş</value>
+    <comment>General</comment>
+  </data>
+  <data name="IsCalculated" xml:space="preserve">
+    <value>Hesaplanır</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="AverageStageIncrease" xml:space="preserve">
+    <value>Ortalama sahne artış</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Son</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="MinutesPassed" xml:space="preserve">
+    <value>Geçirilen dk.</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="Relics" xml:space="preserve">
+    <value>Emanetler</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMInfoText" xml:space="preserve">
+    <value>Eserler/dak olarak hesaplanmadığını. Hesaplanan değerleri almak için araç çubuğunda ilgili düğmeye basın</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMRpmText" xml:space="preserve">
+    <value>Kayıt emanetler</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMStageText" xml:space="preserve">
+    <value>Kayıt aşamaları</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Başlat</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMStartedText" xml:space="preserve">
+    <value>Hizmet başlatıldı</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="AlreadyCalculatedRpmText" xml:space="preserve">
+    <value>Zaten hesaplanmış RpM</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="CalculatedRpMSuccessfully" xml:space="preserve">
+    <value>RpM başarılı bir şekilde hesaplanır.</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="CalculateRpM" xml:space="preserve">
+    <value>RpM hesaplamak</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="CalculateRpMAgainQuestion" xml:space="preserve">
+    <value>RpM çoktan hesapladım. Yeniden hesaplamak istiyor musunuz?</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="NoNetwork" xml:space="preserve">
+    <value>Ağ yok</value>
+    <comment>General</comment>
+  </data>
+  <data name="RpMRpmDiffText" xml:space="preserve">
+    <value>Kayıttaki devir/dakika</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Kapat</value>
+    <comment>General</comment>
+  </data>
+  <data name="NewInThisVersion" xml:space="preserve">
+    <value>Bu sürümde yeni</value>
+    <comment>General</comment>
+  </data>
+  <data name="NoPrestigeData" xml:space="preserve">
+    <value>Prestij veri yok. Bana bir gün ver.</value>
+    <comment>General</comment>
+  </data>
+  <data name="PrestigeTodayText" xml:space="preserve">
+    <value>{0} prestij bugün</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>gün</value>
+    <comment>General</comment>
+  </data>
+  <data name="IncreasedXPrestige" xml:space="preserve">
+    <value>Artan {0} prestij</value>
+    <comment>ClanMemberDetail</comment>
+  </data>
+  <data name="Artifact91" xml:space="preserve">
+    <value>Zil taş</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Aura_Zeus" xml:space="preserve">
+    <value>Süpürme çatırtı</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Hat_Zeus" xml:space="preserve">
+    <value>Kapaksız bukleler</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Slash_Zeus" xml:space="preserve">
+    <value>Aklı bir karış havada olmak</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Suit_Zeus" xml:space="preserve">
+    <value>Fırtına Toga</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Weapon_Zeus" xml:space="preserve">
+    <value>Saber çarpmak</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Leader" xml:space="preserve">
+    <value>Öncü</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="RaidAttackCount" xml:space="preserve">
+    <value>RAID saldırıları</value>
+    <comment>Raid</comment>
+  </data>
+  <data name="Builds" xml:space="preserve">
+    <value>Yapılar</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ChooseWhatToExport" xml:space="preserve">
+    <value>Lütfen bana vermek için ne istediğinizi seçin</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Clipboard" xml:space="preserve">
+    <value>Pano</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>İletiler</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Raid" xml:space="preserve">
+    <value>RAID</value>
+    <comment>Export</comment>
+  </data>
+  <data name="CsvDelimiterHeader" xml:space="preserve">
+    <value>CSV sınırlayıcısı</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="Artifact92" xml:space="preserve">
+    <value>Quill'in verilirse</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact93" xml:space="preserve">
+    <value>Eski Kral'ın damga</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact94" xml:space="preserve">
+    <value>Evergrowing yığını</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact95" xml:space="preserve">
+    <value>Şarj kartı</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="ClanExportTitle" xml:space="preserve">
+    <value>Klan verme</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EnableDisableText" xml:space="preserve">
+    <value>Etkinleştirme / devre dışı</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ArtifactCount" xml:space="preserve">
+    <value>Yapıtlar</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ClanRole" xml:space="preserve">
+    <value>Klan rolü</value>
+    <comment>Export</comment>
+  </data>
+  <data name="CraftingShardsSpent" xml:space="preserve">
+    <value>Kırıkları işçiliği geçirdi</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EquipmentSetCount" xml:space="preserve">
+    <value>Ekipman küme sayısı</value>
+    <comment>Export</comment>
+  </data>
+  <data name="LastTimestamp" xml:space="preserve">
+    <value>Son zaman damgası</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidBaseDamage" xml:space="preserve">
+    <value>RAID temel hasar</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidPlayerLevel" xml:space="preserve">
+    <value>RAID oyuncu seviyesi</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidTicketsCollected" xml:space="preserve">
+    <value>RAID bilet toplanan</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidTotalCardLevel" xml:space="preserve">
+    <value>RAID toplam kart düzeyi</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidTotalXP" xml:space="preserve">
+    <value>RAID toplam exp</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidUniqueSkillCount" xml:space="preserve">
+    <value>RAID benzersiz beceri sayısı</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TitanPoints" xml:space="preserve">
+    <value>Titan noktaları</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalHelperScrolls" xml:space="preserve">
+    <value>Toplam yardımcı kaydırır</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalHelperWeapons" xml:space="preserve">
+    <value>Toplam yardımcı silah</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalPetLevels" xml:space="preserve">
+    <value>Toplam evde beslenen hayvan düzeyleri</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalSkillPoints" xml:space="preserve">
+    <value>Toplam tecrübe-puanı</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TournamentCount" xml:space="preserve">
+    <value>Turnuva sayısı</value>
+    <comment>Export</comment>
+  </data>
+  <data name="WeeklyTicketCount" xml:space="preserve">
+    <value>Haftalık bilet sayısı</value>
+    <comment>Export</comment>
+  </data>
+  <data name="MaxClanMsgAmount" xml:space="preserve">
+    <value>Klan mesaj miktarı</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="ErrorLoadingClanMsg" xml:space="preserve">
+    <value>İletileri yüklemek başarısız oldu</value>
+    <comment>ClanMsg</comment>
+  </data>
+  <data name="Aura_LightBeams" xml:space="preserve">
+    <value>Işık kirişler</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Hat_Bag" xml:space="preserve">
+    <value>Yabancı</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Hat_Link" xml:space="preserve">
+    <value>Phrygian kap</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Slash_Bishop" xml:space="preserve">
+    <value>Çapraz eğik çizgi</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Weapon_Saw" xml:space="preserve">
+    <value>Keskinleştirilmiş testere</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Ara</value>
+    <comment>ClanMsg</comment>
+  </data>
+  <data name="TournamentPoints" xml:space="preserve">
+    <value>Turnuva puanları</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="AttackCount" xml:space="preserve">
+    <value>Saldırı sayımı</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="BaseDamage" xml:space="preserve">
+    <value>Baz hasar</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="CratesShared" xml:space="preserve">
+    <value>Paylaşılan kasalar</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="HelperLevel" xml:space="preserve">
+    <value>Yardımcı düzeyi</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="PetLevel" xml:space="preserve">
+    <value>Pet seviyesi</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Yürütücü</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="PlayerLevel" xml:space="preserve">
+    <value>Oyuncu seviyesi</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="RaidClan" xml:space="preserve">
+    <value>Raid/klan</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="ShardsSpent" xml:space="preserve">
+    <value>Parçalar harcanan</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TicketsCollected" xml:space="preserve">
+    <value>Toplanan biletler</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TotalCardLevel" xml:space="preserve">
+    <value>Toplam kart seviyesi</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TotalEXP" xml:space="preserve">
+    <value>Toplam deneyim</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="UniqueSkillCount" xml:space="preserve">
+    <value>Benzersiz beceri sayısı</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Yardımcı kayar</value>
+    <comment>MemberDetail</comment>
+  </data>
+  <data name="AntiTitanCannon" xml:space="preserve">
+    <value>Anti Titan topu</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="ArcaneBargain" xml:space="preserve">
+    <value>Arcane pazarlık</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="IntimidatingPresence" xml:space="preserve">
+    <value>Korkutucu varlığı</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="MysticalImpact" xml:space="preserve">
+    <value>Mistik etki</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="PowerSurge" xml:space="preserve">
+    <value>Güç dalgalanma</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="Clan" xml:space="preserve">
+    <value>Klan</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>Ekipman</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Beceriler</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Things" xml:space="preserve">
+    <value>Şey</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="SPSplashCalculator" xml:space="preserve">
+    <value>SP atlama hesap makinesi</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="SplashSkillHeader" xml:space="preserve">
+    <value>Sıçrama becerisi</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="SplashSnapHeader" xml:space="preserve">
+    <value>Sıçrama Snap</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="AerialAssault" xml:space="preserve">
+    <value>Hava saldırısı (AA)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="AngelicRadiance" xml:space="preserve">
+    <value>Melek parlaklık (AR)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="DoubleSnap" xml:space="preserve">
+    <value>Çift Snap</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="EternalDarkness" xml:space="preserve">
+    <value>Ebedi karanlık (ED)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="LightningBurst" xml:space="preserve">
+    <value>Yıldırım patlaması (LB)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="SingleSnap" xml:space="preserve">
+    <value>Tek Snap</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="WithoutSnap" xml:space="preserve">
+    <value>Snap olmadan</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="AGSetCompleted" xml:space="preserve">
+    <value>AG set tamamlandı mı?</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="NormalTitanCount" xml:space="preserve">
+    <value>Normal Titan sayımı</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="PassiveSkillReduction" xml:space="preserve">
+    <value>Pasif Beceri azaltma</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="StagesToSplash" xml:space="preserve">
+    <value>Sıçrama aşamaları</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="APSetCompleted" xml:space="preserve">
+    <value>AP seti tamamlandı mı?</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="StagesToSkip" xml:space="preserve">
+    <value>Atlama aşamaları</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="SkipSkillHeader" xml:space="preserve">
+    <value>Atlama için beceri</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="SkipSnapHeader" xml:space="preserve">
+    <value>Seçimi çekin</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Yapılandırma</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CurrentSP" xml:space="preserve">
+    <value>Current SP</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DamageSource" xml:space="preserve">
+    <value>Damage Source</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Varsayılan</value>
+    <comment>General</comment>
+  </data>
+  <data name="GoldSourceDescription" xml:space="preserve">
+    <value>The gold source is where the most part of your gold comes from</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Mod</value>
+    <comment>General</comment>
+  </data>
+  <data name="SPConfigDefaultDescription" xml:space="preserve">
+    <value>Here you can set whether or not the chosen configuration is your default configuration.
+If you navigate to this menu the app automatically loads the default configuration.
+In addition to that other modules of this app may take a look at your default configuration.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPConfigModeDescription" xml:space="preserve">
+    <value>There are two config modes: "continuous" and "creation".
+When continuous is chosen the SP Optimizer will suggest you skills to level based on your current ingame setup.
+When creation is chosen the SP Optimizer will create a whole new build and ignore your current setup.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPConfigurationDescription" xml:space="preserve">
+    <value>A configuration is just a set of preferences.
+The SP Optimizer needs a configuration in order to make a calculation.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPDamageSourceDescription" xml:space="preserve">
+    <value>The damage source is where your main damage comes from</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPConfigurationsHeader" xml:space="preserve">
+    <value>SP Configurations</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Adı</value>
+    <comment>General</comment>
+  </data>
+  <data name="ClanShip" xml:space="preserve">
+    <value>Clan Ship</value>
+    <comment>General</comment>
+  </data>
+  <data name="HeavenlyStrike" xml:space="preserve">
+    <value>Heavenly Strike</value>
+    <comment>General</comment>
+  </data>
+  <data name="ShadowClone" xml:space="preserve">
+    <value>Shadow Clone</value>
+    <comment>General</comment>
+  </data>
+  <data name="GiveAName" xml:space="preserve">
+    <value>Give me a name</value>
+    <comment>General</comment>
+  </data>
+  <data name="DamageReduction" xml:space="preserve">
+    <value>Damage reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="GoldReduction" xml:space="preserve">
+    <value>Gold reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Ignored" xml:space="preserve">
+    <value>Yoksayıldı</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SpecialCalculation" xml:space="preserve">
+    <value>Özel hesaplama</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DefaultDamageReduction" xml:space="preserve">
+    <value>Default damage reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DefaultGoldReduction" xml:space="preserve">
+    <value>Default gold reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CustomDamageReduction" xml:space="preserve">
+    <value>Custom damage reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CustomGoldReduction" xml:space="preserve">
+    <value>Custom gold reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Caution" xml:space="preserve">
+    <value>Dikkat:</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="TreeIgnorationQuestion" xml:space="preserve">
+    <value>You are about to ignore the whole tree. Are you sure?</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>ELEMAN</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Düzen</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPOptimizer" xml:space="preserve">
+    <value>SP Optimizer</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="WhatDoYouWant" xml:space="preserve">
+    <value>What do you want?</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Continuous" xml:space="preserve">
+    <value>SÜREKLI</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Creation" xml:space="preserve">
+    <value>Oluşturma</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="OnlyForSupporterItemLimitText" xml:space="preserve">
+    <value>Only supporters can save more than {0} items</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="FixedLevel" xml:space="preserve">
+    <value>Fixed level</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="UpdateReasonFixedLevel" xml:space="preserve">
+    <value>Upgrade to fixed level: {0}</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="EverySkillIgnoredAlert" xml:space="preserve">
+    <value>Every skill is ignored. So I can not optimize anything</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="Efficiency" xml:space="preserve">
+    <value>Verimlilik</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="UpgradeParent" xml:space="preserve">
+    <value>Upgrade parent</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="UpgradeReason" xml:space="preserve">
+    <value>Upgrade reason</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="BranchUpgradeParent" xml:space="preserve">
+    <value>Spent points in branch</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="Tree" xml:space="preserve">
+    <value>Ağaç</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="AboutThisApp" xml:space="preserve">
+    <value>Bu uygulama hakkında</value>
+    <comment>About</comment>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Jenerik</value>
+    <comment>About</comment>
+  </data>
+  <data name="BranchUpgradeGrandParent" xml:space="preserve">
+    <value>Spent points in branch for {1} because {2} points are missing to unlock it to then get to {0}</value>
+    <comment>SPOpt (Reason to upgrade)</comment>
+  </data>
+  <data name="UpgradeGrandParent" xml:space="preserve">
+    <value>Upgrade this to get to parent {0} and then to {1}</value>
+    <comment>SPOpt (Reason to upgrade)</comment>
+  </data>
+  <data name="FeatureNotThereYet" xml:space="preserve">
+    <value>This feature is not implemented yet. I do not know why. I am just here to say this to you.</value>
+    <comment>General</comment>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Sonuç</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPOverclockAmount" xml:space="preserve">
+    <value>Overclock amount</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPOverclockInfoText" xml:space="preserve">
+    <value>The SP optimizer spends your available skill points. This value tells the Sp Optimizer, how far ahead he goes beyond that. If you have 100 SP and enter 10, then the SP optimizer will act like you have 110 SP</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CloseText" xml:space="preserve">
+    <value>Kapat</value>
+    <comment>General</comment>
+  </data>
+  <data name="RaidResult" xml:space="preserve">
+    <value>Raid result</value>
+    <comment>ClanMessage</comment>
+  </data>
+  <data name="OptimizedBuildFrom" xml:space="preserve">
+    <value>Optimized build from {0}</value>
+    <comment>SP follower</comment>
+  </data>
+  <data name="IgnoredSkillFixedLevelNotReached" xml:space="preserve">
+    <value>- Could not reach fixed level of {1} for {0}. Only got it to level {2}.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="IgnoredSkillWithFixedLevel" xml:space="preserve">
+    <value>- Could not level {0} because it is ignored</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="OfflineBuildWithoutSilentMarch" xml:space="preserve">
+    <value>- The build is configured to have offline progress but Silent March is not leveled</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Compare" xml:space="preserve">
+    <value>Karşılaştır</value>
+    <comment>PlayerComparison</comment>
+  </data>
+  <data name="PlayerComparison" xml:space="preserve">
+    <value>Player Comparison</value>
+    <comment>PlayerComparison</comment>
+  </data>
+  <data name="CreateConfig" xml:space="preserve">
+    <value>Yapılandırma oluştur</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="NeedToCreateConfig" xml:space="preserve">
+    <value>You need to create a configuration before you can use this.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="NextTournamentInfo" xml:space="preserve">
+    <value>Next Tournament is {0}
+Starting: {1} with {2}x {3}</value>
+    <comment>Tournament</comment>
+  </data>
+  <data name="IsIgnoredIfNotEnoughSP" xml:space="preserve">
+    <value>Ignored if not enough SP</value>
+    <comment>SP Optimizer</comment>
+  </data>
+  <data name="IsIgnoredIfNotEnoughSPText" xml:space="preserve">
+    <value>If you can not afford to upgrade a skill then the Optimizer tries to ignore it. Instead the optimizer tries to take a skill which you can afford to spend as many skill points as possible</value>
+    <comment>SP Optimizer</comment>
+  </data>
+  <data name="PushBoS" xml:space="preserve">
+    <value>Push Book of Shadows!</value>
+    <comment>ArtOptimizer</comment>
+  </data>
+  <data name="AdvancedStart" xml:space="preserve">
+    <value>Advanced start</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="ExportRaidAsJson" xml:space="preserve">
+    <value>Export Raid as JSON</value>
+    <comment>ExportPage</comment>
+  </data>
+  <data name="MaxArtifactAmountInfoText" xml:space="preserve">
+    <value>The optimization will stop when the suggestion list contains more items than the amount that is set here. The default value is 30.</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="MaxArtifactAmountOption" xml:space="preserve">
+    <value>Max. Artifacts</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="MinEfficiencyInfoText" xml:space="preserve">
+    <value>The optimization will stop when the efficiency is lower than this value. The default value is 1.05</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="MinEfficiencyOption" xml:space="preserve">
+    <value>Min. Efficiency</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="CheckStepAmountOrEfficiency" xml:space="preserve">
+    <value>Please check your step amount or minimum efficiency</value>
+    <comment>ArtifactOptimizer</comment>
+  </data>
+  <data name="LocalFileError" xml:space="preserve">
+    <value>Yerel dosya sistemi hatası</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>Internet'e bağlı değilseniz</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="ServerError" xml:space="preserve">
+    <value>Sunucu yan hatası</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="SuccessfulAssetDownload" xml:space="preserve">
+    <value>Varlıklar başarıyla indirildi.</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="TotalFuckUp" xml:space="preserve">
+    <value>Beklenmeyen bir sorunla karşılaşıldı</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="UnstableAssetState" xml:space="preserve">
+    <value>Varlık durumu dengesiz. Bu ilk başlangıç ise varlıkların indirilebilir böylece uygun bir internet bağlantısı olduğundan emin olun. Varlık Yöneticisi Hatası: {0}</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="VersionNotOnServer" xml:space="preserve">
+    <value>Geçerli sürüm sunucuda bulunmuyor</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="WrongParameter" xml:space="preserve">
+    <value>Yanlış parametreler geçti</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="AssetProblemDetail" xml:space="preserve">
+    <value>Bazı arka plan verileri ile ilgili bir sorun var. İşte detay: {0}</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="Problem" xml:space="preserve">
+    <value>Sorun</value>
+    <comment>General</comment>
+  </data>
+  <data name="CheckAssetState" xml:space="preserve">
+    <value>Varlık durumuyla ilgili bir sorun olabilir. daha fazla bilgi almak için araç çubuğundaki dikkat düğmesini tıklayınız</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="VariousVersion" xml:space="preserve">
+    <value>Çeşitli sürümler</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="ClanAutoExportTitle" xml:space="preserve">
+    <value>Klan otomatik dışa aktarma</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ClanAutoExportText" xml:space="preserve">
+    <value>Klan istatistiklerini otomatik olarak dışa aktarmak isterseniz burada ayarlayabilirsiniz.</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EnableClanAutoExportText" xml:space="preserve">
+    <value>Etkinleştirme/ Devre Dışı</value>
+    <comment>Export</comment>
+  </data>
+  <data name="HourlyTimeInterval" xml:space="preserve">
+    <value>Saatlik zaman aralığı</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EnableClanAutoNotificationText" xml:space="preserve">
+    <value>Veriler dışa aktarıldığında beni bilgilendirin</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Automation" xml:space="preserve">
+    <value>Otomasyon</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="AutomationService" xml:space="preserve">
+    <value>Otomasyon hizmeti</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="AutoServiceDescription" xml:space="preserve">
+    <value>Burada, sizin için yapılacak ları otomatik olarak kontrol edecek olan Foreground servce'inizi ayarlayabilirsiniz.
+
+Hizmet, aşağıda belirlediğiniz dakika miktarında yineler.
+
+Hangi modüllerin kontrol edildiğine siz karar verirsiniz. Hizmet en azından geçerli BoS% görüntüler.
+
+Otomatik klan dışa aktarmasını etkinleştirdiyseniz ve TT2Master'ı kapattıysanız, bu hizmet başlatılırsa dışa aktarmayı zamanlamaya devam edecektir.</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="MinuteTimeInterval" xml:space="preserve">
+    <value>Dakika içinde zaman aralığı</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="ChangeSavefilePath" xml:space="preserve">
+    <value>Dosyayı kaydetmek için yolu değiştirme</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="SavefilePathChangedSuccessfully" xml:space="preserve">
+    <value>Savefile'a giden yol başarıyla değiştirildi. Tüm değişiklikleri tam olarak uygulamak için uygulamanın yeniden başlatılması gerekebilir.</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="WrongFileTypeSelectedAdat" xml:space="preserve">
+    <value>Dosya türü .adat olmalıdır. Lütfen tekrar deneyin.</value>
+    <comment>Savefile</comment>
+  </data>
+  <data name="CheckingPurchasesText" xml:space="preserve">
+    <value>Satın alma işlemlerini denetleme</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DownloadAssetsAgainText" xml:space="preserve">
+    <value>Tüm varlık dosyalarını yeniden indirmek üzeresiniz. Bu işlem birkaç saniye sürebilir. Lütfen istikrarlı bir internet bağlantınız olduğundan emin olun. İndirmeye devam etmek istiyor musunuz?</value>
+    <comment>AssetManager</comment>
+  </data>
+  <data name="DownloadAssetsAgain" xml:space="preserve">
+    <value>Varlıkları yeniden indirin</value>
+    <comment>AssetManager</comment>
+  </data>
+  <data name="SpEfficiencyWarning" xml:space="preserve">
+    <value>Uyarı: Liste, 1 veya altında verimlilik içeren öğeler içerir. Bunların seviyesini artırmayın! Onlar sadece oradaçünkü harcanan puan bitti</value>
+    <comment>SpOptimizer</comment>
+  </data>
+  <data name="ForbiddenContractSpOptInfo" xml:space="preserve">
+    <value>Yapınızda Yasak Sözleşme var. Yeterli mana yanı sıra yeterli mana rejenerasyon olduğundan emin olun. Bu durumda değilse, yapı yapılandırmasında bu beceri devre dışı kalmak için emin olun!</value>
+    <comment>SP Optimizer</comment>
+  </data>
+  <data name="DiamondFairy" xml:space="preserve">
+    <value>Elmas peri</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="FatFairy" xml:space="preserve">
+    <value>Şişman peri</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="FreeEquipment" xml:space="preserve">
+    <value>Ücretsiz ekipman</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="ChangeBoSPercentageDisplay" xml:space="preserve">
+    <value>BoS% ekranını değiştirin</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="Artifact96" xml:space="preserve">
+    <value>Garip Meyve</value>
+    <comment>Artifact</comment>
+  </data>
+  <data name="Artifact97" xml:space="preserve">
+    <value>Hades Küre</value>
+    <comment>Artifact</comment>
+  </data>
+  <data name="Aura_ElectricWarlord" xml:space="preserve">
+    <value>Kaplan Mührü</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Hat_ElectricWarlord" xml:space="preserve">
+    <value>Uproar Dümeni</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Slash_ElectricWarlord" xml:space="preserve">
+    <value>Yay Yıldırım</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Suit_ElectricWarlord" xml:space="preserve">
+    <value>Rüzgar Zırhı</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Weapon_ElectricWarlord" xml:space="preserve">
+    <value>Demir yürek</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Skill.AllHelperDmg" xml:space="preserve">
+    <value>Usta Komutan</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.BossDmgQTE" xml:space="preserve">
+    <value>Flaş Zip</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.BossTimer" xml:space="preserve">
+    <value>Boyutsal Kayma</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.BurstSkillBoost" xml:space="preserve">
+    <value>Angelic Parlaklık</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ChestGold" xml:space="preserve">
+    <value>Savaş Ganimetleri</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ClanQTE" xml:space="preserve">
+    <value>Eşgüdümlü Taarruz</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ClanShipDmg" xml:space="preserve">
+    <value>Hava Saldırısı</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ClanShipStun" xml:space="preserve">
+    <value>Demirleme Vuruşu</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.Cloaking" xml:space="preserve">
+    <value>Gizleme</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CloneDmg" xml:space="preserve">
+    <value>Hayalet İntikam</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CloneSkillBoost" xml:space="preserve">
+    <value>Ebedi Karanlık</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CritSkillBoost" xml:space="preserve">
+    <value>Yıldırım Saldırısı</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CritSkillBoostDmg" xml:space="preserve">
+    <value>Suikast</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.Fairy" xml:space="preserve">
+    <value>Peri Büyüsü</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.FireTapSkillBoost" xml:space="preserve">
+    <value>Summon Cehennem</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ForbiddenContract" xml:space="preserve">
+    <value>Yasak Sözleşme</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.Frenzy" xml:space="preserve">
+    <value>Barbarca Öfke</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.GuidedBlade" xml:space="preserve">
+    <value>Güdümlü Bıçak</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HeavyStrikes" xml:space="preserve">
+    <value>Cleaving Strike</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperBoost" xml:space="preserve">
+    <value>Taktik Insight</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperDmgQTE" xml:space="preserve">
+    <value>Astral Uyanış</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperDmgSkillBoost" xml:space="preserve">
+    <value>Kahramanca Kudret</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperInspiredWeaken" xml:space="preserve">
+    <value>Arama Işığı</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ManaMonster" xml:space="preserve">
+    <value>Manni Mana</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ManaStealSkillBoost" xml:space="preserve">
+    <value>Mana Sifon</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.MidasSkillBoost" xml:space="preserve">
+    <value>Midas Ultimate</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.MPCapacityBoost" xml:space="preserve">
+    <value>Limit Sonu</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.MultiMonsters" xml:space="preserve">
+    <value>Pusu</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.OfflineGold" xml:space="preserve">
+    <value>Usta Hırsız</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PetDmg" xml:space="preserve">
+    <value>Evcil Hayvan Evrimi</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PetGoldQTE" xml:space="preserve">
+    <value>Midas'ın Kalbi</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PetQTE" xml:space="preserve">
+    <value>Şimşek Patlaması</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PoisonedBlade" xml:space="preserve">
+    <value>Zehirli Bıçak</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.SoulBlade" xml:space="preserve">
+    <value>Soul Blade</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.StrokeOfLuck" xml:space="preserve">
+    <value>Şans Vuruşu</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.TapDmg" xml:space="preserve">
+    <value>Şövalye'nin Yiğitliği</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.TapDmgFromHelpers" xml:space="preserve">
+    <value>Şövalyelik Nişanı</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.UltraDagger" xml:space="preserve">
+    <value>Hançer çağır</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="CreateSnapshotOnDashboardReload" xml:space="preserve">
+    <value>Pano yeniden yüklendiğinde anlık görüntü oluşturma</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="DefaultList" xml:space="preserve">
+    <value>Varsayılan liste</value>
+    <comment>Artifact optimizer view mode</comment>
+  </data>
+  <data name="ImageGrid" xml:space="preserve">
+    <value>Görüntülerin Izgara</value>
+    <comment>Artifact optimizer view mode</comment>
+  </data>
+  <data name="ArtOptViewModeSettingsHeader" xml:space="preserve">
+    <value>Artefakt optimize edici görünüm modu</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="CellSize" xml:space="preserve">
+    <value>Hücre boyutu</value>
+    <comment>Art optimizer view settings</comment>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Yönerge</value>
+    <comment>Art optimizer view settings</comment>
+  </data>
+  <data name="CopyLtrValue" xml:space="preserve">
+    <value>LTR değerini panoya kopyalama</value>
+    <comment>Copy LTR value to clipboard</comment>
+  </data>
+  <data name="UseIngameBoSDisplay" xml:space="preserve">
+    <value>Oyun içi gibi BoS'u görüntüle</value>
+    <comment>BoS Display Settings</comment>
+  </data>
+  <data name="UseMasterBoSDisplay" xml:space="preserve">
+    <value>BoS'u usta gibi görüntüleyin</value>
+    <comment>BoS Display Settings</comment>
+  </data>
+  <data name="CompletedSets" xml:space="preserve">
+    <value>Tamamlanan kümeler</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="CraftingPower" xml:space="preserve">
+    <value>İşleme gücü</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="LTR" xml:space="preserve">
+    <value>Ömür boyu emanetler</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="SilentMarch" xml:space="preserve">
+    <value>Sessiz yürüyüş</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="SkillPoints" xml:space="preserve">
+    <value>Beceri puanları</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="Reporting" xml:space="preserve">
+    <value>Raporlama</value>
+    <comment>Reporting</comment>
+  </data>
+  <data name="CompleteMemberReport" xml:space="preserve">
+    <value>Tam üye raporu</value>
+    <comment>CompleteMemberReport</comment>
+  </data>
+  <data name="MemberBaseStatsReport" xml:space="preserve">
+    <value>Üye tabanı istatistikleri raporu</value>
+    <comment>Member base stats report</comment>
+  </data>
+  <data name="MemberRaidStatsReport" xml:space="preserve">
+    <value>Üye baskını istatistikleri raporu</value>
+    <comment>Member raid stats report</comment>
+  </data>
+  <data name="Strategies" xml:space="preserve">
+    <value>Stratejiler</value>
+    <comment>Raid strategies</comment>
+  </data>
+  <data name="Strategy" xml:space="preserve">
+    <value>Strateji</value>
+    <comment>Raid Strategy</comment>
+  </data>
+  <data name="DoYouWantToOverwrite" xml:space="preserve">
+    <value>Öğe zaten var. Üzerine yazmak ister misin?</value>
+    <comment>Question which may occur when saving an item</comment>
+  </data>
+  <data name="Enemy" xml:space="preserve">
+    <value>Düşman</value>
+    <comment>Enemy</comment>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>Baş</value>
+    <comment>Head</comment>
+  </data>
+  <data name="LeftHand" xml:space="preserve">
+    <value>Sol el</value>
+    <comment>Left hand</comment>
+  </data>
+  <data name="LeftLeg" xml:space="preserve">
+    <value>Sol bacak</value>
+    <comment>Left leg</comment>
+  </data>
+  <data name="LeftShoulder" xml:space="preserve">
+    <value>Sol omuz</value>
+    <comment>Left shoulder</comment>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Hayır</value>
+    <comment>No</comment>
+  </data>
+  <data name="RaidHeader" xml:space="preserve">
+    <value>Baskın</value>
+    <comment>Raids Header</comment>
+  </data>
+  <data name="RightHand" xml:space="preserve">
+    <value>Sağ el</value>
+    <comment>Right hand</comment>
+  </data>
+  <data name="RightLeg" xml:space="preserve">
+    <value>Sağ bacak</value>
+    <comment>Right leg</comment>
+  </data>
+  <data name="RightShoulder" xml:space="preserve">
+    <value>Sağ omuz</value>
+    <comment>Right shoulder</comment>
+  </data>
+  <data name="ToP" xml:space="preserve">
+    <value>Sayfanın Üstü</value>
+    <comment>Totem of Power</comment>
+  </data>
+  <data name="Torso" xml:space="preserve">
+    <value>Gövde</value>
+    <comment>Torso</comment>
+  </data>
+  <data name="VM" xml:space="preserve">
+    <value>Sanal Makine</value>
+    <comment>Victory March</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Evet</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="ClanRaidHeader" xml:space="preserve">
+    <value>Klan baskınları</value>
+    <comment>Clan Raids Header</comment>
+  </data>
+  <data name="Analysis" xml:space="preserve">
+    <value>Çözümleme</value>
+    <comment>Analysis</comment>
+  </data>
+  <data name="Attacks" xml:space="preserve">
+    <value>Saldırı</value>
+    <comment>raid details</comment>
+  </data>
+  <data name="AttacksInTotal" xml:space="preserve">
+    <value>Toplam saldırılar</value>
+    <comment>Attacks in total for raid analysis</comment>
+  </data>
+  <data name="Damage" xml:space="preserve">
+    <value>Hasar</value>
+    <comment>raid details</comment>
+  </data>
+  <data name="DamagePerAttack" xml:space="preserve">
+    <value>Hasar / Saldırı</value>
+    <comment>Damage / Attack for raid analysis</comment>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Ayrıntılar</value>
+    <comment>Details</comment>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Düzey</value>
+    <comment>Raid level</comment>
+  </data>
+  <data name="Overkill" xml:space="preserve">
+    <value>Overkill</value>
+    <comment>raid details</comment>
+  </data>
+  <data name="OverkillAmount" xml:space="preserve">
+    <value>Overkill miktarı</value>
+    <comment>Overkill amount for raid analysis</comment>
+  </data>
+  <data name="OverkillPercentage" xml:space="preserve">
+    <value>Overkill %</value>
+    <comment>Overkill % for raid analysis</comment>
+  </data>
+  <data name="PasteResultFromClipboard" xml:space="preserve">
+    <value>Panodan sonucu yapıştır</value>
+    <comment>Paste clan raid result from clipboard button text</comment>
+  </data>
+  <data name="Tier" xml:space="preserve">
+    <value>Katman</value>
+    <comment>Raid Tier</comment>
+  </data>
+  <data name="WorstOverkills" xml:space="preserve">
+    <value>kötü overkills</value>
+    <comment>Worst overkills for raid analysis</comment>
+  </data>
+  <data name="WorstParticipation" xml:space="preserve">
+    <value>en kötü katılım</value>
+    <comment>Worst participation for raid analysis</comment>
+  </data>
+  <data name="ExportDetailsToClipboard" xml:space="preserve">
+    <value>Panoya ayrıntılar</value>
+    <comment>raid results details to clipboard</comment>
+  </data>
+  <data name="ExportDetailsToCsvFile" xml:space="preserve">
+    <value>CSV dosyasına ayrıntılar</value>
+    <comment>raid results details to CSV file</comment>
+  </data>
+  <data name="ExportDetailsToShare" xml:space="preserve">
+    <value>Detayları Paylaş CSV dosyası</value>
+    <comment>raid results details to csv and share</comment>
+  </data>
+  <data name="ExportRaidResultToClipboard" xml:space="preserve">
+    <value>Sonuç panosuna</value>
+    <comment>raid result export to clipboard</comment>
+  </data>
+  <data name="ExportRaidResultToCsvFile" xml:space="preserve">
+    <value>CSV dosyasına sonuç</value>
+    <comment>raid result to CSV file</comment>
+  </data>
+  <data name="ExportRaidResultToShare" xml:space="preserve">
+    <value>Sonuç CSV dosyayı paylaş</value>
+    <comment>raid results to csv and share</comment>
+  </data>
+  <data name="YouNeedToAddRaidResultsBefore" xml:space="preserve">
+    <value>Veri aktarabilmeniz için baskın sonuçları eklemeniz gerekir</value>
+    <comment>Raid result detail information when a user tries to export results without imported data</comment>
+  </data>
+  <data name="MaxOverkillAmount" xml:space="preserve">
+    <value>Max. Overkill</value>
+    <comment>max overkill amount</comment>
+  </data>
+  <data name="MinAttackAmount" xml:space="preserve">
+    <value>Min. Saldırılar</value>
+    <comment>min amount of attacks</comment>
+  </data>
+  <data name="SidesAreSeenFromYou" xml:space="preserve">
+    <value>Taraflar senden görülüyor.</value>
+    <comment>raid strategy information text</comment>
+  </data>
+  <data name="MinAverageDamage" xml:space="preserve">
+    <value>Min. ortalama hasar</value>
+    <comment>minimum average damage</comment>
+  </data>
+  <data name="AttackFlaws" xml:space="preserve">
+    <value>Saldırı kusurları</value>
+    <comment>Clan raid attack flaw</comment>
+  </data>
+  <data name="BelowAvgDamage" xml:space="preserve">
+    <value>Avg. hasar altında</value>
+    <comment>Clan raid flaw</comment>
+  </data>
+  <data name="BelowMinAttacks" xml:space="preserve">
+    <value>Dk. saldırıların altında</value>
+    <comment>Clan raid flaw</comment>
+  </data>
+  <data name="ClanRaidDetailInformations" xml:space="preserve">
+    <value>Analizin çalışması için baskın sonuçlarını daha önce içe aktarmanız gerekir.
+
+Overkill hesaplama titan zırh ve iskelet üzerinde hasar dikkate alır.
+
+Analizdeki ortalama hasar overkill hasarı içermez.</value>
+    <comment>Information you get when clicking on the information button in clan raid detail</comment>
+  </data>
+  <data name="ExportDatabase" xml:space="preserve">
+    <value>Veritabanı dosyalarını dışa aktarma</value>
+    <comment>Settings: button text to export the db file</comment>
+  </data>
+  <data name="AboveMaxOverKill" xml:space="preserve">
+    <value>Maksimumun üzerinde. Overkill</value>
+    <comment>Clan raid flaw</comment>
+  </data>
+  <data name="ArtOpt" xml:space="preserve">
+    <value>Sanat tercihi</value>
+    <comment>for shortcut</comment>
+  </data>
+  <data name="BoSPercent" xml:space="preserve">
+    <value>BoS %</value>
+    <comment>for shortcut</comment>
+  </data>
+  <data name="SP" xml:space="preserve">
+    <value>Sy</value>
+    <comment>SP display for dashboard shortcut</comment>
+  </data>
+  <data name="DoYouWantToResetPrestigeAmount" xml:space="preserve">
+    <value>Bugünün prestij miktarını 0'a sıfırlamak ister misiniz?</value>
+    <comment>Dashboard info text when pressing on the chart to reset todays prestige amount</comment>
+  </data>
+  <data name="Tolerance" xml:space="preserve">
+    <value>Tolerans</value>
+    <comment>Raid tolerance detail header</comment>
+  </data>
+  <data name="Tolerances" xml:space="preserve">
+    <value>Toleranslar</value>
+    <comment>Raid tolerances header</comment>
+  </data>
+  <data name="Absolute" xml:space="preserve">
+    <value>Mutlak</value>
+    <comment>Overkill calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AbsoluteInAttacks" xml:space="preserve">
+    <value>Saldırılarda mutlak</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AbsoluteInWavesExcludingLastWave" xml:space="preserve">
+    <value>Son dalga hariç dalgalarda mutlak</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AbsoluteInWavesIncludingLastWave" xml:space="preserve">
+    <value>Son dalga da dahil olmak üzere dalgalar mutlak</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="RelativeFromAllAttacksSum" xml:space="preserve">
+    <value>Tüm saldırıların toplamından göreli</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="RelativeFromAllPlayerDamage" xml:space="preserve">
+    <value>Tüm oyuncu hasarlarından göreli</value>
+    <comment>Overkill calculation type used for raid tolerance</comment>
+  </data>
+  <data name="RelativeFromCurrentPlayerDamage" xml:space="preserve">
+    <value>Geçerli oyuncu hasarından göreli</value>
+    <comment>Overkill calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AverageDamageDescription" xml:space="preserve">
+    <value>Minimum Ortalama Hasar</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="MaxOverkillDescription" xml:space="preserve">
+    <value>Maksimum overkill (yanlış parçalar ve iskelet hasar zırh hasar toplamı)</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="MinAttackAmountDescription" xml:space="preserve">
+    <value>Minimum saldırı miktarı</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tür</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Değer</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="TotalDamage" xml:space="preserve">
+    <value>Toplam hasar</value>
+    <comment>Raid analysis total damage</comment>
+  </data>
+  <data name="Waves" xml:space="preserve">
+    <value>Dalgalar</value>
+    <comment>Amount of waves display text for raid analysis</comment>
+  </data>
+  <data name="ExportRaidAnalysisImage" xml:space="preserve">
+    <value>Raid analizi görüntüsü</value>
+    <comment>Clan raid export of analysis data to image</comment>
+  </data>
+  <data name="FillAllFieldsFirst" xml:space="preserve">
+    <value>Lütfen önce tüm alanları doldurun</value>
+    <comment>Fill all fields before you can proceed info text</comment>
+  </data>
+  <data name="OverkillParts" xml:space="preserve">
+    <value>Overkill parçaları</value>
+    <comment>Raid analysis image header</comment>
+  </data>
+  <data name="WorstOverkillAmounts" xml:space="preserve">
+    <value>En kötü overkill miktarları</value>
+    <comment>Raid analysis image header</comment>
+  </data>
+  <data name="ExportRaidTacticsImage" xml:space="preserve">
+    <value>Raid taktikleri görüntü</value>
+    <comment>Clan raid detail export option</comment>
+  </data>
+  <data name="FillAllStrategiesAndTolerancesFirst" xml:space="preserve">
+    <value>Önce stratejileri ve toleransları doldurmak gerekir</value>
+    <comment>Clan raid detail export info message</comment>
+  </data>
+  <data name="RaidTactics" xml:space="preserve">
+    <value>Baskın taktikleri</value>
+    <comment>Clan raid tactics exported image header</comment>
+  </data>
+  <data name="AllPlayers" xml:space="preserve">
+    <value>tüm oyuncular</value>
+    <comment>Clan raid analysis image tolerance text in brackets</comment>
+  </data>
+  <data name="AmountInWaves" xml:space="preserve">
+    <value>{0} dalgaları ({1} saldırıları)</value>
+    <comment>Clan raid analysis image tolerance text 6 waves (24 attacks)</comment>
+  </data>
+  <data name="PercentageOfAllAttacks" xml:space="preserve">
+    <value>Tüm saldırıların %{0}</value>
+    <comment>Clan raid analysis image tolerance text</comment>
+  </data>
+  <data name="WithoutLastWave" xml:space="preserve">
+    <value>{0} dalgaları ({1} saldırıları) son olmadan</value>
+    <comment>Clan raid analysis image tolerance text 6 waves (24 attacks)</comment>
+  </data>
+  <data name="XofYWaves" xml:space="preserve">
+    <value>{1} dalgalarının {0} ({2}/{3})</value>
+    <comment>Clan raid analysis image tolerance text 5 of 6 (20/24)</comment>
+  </data>
+  <data name="PrestigeSinceLastRecord" xml:space="preserve">
+    <value>son kayıtberi {0}</value>
+    <comment>Dashboard prestige text when last snapshot is older than a day</comment>
+  </data>
+  <data name="ValueIsCappedAtTwoPercent" xml:space="preserve">
+    <value>Değeri %2'dir.</value>
+    <comment>Information text for raid tolerance when you enter a relative min attack amount</comment>
+  </data>
+  <data name="WaveToleranceInfotext" xml:space="preserve">
+    <value>Yapılan dalgalar - x (son dalga dahil veya hariç)</value>
+    <comment>Information text for raid tolerance when you enter a wave based min attack amount</comment>
+  </data>
+  <data name="GiveNewName" xml:space="preserve">
+    <value>Yeni bir ad verin</value>
+    <comment>Give a new name text on rename popup page</comment>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Yeniden Adlandır</value>
+    <comment>Rename</comment>
+  </data>
+  <data name="MaxWavesExcluding" xml:space="preserve">
+    <value>Max dalgalar - {0} (son olmadan)</value>
+    <comment>tactics tolerance image text</comment>
+  </data>
+  <data name="MaxWavesMinusIncluding" xml:space="preserve">
+    <value>Maksimum dalgalar - {0}</value>
+    <comment>tactics tolerance image text</comment>
+  </data>
+  <data name="AbsoluteAttackToleranceInfotext" xml:space="preserve">
+    <value>Gerekli en az saldırı miktarını temsil eden bir değer verin.</value>
+    <comment>Raid tolerance info for amount of attacks</comment>
+  </data>
+  <data name="ExportPartsAnalysis" xml:space="preserve">
+    <value>Parça analizi</value>
+    <comment>Export parts analysis (raid module)</comment>
+  </data>
+  <data name="CouldAccessSavefileText" xml:space="preserve">
+    <value>"{0}"a erişemedi!
+Bunun nedeni Android 11'in kapsamlı depolama alanı olabilir. 
+Bu konuda daha fazla bilgi burada: https://fistelmann.de/tt2master-on-android-11/
+Lütfen savefileyi başka bir (genel) dizine kopyalayın.
+Şimdi bir dosya aramak istiyor musunuz?</value>
+    <comment>Savefile handling</comment>
+  </data>
+  <data name="CouldNotAccessFileTitle" xml:space="preserve">
+    <value>Dosyaya erişileneme</value>
+    <comment>Savefile handling</comment>
+  </data>
+  <data name="ImportFromClipboardText" xml:space="preserve">
+    <value>Panodan veri alma</value>
+    <comment>Manual data import from clipboard text shown on dashboard button</comment>
+  </data>
+  <data name="ChangeDataSourceButtonText" xml:space="preserve">
+    <value>Veri kaynağını değiştir</value>
+    <comment>Text on button to change data source between save file and clipboard export</comment>
+  </data>
+  <data name="ChangeFromClipboardToSavefileSourceQuestion" xml:space="preserve">
+    <value>Verilerinizi panodan yüklüyorsunuz.
+Bunu gerçekten değiştirmek istiyor musun?</value>
+    <comment>Question when a user changes from clipboard to savefile data source</comment>
+  </data>
+  <data name="ChangeFromSavefileToClipboardSourceQuestion" xml:space="preserve">
+    <value>Şu anda verilerinizi doğrudan savefile'dan yüklüyorsunuz.
+Bu olabilir, bazı özellikler mevcut olmayacaktır!
+Bunu gerçekten değiştirmek istiyor musun?</value>
+    <comment>Question when a user changes from savefile to clipboard data source</comment>
+  </data>
+  <data name="PleaseRestartTheAppForChangesToTakeEffect" xml:space="preserve">
+    <value>Değişikliklerin uygulanması için lütfen uygulamayı yeniden başlatın</value>
+    <comment>Informational text for user if a restart of the app is recommended due to changes in settings</comment>
+  </data>
+  <data name="CheckPurchases" xml:space="preserve">
+    <value>Satın alma işlemlerini kontrol edin</value>
+    <comment>Button text in settings for checking purchases</comment>
+  </data>
+  <data name="CouldNotUpdatePurchasementInformation" xml:space="preserve">
+    <value>Satınalma bilgilerini güncelleştiremedi</value>
+    <comment>Information when purchasement information could not be updated</comment>
+  </data>
+  <data name="PurchasementInformationUpdated" xml:space="preserve">
+    <value>Güncelleştirilmiş satınalma bilgileri</value>
+    <comment>Information when purchasement information successfully updated</comment>
+  </data>
+  <data name="ChangeToClipboardDataToFixSafeFileIssuesQuestion" xml:space="preserve">
+    <value>Şu anda verilerinizi doğrudan savefile'dan yüklüyorsunuz. Ama bir sorun bulma veya bu dosyayı okuma gibi görünüyor.
+Veri kaynağı olarak panoya geçmek istiyor musunuz?
+
+Dikkat!
+Bu olabilir, bazı özellikler mevcut olmayacaktır!
+Bunu gerçekten değiştirmek istiyor musun?</value>
+    <comment>If loading from savefile fails - give user the chance to change to clipboard loading</comment>
+  </data>
+  <data name="PleaseImportClipboardDataSoAppCanWork" xml:space="preserve">
+    <value>Bu uygulamanın çalışması için Tap Titans 2 verilerinizi pano dan içe aktarmanız gerekir. Lütfen önce bunu yap ki her şey işlemesin.</value>
+    <comment>Information when you are on clipboard as data source and you have not imported any data yet.</comment>
+  </data>
+  <data name="DisableBigAdsInformation" xml:space="preserve">
+    <value>Küçük reklam paketi yle yalnızca panodaki küçük reklamı görürsünüz. Büyük reklam artık gösterilmeyecektir.</value>
+    <comment>IAP - Informational text for the small ads package</comment>
+  </data>
+  <data name="SupporterPurchasementInformation" xml:space="preserve">
+    <value>Tüm reklamları devre dışı bırakıp:
+- İstediğiniz kadar SP Yapılandırması oluşturun
+- Yapı Geliştirme Optimize Edici oluşturur ve ağırlıkları
+Ayrıca gelecekte yayımlanan özelliklere sınırsız erişim olacak!
+</value>
+    <comment>IAP - Informational text for the supporter package</comment>
+  </data>
+  <data name="HasHerosMaxedInfoText" xml:space="preserve">
+    <value>Bütün kahramanların limitini doldurmuş musun?
+Eğer kahramanlarınızın limiti dolursa, altın önemsizdir ve göz ardı edilecektir.</value>
+    <comment>ArtifactOptimizerSettings HarHerosMaxed Infotext</comment>
+  </data>
+  <data name="HasHerosMaxedOption" xml:space="preserve">
+    <value>Kahramanların limiti mi?</value>
+    <comment>ArtifactOptimizerSettings HasHerosMaxed Label</comment>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Genel</value>
+    <comment>General like "in General"</comment>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Boyut</value>
+    <comment>Size</comment>
+  </data>
+  <data name="AlreadyImportedThisData" xml:space="preserve">
+    <value>Bu verileri zaten içe aktarın</value>
+    <comment>Clipboard import info when you import exactly the same data as before</comment>
+  </data>
+  <data name="CraftingAdvisor" xml:space="preserve">
+    <value>Crafting danışmanı</value>
+    <comment>CraftingAdvisor</comment>
+  </data>
+  <data name="NoCraftableEquipmentFoundText" xml:space="preserve">
+    <value>İşlenebilir ekipman bulunamadı</value>
+    <comment>Info text for user if no set is completed and therefore nothing to craft</comment>
+  </data>
+  <data name="BoostType" xml:space="preserve">
+    <value>Türünü artırın</value>
+    <comment>BoostType for crafting advisor</comment>
+  </data>
+  <data name="EquipmentSet" xml:space="preserve">
+    <value>Ayarla</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Eight" xml:space="preserve">
+    <value>Sekiz</value>
+  </data>
+  <data name="Five" xml:space="preserve">
+    <value>Beş</value>
+  </data>
+  <data name="Four" xml:space="preserve">
+    <value>Dört</value>
+  </data>
+  <data name="One" xml:space="preserve">
+    <value>Bir</value>
+  </data>
+  <data name="Seven" xml:space="preserve">
+    <value>Yedi</value>
+  </data>
+  <data name="Six" xml:space="preserve">
+    <value>Altı</value>
+  </data>
+  <data name="Three" xml:space="preserve">
+    <value>ÜÇ</value>
+  </data>
+  <data name="Two" xml:space="preserve">
+    <value>İki</value>
+  </data>
+  <data name="HowToLogHeader" xml:space="preserve">
+    <value>Nasıl giriş yapabilirsiniz</value>
+    <comment>Page header for the how to on logging</comment>
+  </data>
+  <data name="HowToLogText" xml:space="preserve">
+    <value>Uygulama temel bilgileri her zaman kaydeder. Ancak, bu bilgiler hiçbir zaman otomatik olarak gönderilmez. 
+
+Uygulamada kritik bir hata varsa, geliştiriciye e-posta gönderme fırsatınız olur. Bu yapılırsa, uygulama günlük dosyaları eklemeye çalışır.
+
+Bazı durumlarda geliştiricinin ayrıntılı bir günlük alması gerekir. 
+Bunu oluşturmak için lütfen aşağıdaki gibi ilerleyin:
+Ayarlara gidin ve ayrıntılı günlüğe kaydetmeyi etkinleştirin. Ardından, sorunu mümkün olduğunca az adımda yeniden oluşturmaya çalışın.
+Ardından ayarlara geri dön ve ayrıntılı günlüğe kaydetmeyi devre dışı bırak.
+Şimdi "Hakkımda" sayfasına gidin ve "Mail Gönder"e tıklayın.</value>
+    <comment>Detail text on how to send a log and logging in general</comment>
+  </data>
+  <data name="SpOptSpSpentText" xml:space="preserve">
+    <value>{0} beceri puanın kaldı.</value>
+    <comment>SPOptimizer result text to inform user about how many SP he has left after he followed the optimization suggestion</comment>
+  </data>
+  <data name="SpOptNextSkillButNotEnoughSp" xml:space="preserve">
+    <value>Bir sonraki beceri {0} olurdu ama çok pahalı ({1} SP)</value>
+    <comment>SPOptimizer: Attention text to tell the player which skill would be the next but is not contained in the list because there is just too few skill points left</comment>
+  </data>
+  <data name="SpOptNextSkillIncludedButNotEnoughSp" xml:space="preserve">
+    <value>Son beceri ({0}) SP {1} maliyeti ve sadece harcamak için kalan {2} SP var.</value>
+    <comment>SPOptimizer: Attention text to tell the player that his upgrade list contains a skill which he can not affort.</comment>
+  </data>
+  <data name="ChangeAbyssSavefilePath" xml:space="preserve">
+    <value>Uçurum kaydetme yolunu değiştirme</value>
+    <comment>Settings: Change file path to abyssal savefile</comment>
+  </data>
+  <data name="Skill.HelperBoostMultiCastSkill" xml:space="preserve">
+    <value>Komuta Üstünlüğü</value>
+    <comment>Skill: Warcry Damage per Multi-Cast</comment>
+  </data>
+  <data name="Skill.TapBoostMultiCastSkill" xml:space="preserve">
+    <value>Volkanik Üstünlük</value>
+    <comment>Skill: Fire Sword Damage per Multi-Cast</comment>
+  </data>
+  <data name="PendingPurchasementDetectedText" xml:space="preserve">
+    <value>Bekleyen satınalma tanındı. İşlemi bitirdiyseniz lütfen ayarlar sayfasını ziyaret edin ve satın alımları geri yükle düğmesini tıklatın. Ödemeniz kabul edilirse lütfen tt2master@fistelmann.de</value>
+    <comment>Information text that will be displayed if a user makes a purchasement with pending transaction.</comment>
+  </data>
+  <data name="DailyAutoSnapshotThreshold" xml:space="preserve">
+    <value>Otomatik günlük anlık görüntüler için eşik</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="ExportSnapshotDiff" xml:space="preserve">
+    <value>İki anlık görüntü arasında fark dışa aktarma</value>
+    <comment>Export page</comment>
+  </data>
+  <data name="Artifact98" xml:space="preserve">
+    <value>Parıldayan Yağ</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Skill.BurstDamageMultiCastSkill" xml:space="preserve">
+    <value>İlahi Üstünlük</value>
+    <comment>Skill</comment>
+  </data>
+  <data name="Skill.ShadowCloneMultiCastSkill" xml:space="preserve">
+    <value>Hayalet Üstünlüğü</value>
+    <comment>Skill</comment>
+  </data>
+</root>

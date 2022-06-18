@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             xmlns:conv="clr-namespace:TT2Master.ValueConverter"
+             x:Class="TT2Master.Views.Information.AnnouncementPage"
+             Title="{Binding Title}"
+            >
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+            <conv:BoolConverter x:Key="boolConv" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Command="{Binding MarkAsReadCommand}" Icon="eye_icon"/>
+    </ContentPage.ToolbarItems>
+
+    <!-- Items -->
+    <ListView CachingStrategy="RetainElement" 
+              ItemsSource="{Binding Ann}"
+              BackgroundColor="Transparent"
+              HasUnevenRows="True" 
+              SelectionMode="None">
+
+        <ListView.Behaviors>
+            <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EditCommand}" Converter="{StaticResource ItemTappedConverter}" />
+        </ListView.Behaviors>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Frame OutlineColor="{StaticResource ForegroundDark}" 
+                           BackgroundColor="{StaticResource FrameBackground}" 
+                           Margin="5">
+                        <StackLayout>
+                            <Label Text="* " IsVisible="{Binding IsSeen, Converter={StaticResource boolConv}, ConverterParameter=smellyFart}" />
+                            <Label Text="{Binding Header}" />
+                        </StackLayout>
+                    </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

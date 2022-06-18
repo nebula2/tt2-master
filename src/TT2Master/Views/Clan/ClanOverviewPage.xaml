@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             x:Class="TT2Master.ClanOverviewPage"
+             Title="{Binding Title}">
+    <ScrollView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+             <!--Clan name--> 
+            <Label Grid.ColumnSpan="2" Text="{Binding MyClan.Name}" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+            
+             <!--Clan ID--> 
+            <Frame Grid.Row="1" Grid.Column="0" BackgroundColor="{StaticResource FrameBackground}" Margin="4">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="ID" FontAttributes="Bold"/>
+                    <Label Text="{Binding MyClan.ID}" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Leaders name -->
+            <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="{StaticResource FrameBackground}" Margin="4">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="{x:Static resource:AppResources.Leader}" FontAttributes="Bold"/>
+                    <Label Text="{Binding MyClan.LeaderName}" />
+                </StackLayout>
+            </Frame>
+
+            <!--Raid level --> 
+            <Frame Grid.Row="2" Grid.Column="0" BackgroundColor="{StaticResource FrameBackground}" Margin="4">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="{x:Static resource:AppResources.Score}" FontAttributes="Bold"/>
+                    <Label Text="{Binding MyClan.ClanRaidExpString}" />
+                </StackLayout>
+            </Frame>
+
+             <!--Member count-->
+            <Frame Grid.Row="2" Grid.Column="1" BackgroundColor="{StaticResource NavigationBarColor}" Margin="4">
+                <Grid>
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="{x:Static resource:AppResources.Member}" FontAttributes="Bold"/>
+                        <Label Text="{Binding MyClan.ClanMember.Count}" />
+                    </StackLayout>
+                    
+                    <Button BackgroundColor="Transparent" Command="{Binding EnterMemberCommand}"/>
+                </Grid>
+            </Frame>
+
+            <!--Advanced start -->
+            <Frame Grid.Row="3" Grid.Column="0" BackgroundColor="{StaticResource FrameBackground}" Margin="4">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="{x:Static resource:AppResources.AdvancedStart}" FontAttributes="Bold"/>
+                    <Label Text="{Binding AdvancedStart}" />
+                </StackLayout>
+            </Frame>
+            
+            <!-- Clan Messages -->
+            <Frame Grid.Row="3" Grid.Column="1" BackgroundColor="{StaticResource NavigationBarColor}" Margin="4">
+                <Grid>
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="{x:Static resource:AppResources.ClanMessagesTitle}" FontAttributes="Bold"/>
+                        <Label Text="{Binding MsgCount}" />
+                    </StackLayout>
+                    
+                    <Button BackgroundColor="Transparent" Command="{Binding EnterMessagesCommand}"/>
+                </Grid>
+            </Frame>
+
+            <!--Average Max Stage--> 
+            <Frame Grid.Row="4" Grid.ColumnSpan="2" BackgroundColor="{StaticResource FrameBackground}" Margin="4">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="{x:Static resource:AppResources.AverageMaxStage}" FontAttributes="Bold"/>
+                    <Label Text="{Binding MyClan.AvgMaxStage}" />
+                </StackLayout>
+            </Frame>
+            <!--Description--> 
+            <Frame Grid.Row="5" Grid.ColumnSpan="2" BackgroundColor="{StaticResource FrameBackground}" Margin="4">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="{x:Static resource:AppResources.Description}" FontAttributes="Bold"/>
+                    <Label Text="{Binding MyClan.Description}" />
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </ScrollView>
+</ContentPage>

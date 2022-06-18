@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             x:Class="TT2Master.Views.Information.HowToLogPage"
+             Title="{Binding Title}">
+    <ScrollView>
+        <Grid Margin="2"
+              ColumnDefinitions="*"
+              RowDefinitions="*">
+
+            <!-- Usage -->
+            <Label Text="{x:Static resource:AppResources.HowToLogText}" 
+                   HorizontalOptions="Start" 
+                   VerticalOptions="Start"/>
+        </Grid>
+    </ScrollView>
+</ContentPage>

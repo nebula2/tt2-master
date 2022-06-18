@@ -1,0 +1,41 @@
+trigger:
+  - development
+pool:
+  vmImage: 'windows-latest'
+variables:
+- group: 'TT2Master'
+- name: buildConfiguration
+  value: 'Release'
+- name: outputDirectory
+  value: '$(build.binariesDirectory)/$(buildConfiguration)'
+steps:
+- task: NuGetToolInstaller@1
+  displayName: 'Install NuGet'
+- task: NuGetCommand@2
+  displayName: 'Restoring NuGet Packages'
+  inputs:
+    restoreSolution: '**/*.sln'
+    vstsFeed: 'Nugetti'
+- task: DotNetCoreCLI@2
+  displayName: 'Build'
+  inputs:
+    displayName: 'Build Test Projects'
+    command: build
+    projects: '**/*.Tests/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'
+- task: DotNetCoreCLI@2
+  displayName: "Run Tests"
+  inputs:
+    command: test
+    projects: '**/*.Tests/*.csproj'
+    arguments: '-c $(buildConfiguration) --no-restore --logger trx --collect "Code coverage" --results-directory $(Agent.TempDirectory)'
+    publishTestResults: false
+- task: PublishTestResults@2
+  displayName: 'Pushing Test Results'
+  inputs:
+    testRunner: VSTest
+    testResultsFiles: '**/*.trx'
+    searchFolder: '$(Agent.TempDirectory)'
+- task: PublishCodeCoverageResults@1
+  inputs:
+    summaryFileLocation: '$(Agent.TempDirectory)/**/*.coverage'

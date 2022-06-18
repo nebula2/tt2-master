@@ -1,0 +1,65 @@
+﻿<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" 
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+        <Setter Property="BackgroundColor" Value="#172430" />
+        <Setter Property="Padding" Value="4"/>
+        <Setter Property="NavigationPage.BackButtonTitle" Value="" />
+    </Style>
+
+    <Style TargetType="TabbedPage" ApplyToDerivedTypes="True">
+        <Setter Property="NavigationPage.BackButtonTitle" Value="" />
+    </Style>
+
+    <Style TargetType="NavigationPage" ApplyToDerivedTypes="True">
+        <Setter Property="BackgroundColor" Value="#172430" />
+    </Style>
+
+    <!-- Base Label Style -->
+    <Style TargetType="{x:Type Label}" ApplyToDerivedTypes="True">
+        <!--<Setter Property="FontFamily" Value="{StaticResource LatoThin}" />-->
+        <!--<Setter Property="FontSize" Value="{StaticResource FontSizeRegular}" />-->
+        <Setter Property="TextColor" Value="White" />
+        <Setter Property="MaxLines" Value="99" />
+        <!--<Setter Property="LineBreakMode" Value="WordWrap" />-->
+        <!--<Setter Property="HorizontalOptions" Value="StartAndExpand" />-->
+    </Style>
+
+    <!-- Default Button Style all Buttons inherit from -->
+    <Style TargetType="Button" ApplyToDerivedTypes="True">
+        <Setter Property="BackgroundColor" Value="#23B391" />
+        <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="Padding" Value="2" />
+    </Style>
+    
+    <!-- Base Button Style -->
+    <Style TargetType="{x:Type Button}" x:Key="ButtonBaseStyle">
+        <Setter Property="FontSize" Value="{StaticResource FontSizeRegular}" />
+    </Style>
+
+    <!-- Base Entry Style -->
+    <Style TargetType="{x:Type Entry}" ApplyToDerivedTypes="True">
+        <Setter Property="TextColor" Value="{StaticResource EntryColor}" />
+    </Style>
+
+    <!-- Base Editor Style -->
+    <Style TargetType="{x:Type Editor}" ApplyToDerivedTypes="True">
+        <Setter Property="AutoSize" Value="TextChanges" />
+        <Setter Property="IsSpellCheckEnabled" Value="False" />
+        <Setter Property="IsTextPredictionEnabled" Value="False" />
+        <Setter Property="TextColor" Value="{StaticResource EntryColor}" />
+    </Style>
+
+    <!-- Base Picker Style -->
+    <Style TargetType="Picker" ApplyToDerivedTypes="True">
+        <Setter Property="TextColor" Value="{StaticResource EntryColor}" />
+    </Style>
+
+    <!-- Style for Menu Button in Master Detail Menu -->
+    <Style TargetType="{x:Type Button}" x:Key="MenuButton">
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="HorizontalOptions" Value="Start" />
+        <Setter Property="TextColor" Value="White" />
+    </Style>
+
+</ResourceDictionary>

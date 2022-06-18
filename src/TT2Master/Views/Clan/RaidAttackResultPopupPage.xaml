@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+    xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+    xmlns:resource="clr-namespace:TT2Master.Resources"
+    x:Class="TT2Master.RaidAttackResultPopupPage">
+    <!--You can set an animation in the xaml file or in the csharp code behind-->
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="400"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+
+    <pages:PopupPage.Resources>
+        <ResourceDictionary>
+            <converter:IntEnumConverter x:Key="IntEnum"/>
+            <converter:CoinStringConverter x:Key="CoinStr" />
+            <converter:ArtPercentageConverter x:Key="ArtPerc" />
+        </ResourceDictionary>
+    </pages:PopupPage.Resources>
+
+    <ScrollView>
+        <Grid VerticalOptions="Center" HorizontalOptions="Center" Padding="20, 20, 20, 20" BackgroundColor="{StaticResource FrameBackground}">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Name and Tier -->
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="{Binding Item.PlayerName}" HorizontalOptions="Start"/>
+                <Label Grid.Column="2" HorizontalTextAlignment="End">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Tier " />
+                                <Span Text="{Binding Item.Tier, StringFormat='Lvl: {0}'}" />
+                                <Span Text=" - Zone " />
+                                <Span Text="{Binding Item.Zone}" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Grid>
+
+            <!-- Cards -->
+                <Frame Grid.Row="1" OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <!-- Image -->
+                            <ColumnDefinition Width="50" />
+                            <!-- Text -->
+                        <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Card Image -->
+                        <Image Grid.Column="0" Source="{Binding Item.TapDamageImage}" WidthRequest="50" HeightRequest="50" />
+
+                        <!-- Card Damage -->
+                        <Label Grid.Column="1" Text="{Binding Item.TapDamage, Converter={StaticResource CoinStr}, StringFormat='Dmg: {0}'}"/>
+                    </Grid>
+                </Frame>
+
+                <Frame Grid.Row="2" OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="1">
+                    <Grid>
+                    <Grid.ColumnDefinitions>
+                        <!-- Image -->
+                        <ColumnDefinition Width="50" />
+                        <!-- Text -->
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                        <!-- Card Image -->
+                        <Image Grid.Column="0" Source="{Binding Item.FirstCardImage}" WidthRequest="50" HeightRequest="50" />
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <!-- Card Damage -->
+                        <Label Grid.Row="0" Text="{Binding Item.FirstCardDamage, Converter={StaticResource CoinStr}, StringFormat='Dmg: {0}'}"/>
+
+                        <!-- Card Level -->
+                        <Label Grid.Row="1" Text="{Binding Item.FirstCardLevel, StringFormat='Lv {0}'}"/>
+                    </Grid>
+                    </Grid>
+                </Frame>
+
+                <Frame Grid.Row="3" OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <!-- Image -->
+                            <ColumnDefinition Width="50" />
+                            <!-- Text -->
+                        <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Card Image -->
+                        <Image Grid.Column="0" Source="{Binding Item.SecondCardImage}" WidthRequest="50" HeightRequest="50" />
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <!-- Card Damage -->
+                        <Label Grid.Row="0" Text="{Binding Item.SecondCardDamage, Converter={StaticResource CoinStr}, StringFormat='Dmg: {0}'}"/>
+
+                        <!-- Card Level -->
+                        <Label Grid.Row="1" Text="{Binding Item.SecondCardLevel, StringFormat='Lv {0}'}"/>
+                    </Grid>
+                </Grid>
+                </Frame>
+
+                <Frame Grid.Row="4" OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <!-- Image -->
+                            <ColumnDefinition Width="50" />
+                            <!-- Text -->
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                        <!-- Card Image -->
+                        <Image Grid.Column="0" Source="{Binding Item.ThirdCardImage}" WidthRequest="50" HeightRequest="50" />
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <!-- Card Damage -->
+                        <Label Grid.Row="0" Text="{Binding Item.ThirdCardDamage, Converter={StaticResource CoinStr}, StringFormat='Dmg: {0}'}"/>
+
+                        <!-- Card Level -->
+                        <Label Grid.Row="1" Text="{Binding Item.ThirdCardLevel, StringFormat='Lv {0}'}"/>
+                    </Grid>
+                </Grid>
+                </Frame>
+
+            <!-- Sums -->
+            <Grid Grid.Row="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label Text="Lv" HorizontalOptions="Start"/>
+                <Label Grid.Column="2" HorizontalTextAlignment="End" Text="{Binding Item.TotalCardLevel}"/>
+
+                <Label Text="Taps" Grid.Row="1" HorizontalOptions="Start"/>
+                <Label Grid.Column="2" Grid.Row="1" HorizontalTextAlignment="End" Text="{Binding Item.Taps}"/>
+
+                <Label Text="Total" Grid.Row="2" HorizontalOptions="Start"/>
+                <Label Grid.Column="2" Grid.Row="2" HorizontalTextAlignment="End" Text="{Binding Item.TotalDamage, Converter={StaticResource CoinStr}}"/>
+            </Grid>
+
+            <!-- Close -->
+            <Button Grid.Row="6" Command="{Binding CloseCommand}" Text="{x:Static resource:AppResources.CloseText}" />
+        </Grid>
+    </ScrollView>
+</pages:PopupPage>

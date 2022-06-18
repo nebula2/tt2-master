@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="X5k-f2-b5h">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gAE-YM-kbH">
+            <objects>
+                <viewController id="X5k-f2-b5h" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y8P-hJ-Z43"/>
+                        <viewControllerLayoutGuide type="bottom" id="9ZL-r4-8FZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yd7-JS-zBw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.090196078431372548" green="0.14117647058823529" blue="0.18823529411764706" alpha="1"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" id="1812" alignment="center" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="15" y="35" width="384" height="511"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" id="623" translatesAutoresizingMaskIntoConstraints="NO" ambiguous="YES" text="TT2 Master" adjustsFontSizeToFit="NO">
+                                        <rect key="frame" x="64" y="0.0" width="256.5" height="60"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="textColor" colorSpace="calibratedRGB" red="0.13725490196078433" green="0.70196078431372544" blue="0.56862745098039214" alpha="1"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="622" image="logo_clean.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" ambiguous="YES">
+                                        <rect key="frame" x="0.0" y="60" width="384" height="451"/>
+                                    </imageView>
+                                </subviews>
+                                <edgeInsets key="layoutMargins" top="2" left="2" bottom="2" right="2"/>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint id="2244" firstItem="1812" firstAttribute="top" secondItem="yd7-JS-zBw" secondAttribute="topMargin" constant="15"/>
+                            <constraint id="2246" firstAttribute="trailingMargin" secondItem="1812" secondAttribute="trailing" constant="-5"/>
+                            <constraint id="2248" firstAttribute="bottomMargin" secondItem="1812" secondAttribute="bottom" constant="190"/>
+                            <constraint id="4279" firstItem="1812" firstAttribute="leading" secondItem="yd7-JS-zBw" secondAttribute="leadingMargin" constant="-5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XAI-xm-WK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="349" y="339"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_clean.png" width="1500" height="1500"/>
+    </resources>
+</document>

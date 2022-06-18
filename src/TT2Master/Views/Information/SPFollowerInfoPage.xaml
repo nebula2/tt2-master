@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             x:Class="TT2Master.SPFollowerInfoPage"
+             Title="{Binding Title}"
+            >
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Header -->
+            <Label Grid.Row="0" Text="{Binding HeaderText}" TextColor="{StaticResource EntryColor}" FontSize="Large" Margin="0,0,0,10"/>
+
+            <!-- Intro -->
+            <Label Grid.Row="1" Text="{Binding Introduction}"/>
+
+            <!-- Image one -->
+            <Image  Grid.Row="2" Source="{Binding ImageOne}" Margin="4"/>
+
+            <!-- Descr one -->
+            <Label Grid.Row="3" Text="{Binding ImageOneDescription}"/>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,68 @@
+﻿@page "/assets/assetpushtoprod/{ContainerReference}/{AssetVersion}"
+@implements IAsyncDisposable
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+@if (ContainerReference == null || AssetVersion == null)
+{
+    <h3>Push assets to prod</h3>
+}
+else
+{
+    <h3>@ContainerReference Version @AssetVersion - Push assets to prod</h3>
+}
+
+<div class="form-group">
+    <a class="btn btn-success" href="assetcontainerdetail/@ContainerReference"><i class="oi oi-arrow-left"></i> Navigate back</a>
+</div>
+
+@if (Container?.ProductionContainerReferences != null && Container.ProductionContainerReferences.Count > 0)
+{
+    <AssetPushToProdForm ButtonText="Push assets to production container"
+                         Container="@Container"
+                         IsEnabled="@(IsConnected && !isWorking)"
+                         OnValidSubmit="@((s) => StartPush(s))" />
+}
+else if (Container.ProductionContainerReferences == null)
+{
+    <p><em>Production container references are not loaded yet</em></p>
+}
+else
+{
+    <p><em>This Container has no Production container</em></p>
+}
+
+<hr />
+@if (pushResult != null)
+{
+    <div>
+        <span>Push successful?: @pushResult</span><br />
+    </div>
+    <hr />
+}
+
+@if (messages.Count == 0)
+{
+    <p><em>Validation log</em></p>
+}
+else
+{
+    <p><em>@(messages.First().PercentDone) %</em></p>
+    <table class="table-bordered">
+        <thead>
+            <tr>
+                <td>FinishedWorkItemCount</td>
+                <td>Message</td>
+            </tr>
+        </thead>
+        <tbody id="messagesList">
+            @foreach (var msg in messages)
+            {
+                <tr>
+                    <td>@(msg.FinishedWorkItemCount)</td>
+                    <td>@(msg.Message)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

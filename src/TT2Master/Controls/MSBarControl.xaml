@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TT2Master.MSBarControl">
+  <ContentView.Content>
+      
+      <Grid x:Name="mainGrid">
+            <Grid.ColumnDefinitions>
+                <!-- Current Stage -->
+                <ColumnDefinition Width="Auto" />
+                
+                <!-- Empty space-->
+                <ColumnDefinition Width="*" />
+                
+                <!-- MS -->
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Progress Indicator -->
+            <ProgressBar x:Name="progrBar" Grid.ColumnSpan="3" 
+                         Margin="0,4"
+                         ProgressColor="{StaticResource NavigationBarColor}"
+                         VerticalOptions="Center"/>
+          
+            <!-- Current Stage -->
+            <Label x:Name="currStage" Grid.Column="0" VerticalTextAlignment="Center" VerticalOptions="Center" />
+          
+            <!-- MS -->
+            <Label x:Name="maxStage" Grid.Column="2" VerticalTextAlignment="Center" VerticalOptions="Center"/>
+
+        </Grid>
+  </ContentView.Content>
+</ContentView>

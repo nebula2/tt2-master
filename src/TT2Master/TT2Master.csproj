@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>en</MultilingualFallbackLanguage>
+    <TranslationReport Condition="'$(Configuration)' == 'Release'">true</TranslationReport>
+    <TranslationReport Condition="'$(Configuration)'=='APKRelease'">true</TranslationReport>
+    <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
+    <Configurations>Debug;Release;APKRelease</Configurations>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>2.31.0</Version>
+    <LangVersion>8.0</LangVersion>
+    <ApplicationIcon />
+    <Win32Resource />
+    <NeutralLanguage></NeutralLanguage>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <AssemblyVersion>2.3.1.0</AssemblyVersion>
+    <FileVersion>2.3.1.0</FileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='APKRelease|AnyCPU'">
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
+  <ItemGroup>
+    <Compile Remove="libs\**" />
+    <Compile Remove="Resources\InfoFiles\**" />
+    <EmbeddedResource Remove="libs\**" />
+    <EmbeddedResource Remove="Resources\InfoFiles\**" />
+    <None Remove="libs\**" />
+    <None Remove="Resources\InfoFiles\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ViewModels\ArtifactViewModel.cs" />
+    <Compile Remove="ViewModels\ClanViewModel.cs" />
+    <Compile Remove="ViewModels\PlayerViewModel.cs" />
+    <Compile Remove="Views\ArtifactPage.xaml.cs" />
+    <Compile Remove="Views\ClanPage.xaml.cs" />
+    <Compile Remove="Views\PlayerPage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\ArtifactPage.xaml" />
+    <EmbeddedResource Remove="Views\ClanPage.xaml" />
+    <EmbeddedResource Remove="Views\PlayerPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Model\Localization\SupportedLanguages.cs~RF4161ad85.TMP" />
+    <None Remove="MultilingualResources\TT2Master.cs-CZ.xlf" />
+    <None Remove="MultilingualResources\TT2Master.de-DE.xlf" />
+    <None Remove="MultilingualResources\TT2Master.es-ES.xlf" />
+    <None Remove="MultilingualResources\TT2Master.fr-FR.xlf" />
+    <None Remove="MultilingualResources\TT2Master.hu-HU.xlf" />
+    <None Remove="MultilingualResources\TT2Master.ko-KR.xlf" />
+    <None Remove="MultilingualResources\TT2Master.nl-NL.xlf" />
+    <None Remove="MultilingualResources\TT2Master.pl-PL.xlf" />
+    <None Remove="MultilingualResources\TT2Master.pt-BR.xlf" />
+    <None Remove="MultilingualResources\TT2Master.pt-PT.xlf" />
+    <None Remove="MultilingualResources\TT2Master.ru-RU.xlf" />
+    <None Remove="MultilingualResources\TT2Master.tr-TR.xlf" />
+    <None Remove="MultilingualResources\TT2Master.zh-Hans.xlf" />
+    <!--<None Remove="Resources\debug_save.json" />-->
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Condition=" '$(Configuration)|$(Platform)' == 'Debug' " Include="Resources\debug_save.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="27.1.1" />
+    <PackageReference Include="IdentityModel.OidcClient" Version="4.0.0" />
+    <PackageReference Include="Microcharts" Version="0.9.5.9" />
+    <PackageReference Include="Microcharts.Forms" Version="0.9.5.9" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.3.0" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="4.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Plugin.LocalNotification" Version="5.2.0" />
+    <PackageReference Include="Prism.Plugin.Popups" Version="8.0.76" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="2.80.3" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="Xam.Plugin.Connectivity" Version="4.0.0.190-beta" />
+    <PackageReference Include="Xam.Plugin.HtmlLabel" Version="5.0.0" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="4.0.0.7" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2083" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Prism.DryIoc.Forms" Version="8.1.97" />
+    <PackageReference Include="Xamarin.Forms.DataGrid" Version="4.8.0" />
+    <PackageReference Include="Xamarin.Plugins.Clipboard" Version="2.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TT2Master.Shared\TT2Master.Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\TT2Master.cs-CZ.xlf" />
+    <XliffResource Include="MultilingualResources\TT2Master.de-DE.xlf" />
+    <XliffResource Include="MultilingualResources\TT2Master.es-ES.xlf" />
+    <XliffResource Include="MultilingualResources\TT2Master.fr-FR.xlf" />
+    <XliffResource Include="MultilingualResources\TT2Master.hu-HU.xlf" />
+    <XliffResource Include="MultilingualResources\TT2Master.ko-KR.xlf" />
+    <XliffResource Include="MultilingualResources\TT2Master.nl-NL.xlf" />
+    <XliffResource Include="MultilingualResources\TT2Master.pl-PL.xlf" />
+    <XliffResource Include="MultilingualResources\TT2Master.pt-BR.xlf" />
+    <XliffResource Include="MultilingualResources\TT2Master.pt-PT.xlf" />
+    <XliffResource Include="MultilingualResources\TT2Master.ru-RU.xlf" />
+    <XliffResource Include="MultilingualResources\TT2Master.tr-TR.xlf" />
+    <XliffResource Include="MultilingualResources\TT2Master.zh-Hans.xlf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resources\AppResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Arti\ArtOptVisualSettingsPage.xaml.cs">
+      <DependentUpon>ArtOptVisualSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Arti\ArtOptImageGridPage.xaml.cs">
+      <DependentUpon>ArtOptImageGridPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Assets\AssetInfoPage.xaml.cs">
+      <DependentUpon>AssetInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Automation\AutomationServicePage.xaml.cs">
+      <DependentUpon>AutomationServicePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Automation\ClanAutoExportPage.xaml.cs">
+      <DependentUpon>ClanAutoExportPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clan\TournamentResultPopupPage.xaml.cs">
+      <DependentUpon>TournamentResultPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Equip\CraftingAdvisorPage.xaml.cs">
+      <DependentUpon>CraftingAdvisorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Information\ChangesPage.xaml.cs">
+      <DependentUpon>ChangesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Information\AnnouncementPopupPage.xaml.cs">
+      <DependentUpon>AnnouncementPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Information\AnnouncementPage.xaml.cs">
+      <DependentUpon>AnnouncementPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Information\HowToLogPage.xaml.cs">
+      <DependentUpon>HowToLogPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Raid\ClanRaidOverviewPage.xaml.cs">
+      <DependentUpon>ClanRaidOverviewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Raid\RaidSeedPage.xaml.cs">
+      <DependentUpon>RaidSeedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Raid\RenameClanRaidStuffPopupPage.xaml.cs">
+      <DependentUpon>RenameClanRaidStuffPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Raid\RaidToleranceDetailPage.xaml.cs">
+      <DependentUpon>RaidToleranceDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Raid\RaidToleranceOverviewPage.xaml.cs">
+      <DependentUpon>RaidToleranceOverviewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Reporting\ClanMemberBaseStatsReportPage.xaml.cs">
+      <DependentUpon>ClanMemberBaseStatsReportPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Reporting\ClanMemberRaidStatsReportPage.xaml.cs">
+      <DependentUpon>ClanMemberRaidStatsReportPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Reporting\ClanMemberCompleteReportPage.xaml.cs">
+      <DependentUpon>ClanMemberCompleteReportPage</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Tournament\TournamentMembersPage.xaml.cs">
+      <DependentUpon>TournamentMembersPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clan\PlayerComparePickerPopupPage.xaml.cs">
+      <DependentUpon>PlayerComparePickerPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clan\MemberComparisonPage.xaml.cs">
+      <DependentUpon>MemberComparisonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clan\RaidAttackResultPopupPage.xaml.cs">
+      <DependentUpon>RaidAttackResultPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clan\ClanExportPopupPage.xaml.cs">
+      <DependentUpon>ClanExportPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clan\ClanMsgExportPopupPage.xaml.cs">
+      <DependentUpon>ClanMsgExportPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SP\SPOptConfigurationDetailPage.xaml.cs">
+      <DependentUpon>SPOptConfigurationDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SP\SPOptConfigurationsPage.xaml.cs">
+      <DependentUpon>SPOptConfigurationsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SP\SPOptResultPage.xaml.cs">
+      <DependentUpon>SPOptResultPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SP\SPSplashCalculatorPage.xaml.cs">
+      <DependentUpon>SPSplashCalculatorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Changelog\ChangelogPopupPage.xaml.cs">
+      <DependentUpon>ChangelogPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Equip\EquipAdvSetPopupPage.xaml.cs">
+      <DependentUpon>EquipAdvSetPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Equip\EquipDetailPopupPage.xaml.cs">
+      <DependentUpon>EquipDetailPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Equip\EquipAdvisorPage.xaml.cs">
+      <DependentUpon>EquipAdvisorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Arti\ArtOptSettingsPopupPage.xaml.cs">
+      <DependentUpon>ArtOptSettingsPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clan\BanPlayerPopupPage.xaml.cs">
+      <DependentUpon>BanPlayerPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clan\BannedPlayerPage.xaml.cs">
+      <DependentUpon>BannedPlayerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clan\ClanMessagesOverviewPage.xaml.cs">
+      <DependentUpon>ClanMessagesOverviewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clan\ClanMemberOverviewPage.xaml.cs">
+      <DependentUpon>ClanMemberOverviewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clan\ClanMemberDetailPage.xaml.cs">
+      <DependentUpon>ClanMemberDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Clan\ClanOverviewPage.xaml.cs">
+      <DependentUpon>ClanOverviewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Dashboard\DashboardPage.xaml.cs">
+      <DependentUpon>DashboardPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Export\ExportPage.xaml.cs">
+      <DependentUpon>ExportPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Information\ImportChatBuildsInfoPage.xaml.cs">
+      <DependentUpon>ImportChatBuildsInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Information\StatisticsInfoPage.xaml.cs">
+      <DependentUpon>StatisticsInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Information\SPFollowerInfoPage.xaml.cs">
+      <DependentUpon>SPFollowerInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Changelog\ChangelogInfoPage.xaml.cs">
+      <DependentUpon>ChangelogInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Information\EditBuildsInfoPage.xaml.cs">
+      <DependentUpon>EditBuildsInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Information\OptimizerInfoPage.xaml.cs">
+      <DependentUpon>OptimizerInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Information\WidgetInfoPage.xaml.cs">
+      <DependentUpon>WidgetInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Information\LinksInfoPage.xaml.cs">
+      <DependentUpon>LinksInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\PrivacyPolicyPage.xaml.cs">
+      <DependentUpon>PrivacyPolicyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Navigation\MyMasterDetailPage.xaml.cs">
+      <DependentUpon>MyMasterDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MyPopupPage.xaml.cs">
+      <DependentUpon>MyPopupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Arti\ArtifactDetailPage.xaml.cs">
+      <DependentUpon>ArtifactDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Information\InfoPage.xaml.cs">
+      <DependentUpon>InfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SP\SPBuildsPage.xaml.cs">
+      <DependentUpon>SPBuildsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SP\SPOptPage.xaml.cs">
+      <DependentUpon>SPOptPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SP\SPOptimizerPage.xaml.cs">
+      <DependentUpon>SPOptimizerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Arti\EditBuildPage.xaml.cs">
+      <DependentUpon>EditBuildPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\AboutPage.xaml.cs">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Settings\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Statistics\SnapshotPage.xaml.cs">
+      <DependentUpon>SnapshotPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Statistics\StatisticsPage.xaml.cs">
+      <DependentUpon>StatisticsPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Controls\MSBarControl.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\AppResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Arti\ArtOptCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Dashboard\DashboardConfigPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Dashboard\DashboardShortcutContentlessViewCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Dashboard\DashboardShortcutViewCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Identity\IdentityConnectPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PurchasePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Arti\ArtifactOverviewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Navigation\DefaultNavigationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Navigation\MyMasterDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Navigation\SplashPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Raid\ClanRaidDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Raid\RaidSeedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Raid\RaidStrategyDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Raid\RaidStrategyOverviewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Reporting\ReportPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

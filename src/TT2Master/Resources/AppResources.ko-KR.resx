@@ -1,0 +1,4774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HelloWorld" xml:space="preserve">
+    <value>앱 리소스에서 안녕하세요</value>
+    <comment>Test</comment>
+  </data>
+  <data name="AboutMeHeader" xml:space="preserve">
+    <value>나에 대해</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="CompareValueHeader" xml:space="preserve">
+    <value>값 비교:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="CQAutoResetHeader" xml:space="preserve">
+    <value>CQ 자동 재설정:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="CQCounterHeader" xml:space="preserve">
+    <value>CQ 카운터:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="DescriptionHeader" xml:space="preserve">
+    <value>설명:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="MinsBeforeHeader" xml:space="preserve">
+    <value>분입니다. 하기 전에:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="MyMailHeader" xml:space="preserve">
+    <value>메일:</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="MyNameHeader" xml:space="preserve">
+    <value>내 이름:</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="NotifyHeader" xml:space="preserve">
+    <value>알림:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ResetDayHeader" xml:space="preserve">
+    <value>주 재설정:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ResetLastNotifiedBoss" xml:space="preserve">
+    <value>리셋 마지막 보스를 받은</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ResetTimeHeader" xml:space="preserve">
+    <value>시간을 다시 설정:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="StartService" xml:space="preserve">
+    <value>서비스 시작</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ToSayHeader" xml:space="preserve">
+    <value>말:</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="WeeklyCQHeader" xml:space="preserve">
+    <value>주간 CQ.</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="AppSettings" xml:space="preserve">
+    <value>앱 설정</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="AutoUpdateHeader" xml:space="preserve">
+    <value>자동 업데이트</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="BuildHeader" xml:space="preserve">
+    <value>Build</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="CostCoefficientHeader" xml:space="preserve">
+    <value>비용된 계수:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="CostExpoHeader" xml:space="preserve">
+    <value>비용된 지 수:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="CurrentHeader" xml:space="preserve">
+    <value>현재?</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="DamageBonusHeader" xml:space="preserve">
+    <value>대미 지:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="DefaultCategoryHeader" xml:space="preserve">
+    <value>기본 카테고리:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="DeleteText" xml:space="preserve">
+    <value>삭제</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="DisableAllAds" xml:space="preserve">
+    <value>모든 광고를 해제</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="DisableSmallAds" xml:space="preserve">
+    <value>작은 광고를 사용 하지 않도록 설정</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="EffectHeader" xml:space="preserve">
+    <value>효과:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="EffectPerLvlHeader" xml:space="preserve">
+    <value>Lvl 당 효과:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="FoundTT2Version" xml:space="preserve">
+    <value>TT2 버전 발견</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="GeneralHeader" xml:space="preserve">
+    <value>일반</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="GoldSourceHeader" xml:space="preserve">
+    <value>골드 소스</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="GrowthExpoHeader" xml:space="preserve">
+    <value>지 수 성장.</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="GrowthMaximumHeader" xml:space="preserve">
+    <value>성장 최대:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="GrowthRateHeader" xml:space="preserve">
+    <value>성장 율:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="HeroHeader" xml:space="preserve">
+    <value>Hero</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="HighHeader" xml:space="preserve">
+    <value>높음</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="IngoredArtifactsHeader" xml:space="preserve">
+    <value>Ingored 인공 물</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="InputCCText" xml:space="preserve">
+    <value>범주에 대 한 입력된 이름</value>
+    <comment>CustomCategoryInputPopupPage</comment>
+  </data>
+  <data name="LevelHeader" xml:space="preserve">
+    <value>동일 수준:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="LifeTimeHeader" xml:space="preserve">
+    <value>평생 %</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="LinksHeader" xml:space="preserve">
+    <value>링크</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>로드</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LocalizationHeader" xml:space="preserve">
+    <value>지역화</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LoggingHeader" xml:space="preserve">
+    <value>로깅</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LoggingSwitch" xml:space="preserve">
+    <value>온/오프 로그인</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LowHeader" xml:space="preserve">
+    <value>낮은</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="MediumHeader" xml:space="preserve">
+    <value>매체</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="MilestoneHeader" xml:space="preserve">
+    <value>이정표</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="NameHeader" xml:space="preserve">
+    <value>이름</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="NoAds" xml:space="preserve">
+    <value>광고 없음</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="NumbersScientific" xml:space="preserve">
+    <value>과학적인 숫자</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="OnlyRelevantHeader" xml:space="preserve">
+    <value>만 관련</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="OpenHeader" xml:space="preserve">
+    <value>열기</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerHeader" xml:space="preserve">
+    <value>최적화 프로그램</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="PushingTypeHeader" xml:space="preserve">
+    <value>추진 유형</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="RangeHeader" xml:space="preserve">
+    <value>범위</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="RelicsSpentHeader" xml:space="preserve">
+    <value>유물을 보냈다:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="ReloadCsvAndVersion" xml:space="preserve">
+    <value>CSV 및 버전을 다시 로드</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="ReloadDefaultBuilds" xml:space="preserve">
+    <value>기본 빌드를 다시 로드</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="ResetCompareValue" xml:space="preserve">
+    <value>리셋 Comparevalue</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="SaveText" xml:space="preserve">
+    <value>저장</value>
+    <comment>CustomCategoryInputPopupPage</comment>
+  </data>
+  <data name="SettingsHeader" xml:space="preserve">
+    <value>설정</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="ShortHeader" xml:space="preserve">
+    <value>짧은</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="SmallAds" xml:space="preserve">
+    <value>작은 광고</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="StepAmountHeader" xml:space="preserve">
+    <value>단계 크기</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="Supporter" xml:space="preserve">
+    <value>팬</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="SupporterDesc" xml:space="preserve">
+    <value>모든 광고를 사용 하지 않도록 설정 하 고 또한 전용 기능에 대 한 액세스를 얻을. 
+특징은 현재:
+-만들기 자신의 빌드
+-편집 빌드 및 무게
+-공유 빌드
+-
+사용자 지정 범주를 만들-저장 빌드 클랜 채팅
+-자동 일일 스냅샷
+-에서 좋은 느낌을가지고</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="SwipeText" xml:space="preserve">
+    <value>위쪽에 슬쩍 오른쪽&gt; 를 회전 눌러</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="ToBeContinued" xml:space="preserve">
+    <value>계속</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="UsageHeader" xml:space="preserve">
+    <value>사용</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="VersionHeader" xml:space="preserve">
+    <value>버전</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="VideosHeader" xml:space="preserve">
+    <value>동영상</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="WeightsHeader" xml:space="preserve">
+    <value>무게</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="YoutubeVideo" xml:space="preserve">
+    <value>Youtube 동영상</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ArtifactHeader" xml:space="preserve">
+    <value>아티팩트</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="AlertHeader" xml:space="preserve">
+    <value>경으십시오</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckDefaultSpBuildsText" xml:space="preserve">
+    <value>빌드 검사 기본 SP</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckingDefaultBuildsText" xml:space="preserve">
+    <value>검사 기본 아티팩트 구조</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckingPermissionsText" xml:space="preserve">
+    <value>권한 검사</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckingPurchasementsText" xml:space="preserve">
+    <value>Purchasements 검사</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotCatchFileText" xml:space="preserve">
+    <value>파일을 잡을 하지 수 없습니다.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotFindFileText" xml:space="preserve">
+    <value>파일을 찾을 수 없습니다.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotFindSavefileText" xml:space="preserve">
+    <value>저장 파일 찾을 수 없습니다. 일반적으로 그것은 언 이어야 한다: {0}. 그것에 대 한 검색 하 시겠습니까?</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotGetAdIdText" xml:space="preserve">
+    <value>AdId를 가져올 수 없습니다. TT2 실행?</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotGetFilepathText" xml:space="preserve">
+    <value>파일 경로 가져올 수 없습니다.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotReadGHDbText" xml:space="preserve">
+    <value>GH 데이터베이스 {0}를 읽을 수 없습니다.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotRecreateDefaultBuildsText" xml:space="preserve">
+    <value>기본 빌드를 다시 하지 수 없습니다.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DbFileNotExistsText" xml:space="preserve">
+    <value>DB 파일이 존재 하지 않습니다.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DbFileNotPickedText" xml:space="preserve">
+    <value>DB 파일 하지 사용자에 의해 발탁 됐다.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DontCareText" xml:space="preserve">
+    <value>상관없어요</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="FirstStartInfoText" xml:space="preserve">
+    <value>먼저 시작-탭 타이탄 실행 될 필요가</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="KeepUpText" xml:space="preserve">
+    <value>포기 하지 마십시오. 다시 한 번 시도해 보세요. 시작은 때때로 실패할 수 있습니다.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="LoadingSavefileText" xml:space="preserve">
+    <value>Savefile 로드</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="NoText" xml:space="preserve">
+    <value>아니요</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="PermissionNotGrantedText" xml:space="preserve">
+    <value>부여 되지 않은 권한</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="PromptDbFilePath" xml:space="preserve">
+    <value>DB 파일을 선택 하십시오. {0}를 해야 정상적으로</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="SendToDevText" xml:space="preserve">
+    <value>개발자에 게 보내기</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="StartMainAppText" xml:space="preserve">
+    <value>주요 응용 프로그램 시작</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="YesText" xml:space="preserve">
+    <value>예</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="AlreadyPurchasedIncludingText" xml:space="preserve">
+    <value>당신은 이미 이것을 포함 하는 패키지를 구입</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="AlreadyPurchasedText" xml:space="preserve">
+    <value>당신은 이미이 구입한</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="BuildsRestoredText" xml:space="preserve">
+    <value>빌드 복원</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ErrorHeader" xml:space="preserve">
+    <value>오류</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="FilesDownloadedText" xml:space="preserve">
+    <value>파일 다운로드</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="InfoHeader" xml:space="preserve">
+    <value>정보</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ItemNotPurchasedText" xml:space="preserve">
+    <value>항목 구입 하지</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ItemPurchasedText" xml:space="preserve">
+    <value>감사 합니다:) 하시기 바랍니다 다시 시작 응용 프로그램</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="LoggingActiveText" xml:space="preserve">
+    <value>로깅이 활성화 됩니다. 비활성화?</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="LoggingInactiveText" xml:space="preserve">
+    <value>로깅 활성화? {0}에서 문서 폴더에 저장 됩니다.</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="NotSet" xml:space="preserve">
+    <value>설정 하지</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="OKText" xml:space="preserve">
+    <value>그래</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ProblemRestoringDefaultBuildsText" xml:space="preserve">
+    <value>기본 빌드 복원 문제</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="BossTimerDescription" xml:space="preserve">
+    <value>이 기능은 새로운 보스 나타나면 알려 줍니다. 에 "알림"을 설정 합니다. 그 후, 분 사전에 상사에 대 한 정보를 얻을 하려는 경우에 값을 설정 합니다. 0에서 300 사이의 값을 입력 합니다. 처음 사용 하 여, "서비스 시작" 버튼을 눌러 해야 합니다. "리셋 마지막 통보 보스"-버튼 생각 통지 아무것도 아직 (리셋 같은 킨) 서비스를 수 있습니다.</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="BuildInfoText" xml:space="preserve">
+    <value>-당신의 playstile에 따라 따라 빌드를 선택 합니다.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>취소</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="CouldNotFillDataText" xml:space="preserve">
+    <value>데이터를 채울 수 없습니다.</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="CouldNotFindText" xml:space="preserve">
+    <value>아무것도 찾을 수 없습니다.</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="CouldNotLoadFileText" xml:space="preserve">
+    <value>파일을 로드할 수 없습니다.</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="CouldNotLoadSkillsText" xml:space="preserve">
+    <value>능력을 로드할 수 없습니다.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="CouldNotSaveExceptionText" xml:space="preserve">
+    <value>저장 하지 못했습니다. </value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="CurrSPInfoText" xml:space="preserve">
+    <value>현재 SP의 양을 표시합니다</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="DestroyText" xml:space="preserve">
+    <value>파괴</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="ExportedToText" xml:space="preserve">
+    <value>수출: </value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="ExportQuestionText" xml:space="preserve">
+    <value>이 내보내기 하 시겠습니까?</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="FinishedText" xml:space="preserve">
+    <value>완료</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="MilestoneInfoText" xml:space="preserve">
+    <value>SPBuilds는 여러 단계로 지출 당신의 스킬 포인트 안내. 그들은 소위 이정표도 구분 됩니다. 각 이정표는 양의 SP 그것을 완수 해야 할 필요가 있다.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="OnlyForSupporterInfoText" xml:space="preserve">
+    <value>팬 팩을 구입 하는 사용자에 대해서만</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="OpenVideoText" xml:space="preserve">
+    <value>오픈 비디오</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="PrivacyPolicyHeader" xml:space="preserve">
+    <value>개인 정보 보호 정책</value>
+    <comment>PrivacyPolicyVM</comment>
+  </data>
+  <data name="ResetCQCompareValueText" xml:space="preserve">
+    <value>당신의 현재 cq 수 (온라인에 저장 된 값)을 Resetted CqCompareValue</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="ResetLastBossText" xml:space="preserve">
+    <value>Resetted 마지막 보스</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="ServiceStartedText" xml:space="preserve">
+    <value>서비스 시작 또는 실행 하는 경우 업데이트</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="SettingsSavedText" xml:space="preserve">
+    <value>설정 저장</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="ShortInfoText" xml:space="preserve">
+    <value>선택한 빌드에 있는 기술만을 표시 합니다. 다시 로드 후 적용이 됩니다.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="SPBuildDescText" xml:space="preserve">
+    <value>SP 빌드 추종자와 함께 일반적인 빌드를 따를 수 있습니다.</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="SPEditBuildsTitle" xml:space="preserve">
+    <value>SP 빌드 편집</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="SPReqInfoText" xml:space="preserve">
+    <value>이 이정표를 통과 해야 {0} SP</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="VersionInfoText" xml:space="preserve">
+    <value>TT2 버전이이 빌드는 위해 설계 되었습니다.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="WidgetDescriptionText" xml:space="preserve">
+    <value>알고 계십니까?
+나는 당신을 위한 위젯이 있습니다. 탭 타이탄을 시작 하지 않고도 다음 토너먼트가 시작 되는 시기와 얻을 수 있는 가격에 대해 항상 알려 드립니다.</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="ArtifactDetailHeader" xml:space="preserve">
+    <value>유물 정보</value>
+    <comment>ArtDetailVM</comment>
+  </data>
+  <data name="ArtifactOverviewHeader" xml:space="preserve">
+    <value>아티팩트 개요</value>
+    <comment>ArtOverviewVM</comment>
+  </data>
+  <data name="AttentionHeader" xml:space="preserve">
+    <value>주의</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="AvailableSPInfoText" xml:space="preserve">
+    <value>보낼 수 있는 SP의 양을 보여 줍니다.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="BosInfoText" xml:space="preserve">
+    <value>얼마나 많은 당신의 모든 얻은 유물 해야 투자 책의 그림자로?</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="BuildExistsText" xml:space="preserve">
+    <value>빌드 존재합니다. 덮어쓸 하 시겠습니까?</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="BuildFirstLetterRestrictionText" xml:space="preserve">
+    <value>첫 번째 문자는 "_" 될 수 없습니다. 기본 빌드에 대 한 예약</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="BuildImportedText" xml:space="preserve">
+    <value>성공적으로 가져온 구축</value>
+    <comment>BuildsVM</comment>
+  </data>
+  <data name="BuildNotImportedText" xml:space="preserve">
+    <value>가져오지 구축</value>
+    <comment>BuildsVM</comment>
+  </data>
+  <data name="BuildsHeader" xml:space="preserve">
+    <value>빌드</value>
+    <comment>BuildsVM</comment>
+  </data>
+  <data name="CategoryAlreadyExistsText" xml:space="preserve">
+    <value>카테고리는 이미 존재</value>
+    <comment>CCInputVM</comment>
+  </data>
+  <data name="ChangesSavedText" xml:space="preserve">
+    <value>변경 내용 저장</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="CouldNotFillArtifactsText" xml:space="preserve">
+    <value>아티팩트를 기입 하지 수 없습니다.</value>
+    <comment>ArtOverviewVM</comment>
+  </data>
+  <data name="CurrentBuildCannotBeDeletedText" xml:space="preserve">
+    <value>현재 빌드를 삭제할 수 없습니다.</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="DeletedText" xml:space="preserve">
+    <value>삭제</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="EditBuildHeader" xml:space="preserve">
+    <value>빌드를 편집</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="FileNotExportedText" xml:space="preserve">
+    <value>파일을 내보낼 수 없습니다</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="FileSavedToText" xml:space="preserve">
+    <value>파일에 저장:</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="FillNameFirstText" xml:space="preserve">
+    <value>먼저 이름 채우기</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="HeroDamageInfoText" xml:space="preserve">
+    <value>손상의 어떤 종류는 당신의 가장 강한 영웅 거래?</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="HeroDamageTypeHeader" xml:space="preserve">
+    <value>영웅 피해 유형</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="HeroRangeInfoText" xml:space="preserve">
+    <value>현재 영웅 근접 또는 원거리?</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="LifeTimeInfoText" xml:space="preserve">
+    <value>제안 된 수준의 결과 조작 하는 값입니다. 이 가치 높은, 높은 제안된 수준. (단지에 대 한 시각적 측정)</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="MenuAboutTitle" xml:space="preserve">
+    <value>나에 대해</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuArtifactOverviewTitle" xml:space="preserve">
+    <value>아티팩트 개요</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuBossTimerTitle" xml:space="preserve">
+    <value>보스 타이머 설정</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuInfoTitle" xml:space="preserve">
+    <value>가이드</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuOptimizerTitle" xml:space="preserve">
+    <value>예술입니다. 최적화 프로그램</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuPrivacyPolicyTitle" xml:space="preserve">
+    <value>개인 정보 보호 정책</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuPurchaseTitle" xml:space="preserve">
+    <value>구매</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuSettingsTitle" xml:space="preserve">
+    <value>설정</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="NoCurrentBuildSelectedText" xml:space="preserve">
+    <value>먼저 현재 빌드를 선택 하십시오. 천칭 자리 아이콘에가 서 주 메뉴에서. 거기 당신이 빌드 선택 '현재'를 누릅니다. 그것을 저장 하 고 갈 수 있습니다.</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="PushTypeInfoText" xml:space="preserve">
+    <value>온라인 또는 오프 라인 재생 합니까? 활성/비활성</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="RelationshipDeletedText" xml:space="preserve">
+    <value>관계 삭제</value>
+    <comment>ArtDetailVM</comment>
+  </data>
+  <data name="SaveFirstText" xml:space="preserve">
+    <value>먼저 저장</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="SelectCurrentBuildPromptText" xml:space="preserve">
+    <value>여기에 현재 빌드를 선택 하십시오</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="SomeWeightsNotLoadedText" xml:space="preserve">
+    <value>어쩌면 일부 무게 했다 로드 되지 않습니다. 저장 하 고 다시 입력 하십시오</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="StepAmountInfoText" xml:space="preserve">
+    <value>이에 반올림 됩니다 레벨 제안</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="SureToDeleteText" xml:space="preserve">
+    <value>물론을이 삭제?</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="WantToSaveBuildText" xml:space="preserve">
+    <value>빌드 저장 되지 않습니다. 저장 하 시겠습니까?</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="Artifact1" xml:space="preserve">
+    <value>영웅 방패</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact10" xml:space="preserve">
+    <value>라그나로크의 부활한</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact11" xml:space="preserve">
+    <value>타이탄 마스크</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact12" xml:space="preserve">
+    <value>늪 결투</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact13" xml:space="preserve">
+    <value>금지 된 스크롤</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact14" xml:space="preserve">
+    <value>이지스</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact15" xml:space="preserve">
+    <value>충성의 반지</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact16" xml:space="preserve">
+    <value>빙하 도끼</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact17" xml:space="preserve">
+    <value>광 기의 헬멧</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact18" xml:space="preserve">
+    <value>행운의 달걀</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact19" xml:space="preserve">
+    <value>만족의 가슴</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact2" xml:space="preserve">
+    <value>Valrunes의 돌</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact20" xml:space="preserve">
+    <value>예언의 책</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact21" xml:space="preserve">
+    <value>신성한 성배</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact22" xml:space="preserve">
+    <value>그림자의 책</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact23" xml:space="preserve">
+    <value>티타늄 도금</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact24" xml:space="preserve">
+    <value>래 디 언스의 직원</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact25" xml:space="preserve">
+    <value>다 모 클레 스의 블레이드</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact26" xml:space="preserve">
+    <value>헤븐 리 소드</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact27" xml:space="preserve">
+    <value>쿠마의 장갑</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact28" xml:space="preserve">
+    <value>자 직원</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact29" xml:space="preserve">
+    <value>술 취한 망치</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact3" xml:space="preserve">
+    <value>아 케 망 토</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact30" xml:space="preserve">
+    <value>영향력 있는 연금 약 액</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact31" xml:space="preserve">
+    <value>신성한 보복</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact32" xml:space="preserve">
+    <value>폭풍의 검</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact33" xml:space="preserve">
+    <value>있다 활</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact34" xml:space="preserve">
+    <value>고 대의 매력</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact35" xml:space="preserve">
+    <value>영웅의 블레이드</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact36" xml:space="preserve">
+    <value>무한 진 자</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact37" xml:space="preserve">
+    <value>오크 직원</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact38" xml:space="preserve">
+    <value>에덴의 열매</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact39" xml:space="preserve">
+    <value>타이탄 창</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact4" xml:space="preserve">
+    <value>된의 도끼</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact40" xml:space="preserve">
+    <value>Calisto의 반지</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact41" xml:space="preserve">
+    <value>로얄 독 소</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact42" xml:space="preserve">
+    <value>조류 깃털</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact43" xml:space="preserve">
+    <value>쟈 킨 토스 동전</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact44" xml:space="preserve">
+    <value>좋은 페이 메달</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact45" xml:space="preserve">
+    <value>Ebizu의 동전</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact46" xml:space="preserve">
+    <value>손상 된 룬 마음</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact47" xml:space="preserve">
+    <value>침입자의 Gjalarhorn</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact48" xml:space="preserve">
+    <value>팬텀 계시 기</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact49" xml:space="preserve">
+    <value>마스터의 검</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact5" xml:space="preserve">
+    <value>침입자의 방패</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact50" xml:space="preserve">
+    <value>신들의 영약</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact51" xml:space="preserve">
+    <value>Samosek 칼</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact52" xml:space="preserve">
+    <value>폭풍의 심장</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact53" xml:space="preserve">
+    <value>아폴로 구</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact54" xml:space="preserve">
+    <value>Kitsune의 본질</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact55" xml:space="preserve">
+    <value>Durendal 칼</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact56" xml:space="preserve">
+    <value>Helheim 두개골</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact57" xml:space="preserve">
+    <value>아람 창</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact58" xml:space="preserve">
+    <value>미 스틱 직원</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact59" xml:space="preserve">
+    <value>Retaliator</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact6" xml:space="preserve">
+    <value>에덴의</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact60" xml:space="preserve">
+    <value>암흑의 구</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact61" xml:space="preserve">
+    <value>작은 타이탄 트리</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact62" xml:space="preserve">
+    <value>헤르메스의</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact63" xml:space="preserve">
+    <value>킹의 마스크를 분실</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact64" xml:space="preserve">
+    <value>O'Ryan의 매력</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact65" xml:space="preserve">
+    <value>참을성의 모래 시계</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact66" xml:space="preserve">
+    <value>Khrysos 보 울</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact67" xml:space="preserve">
+    <value>Portara의 귀걸이</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact68" xml:space="preserve">
+    <value>Senzu의 신비한 콩</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact69" xml:space="preserve">
+    <value>알-미의 럭키 발</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact7" xml:space="preserve">
+    <value>선 견의 양피지</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact70" xml:space="preserve">
+    <value>헤르메스의 부츠</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact71" xml:space="preserve">
+    <value>Morgelai 칼</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact72" xml:space="preserve">
+    <value>오 베론 펜 던 트</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact73" xml:space="preserve">
+    <value>달빛 팔찌</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact74" xml:space="preserve">
+    <value>언바운드 결투</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact75" xml:space="preserve">
+    <value>선 서의 부담</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact76" xml:space="preserve">
+    <value>별자리의 크라운</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact77" xml:space="preserve">
+    <value>티 타 니 아의 왕위</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact78" xml:space="preserve">
+    <value>Fagin의 그립</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact79" xml:space="preserve">
+    <value>네 코 조각</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact8" xml:space="preserve">
+    <value>헌터의 연 고</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact80" xml:space="preserve">
+    <value>돋보기</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact81" xml:space="preserve">
+    <value>Fergus의 보물</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact82" xml:space="preserve">
+    <value>청동 빛으로 나침반</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact83" xml:space="preserve">
+    <value>Stryfe의 평화</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact84" xml:space="preserve">
+    <value>플루트는 들은의</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact85" xml:space="preserve">
+    <value>데르 백색 왜성</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact9" xml:space="preserve">
+    <value>노무자의 펜 던 트</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="PurchaseHeader" xml:space="preserve">
+    <value>구매</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="AboutMeMessage" xml:space="preserve">
+    <value>이것은 이제까지 내 첫번째 App 이다. :) 위의 주소를 bugreports 또는 제안 메일에 대 한 친절 하시기 바랍니다. 추가 배포 실현을 지 원하는 경우 그것은 좋을 것 이다. 문제가 있을 경우는 tt2startuplog.txt을 보내주시기 바랍니다. 당신은 문서 폴더에 그것을 발견할 것 이다.</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="AvailableSPText" xml:space="preserve">
+    <value>사용할 수 있는 SP</value>
+    <comment>SPOptimizerPage</comment>
+  </data>
+  <data name="CategoryHeader" xml:space="preserve">
+    <value>카테고리</value>
+    <comment>Artifact</comment>
+  </data>
+  <data name="CostText" xml:space="preserve">
+    <value>비용</value>
+    <comment>SPOptimizerPage</comment>
+  </data>
+  <data name="LevelUpAmountText" xml:space="preserve">
+    <value>증가</value>
+    <comment>SPOptimizerPage</comment>
+  </data>
+  <data name="NewLanguageHeader" xml:space="preserve">
+    <value>새로운 언어</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="NewLanguageText" xml:space="preserve">
+    <value>귀하의 네이티브 언어를 원하십니까? 저에 게 연락 하 고 우리:) 함께 할 것입니다.</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>오프라인</value>
+    <comment>PushTypeEnum</comment>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>온라인</value>
+    <comment>PushTypeEnum</comment>
+  </data>
+  <data name="BossGold" xml:space="preserve">
+    <value>보스 골드</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="ChestersonGold" xml:space="preserve">
+    <value>Chesterson 골드</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="FairyGold" xml:space="preserve">
+    <value>요정 골드</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="Flying" xml:space="preserve">
+    <value>플 라 잉</value>
+    <comment>HeroBaseTypeEnum</comment>
+  </data>
+  <data name="Ground" xml:space="preserve">
+    <value>지상</value>
+    <comment>HeroBaseTypeEnum</comment>
+  </data>
+  <data name="Melee" xml:space="preserve">
+    <value>난 투 극</value>
+    <comment>HeroDmgTypeEnum</comment>
+  </data>
+  <data name="NormalMobGold" xml:space="preserve">
+    <value>일반 몹 골드</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="pHoM" xml:space="preserve">
+    <value>pHoM</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="Ranged" xml:space="preserve">
+    <value>원거리</value>
+    <comment>HeroDmgTypeEnum</comment>
+  </data>
+  <data name="Spell" xml:space="preserve">
+    <value>맞춤법</value>
+    <comment>HeroDmgTypeEnum</comment>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>금요일</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>월요일</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>토요일</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>일요일</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>목요일</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>화요일</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>수요일</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="MyMailText" xml:space="preserve">
+    <value>메일 보내기</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="BeginSavingX" xml:space="preserve">
+    <value>{0} 저장 시작</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="CheckingDefaultBuilds" xml:space="preserve">
+    <value>빌드 기본 검사</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="CurrentBuildExists" xml:space="preserve">
+    <value>현재 빌드 존재</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="DeletingX" xml:space="preserve">
+    <value>{0} 삭제 중</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="InitSpBuildList" xml:space="preserve">
+    <value>SP 빌드 목록 초기화</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="LookingForX" xml:space="preserve">
+    <value>{0}에 대 한 보고</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="MilestoneX" xml:space="preserve">
+    <value>이정표 {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="NoCurrentBuildReaction" xml:space="preserve">
+    <value>아니 현재 빌드 발견입니다. {0}로 설정</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="RetrievingStoredDefaultBuilds" xml:space="preserve">
+    <value>검색 저장된 기본 빌드</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="SavingX" xml:space="preserve">
+    <value>{0} 저장</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="SecuringCurrentBuild" xml:space="preserve">
+    <value>현재 빌드를 확보</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="ExportTitle" xml:space="preserve">
+    <value>내보내기</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ExportText" xml:space="preserve">
+    <value>유물 및 SP 정보</value>
+    <comment>Export</comment>
+  </data>
+  <data name="BuildNotFoundText" xml:space="preserve">
+    <value>현재 기본 찾을 수 없습니다. {0}로 설정</value>
+    <comment>SPOptimizerVM</comment>
+  </data>
+  <data name="ErrorOccuredText" xml:space="preserve">
+    <value>오류가 발생 했습니다.</value>
+    <comment>ExportVM</comment>
+  </data>
+  <data name="ClanTitle" xml:space="preserve">
+    <value>일족</value>
+    <comment>ClanOverviewPage</comment>
+  </data>
+  <data name="AverageMaxStage" xml:space="preserve">
+    <value>평균 최대 단계</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>설명</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="Member" xml:space="preserve">
+    <value>구성원</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>순위</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="ReadingClanData" xml:space="preserve">
+    <value>일족 데이터 읽기</value>
+    <comment>SafeFile</comment>
+  </data>
+  <data name="ReadingClanMemberX" xml:space="preserve">
+    <value>클랜 멤버 {0}를 읽고</value>
+    <comment>SafeFile</comment>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>점수</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="ClanMemberTitle" xml:space="preserve">
+    <value>일족 회원</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="CQAmount" xml:space="preserve">
+    <value>CQ 금액</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="CurrentStage" xml:space="preserve">
+    <value>현재 단계</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="LastTimeSeen" xml:space="preserve">
+    <value>마지막으로 본</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="MaximumStage" xml:space="preserve">
+    <value>최대. 단계</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="TournamenAmount" xml:space="preserve">
+    <value>대회 금액</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="ClanMessagesTitle" xml:space="preserve">
+    <value>일족 메시지</value>
+    <comment>ClanMessages</comment>
+  </data>
+  <data name="ClickToView" xml:space="preserve">
+    <value>클릭 하 여 보기</value>
+    <comment>ClanMessage</comment>
+  </data>
+  <data name="SharedBuildFrom" xml:space="preserve">
+    <value>공유 빌드</value>
+    <comment>ClanMessage</comment>
+  </data>
+  <data name="Artifact86" xml:space="preserve">
+    <value>왕족의 검</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact87" xml:space="preserve">
+    <value>Spearit's Vigil</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact88" xml:space="preserve">
+    <value>코발트 플레이트</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact89" xml:space="preserve">
+    <value>판단의 sigils</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact90" xml:space="preserve">
+    <value>골키퍼의 단풍</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="ExportSmallTitle" xml:space="preserve">
+    <value>작은 수출</value>
+    <comment>Export</comment>
+  </data>
+  <data name="BannedPlayersTitle" xml:space="preserve">
+    <value>금지 플레이어</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="NotDeletedText" xml:space="preserve">
+    <value>삭제 하지 않았다</value>
+    <comment>General</comment>
+  </data>
+  <data name="SureToBanText" xml:space="preserve">
+    <value>이 선수를 금지 하 시겠습니까?</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="BannedReason" xml:space="preserve">
+    <value>이유</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="PlayerAlreadyBanned" xml:space="preserve">
+    <value>선수는 이미 금지</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="PlayerIsBanned" xml:space="preserve">
+    <value>선수는 금지</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="BannedPlayersInClan" xml:space="preserve">
+    <value>일족에서 금지 플레이어!</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="NotAllValuesEntered" xml:space="preserve">
+    <value>모든 값 입력</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="ClickSuggestionInfoHeader" xml:space="preserve">
+    <value>클릭 제안</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="ClickSuggestionInfoText" xml:space="preserve">
+    <value>최적화 프로그램에서이 설정 하면 각 유물에 할 필요가 클릭의 양을 계산 합니다. 계산이이 옵션을 사용 하는 경우 시간이 좀 걸릴 수 있습니다 고려 하시기 바랍니다. 
+PS: 최고 권장된 유물-도 한 단계 구입 충분 한 유물에 사용 하지 않은 것이 현재 최적화 목록에서 단 하나의 유물 표시 됩니다</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="StepAmountTooLow" xml:space="preserve">
+    <value>단계 금액 너무 낮습니다. 최적화 과정은 나를 걸릴 것 이다. 
+제발 증가 단계 나 평생 %</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="RelicsTooLow" xml:space="preserve">
+    <value>유적 금액 처리 하는 데 너무 낮습니다.</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="BosTourneyInfoText" xml:space="preserve">
+    <value>대회에서 보스-백분율</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="CopyContentToClipboard" xml:space="preserve">
+    <value>클립보드에 복사 콘텐츠</value>
+    <comment>Export</comment>
+  </data>
+  <data name="SaveToDownloads" xml:space="preserve">
+    <value>다운로드 저장</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ShareFile" xml:space="preserve">
+    <value>공유 파일</value>
+    <comment>Export</comment>
+  </data>
+  <data name="FeatureNotImplementedYet" xml:space="preserve">
+    <value>아직 구현 되지 않은 기능</value>
+    <comment>General</comment>
+  </data>
+  <data name="Copied" xml:space="preserve">
+    <value>복사</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>통계</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>저장</value>
+    <comment>General</comment>
+  </data>
+  <data name="DeleteOldClanData" xml:space="preserve">
+    <value>오래 된 일족 데이터 삭제</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="MaxSnapshotAmount" xml:space="preserve">
+    <value>최대입니다. 스냅숏 금액</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="SevenDays" xml:space="preserve">
+    <value>7 일</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="ThirtyDays" xml:space="preserve">
+    <value>30 일</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="HundredDays" xml:space="preserve">
+    <value>100 일</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="IncreasedXStages" xml:space="preserve">
+    <value>증가 {0} 단계</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="PleaseCheckSettings" xml:space="preserve">
+    <value>설정을 확인 하시기 바랍니다</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>언어 선택</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="Changelog" xml:space="preserve">
+    <value>변경 로그</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildFromChat" xml:space="preserve">
+    <value>채팅에서 가져오기 빌드</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="HowTo" xml:space="preserve">
+    <value>어떻게</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="WidgetOutsideDescription" xml:space="preserve">
+    <value>현재 실행에 대 한 무료 장비 방울에 대 한 정보도 있습니다. 
+마지막으로 당신은 당신의 매일 업적에 대 한 정보를 얻을. </value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildFromChatDesc" xml:space="preserve">
+    <value>클랜 채팅-당신의 일족에서 누군가 그의 스킬 트리를 게시물 경우와 비교할 수 있습니다이 자신에 또한 저장 의미에서 SP 빌드를 가져올 수 있습니다. 이렇게-일족 메시지 이동 
+</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildImgOneDesc" xml:space="preserve">
+    <value>"빌드"에서 빌드를 열을 클릭할 수 있다.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildImgTwoDesc" xml:space="preserve">
+    <value>거기에서 당신은 능력 차이 보거나 저장을 클릭할 수 있다.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsImgOneDesc" xml:space="preserve">
+    <value>통계 주 메뉴에서 새 스냅숏을 만들 수 있습니다. 팬에 대 한 자동 스냅숏 생성 스냅숏 응용 프로그램을 열 때마다 (그리고 하루에 하나씩 계속)입니다. 
+위의 버튼 하면 수동으로 새 스냅숏을 만들 수 있습니다. 
+아래는 그것에 클릭 하 여 입력할 수 있습니다 당신의 저장 된 스냅샷 목록을 찾을 수 있습니다.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsImgThreeDesc" xml:space="preserve">
+    <value>일족 회원을 입력 하면 저장 된 스냅샷에서 수집 되는 몇 가지 정보를 볼 수 있습니다. 
+보면 얼마나 많은 단계, TP와 일족 퀘스트 선수 증가</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsImgTwoDesc" xml:space="preserve">
+    <value>이것은 스냅숏 상세 보기 이다. 당신의 일족에 있는 각 멤버에 대 한 당신은 이름 또는 최대 무대 같은 몇 가지 정보를 참조. 
+여기는 분야에서 의미 하는 무슨의 목록:
+CQ-t: 총 일족 퀘스트
+CQ-w: 일족 퀘스트 이번 주
+Tourn.: 금액 대 회의 선수
+TP에 합류 했다: TP 적립 플레이어의 총 금액.
+ 
+빈을 클릭 하 여 스냅숏을 삭제 하 고 화살표를 클릭 하 여 csv 파일에 스냅숏을 내보낼 것 이다.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsIntroduction" xml:space="preserve">
+    <value>통계 모듈 그리고 당신은 일족 동료의 진행 상황에 대 한 몇 가지 정보를 제공 하기 위한 것입니다 그리고 "스냅샷"으로 구분. 
+각 스냅샷 내보내기 또는 스냅샷 설정 메뉴에 저장 해야 하는 최대 크기를 설정할 수 있습니다의 너무 높은 컬렉션을 방지 하기 위해 약
+에서에서 볼 수 있는 관련 정보를 보유 합니다.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildImgOneDesc" xml:space="preserve">
+    <value>도구 모음에서 어떤 단추를 찾을 수 있습니다. 그들은 다음을 수행 하는 왼쪽에서 오른쪽: 저장, 삭제, 복사, 내보내기. 빌드를 입력할 때 
+는 "일반" 탭에 있습니다. 이름과 골드 소스를 설정할 수 있습니다. 무게를 얻으려면 오른쪽 
+탐색.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildImgTwoDesc" xml:space="preserve">
+    <value>각 범주에 대 한 무게 집합이입니다. 카테고리는 유물 개요에서 입력할 수 있는 유물 자세히 볼 수 있습니다. 
+무게 값은 말하고 최적화 범주는 효율적인 경우 또는 아닙니다. 높은 범주는 값 보다 효율적. 
+이동 무시 아티팩트를 얻을 수 있는 권리를.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildIntroduction" xml:space="preserve">
+    <value>유물 최적화 빌드를 사용 하 여 아티팩트의 효율성을 결정. 이 자습서 당신이 필요한 정보를 이해 하 고 귀하의 개인 환경 설정에 맞게 조작 해야한다. 
+빌드, 빌드에 navigato를 편집 하 고 편집 하려면 빌드 클릭 하.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="SPFollowerHeader" xml:space="preserve">
+    <value>Sp 추종자</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="SPFollowerImgOneDesc" xml:space="preserve">
+    <value>항목을 왼쪽 정보 버튼을 클릭 하는 경우 필드의 의미에 대 한 설명을 얻을 것 이다.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="SPFollowerIntroduction" xml:space="preserve">
+    <value>SP 추종자와 함께 다른 스킬 트리를 비교 하 고 그들을 따라 수 있습니다. 일부 빌드는 추적을 쉽게 하는 여러 시점으로 분리. 
+기술 탭-색상 차이 기술 수준에 감당할 수 있는 경우를 나타내는 있습니다. 
+그린:
+최대 수준의 오렌지에 충분 한 스킬 포인트를가지고: 당신이이 수준 해야 하지만 충분 하지 않은 기술 포인트
+레드:이 기술 수준이 너무 높은
+중립: 레벨은 잘</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildImgThreeDesc" xml:space="preserve">
+    <value>여기에 스위치를 클릭 하 여 유물을 무시할 수 있습니다. 아티팩트를 무시 하는 경우 최적화 과정에서 고려 되지 것입니다.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgFourDesc" xml:space="preserve">
+    <value>목록의 마지막 아티팩트에 MAX가 있습니다. 즉, 당신이 여기에 도착 하면 당신은 최대로 당신의 게임 내 단계 금액을 변경 해야 하 고이 유물에 유물의 나머지를 넣어.
+
+"충분 하지 않은 유물" 메시지가 나타나면 다음 두 가지를 의미할 수 있습니다.
+1. 당신은 더 많은 유물을 획득 해야 합니다. 게임, 명성 재생 및 최적화 프로그램을 다시 로드
+2. BoS%가 설정 값 보다 낮습니다. 그림자의 책에 유물을 넣어 또는 설정에서 금액을 줄일</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgOneDesc" xml:space="preserve">
+    <value>최적화 프로그램으로 작업을 시작 하기 전에 설정이 올바른지 확인 하십시오. 
+입력 하려면 그림에서 강조 표시 된 펜을 클릭 하십시오.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgThreeDesc" xml:space="preserve">
+    <value>최적화 프로그램이 작업을 수행 하면 업그레이드할 아티팩트의 목록을 얻게 됩니다. 
+위쪽에서 아래쪽으로 이동 합니다. 
+레벨에 대 한 그림 및 아티팩트 이름이 표시 됩니다. 이름 아래에는 현재 레벨이 표시 되 고 괄호 안에는이 유물에 지나간 유물을 얼마나 많이 사용 하는지 알 수 있습니다.
+
+그 옆에 당신이 버튼을이 아티팩트 레벨을 눌러야 하는 빈도를 알려주는 상자가 나타납니다. 여기에는 12 배 (해당 아티팩트의 업그레이드 버튼을 누르는 것을 의미 합니다) 라고 적혀 있습니다. </value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgTwoDesc" xml:space="preserve">
+    <value>여기에서 설정할 수 있는 설정을 확인 합니다. 
+각 설정의 왼쪽에는 정보 버튼을 찾을 수 있습니다. 그것을 클릭 하 여 설정할 수 있는 항목에 대 한 간단한 설명을 얻으십시오.
+
+먼저 플레이 스타일에 맞는 빌드를 선택 하십시오. 미리 정의 된 빌드를 사용할 수 있습니다 (_ 첫 번째 문자로) 또는 사용자 지정 된 것 중 하나입니다.
+
+그런 다음 푸시 유형을 설정 합니다. 당신은 침묵 3 월에서 활용 하지만 주로 온라인으로 재생 하려면이 "설정 되지 않음"으로 설정 합니다.
+
+다음 단계 금액이 있습니다. 여기에서 사용 하는 동일한 값을 설정 합니다! 
+스텝 양이 낮을수록 최적화가 더욱 정확해 집니다. 하지만 너무 낮은 해서는 안 된다. 최적의 값은 5%입니다. 
+
+BoS 로열티는 토너먼트 외부에서 섀도우 북에 넣을 수 있는 유물의 퍼센트 금액입니다. 
+대부분의 플레이어는 토너먼트 외부와 토너먼트 내부에서 보스를 밀어 내 고 무시 합니다. 
+
+BoS 로열티는 토너먼트 내에서 동일 합니다. 이 값은 토너먼트의 외부 보다 높을 수 없습니다. 대부분의 플레이어는이 값을 0으로 설정 하므로 토너먼트에 있는 동안 그림자 책이 완전히 무시 됩니다.
+
+영웅: 피해 유형이 주문, 근접 또는 원거리 입니까? 이 설정은 아티팩트를 무시 하는 데 사용 됩니다. 근접 무기를 설정 하는 경우 원거리 영웅을 강화 하는 유물을 늘릴 필요가 없습니다.
+
+범위: 위와 동일
+
+골드 소스: 골드 소스를 설정 합니다. 어디에서 금을 얻을 수 있습니까?</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerIntroduction" xml:space="preserve">
+    <value>이 자습서는 아티팩트 최적화 프로그램을 이해 하는 데 도움을 주기 위한 것입니다. 이 최적화 프로그램을 사용 하 여 얻을 수 있는 이점은 어떤 값도 추적할 필요가 없다는 것입니다. 한 번 설정 하 고 실행 하는 것이 좋습니다. 올바른 사용법으로 많은 시간을 절약 할 수 있습니다. 
+우리가 시작 하기 전에 마지막 한 가지: 당신이 당신의 유물을 레벨 업 할 때 당신은 당신의 휴대 전화의 분할 화면 기능을 사용 하는 것이 좋습니다. 상단에 당신은 탭 타이탄 오픈 하 고 버튼에 당신은 최적화. 
+이제 시작 해 보겠습니다. 먼저 우리는 설정으로 다이빙을 합니다. 그 후 우리는 최적화 프로그램에 의해 생성 되는 목록을 살펴 본다.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="DeleteArtSettings" xml:space="preserve">
+    <value>최적화 설정을 삭제합니다</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="DashboardHeader" xml:space="preserve">
+    <value>대시보드</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="Tournament" xml:space="preserve">
+    <value>대회</value>
+    <comment>Tournament</comment>
+  </data>
+  <data name="HS" xml:space="preserve">
+    <value>HS</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="Pet" xml:space="preserve">
+    <value>애완 동물</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="SC" xml:space="preserve">
+    <value>SC</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="Ship" xml:space="preserve">
+    <value>배</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="Tap" xml:space="preserve">
+    <value>탭하여</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="ClickGoldTypeInfoText" xml:space="preserve">
+    <value>주 골드 소스 설정</value>
+    <comment>ArtOpt</comment>
+  </data>
+  <data name="GoldTypeInfoHeader" xml:space="preserve">
+    <value>골드 타입</value>
+    <comment>ArtOpt</comment>
+  </data>
+  <data name="SupporterAboDesc" xml:space="preserve">
+    <value>모든 기능을 활성화 하는 동안 잠금 해제 있고 시간이 지남에 매달이 애플 리 케이이 션을 지원.</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="SupTimeHeader" xml:space="preserve">
+    <value>지원 Abo</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="TimeHeader" xml:space="preserve">
+    <value>Time</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="Aura_BoneTribe" xml:space="preserve">
+    <value>고 대 지혜</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Colors" xml:space="preserve">
+    <value>컬러 팝</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Cyborg" xml:space="preserve">
+    <value>충전된 필드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Diamonds" xml:space="preserve">
+    <value>다이아몬드 반지</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_GoldenRays" xml:space="preserve">
+    <value>주년 기념 오 라</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Knight" xml:space="preserve">
+    <value>새벽</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Monk" xml:space="preserve">
+    <value>내 면의 평화</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Samurai" xml:space="preserve">
+    <value>벚꽃</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Titan" xml:space="preserve">
+    <value>타이탄 증기</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Travel" xml:space="preserve">
+    <value>소용돌이 추억</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Wolf" xml:space="preserve">
+    <value>음력 단계</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Wonder" xml:space="preserve">
+    <value>방 탄</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_BlackEnergy" xml:space="preserve">
+    <value>암흑 에너지</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Bugs" xml:space="preserve">
+    <value>나비 효과</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Captain" xml:space="preserve">
+    <value>영웅 래 디 언스</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Chains" xml:space="preserve">
+    <value>기어 연 삭</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_CNY" xml:space="preserve">
+    <value>종이 초 롱</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Crow" xml:space="preserve">
+    <value>치명적인 깃털</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_DarkAlien" xml:space="preserve">
+    <value>고통 받는 영혼</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Dragon" xml:space="preserve">
+    <value>드래곤 퀘이 크</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Embers" xml:space="preserve">
+    <value>떨어지는 엠 버</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Fur" xml:space="preserve">
+    <value>눈사태</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Ghost" xml:space="preserve">
+    <value>팬텀 안개</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Green" xml:space="preserve">
+    <value>Wisp의 것 이다</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_HighTecLightning" xml:space="preserve">
+    <value>틈 큐브</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_LightBunny" xml:space="preserve">
+    <value>봄 발열</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Mage" xml:space="preserve">
+    <value>룬 문자 파워</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Mech" xml:space="preserve">
+    <value>D.R.O.I.D.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Pirate" xml:space="preserve">
+    <value>신비한 안개</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Platinum" xml:space="preserve">
+    <value>플래티넘 아우 라</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Poet" xml:space="preserve">
+    <value>실크 브 리즈</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Pumpkin" xml:space="preserve">
+    <value>호박 패치</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Quinn" xml:space="preserve">
+    <value>불꽃</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Rockstar" xml:space="preserve">
+    <value>이퀄라이저</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Skulls" xml:space="preserve">
+    <value>어두운 빛</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Slayer" xml:space="preserve">
+    <value>불길 한 안개</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Sled" xml:space="preserve">
+    <value>축제 반짝</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_SnowStorm" xml:space="preserve">
+    <value>눈 폭풍</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Surf" xml:space="preserve">
+    <value>보고 베이</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Viking" xml:space="preserve">
+    <value>발할라의 정신</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_BatRed" xml:space="preserve">
+    <value>크림슨 나이트</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_BoneTribe" xml:space="preserve">
+    <value>Sabertooth 크라운</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Cap" xml:space="preserve">
+    <value>매일 모자</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Captain" xml:space="preserve">
+    <value>캡틴의 물통</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Cat" xml:space="preserve">
+    <value>고양이 헬멧</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Chains" xml:space="preserve">
+    <value>플래티넘 악마</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_CNY" xml:space="preserve">
+    <value>붉은 꽃</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Crow" xml:space="preserve">
+    <value>3 눈이 섬광</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_DarkAlien" xml:space="preserve">
+    <value>추적 마스크</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Dragon" xml:space="preserve">
+    <value>Dragonplate 헬멧</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Ears" xml:space="preserve">
+    <value>귀</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Fur" xml:space="preserve">
+    <value>Tusked 크라운</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Ghost" xml:space="preserve">
+    <value>가상 헤어스타일</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Gold" xml:space="preserve">
+    <value>기념일 타</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Green" xml:space="preserve">
+    <value>에덴의 헬멧</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HelmHorned" xml:space="preserve">
+    <value>발 정된 헬멧</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HelmWhite" xml:space="preserve">
+    <value>하얀 전사 헬멧</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HighTecLightning" xml:space="preserve">
+    <value>이 카 루스의 날개</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Ice" xml:space="preserve">
+    <value>아이스 워커 헬멧</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Kid" xml:space="preserve">
+    <value>민 완가 키즈 모자</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Knight" xml:space="preserve">
+    <value>Valkyrie Ciclet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_LightBunny" xml:space="preserve">
+    <value>빛 토끼 헬멧</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Mage" xml:space="preserve">
+    <value>마법사 후드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Mech" xml:space="preserve">
+    <value>V.I.S.O.R.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Monk" xml:space="preserve">
+    <value>고귀한 기호</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Music" xml:space="preserve">
+    <value>붐 박스 헤드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Pirate" xml:space="preserve">
+    <value>도금된 삼각</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Platinum" xml:space="preserve">
+    <value>백 금 조 타</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Poet" xml:space="preserve">
+    <value>복잡 한 베 레모</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Pumpkin" xml:space="preserve">
+    <value>빈 호박</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Quinn" xml:space="preserve">
+    <value>성급한 웬</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Robot" xml:space="preserve">
+    <value>진화 된 인공 두뇌 바이 저</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Rockstar" xml:space="preserve">
+    <value>서명 두건</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Samurai" xml:space="preserve">
+    <value>Bushido 헤드 기어</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Skulls" xml:space="preserve">
+    <value>강화 해골</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Slayer" xml:space="preserve">
+    <value>갈색 머리 폭탄</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Sled" xml:space="preserve">
+    <value>신뢰할 수 있는 모자</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Snowman" xml:space="preserve">
+    <value>눈사람 머리</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Surf" xml:space="preserve">
+    <value>거친 털을 흠뻑</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Titan" xml:space="preserve">
+    <value>신동이 발</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Travel" xml:space="preserve">
+    <value>사파리 모자</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Tribal" xml:space="preserve">
+    <value>부족 헬멧</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Viking" xml:space="preserve">
+    <value>전투 뿔</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Wolf" xml:space="preserve">
+    <value>Fenrir의 시선</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Wonder" xml:space="preserve">
+    <value>아마존 로열티</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_BoneTribe" xml:space="preserve">
+    <value>주로 스트라이크</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Captain" xml:space="preserve">
+    <value>스트라이프 배트</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Chains" xml:space="preserve">
+    <value>Chainlink</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_CNY" xml:space="preserve">
+    <value>불꽃놀이</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Crow" xml:space="preserve">
+    <value>까마귀 슬래시</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_DarkAlien" xml:space="preserve">
+    <value>산 성 유약</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Darkness" xml:space="preserve">
+    <value>그림자</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_DeepPurple" xml:space="preserve">
+    <value>딥 퍼플</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Dragon" xml:space="preserve">
+    <value>드래곤 영혼</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireTribe" xml:space="preserve">
+    <value>얻은 흉터</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Fur" xml:space="preserve">
+    <value>파</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Ghost" xml:space="preserve">
+    <value>팬텀 스트라이크</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Gold" xml:space="preserve">
+    <value>기념일 슬래시</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Green" xml:space="preserve">
+    <value>손상 된 숲</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_HighTecLightning" xml:space="preserve">
+    <value>신성한 다니엘</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Knight" xml:space="preserve">
+    <value>태양 줄무늬</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Lava" xml:space="preserve">
+    <value>뜨거운 용암</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Leaves" xml:space="preserve">
+    <value>낙된 엽</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_LightBunny" xml:space="preserve">
+    <value>노 른 자 시작</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Lightning" xml:space="preserve">
+    <value>푸른 번개</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Mage" xml:space="preserve">
+    <value>신비로운 에코</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Mech" xml:space="preserve">
+    <value>B.U.R.S.T.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Monk" xml:space="preserve">
+    <value>신성한 스크립트</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_MouthWash" xml:space="preserve">
+    <value>비트 줄무늬</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Paint" xml:space="preserve">
+    <value>페인트 줄무늬</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Pirate" xml:space="preserve">
+    <value>포춘 스트라이크</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Platinum" xml:space="preserve">
+    <value>플래티넘 슬래시</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Poet" xml:space="preserve">
+    <value>벨벳 키스</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Quinn" xml:space="preserve">
+    <value>Lovestruck</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_RedPaint" xml:space="preserve">
+    <value>빨간 페인트</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Rockstar" xml:space="preserve">
+    <value>리듬 슬래시</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Samurai" xml:space="preserve">
+    <value>얻은 흉터</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Skulls" xml:space="preserve">
+    <value>뼈 분리기</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Slayer" xml:space="preserve">
+    <value>저주 받은 상처</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Sled" xml:space="preserve">
+    <value>Candystripes</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_SnowFlakes" xml:space="preserve">
+    <value>스노우 볼</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_SpiderWeb" xml:space="preserve">
+    <value>거미 웨 빙</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Surf" xml:space="preserve">
+    <value>조</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Titan" xml:space="preserve">
+    <value>갈고리 훅</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Travel" xml:space="preserve">
+    <value>Papercuts</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Viking" xml:space="preserve">
+    <value>빛의 스트라이크</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Wolf" xml:space="preserve">
+    <value>악의적인 스트로크</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Wonder" xml:space="preserve">
+    <value>슈팅 스타</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorFace" xml:space="preserve">
+    <value>알 수 없는 얼굴</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorGreen" xml:space="preserve">
+    <value>숲 전사</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorIce" xml:space="preserve">
+    <value>프 로스트 갑옷</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorPurple" xml:space="preserve">
+    <value>자 수정 갑옷</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorScale" xml:space="preserve">
+    <value>비늘 슈트</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorWhite" xml:space="preserve">
+    <value>하얀 전사</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_BoneTribe" xml:space="preserve">
+    <value>뼈 부족</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Captain" xml:space="preserve">
+    <value>애국 복장</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Casual" xml:space="preserve">
+    <value>매일 스웨터</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Chains" xml:space="preserve">
+    <value>가죽과 레이스</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_CNY" xml:space="preserve">
+    <value>왕조 드레스</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Crow" xml:space="preserve">
+    <value>Morrigan의 갑옷</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_DarkAlien" xml:space="preserve">
+    <value>Stealthweave</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Dragon" xml:space="preserve">
+    <value>Dragonplate 아머</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Fur" xml:space="preserve">
+    <value>감시자 옷장</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Ghost" xml:space="preserve">
+    <value>환상의 갑옷</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Gold" xml:space="preserve">
+    <value>기념일 갑옷</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Green" xml:space="preserve">
+    <value>에덴의 갑옷</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_HighTecLightning" xml:space="preserve">
+    <value>신의 갑옷</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Knight" xml:space="preserve">
+    <value>광택된 Platemail</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_LightBunny" xml:space="preserve">
+    <value>빛 토끼 갑옷</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Mage" xml:space="preserve">
+    <value>숙련 된 가운</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Mech" xml:space="preserve">
+    <value>C.H.A.S.S.I.S.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Monk" xml:space="preserve">
+    <value>시대를 초월한 랩</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Pirate" xml:space="preserve">
+    <value>캡틴의 복장</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Platinum" xml:space="preserve">
+    <value>플래티넘 아머</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Poet" xml:space="preserve">
+    <value>시적 스웨터</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Quinn" xml:space="preserve">
+    <value>사랑 애 크로 뱃</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Robot" xml:space="preserve">
+    <value>로봇 쉘</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Rockstar" xml:space="preserve">
+    <value>투어 자 켓</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Samurai" xml:space="preserve">
+    <value>조상의 갑옷</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Scarecrow" xml:space="preserve">
+    <value>허수 아비</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Skulls" xml:space="preserve">
+    <value>외 골격</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Slayer" xml:space="preserve">
+    <value>피투성이 드레스</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Sled" xml:space="preserve">
+    <value>재능 있는 스웨터</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Snowman" xml:space="preserve">
+    <value>눈사람 바디</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Surf" xml:space="preserve">
+    <value>10 걸</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Titan" xml:space="preserve">
+    <value>Highflyer의 하네스</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Travel" xml:space="preserve">
+    <value>패 니 팩</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Viking" xml:space="preserve">
+    <value>기어를 습격</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Wizard" xml:space="preserve">
+    <value>마법사 스웨터</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Wolf" xml:space="preserve">
+    <value>Lycanthropic 이동</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Wonder" xml:space="preserve">
+    <value>전투 스커트</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Basic" xml:space="preserve">
+    <value>평균 칼</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_BattleAxe" xml:space="preserve">
+    <value>나의 도끼</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Beam" xml:space="preserve">
+    <value>라이트 세이버</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_BlueSword" xml:space="preserve">
+    <value>팬텀 칼</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_BoneTribe" xml:space="preserve">
+    <value>의식 블레이드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Buster" xml:space="preserve">
+    <value>버스터 블레이드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Captain" xml:space="preserve">
+    <value>영웅의 방패</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Carrot" xml:space="preserve">
+    <value>눈사람 코</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Chains" xml:space="preserve">
+    <value>동기화</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Club" xml:space="preserve">
+    <value>클럽</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_CNY" xml:space="preserve">
+    <value>운 팬</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Crow" xml:space="preserve">
+    <value>비통</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_DarkAlien" xml:space="preserve">
+    <value>Shadowsteel</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Dragon" xml:space="preserve">
+    <value>Dragonbreath</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Fur" xml:space="preserve">
+    <value>하늘의 가장자리</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Gear" xml:space="preserve">
+    <value>기어 드 블레이드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_GoldSword" xml:space="preserve">
+    <value>기념일 칼</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Green" xml:space="preserve">
+    <value>아레나</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_HighTecLightning" xml:space="preserve">
+    <value>룬 검</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Katana" xml:space="preserve">
+    <value>Reforged Katana</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Key" xml:space="preserve">
+    <value>잠금 블레이드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Knight" xml:space="preserve">
+    <value>날개 달린된 창</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Laser" xml:space="preserve">
+    <value>에너지 소드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_LightBunny" xml:space="preserve">
+    <value>Eggbeater</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Mage" xml:space="preserve">
+    <value>마법된 지팡이</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Mech" xml:space="preserve">
+    <value>B.L.A.D.E.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Monk" xml:space="preserve">
+    <value>영원의 직원</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Ninja" xml:space="preserve">
+    <value>닌자 단 검</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Pirate" xml:space="preserve">
+    <value>해 적</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Platinum" xml:space="preserve">
+    <value>플래티넘 랜스</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Poet" xml:space="preserve">
+    <value>울 리</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Quinn" xml:space="preserve">
+    <value>뛰는 심장</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Rockstar" xml:space="preserve">
+    <value>슈 레더</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Samurai" xml:space="preserve">
+    <value>마지막 Katana</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Skull" xml:space="preserve">
+    <value>해골 분쇄기 칼</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Skulls" xml:space="preserve">
+    <value>척추 검</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Slayer" xml:space="preserve">
+    <value>예언 칼</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Sled" xml:space="preserve">
+    <value>로즈 버드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Spear" xml:space="preserve">
+    <value>스위프트 스피어</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Steel" xml:space="preserve">
+    <value>강철 검</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_StreetLamp" xml:space="preserve">
+    <value>가로등</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Surf" xml:space="preserve">
+    <value>왁 스 칠된 보드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Sythe" xml:space="preserve">
+    <value>죽음 Sythe</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Titan" xml:space="preserve">
+    <value>Rectable 블레이드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Viking" xml:space="preserve">
+    <value>노르딕 헬기</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Wolf" xml:space="preserve">
+    <value>알파 클로</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Wonder" xml:space="preserve">
+    <value>타이탄 킬러</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_WoodAxe" xml:space="preserve">
+    <value>나무 꾼 도끼</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Thief" xml:space="preserve">
+    <value>스타를 던지고</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Thief" xml:space="preserve">
+    <value>Shinobi 랩</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireOrange" xml:space="preserve">
+    <value>화 염 소환</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Thief" xml:space="preserve">
+    <value>속 삭 임</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Farmer" xml:space="preserve">
+    <value>농부 바지</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Thief" xml:space="preserve">
+    <value>자동 복</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Thief" xml:space="preserve">
+    <value>미묘한 칼</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Star" xml:space="preserve">
+    <value>스타 샤인</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireGray" xml:space="preserve">
+    <value>회색 화 염</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_StarsBlue" xml:space="preserve">
+    <value>별이 빛나는 경로</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Rose" xml:space="preserve">
+    <value>장미 꽃다발</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Staff" xml:space="preserve">
+    <value>황혼의 직원</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="AllDamage" xml:space="preserve">
+    <value>모든 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="AllHelperDamage" xml:space="preserve">
+    <value>모든 영웅 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ChestAmount" xml:space="preserve">
+    <value>Chesterson 골드</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ClanShipDamage" xml:space="preserve">
+    <value>클랜 배 피해</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="CritDamage" xml:space="preserve">
+    <value>중요 한 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="MeleeHelperDamage" xml:space="preserve">
+    <value>근접 영웅 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="PetDamage" xml:space="preserve">
+    <value>애완 동물 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="RangedHelperDamage" xml:space="preserve">
+    <value>원거리 데미지가 영웅</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ShadowCloneSkillAmount" xml:space="preserve">
+    <value>그림자 클론 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SlashBoost" xml:space="preserve">
+    <value>기본 부스트를 슬래시</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SpellHelperDamage" xml:space="preserve">
+    <value>맞춤법 영웅 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SwordBoost" xml:space="preserve">
+    <value>칼 주요 부스트</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="TapDamage" xml:space="preserve">
+    <value>탭 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="Armor" xml:space="preserve">
+    <value>아머</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="Aura" xml:space="preserve">
+    <value>아우 라</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="Helmet" xml:space="preserve">
+    <value>헬멧</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>없음</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="Slash" xml:space="preserve">
+    <value>슬래시</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="Weapon" xml:space="preserve">
+    <value>무기</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="AllProbabilityBoost" xml:space="preserve">
+    <value>모든 확률</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="BossDamage" xml:space="preserve">
+    <value>보스 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="BossGoldx10Chance" xml:space="preserve">
+    <value>보스 골드 기회 x 10</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="BurstDamageSkillAmount" xml:space="preserve">
+    <value>하늘 파업 피해</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ChestChance" xml:space="preserve">
+    <value>Chesterson 기회</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="CritBoostSkillAmount" xml:space="preserve">
+    <value>치명적인 스트라이크 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="CritChance" xml:space="preserve">
+    <value>중요 한 기회</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="DeadlyChance" xml:space="preserve">
+    <value>치명적인 공격 기회</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="FairySpawnChance" xml:space="preserve">
+    <value>여러 요정 기회</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="FlyingHelperDamage" xml:space="preserve">
+    <value>비행 영웅 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="GroundHelperDamage" xml:space="preserve">
+    <value>지상 영웅 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="HandOfMidasSkillAmount" xml:space="preserve">
+    <value>마 이다 스의 황금의 손</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="HelperBoostSkillAmount" xml:space="preserve">
+    <value>전쟁 외침 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="InactiveAllDamage" xml:space="preserve">
+    <value>비활성 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ManaMonsterSpawnChance" xml:space="preserve">
+    <value>Manni 마 나 기회</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="MultiMonsters" xml:space="preserve">
+    <value>다중 산란 기회</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="PerkGold" xml:space="preserve">
+    <value>골드 특권</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="PetGoldQTEAmount" xml:space="preserve">
+    <value>마 이다 스 골드의 심장</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="StageSkipMonsterSpawnChance" xml:space="preserve">
+    <value>Portar 산란 기회</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="TapBoostSkillAmount" xml:space="preserve">
+    <value>불 검 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="TitanDamage" xml:space="preserve">
+    <value>비-보스 손상</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ChestGoldx10Chance" xml:space="preserve">
+    <value>Chesterson 골드 기회 x 10</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="GoldAll" xml:space="preserve">
+    <value>모든 골드</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="GoldBoss" xml:space="preserve">
+    <value>보스 골드</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="HelmetBoost" xml:space="preserve">
+    <value>헬멧 기본 부스트</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="InactiveGold" xml:space="preserve">
+    <value>비활성 골드</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SwordAttackDamage" xml:space="preserve">
+    <value>칼 공격 피해</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="UnskilledGold" xml:space="preserve">
+    <value>스텔스 골드</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="EquippedText" xml:space="preserve">
+    <value>장착</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="EquipAdvisor" xml:space="preserve">
+    <value>장비 관리자</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Hat_Kitty" xml:space="preserve">
+    <value>키티 후드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Took" xml:space="preserve">
+    <value>아군된 포탄</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_OrangeTribe" xml:space="preserve">
+    <value>주황색 배트</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Poison" xml:space="preserve">
+    <value>유독 Spellblade</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_ZigZag" xml:space="preserve">
+    <value>비뚤어진된 블레이드</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Valentines" xml:space="preserve">
+    <value>사랑의 원형</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Valentines" xml:space="preserve">
+    <value>사랑의 모자</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_PitchFork" xml:space="preserve">
+    <value>갈 퀴</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_SwordMaster" xml:space="preserve">
+    <value>소드 마스터 검</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Valentines" xml:space="preserve">
+    <value>심 혼의 파 멸</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Anniversary" xml:space="preserve">
+    <value>주년 골드</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="BoneTribe" xml:space="preserve">
+    <value>고 대 전사</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Captain" xml:space="preserve">
+    <value>선장 타이탄</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Chains" xml:space="preserve">
+    <value>체인된 시계</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="CNY" xml:space="preserve">
+    <value>음력 축제</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Crow" xml:space="preserve">
+    <value>밤 까마귀</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Cyborg" xml:space="preserve">
+    <value>진화 된 인공 두뇌 기능 향상</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="DarkAlien" xml:space="preserve">
+    <value>어두운 프레데터</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Dragon" xml:space="preserve">
+    <value>드래곤 슬 레이어</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Fur" xml:space="preserve">
+    <value>서 리 소장</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Ghost" xml:space="preserve">
+    <value>팬텀 존재</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>손상 된 에메랄드 나이트</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="HighTecLightning" xml:space="preserve">
+    <value>천사 가디언</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Knight" xml:space="preserve">
+    <value>태양 모범</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="LightBunny" xml:space="preserve">
+    <value>계란의 수비수</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Mage" xml:space="preserve">
+    <value>디 Spellsinger</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Mech" xml:space="preserve">
+    <value>기계화 칼</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Monk" xml:space="preserve">
+    <value>영원한 스님</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Pirate" xml:space="preserve">
+    <value>보물 사냥꾼</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Platinum" xml:space="preserve">
+    <value>기념일 백 금</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Poet" xml:space="preserve">
+    <value>울 리</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Quinn" xml:space="preserve">
+    <value>Heartly 여왕</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Rockstar" xml:space="preserve">
+    <value>록스타</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Samurai" xml:space="preserve">
+    <value>치명적인 사무라이</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Scarecrow" xml:space="preserve">
+    <value>허수 아비 잭</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Skulls" xml:space="preserve">
+    <value>무 자 비 한 사악</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Slayer" xml:space="preserve">
+    <value>독성 슬 레이어</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Sled" xml:space="preserve">
+    <value>썰매 시즌</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Snowman" xml:space="preserve">
+    <value>눈 마스터</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Surf" xml:space="preserve">
+    <value>Suft 스트라이크</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Thief" xml:space="preserve">
+    <value>그림자 제자</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Titan" xml:space="preserve">
+    <value>타이탄 공격자</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Viking" xml:space="preserve">
+    <value>바이킹 왕</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>교활한 늑대</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Wonder" xml:space="preserve">
+    <value>아마존 공주</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="BossKills" xml:space="preserve">
+    <value>보스를 죽이고</value>
+    <comment>BossKills</comment>
+  </data>
+  <data name="KillTime" xml:space="preserve">
+    <value>시간을 때우다</value>
+    <comment>Boss</comment>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>소요 시간: </value>
+    <comment>Boss</comment>
+  </data>
+  <data name="EquipAdvisorSpecialThanks" xml:space="preserve">
+    <value>Dem 수학에 대 한 특별 코시 감사!</value>
+    <comment>EquipAdvisor</comment>
+  </data>
+  <data name="CompendiumDiscordText" xml:space="preserve">
+    <value>또한 불 화 서버가입니다. 거기에 버튼을 클릭 합니다.</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="CompendiumIntroduction" xml:space="preserve">
+    <value>빌드 및 기여 제 요 최적화 된 SP 빌드 뿐만 아니라 매우 유용한 커뮤니티 기여를 제공 하는 팀 이다. 
+ 
+당신이 선택 해야 하거나 지도 필요로 어떤 빌드 이것이 어디서 그것
+ 장소에 관한 질문이 있는 경우 
+당신은 밖으로 그것을 검사 해야 합니다! 
+</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="CompendiumWebsiteText" xml:space="preserve">
+    <value>아래 버튼을 클릭 하면 웹사이트를 얻을 것 이다.</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="MyDiscordButton" xml:space="preserve">
+    <value>불 화</value>
+    <comment>AboutMe</comment>
+  </data>
+  <data name="MyDiscordHeader" xml:space="preserve">
+    <value>나 또한 불 화 서버는 알려 싶 었 어 요. 언제 든 지 우리와 함께</value>
+    <comment>AboutMe</comment>
+  </data>
+  <data name="Aura_Dizzy" xml:space="preserve">
+    <value>현기증</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Fire" xml:space="preserve">
+    <value>불꽃 춤</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Kookie" xml:space="preserve">
+    <value>Kookie 소용돌이</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Leaves" xml:space="preserve">
+    <value>잎 방패</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Water" xml:space="preserve">
+    <value>소용돌이</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Chicken" xml:space="preserve">
+    <value>치킨 비 니</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HeadPhones" xml:space="preserve">
+    <value>헤드폰</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HelmDevil" xml:space="preserve">
+    <value>악마 헬멧</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_PowerRanger" xml:space="preserve">
+    <value>실버 마스크</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_RedTopHat" xml:space="preserve">
+    <value>Red Hat</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Top" xml:space="preserve">
+    <value>모자</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_EmbersBlue" xml:space="preserve">
+    <value>서 리 낀된 불씨</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireBlack" xml:space="preserve">
+    <value>홍 화 염</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Rainbow" xml:space="preserve">
+    <value>무지개도로</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Smelly" xml:space="preserve">
+    <value>뭔가 냄새가</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorHighTec" xml:space="preserve">
+    <value>미래 검 투사</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorOrange" xml:space="preserve">
+    <value>선라이즈 갑옷</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorRoyal" xml:space="preserve">
+    <value>왕실에 적합</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_KungFu" xml:space="preserve">
+    <value>쿵후 마스터</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Fan" xml:space="preserve">
+    <value>팬</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_FriedEgg" xml:space="preserve">
+    <value>프라이팬</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="CompendiumHowToText" xml:space="preserve">
+    <value>여기 당신이 사용에 대 한 Reddit 게시물</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="NotSaved" xml:space="preserve">
+    <value>저장 하지 않은</value>
+    <comment>General</comment>
+  </data>
+  <data name="IsCalculated" xml:space="preserve">
+    <value>계산</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="AverageStageIncrease" xml:space="preserve">
+    <value>평균 단계 증가</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>끝</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="MinutesPassed" xml:space="preserve">
+    <value>통과 하는 분</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="Relics" xml:space="preserve">
+    <value>유물</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMInfoText" xml:space="preserve">
+    <value>유물/분 계산 되지 않습니다. 계산 값을 도구 모음에서 해당 단추를 누릅니다</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMRpmText" xml:space="preserve">
+    <value>레코드에 유물</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMStageText" xml:space="preserve">
+    <value>기록에 단계</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>시작</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMStartedText" xml:space="preserve">
+    <value>서비스 시작</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="AlreadyCalculatedRpmText" xml:space="preserve">
+    <value>이미 계산 된 RpM</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="CalculatedRpMSuccessfully" xml:space="preserve">
+    <value>성공적으로 RpM을 계산합니다.</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="CalculateRpM" xml:space="preserve">
+    <value>RpM을 계산</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="CalculateRpMAgainQuestion" xml:space="preserve">
+    <value>RpM는 이미 계산 되어 있다. 다시 계산 하 시겠습니까?</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="NoNetwork" xml:space="preserve">
+    <value>없음 네트워크</value>
+    <comment>General</comment>
+  </data>
+  <data name="RpMRpmDiffText" xml:space="preserve">
+    <value>레코드에 rpM</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>닫다</value>
+    <comment>General</comment>
+  </data>
+  <data name="NewInThisVersion" xml:space="preserve">
+    <value>이 버전의 새로운 기능</value>
+    <comment>General</comment>
+  </data>
+  <data name="NoPrestigeData" xml:space="preserve">
+    <value>프레스 티 지 자료 없음입니다. 나에 게 하루.</value>
+    <comment>General</comment>
+  </data>
+  <data name="PrestigeTodayText" xml:space="preserve">
+    <value>{0} 프레스 티 지 오늘</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>프로 파일</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>일</value>
+    <comment>General</comment>
+  </data>
+  <data name="IncreasedXPrestige" xml:space="preserve">
+    <value>증가 {0} 프레스 티 지</value>
+    <comment>ClanMemberDetail</comment>
+  </data>
+  <data name="Artifact91" xml:space="preserve">
+    <value>돌을 둥글게</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Aura_Zeus" xml:space="preserve">
+    <value>지 직 거리는 스윕</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Hat_Zeus" xml:space="preserve">
+    <value>고리로 곱슬</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Slash_Zeus" xml:space="preserve">
+    <value>공상가</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Suit_Zeus" xml:space="preserve">
+    <value>폭풍도가</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Weapon_Zeus" xml:space="preserve">
+    <value>세이버를 강타</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Leader" xml:space="preserve">
+    <value>리더</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="RaidAttackCount" xml:space="preserve">
+    <value>Raid 공격</value>
+    <comment>Raid</comment>
+  </data>
+  <data name="Builds" xml:space="preserve">
+    <value>빌드</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ChooseWhatToExport" xml:space="preserve">
+    <value>수출을 원하는 선택 하십시오</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Clipboard" xml:space="preserve">
+    <value>클립보드</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>메시지</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Raid" xml:space="preserve">
+    <value>Raid</value>
+    <comment>Export</comment>
+  </data>
+  <data name="CsvDelimiterHeader" xml:space="preserve">
+    <value>CSV 구분</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="Artifact92" xml:space="preserve">
+    <value>스크롤의 퀼</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact93" xml:space="preserve">
+    <value>오래 된 임금의 스탬프</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact94" xml:space="preserve">
+    <value>Evergrowing 스택</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact95" xml:space="preserve">
+    <value>충전된 카드</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="ClanExportTitle" xml:space="preserve">
+    <value>일족 수출</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EnableDisableText" xml:space="preserve">
+    <value>활성화/비활성화</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ArtifactCount" xml:space="preserve">
+    <value>아티팩트</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ClanRole" xml:space="preserve">
+    <value>클랜 역할</value>
+    <comment>Export</comment>
+  </data>
+  <data name="CraftingShardsSpent" xml:space="preserve">
+    <value>파편을 만들어 보냈다</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EquipmentSetCount" xml:space="preserve">
+    <value>장비 수 설정</value>
+    <comment>Export</comment>
+  </data>
+  <data name="LastTimestamp" xml:space="preserve">
+    <value>마지막 타임 스탬프</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidBaseDamage" xml:space="preserve">
+    <value>Raid 베이스 손상</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidPlayerLevel" xml:space="preserve">
+    <value>Raid 플레이어 레벨</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidTicketsCollected" xml:space="preserve">
+    <value>Raid 티켓 수집</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidTotalCardLevel" xml:space="preserve">
+    <value>Raid 총 카드 레벨</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidTotalXP" xml:space="preserve">
+    <value>Raid 총 특급</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidUniqueSkillCount" xml:space="preserve">
+    <value>Raid 독특한 기술 수</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TitanPoints" xml:space="preserve">
+    <value>타이탄 포인트</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalHelperScrolls" xml:space="preserve">
+    <value>총 도우미 스크롤</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalHelperWeapons" xml:space="preserve">
+    <value>총 도우미 무기</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalPetLevels" xml:space="preserve">
+    <value>총 애완 동물 수준</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalSkillPoints" xml:space="preserve">
+    <value>총 스킬 포인트</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TournamentCount" xml:space="preserve">
+    <value>대회 수</value>
+    <comment>Export</comment>
+  </data>
+  <data name="WeeklyTicketCount" xml:space="preserve">
+    <value>주간 티켓 수</value>
+    <comment>Export</comment>
+  </data>
+  <data name="MaxClanMsgAmount" xml:space="preserve">
+    <value>일족 메시지 금액</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="ErrorLoadingClanMsg" xml:space="preserve">
+    <value>메시지를 로드 하지 못했습니다.</value>
+    <comment>ClanMsg</comment>
+  </data>
+  <data name="Aura_LightBeams" xml:space="preserve">
+    <value>라이트 빔</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Hat_Bag" xml:space="preserve">
+    <value>더 이방인</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Hat_Link" xml:space="preserve">
+    <value>브리 기아 캡</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Slash_Bishop" xml:space="preserve">
+    <value>크로스 슬래시</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Weapon_Saw" xml:space="preserve">
+    <value>날카로운 톱</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>검색</value>
+    <comment>ClanMsg</comment>
+  </data>
+  <data name="TournamentPoints" xml:space="preserve">
+    <value>토너먼트 포인트</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="AttackCount" xml:space="preserve">
+    <value>공격 수</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="BaseDamage" xml:space="preserve">
+    <value>기본 피해 량</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="CratesShared" xml:space="preserve">
+    <value>공유 상자</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="HelperLevel" xml:space="preserve">
+    <value>도우미 수준</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="PetLevel" xml:space="preserve">
+    <value>애완 동물 수준</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>플레이어</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="PlayerLevel" xml:space="preserve">
+    <value>플레이어 레벨</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="RaidClan" xml:space="preserve">
+    <value>레이드/클랜</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="ShardsSpent" xml:space="preserve">
+    <value>사용한 샤 드</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TicketsCollected" xml:space="preserve">
+    <value>티켓 수집</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TotalCardLevel" xml:space="preserve">
+    <value>총 카드 레벨</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TotalEXP" xml:space="preserve">
+    <value>총 경험</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="UniqueSkillCount" xml:space="preserve">
+    <value>고유 스킬 카운트</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>도우미 스크롤</value>
+    <comment>MemberDetail</comment>
+  </data>
+  <data name="AntiTitanCannon" xml:space="preserve">
+    <value>안티 타이탄 캐논</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="ArcaneBargain" xml:space="preserve">
+    <value>신비한 이득</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="IntimidatingPresence" xml:space="preserve">
+    <value>위협이 되는 존재</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="MysticalImpact" xml:space="preserve">
+    <value>신비로운 임팩트</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="PowerSurge" xml:space="preserve">
+    <value>전력 서 지</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="Clan" xml:space="preserve">
+    <value>일족</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>장비</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>기술</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Things" xml:space="preserve">
+    <value>것</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="SPSplashCalculator" xml:space="preserve">
+    <value>SP 건너뛰기 계산기</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="SplashSkillHeader" xml:space="preserve">
+    <value>스플래시 스킬</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="SplashSnapHeader" xml:space="preserve">
+    <value>스플래시 스냅</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="AerialAssault" xml:space="preserve">
+    <value>공중 폭행 (AA)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="AngelicRadiance" xml:space="preserve">
+    <value>천사의 광휘 (아칸소)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="DoubleSnap" xml:space="preserve">
+    <value>이중 스냅</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="EternalDarkness" xml:space="preserve">
+    <value>영원한 어둠 (ED)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="LightningBurst" xml:space="preserve">
+    <value>번개 파열 (파운드)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="SingleSnap" xml:space="preserve">
+    <value>단일 스냅</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="WithoutSnap" xml:space="preserve">
+    <value>스냅 없음</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="AGSetCompleted" xml:space="preserve">
+    <value>AG 세트가 완료 되었습니까?</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="NormalTitanCount" xml:space="preserve">
+    <value>일반 타이탄 카운트</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="PassiveSkillReduction" xml:space="preserve">
+    <value>패시브 스킬 감소</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="StagesToSplash" xml:space="preserve">
+    <value>스플래시 단계</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="APSetCompleted" xml:space="preserve">
+    <value>AP 세트가 완료 되었습니까?</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="StagesToSkip" xml:space="preserve">
+    <value>건너뛸 단계</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="SkipSkillHeader" xml:space="preserve">
+    <value>건너뛰기 기술</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="SkipSnapHeader" xml:space="preserve">
+    <value>스냅 선택</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>구성</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CurrentSP" xml:space="preserve">
+    <value>Current SP</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DamageSource" xml:space="preserve">
+    <value>Damage Source</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>기본값</value>
+    <comment>General</comment>
+  </data>
+  <data name="GoldSourceDescription" xml:space="preserve">
+    <value>The gold source is where the most part of your gold comes from</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>운송 방식</value>
+    <comment>General</comment>
+  </data>
+  <data name="SPConfigDefaultDescription" xml:space="preserve">
+    <value>Here you can set whether or not the chosen configuration is your default configuration.
+If you navigate to this menu the app automatically loads the default configuration.
+In addition to that other modules of this app may take a look at your default configuration.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPConfigModeDescription" xml:space="preserve">
+    <value>There are two config modes: "continuous" and "creation".
+When continuous is chosen the SP Optimizer will suggest you skills to level based on your current ingame setup.
+When creation is chosen the SP Optimizer will create a whole new build and ignore your current setup.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPConfigurationDescription" xml:space="preserve">
+    <value>A configuration is just a set of preferences.
+The SP Optimizer needs a configuration in order to make a calculation.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPDamageSourceDescription" xml:space="preserve">
+    <value>The damage source is where your main damage comes from</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPConfigurationsHeader" xml:space="preserve">
+    <value>SP Configurations</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>이름</value>
+    <comment>General</comment>
+  </data>
+  <data name="ClanShip" xml:space="preserve">
+    <value>Clan Ship</value>
+    <comment>General</comment>
+  </data>
+  <data name="HeavenlyStrike" xml:space="preserve">
+    <value>Heavenly Strike</value>
+    <comment>General</comment>
+  </data>
+  <data name="ShadowClone" xml:space="preserve">
+    <value>Shadow Clone</value>
+    <comment>General</comment>
+  </data>
+  <data name="GiveAName" xml:space="preserve">
+    <value>Give me a name</value>
+    <comment>General</comment>
+  </data>
+  <data name="DamageReduction" xml:space="preserve">
+    <value>Damage reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="GoldReduction" xml:space="preserve">
+    <value>Gold reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Ignored" xml:space="preserve">
+    <value>무시됨</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SpecialCalculation" xml:space="preserve">
+    <value>Special calculation</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DefaultDamageReduction" xml:space="preserve">
+    <value>Default damage reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DefaultGoldReduction" xml:space="preserve">
+    <value>Default gold reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CustomDamageReduction" xml:space="preserve">
+    <value>Custom damage reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CustomGoldReduction" xml:space="preserve">
+    <value>Custom gold reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Caution" xml:space="preserve">
+    <value>조심</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="TreeIgnorationQuestion" xml:space="preserve">
+    <value>You are about to ignore the whole tree. Are you sure?</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>CHOOSE</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>편집</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPOptimizer" xml:space="preserve">
+    <value>SP Optimizer</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="WhatDoYouWant" xml:space="preserve">
+    <value>What do you want?</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Continuous" xml:space="preserve">
+    <value>연속</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Creation" xml:space="preserve">
+    <value>만들기</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="OnlyForSupporterItemLimitText" xml:space="preserve">
+    <value>Only supporters can save more than {0} items</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="FixedLevel" xml:space="preserve">
+    <value>Fixed level</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="UpdateReasonFixedLevel" xml:space="preserve">
+    <value>Upgrade to fixed level: {0}</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="EverySkillIgnoredAlert" xml:space="preserve">
+    <value>Every skill is ignored. So I can not optimize anything</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="Efficiency" xml:space="preserve">
+    <value>효율성</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="UpgradeParent" xml:space="preserve">
+    <value>Upgrade parent</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="UpgradeReason" xml:space="preserve">
+    <value>Upgrade reason</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="BranchUpgradeParent" xml:space="preserve">
+    <value>Spent points in branch</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="Tree" xml:space="preserve">
+    <value>트리</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="AboutThisApp" xml:space="preserve">
+    <value>이 앱에 대한 정보</value>
+    <comment>About</comment>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>제작진</value>
+    <comment>About</comment>
+  </data>
+  <data name="BranchUpgradeGrandParent" xml:space="preserve">
+    <value>Spent points in branch for {1} because {2} points are missing to unlock it to then get to {0}</value>
+    <comment>SPOpt (Reason to upgrade)</comment>
+  </data>
+  <data name="UpgradeGrandParent" xml:space="preserve">
+    <value>Upgrade this to get to parent {0} and then to {1}</value>
+    <comment>SPOpt (Reason to upgrade)</comment>
+  </data>
+  <data name="FeatureNotThereYet" xml:space="preserve">
+    <value>This feature is not implemented yet. I do not know why. I am just here to say this to you.</value>
+    <comment>General</comment>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>결과</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPOverclockAmount" xml:space="preserve">
+    <value>Overclock amount</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPOverclockInfoText" xml:space="preserve">
+    <value>The SP optimizer spends your available skill points. This value tells the Sp Optimizer, how far ahead he goes beyond that. If you have 100 SP and enter 10, then the SP optimizer will act like you have 110 SP</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CloseText" xml:space="preserve">
+    <value>닫다</value>
+    <comment>General</comment>
+  </data>
+  <data name="RaidResult" xml:space="preserve">
+    <value>Raid result</value>
+    <comment>ClanMessage</comment>
+  </data>
+  <data name="OptimizedBuildFrom" xml:space="preserve">
+    <value>Optimized build from {0}</value>
+    <comment>SP follower</comment>
+  </data>
+  <data name="IgnoredSkillFixedLevelNotReached" xml:space="preserve">
+    <value>- Could not reach fixed level of {1} for {0}. Only got it to level {2}.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="IgnoredSkillWithFixedLevel" xml:space="preserve">
+    <value>- Could not level {0} because it is ignored</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="OfflineBuildWithoutSilentMarch" xml:space="preserve">
+    <value>- The build is configured to have offline progress but Silent March is not leveled</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Compare" xml:space="preserve">
+    <value>비교</value>
+    <comment>PlayerComparison</comment>
+  </data>
+  <data name="PlayerComparison" xml:space="preserve">
+    <value>Player Comparison</value>
+    <comment>PlayerComparison</comment>
+  </data>
+  <data name="CreateConfig" xml:space="preserve">
+    <value>구성 만들기</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="NeedToCreateConfig" xml:space="preserve">
+    <value>You need to create a configuration before you can use this.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="NextTournamentInfo" xml:space="preserve">
+    <value>Next Tournament is {0}
+Starting: {1} with {2}x {3}</value>
+    <comment>Tournament</comment>
+  </data>
+  <data name="IsIgnoredIfNotEnoughSP" xml:space="preserve">
+    <value>Ignored if not enough SP</value>
+    <comment>SP Optimizer</comment>
+  </data>
+  <data name="IsIgnoredIfNotEnoughSPText" xml:space="preserve">
+    <value>If you can not afford to upgrade a skill then the Optimizer tries to ignore it. Instead the optimizer tries to take a skill which you can afford to spend as many skill points as possible</value>
+    <comment>SP Optimizer</comment>
+  </data>
+  <data name="PushBoS" xml:space="preserve">
+    <value>Push Book of Shadows!</value>
+    <comment>ArtOptimizer</comment>
+  </data>
+  <data name="AdvancedStart" xml:space="preserve">
+    <value>Advanced start</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="ExportRaidAsJson" xml:space="preserve">
+    <value>Export Raid as JSON</value>
+    <comment>ExportPage</comment>
+  </data>
+  <data name="MaxArtifactAmountInfoText" xml:space="preserve">
+    <value>The optimization will stop when the suggestion list contains more items than the amount that is set here. The default value is 30.</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="MaxArtifactAmountOption" xml:space="preserve">
+    <value>Max. Artifacts</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="MinEfficiencyInfoText" xml:space="preserve">
+    <value>The optimization will stop when the efficiency is lower than this value. The default value is 1.05</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="MinEfficiencyOption" xml:space="preserve">
+    <value>Min. Efficiency</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="CheckStepAmountOrEfficiency" xml:space="preserve">
+    <value>Please check your step amount or minimum efficiency</value>
+    <comment>ArtifactOptimizer</comment>
+  </data>
+  <data name="LocalFileError" xml:space="preserve">
+    <value>로컬 파일 시스템 오류</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>인터넷에 연결되어 있지 않습니다.</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="ServerError" xml:space="preserve">
+    <value>서버 측 오류</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="SuccessfulAssetDownload" xml:space="preserve">
+    <value>에셋이 성공적으로 다운로드되었습니다.</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="TotalFuckUp" xml:space="preserve">
+    <value>예기치 않은 일이 일어났습니다.</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="UnstableAssetState" xml:space="preserve">
+    <value>자산 상태가 불안정합니다. 첫 번째 시작인 경우 자산을 다운로드할 수 있도록 적절한 인터넷 연결이 있는지 확인하십시오. 자산 관리자 오류: {0}</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="VersionNotOnServer" xml:space="preserve">
+    <value>현재 버전이 서버에 없습니다.</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="WrongParameter" xml:space="preserve">
+    <value>잘못된 매개 변수가 전달되었습니다.</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="AssetProblemDetail" xml:space="preserve">
+    <value>일부 백그라운드 데이터에 문제가 있습니다. 자세한 내용은 다음과 같습니다{0}</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="Problem" xml:space="preserve">
+    <value>문제</value>
+    <comment>General</comment>
+  </data>
+  <data name="CheckAssetState" xml:space="preserve">
+    <value>자산 상태에 문제가 있을 수 있습니다. 자세한 내용을 보려면 도구 모음의 주의 버튼을 클릭하십시오.</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="VariousVersion" xml:space="preserve">
+    <value>다양한 버전</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="ClanAutoExportTitle" xml:space="preserve">
+    <value>클랜 자동 내보내기</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ClanAutoExportText" xml:space="preserve">
+    <value>클랜 통계를 자동으로 내보내려면 여기에서 설정할 수 있습니다.</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EnableClanAutoExportText" xml:space="preserve">
+    <value>사용/비활성화</value>
+    <comment>Export</comment>
+  </data>
+  <data name="HourlyTimeInterval" xml:space="preserve">
+    <value>시간별 시간 간격</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EnableClanAutoNotificationText" xml:space="preserve">
+    <value>데이터를 내보낼 때 알림</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Automation" xml:space="preserve">
+    <value>자동화</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="AutomationService" xml:space="preserve">
+    <value>자동화 서비스</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="AutoServiceDescription" xml:space="preserve">
+    <value>여기서 포그라운드 서비스를 설정할 수 있으며, 이 서비스를 통해 자동으로 수행할 작업을 확인할 수 있습니다.
+
+서비스는 아래에서 설정한 시간(분)에 반복됩니다.
+
+어떤 모듈을 선택할지 결정합니다. 이 서비스는 적어도 현재 BoS %를 표시합니다.
+
+자동 클랜 내보내기를 활성화하고 TT2Master를 닫으면 이 서비스가 시작되면 내보내기 일정을 계속 합니다.</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="MinuteTimeInterval" xml:space="preserve">
+    <value>시간 간격(분)</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="ChangeSavefilePath" xml:space="preserve">
+    <value>저장 파일로 경로 변경</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="SavefilePathChangedSuccessfully" xml:space="preserve">
+    <value>저장 파일로 의 경로를 성공적으로 변경했습니다. 모든 변경 내용을 완전히 적용하려면 앱을 다시 시작해야 할 수 있습니다.</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="WrongFileTypeSelectedAdat" xml:space="preserve">
+    <value>파일 형식은 .adat이어야 합니다. 다시 시도하십시오.</value>
+    <comment>Savefile</comment>
+  </data>
+  <data name="CheckingPurchasesText" xml:space="preserve">
+    <value>구매 확인</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DownloadAssetsAgainText" xml:space="preserve">
+    <value>모든 에셋 파일을 다시 다운로드하려고 합니다. 이 프로세스는 몇 초 정도 걸릴 수 있습니다. 안정적인 인터넷 연결이 있는지 확인하십시오. 다운로드를 계속하시겠습니까?</value>
+    <comment>AssetManager</comment>
+  </data>
+  <data name="DownloadAssetsAgain" xml:space="preserve">
+    <value>에셋 다시 다운로드</value>
+    <comment>AssetManager</comment>
+  </data>
+  <data name="SpEfficiencyWarning" xml:space="preserve">
+    <value>경고: 목록에 효율성이 1 이하인 요소가 포함되어 있습니다. 그 수준을 증가하지 마십시오! 당신이 지출 포인트가 부족하기 때문에 그들은 단지 거기에</value>
+    <comment>SpOptimizer</comment>
+  </data>
+  <data name="ForbiddenContractSpOptInfo" xml:space="preserve">
+    <value>빌드에 금지 된 계약이 있습니다. 마나뿐만 아니라 마나 재생이 충분한지 확인하십시오. 그렇지 않은 경우 빌드 구성에서이 기술을 사용하지 않도록 설정하십시오!</value>
+    <comment>SP Optimizer</comment>
+  </data>
+  <data name="DiamondFairy" xml:space="preserve">
+    <value>다이아몬드 요정</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="FatFairy" xml:space="preserve">
+    <value>뚱뚱한 요정</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="FreeEquipment" xml:space="preserve">
+    <value>무료 장비</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="ChangeBoSPercentageDisplay" xml:space="preserve">
+    <value>BoS% 변경 표시</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="Artifact96" xml:space="preserve">
+    <value>이상한 과일</value>
+    <comment>Artifact</comment>
+  </data>
+  <data name="Artifact97" xml:space="preserve">
+    <value>하데스 보브</value>
+    <comment>Artifact</comment>
+  </data>
+  <data name="Aura_ElectricWarlord" xml:space="preserve">
+    <value>호랑이의 인장</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Hat_ElectricWarlord" xml:space="preserve">
+    <value>소란의 투구</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Slash_ElectricWarlord" xml:space="preserve">
+    <value>아크 번개</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Suit_ElectricWarlord" xml:space="preserve">
+    <value>바람의 갑옷</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Weapon_ElectricWarlord" xml:space="preserve">
+    <value>아이언 하트</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Skill.AllHelperDmg" xml:space="preserve">
+    <value>마스터 커맨더</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.BossDmgQTE" xml:space="preserve">
+    <value>플래시 지퍼</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.BossTimer" xml:space="preserve">
+    <value>치수 이동</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.BurstSkillBoost" xml:space="preserve">
+    <value>천사의 광채</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ChestGold" xml:space="preserve">
+    <value>전쟁의 전리품</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ClanQTE" xml:space="preserve">
+    <value>조정된 공격</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ClanShipDmg" xml:space="preserve">
+    <value>공중 공격</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ClanShipStun" xml:space="preserve">
+    <value>앵커링 샷</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.Cloaking" xml:space="preserve">
+    <value>클 로킹</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CloneDmg" xml:space="preserve">
+    <value>유령 복수</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CloneSkillBoost" xml:space="preserve">
+    <value>영원한 어둠</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CritSkillBoost" xml:space="preserve">
+    <value>번개</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CritSkillBoostDmg" xml:space="preserve">
+    <value>암살</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.Fairy" xml:space="preserve">
+    <value>요정 부적</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.FireTapSkillBoost" xml:space="preserve">
+    <value>인페르노 소환</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ForbiddenContract" xml:space="preserve">
+    <value>금지된 계약</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.Frenzy" xml:space="preserve">
+    <value>야만적인 분노</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.GuidedBlade" xml:space="preserve">
+    <value>가이드 블레이드</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HeavyStrikes" xml:space="preserve">
+    <value>클리빙 스트라이크</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperBoost" xml:space="preserve">
+    <value>전술적 통찰력</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperDmgQTE" xml:space="preserve">
+    <value>아스트랄 각성</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperDmgSkillBoost" xml:space="preserve">
+    <value>영웅의 힘</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperInspiredWeaken" xml:space="preserve">
+    <value>빛 검색</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ManaMonster" xml:space="preserve">
+    <value>마니 마나</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ManaStealSkillBoost" xml:space="preserve">
+    <value>마나 사이펀</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.MidasSkillBoost" xml:space="preserve">
+    <value>마이다스 얼티밋</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.MPCapacityBoost" xml:space="preserve">
+    <value>제한 중단</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.MultiMonsters" xml:space="preserve">
+    <value>매 복</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.OfflineGold" xml:space="preserve">
+    <value>마스터 도둑</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PetDmg" xml:space="preserve">
+    <value>애완 동물 진화</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PetGoldQTE" xml:space="preserve">
+    <value>마이다스의 심장부</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PetQTE" xml:space="preserve">
+    <value>번개 버스트</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PoisonedBlade" xml:space="preserve">
+    <value>독이 있는 칼날</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.SoulBlade" xml:space="preserve">
+    <value>소울 블레이드</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.StrokeOfLuck" xml:space="preserve">
+    <value>행운의 스트로크</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.TapDmg" xml:space="preserve">
+    <value>기사의 용맹</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.TapDmgFromHelpers" xml:space="preserve">
+    <value>키발릭 오더</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.UltraDagger" xml:space="preserve">
+    <value>단검 소환</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="CreateSnapshotOnDashboardReload" xml:space="preserve">
+    <value>대시보드가 다시 로드될 때 스냅샷 만들기</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="DefaultList" xml:space="preserve">
+    <value>기본 목록</value>
+    <comment>Artifact optimizer view mode</comment>
+  </data>
+  <data name="ImageGrid" xml:space="preserve">
+    <value>이미지 그리드</value>
+    <comment>Artifact optimizer view mode</comment>
+  </data>
+  <data name="ArtOptViewModeSettingsHeader" xml:space="preserve">
+    <value>아티팩트 최적화 프로그램 보기 모드</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="CellSize" xml:space="preserve">
+    <value>셀 크기</value>
+    <comment>Art optimizer view settings</comment>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>방향</value>
+    <comment>Art optimizer view settings</comment>
+  </data>
+  <data name="CopyLtrValue" xml:space="preserve">
+    <value>LTR 값을 클립보드에 복사</value>
+    <comment>Copy LTR value to clipboard</comment>
+  </data>
+  <data name="UseIngameBoSDisplay" xml:space="preserve">
+    <value>게임 내 와 같은 디스플레이 BoS</value>
+    <comment>BoS Display Settings</comment>
+  </data>
+  <data name="UseMasterBoSDisplay" xml:space="preserve">
+    <value>마스터처럼 BoS 표시</value>
+    <comment>BoS Display Settings</comment>
+  </data>
+  <data name="CompletedSets" xml:space="preserve">
+    <value>완성된 세트</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="CraftingPower" xml:space="preserve">
+    <value>제작 력</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="LTR" xml:space="preserve">
+    <value>평생 유물</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="SilentMarch" xml:space="preserve">
+    <value>조용한 행진</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="SkillPoints" xml:space="preserve">
+    <value>스킬 포인트</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="Reporting" xml:space="preserve">
+    <value>보고</value>
+    <comment>Reporting</comment>
+  </data>
+  <data name="CompleteMemberReport" xml:space="preserve">
+    <value>전체 회원 보고서</value>
+    <comment>CompleteMemberReport</comment>
+  </data>
+  <data name="MemberBaseStatsReport" xml:space="preserve">
+    <value>회원 기본 통계 보고서</value>
+    <comment>Member base stats report</comment>
+  </data>
+  <data name="MemberRaidStatsReport" xml:space="preserve">
+    <value>회원 공격대 통계 보고서</value>
+    <comment>Member raid stats report</comment>
+  </data>
+  <data name="Strategies" xml:space="preserve">
+    <value>전략</value>
+    <comment>Raid strategies</comment>
+  </data>
+  <data name="Strategy" xml:space="preserve">
+    <value>전략</value>
+    <comment>Raid Strategy</comment>
+  </data>
+  <data name="DoYouWantToOverwrite" xml:space="preserve">
+    <value>항목이 이미 있습니다. 덮어쓰시겠습니까?</value>
+    <comment>Question which may occur when saving an item</comment>
+  </data>
+  <data name="Enemy" xml:space="preserve">
+    <value>적</value>
+    <comment>Enemy</comment>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>HEAD</value>
+    <comment>Head</comment>
+  </data>
+  <data name="LeftHand" xml:space="preserve">
+    <value>왼손</value>
+    <comment>Left hand</comment>
+  </data>
+  <data name="LeftLeg" xml:space="preserve">
+    <value>왼쪽 다리</value>
+    <comment>Left leg</comment>
+  </data>
+  <data name="LeftShoulder" xml:space="preserve">
+    <value>왼쪽 어깨</value>
+    <comment>Left shoulder</comment>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>아니요</value>
+    <comment>No</comment>
+  </data>
+  <data name="RaidHeader" xml:space="preserve">
+    <value>공습</value>
+    <comment>Raids Header</comment>
+  </data>
+  <data name="RightHand" xml:space="preserve">
+    <value>오른손</value>
+    <comment>Right hand</comment>
+  </data>
+  <data name="RightLeg" xml:space="preserve">
+    <value>오른쪽 다리</value>
+    <comment>Right leg</comment>
+  </data>
+  <data name="RightShoulder" xml:space="preserve">
+    <value>오른쪽 어깨</value>
+    <comment>Right shoulder</comment>
+  </data>
+  <data name="ToP" xml:space="preserve">
+    <value>맨 위로</value>
+    <comment>Totem of Power</comment>
+  </data>
+  <data name="Torso" xml:space="preserve">
+    <value>몸통</value>
+    <comment>Torso</comment>
+  </data>
+  <data name="VM" xml:space="preserve">
+    <value>VM</value>
+    <comment>Victory March</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>예</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="ClanRaidHeader" xml:space="preserve">
+    <value>클랜 습격</value>
+    <comment>Clan Raids Header</comment>
+  </data>
+  <data name="Analysis" xml:space="preserve">
+    <value>분석</value>
+    <comment>Analysis</comment>
+  </data>
+  <data name="Attacks" xml:space="preserve">
+    <value>공격</value>
+    <comment>raid details</comment>
+  </data>
+  <data name="AttacksInTotal" xml:space="preserve">
+    <value>총 공격</value>
+    <comment>Attacks in total for raid analysis</comment>
+  </data>
+  <data name="Damage" xml:space="preserve">
+    <value>손상</value>
+    <comment>raid details</comment>
+  </data>
+  <data name="DamagePerAttack" xml:space="preserve">
+    <value>피해 / 공격</value>
+    <comment>Damage / Attack for raid analysis</comment>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>세부 정보</value>
+    <comment>Details</comment>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>수준</value>
+    <comment>Raid level</comment>
+  </data>
+  <data name="Overkill" xml:space="preserve">
+    <value>과잉</value>
+    <comment>raid details</comment>
+  </data>
+  <data name="OverkillAmount" xml:space="preserve">
+    <value>과잉 살인 량</value>
+    <comment>Overkill amount for raid analysis</comment>
+  </data>
+  <data name="OverkillPercentage" xml:space="preserve">
+    <value>과잉 킬 %</value>
+    <comment>Overkill % for raid analysis</comment>
+  </data>
+  <data name="PasteResultFromClipboard" xml:space="preserve">
+    <value>클립보드에서 결과 붙여넣기</value>
+    <comment>Paste clan raid result from clipboard button text</comment>
+  </data>
+  <data name="Tier" xml:space="preserve">
+    <value>계층</value>
+    <comment>Raid Tier</comment>
+  </data>
+  <data name="WorstOverkills" xml:space="preserve">
+    <value>최악의 과잉 진압</value>
+    <comment>Worst overkills for raid analysis</comment>
+  </data>
+  <data name="WorstParticipation" xml:space="preserve">
+    <value>최악의 참여</value>
+    <comment>Worst participation for raid analysis</comment>
+  </data>
+  <data name="ExportDetailsToClipboard" xml:space="preserve">
+    <value>클립보드에 대한 세부 정보</value>
+    <comment>raid results details to clipboard</comment>
+  </data>
+  <data name="ExportDetailsToCsvFile" xml:space="preserve">
+    <value>CSV 파일에 대한 세부 정보</value>
+    <comment>raid results details to CSV file</comment>
+  </data>
+  <data name="ExportDetailsToShare" xml:space="preserve">
+    <value>세부 정보 공유 CSV 파일</value>
+    <comment>raid results details to csv and share</comment>
+  </data>
+  <data name="ExportRaidResultToClipboard" xml:space="preserve">
+    <value>결과에서 클립보드에</value>
+    <comment>raid result export to clipboard</comment>
+  </data>
+  <data name="ExportRaidResultToCsvFile" xml:space="preserve">
+    <value>CSV 파일에 대한 결과</value>
+    <comment>raid result to CSV file</comment>
+  </data>
+  <data name="ExportRaidResultToShare" xml:space="preserve">
+    <value>결과 CSV 파일 공유</value>
+    <comment>raid results to csv and share</comment>
+  </data>
+  <data name="YouNeedToAddRaidResultsBefore" xml:space="preserve">
+    <value>데이터를 내보내기 전에 공격대 결과를 추가해야 합니다.</value>
+    <comment>Raid result detail information when a user tries to export results without imported data</comment>
+  </data>
+  <data name="MaxOverkillAmount" xml:space="preserve">
+    <value>최대. 과잉</value>
+    <comment>max overkill amount</comment>
+  </data>
+  <data name="MinAttackAmount" xml:space="preserve">
+    <value>최소 공격</value>
+    <comment>min amount of attacks</comment>
+  </data>
+  <data name="SidesAreSeenFromYou" xml:space="preserve">
+    <value>옆면이 당신에게서 보입니다.</value>
+    <comment>raid strategy information text</comment>
+  </data>
+  <data name="MinAverageDamage" xml:space="preserve">
+    <value>최소 평균 피해량</value>
+    <comment>minimum average damage</comment>
+  </data>
+  <data name="AttackFlaws" xml:space="preserve">
+    <value>공격 결함</value>
+    <comment>Clan raid attack flaw</comment>
+  </data>
+  <data name="BelowAvgDamage" xml:space="preserve">
+    <value>평균 피해 이하</value>
+    <comment>Clan raid flaw</comment>
+  </data>
+  <data name="BelowMinAttacks" xml:space="preserve">
+    <value>최소 미만 공격</value>
+    <comment>Clan raid flaw</comment>
+  </data>
+  <data name="ClanRaidDetailInformations" xml:space="preserve">
+    <value>분석이 작동하려면 이전에 공격대 결과를 가져와야 합니다.
+
+과잉 처치 계산은 티탄 방어구와 해골의 피해를 고려합니다.
+
+분석의 평균 손상에는 과잉 피해가 포함되지 않습니다.</value>
+    <comment>Information you get when clicking on the information button in clan raid detail</comment>
+  </data>
+  <data name="ExportDatabase" xml:space="preserve">
+    <value>데이터베이스 파일 내보내기</value>
+    <comment>Settings: button text to export the db file</comment>
+  </data>
+  <data name="AboveMaxOverKill" xml:space="preserve">
+    <value>최대 이상. 과잉</value>
+    <comment>Clan raid flaw</comment>
+  </data>
+  <data name="ArtOpt" xml:space="preserve">
+    <value>아트 옵트</value>
+    <comment>for shortcut</comment>
+  </data>
+  <data name="BoSPercent" xml:space="preserve">
+    <value>BoS %</value>
+    <comment>for shortcut</comment>
+  </data>
+  <data name="SP" xml:space="preserve">
+    <value>SP</value>
+    <comment>SP display for dashboard shortcut</comment>
+  </data>
+  <data name="DoYouWantToResetPrestigeAmount" xml:space="preserve">
+    <value>오늘의 명성 금액을 0으로 재설정하시겠습니까?</value>
+    <comment>Dashboard info text when pressing on the chart to reset todays prestige amount</comment>
+  </data>
+  <data name="Tolerance" xml:space="preserve">
+    <value>허용 범위</value>
+    <comment>Raid tolerance detail header</comment>
+  </data>
+  <data name="Tolerances" xml:space="preserve">
+    <value>공차</value>
+    <comment>Raid tolerances header</comment>
+  </data>
+  <data name="Absolute" xml:space="preserve">
+    <value>절대</value>
+    <comment>Overkill calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AbsoluteInAttacks" xml:space="preserve">
+    <value>절대 공격</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AbsoluteInWavesExcludingLastWave" xml:space="preserve">
+    <value>마지막 파도를 제외한 파도 절대</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AbsoluteInWavesIncludingLastWave" xml:space="preserve">
+    <value>마지막 파도를 포함한 파도의 절대</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="RelativeFromAllAttacksSum" xml:space="preserve">
+    <value>모든 공격의 합계에서 상대</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="RelativeFromAllPlayerDamage" xml:space="preserve">
+    <value>모든 플레이어 손상에서 상대</value>
+    <comment>Overkill calculation type used for raid tolerance</comment>
+  </data>
+  <data name="RelativeFromCurrentPlayerDamage" xml:space="preserve">
+    <value>현재 플레이어 손상에서 상대적</value>
+    <comment>Overkill calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AverageDamageDescription" xml:space="preserve">
+    <value>최소 평균 피해</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="MaxOverkillDescription" xml:space="preserve">
+    <value>최대 과잉 (잘못된 부품에 대한 갑옷 손상 합계 및 골격 손상)</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="MinAttackAmountDescription" xml:space="preserve">
+    <value>최소 공격 금액</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>유형</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>값</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="TotalDamage" xml:space="preserve">
+    <value>총 손상</value>
+    <comment>Raid analysis total damage</comment>
+  </data>
+  <data name="Waves" xml:space="preserve">
+    <value>물결</value>
+    <comment>Amount of waves display text for raid analysis</comment>
+  </data>
+  <data name="ExportRaidAnalysisImage" xml:space="preserve">
+    <value>공격대 분석 이미지</value>
+    <comment>Clan raid export of analysis data to image</comment>
+  </data>
+  <data name="FillAllFieldsFirst" xml:space="preserve">
+    <value>먼저 모든 필드를 작성하십시오</value>
+    <comment>Fill all fields before you can proceed info text</comment>
+  </data>
+  <data name="OverkillParts" xml:space="preserve">
+    <value>과잉 부품</value>
+    <comment>Raid analysis image header</comment>
+  </data>
+  <data name="WorstOverkillAmounts" xml:space="preserve">
+    <value>최악의 과잉 금액</value>
+    <comment>Raid analysis image header</comment>
+  </data>
+  <data name="ExportRaidTacticsImage" xml:space="preserve">
+    <value>공격대 전술 이미지</value>
+    <comment>Clan raid detail export option</comment>
+  </data>
+  <data name="FillAllStrategiesAndTolerancesFirst" xml:space="preserve">
+    <value>당신은 전에 전략과 허용 오차를 채우기 위해 필요합니다</value>
+    <comment>Clan raid detail export info message</comment>
+  </data>
+  <data name="RaidTactics" xml:space="preserve">
+    <value>공격대 전술</value>
+    <comment>Clan raid tactics exported image header</comment>
+  </data>
+  <data name="AllPlayers" xml:space="preserve">
+    <value>모든 플레이어</value>
+    <comment>Clan raid analysis image tolerance text in brackets</comment>
+  </data>
+  <data name="AmountInWaves" xml:space="preserve">
+    <value>{0} 파도 ({1} 공격)</value>
+    <comment>Clan raid analysis image tolerance text 6 waves (24 attacks)</comment>
+  </data>
+  <data name="PercentageOfAllAttacks" xml:space="preserve">
+    <value>모든 공격의 {0} %</value>
+    <comment>Clan raid analysis image tolerance text</comment>
+  </data>
+  <data name="WithoutLastWave" xml:space="preserve">
+    <value>{0} 파도 ({1} 공격) 마지막없이</value>
+    <comment>Clan raid analysis image tolerance text 6 waves (24 attacks)</comment>
+  </data>
+  <data name="XofYWaves" xml:space="preserve">
+    <value>{1} 파도의 {0} ({2}/{3})</value>
+    <comment>Clan raid analysis image tolerance text 5 of 6 (20/24)</comment>
+  </data>
+  <data name="PrestigeSinceLastRecord" xml:space="preserve">
+    <value>{0} 이후 마지막 기록</value>
+    <comment>Dashboard prestige text when last snapshot is older than a day</comment>
+  </data>
+  <data name="ValueIsCappedAtTwoPercent" xml:space="preserve">
+    <value>값은 2%로 제한됩니다.</value>
+    <comment>Information text for raid tolerance when you enter a relative min attack amount</comment>
+  </data>
+  <data name="WaveToleranceInfotext" xml:space="preserve">
+    <value>파도 완료 - x (마지막 파도 포함 또는 제외)</value>
+    <comment>Information text for raid tolerance when you enter a wave based min attack amount</comment>
+  </data>
+  <data name="GiveNewName" xml:space="preserve">
+    <value>새 이름 지정</value>
+    <comment>Give a new name text on rename popup page</comment>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>이름 바꾸기</value>
+    <comment>Rename</comment>
+  </data>
+  <data name="MaxWavesExcluding" xml:space="preserve">
+    <value>최대 파도 - {0} (마지막없이)</value>
+    <comment>tactics tolerance image text</comment>
+  </data>
+  <data name="MaxWavesMinusIncluding" xml:space="preserve">
+    <value>최대 파도 - {0}</value>
+    <comment>tactics tolerance image text</comment>
+  </data>
+  <data name="AbsoluteAttackToleranceInfotext" xml:space="preserve">
+    <value>필요한 최소 공격량을 나타내는 값을 지정합니다.</value>
+    <comment>Raid tolerance info for amount of attacks</comment>
+  </data>
+  <data name="ExportPartsAnalysis" xml:space="preserve">
+    <value>부품 분석</value>
+    <comment>Export parts analysis (raid module)</comment>
+  </data>
+  <data name="CouldAccessSavefileText" xml:space="preserve">
+    <value>"{0}"에 액세스 할 수 없습니다!
+이는 Android 11의 범위 있는 스토리지 때문일 수 있습니다. 
+여기에 대한 자세한 정보: https://fistelmann.de/tt2master-on-android-11/
+저장 파일을 다른 (공용) 디렉터리로 복사하십시오.
+지금 파일을 검색하시겠습니까?</value>
+    <comment>Savefile handling</comment>
+  </data>
+  <data name="CouldNotAccessFileTitle" xml:space="preserve">
+    <value>파일에 액세스할 수 없습니다.</value>
+    <comment>Savefile handling</comment>
+  </data>
+  <data name="ImportFromClipboardText" xml:space="preserve">
+    <value>클립보드에서 데이터 가져오기</value>
+    <comment>Manual data import from clipboard text shown on dashboard button</comment>
+  </data>
+  <data name="ChangeDataSourceButtonText" xml:space="preserve">
+    <value>데이터 원본 변경</value>
+    <comment>Text on button to change data source between save file and clipboard export</comment>
+  </data>
+  <data name="ChangeFromClipboardToSavefileSourceQuestion" xml:space="preserve">
+    <value>현재 클립보드에서 데이터를 로드하고 있습니다.
+당신은 정말이 변경하시겠습니까?</value>
+    <comment>Question when a user changes from clipboard to savefile data source</comment>
+  </data>
+  <data name="ChangeFromSavefileToClipboardSourceQuestion" xml:space="preserve">
+    <value>현재 저장 파일에서 직접 데이터를 로드하고 있습니다.
+일부 기능을 사용할 수 없습니다 수 있습니다!
+당신은 정말이 변경하시겠습니까?</value>
+    <comment>Question when a user changes from savefile to clipboard data source</comment>
+  </data>
+  <data name="PleaseRestartTheAppForChangesToTakeEffect" xml:space="preserve">
+    <value>변경 내용을 적용하려면 앱을 다시 시작하세요</value>
+    <comment>Informational text for user if a restart of the app is recommended due to changes in settings</comment>
+  </data>
+  <data name="CheckPurchases" xml:space="preserve">
+    <value>구매 확인</value>
+    <comment>Button text in settings for checking purchases</comment>
+  </data>
+  <data name="CouldNotUpdatePurchasementInformation" xml:space="preserve">
+    <value>구매 정보를 업데이트할 수 없습니다.</value>
+    <comment>Information when purchasement information could not be updated</comment>
+  </data>
+  <data name="PurchasementInformationUpdated" xml:space="preserve">
+    <value>업데이트된 구매 정보</value>
+    <comment>Information when purchasement information successfully updated</comment>
+  </data>
+  <data name="ChangeToClipboardDataToFixSafeFileIssuesQuestion" xml:space="preserve">
+    <value>현재 저장 파일에서 직접 데이터를 로드하고 있습니다. 그러나 해당 파일을 찾거나 읽는 데 문제가 있는 것 같습니다.
+클립보드로 데이터 원본으로 전환하시겠습니까?
+
+관심!
+일부 기능을 사용할 수 없습니다 수 있습니다!
+당신은 정말이 변경하시겠습니까?</value>
+    <comment>If loading from savefile fails - give user the chance to change to clipboard loading</comment>
+  </data>
+  <data name="PleaseImportClipboardDataSoAppCanWork" xml:space="preserve">
+    <value>이 응용 프로그램이 작동하려면 클립 보드를 통해 탭 타이탄 2 데이터를 가져와야합니다. 모든 것이 작동되도록 먼저이 작업을 수행하십시오.</value>
+    <comment>Information when you are on clipboard as data source and you have not imported any data yet.</comment>
+  </data>
+  <data name="DisableBigAdsInformation" xml:space="preserve">
+    <value>작은 광고 패키지로 대시보드에 작은 광고만 표시됩니다. 큰 광고는 더 이상 표시되지 않습니다.</value>
+    <comment>IAP - Informational text for the small ads package</comment>
+  </data>
+  <data name="SupporterPurchasementInformation" xml:space="preserve">
+    <value>모든 광고를 비활성화하고 다음과 같은 모든 기능에 무제한 액세스 할 수 있습니다 :
+- 원하는 만큼 SP 구성 만들기
+- 아티팩트 최적화 프로그램 빌드 및 가중치 편집
+또한 향후 출시되는 기능에 무제한 으로 액세스할 수 있습니다!
+</value>
+    <comment>IAP - Informational text for the supporter package</comment>
+  </data>
+  <data name="HasHerosMaxedInfoText" xml:space="preserve">
+    <value>당신은 모든 영웅이 밖으로 최대?
+영웅이 최대화되면 금은 무관하며 무시됩니다.</value>
+    <comment>ArtifactOptimizerSettings HarHerosMaxed Infotext</comment>
+  </data>
+  <data name="HasHerosMaxedOption" xml:space="preserve">
+    <value>영웅이 최대?</value>
+    <comment>ArtifactOptimizerSettings HasHerosMaxed Label</comment>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>일반</value>
+    <comment>General like "in General"</comment>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>크기</value>
+    <comment>Size</comment>
+  </data>
+  <data name="AlreadyImportedThisData" xml:space="preserve">
+    <value>이미 이 데이터를 가져온</value>
+    <comment>Clipboard import info when you import exactly the same data as before</comment>
+  </data>
+  <data name="CraftingAdvisor" xml:space="preserve">
+    <value>제작 고문</value>
+    <comment>CraftingAdvisor</comment>
+  </data>
+  <data name="NoCraftableEquipmentFoundText" xml:space="preserve">
+    <value>제작 장비가 발견되지 않았습니다.</value>
+    <comment>Info text for user if no set is completed and therefore nothing to craft</comment>
+  </data>
+  <data name="BoostType" xml:space="preserve">
+    <value>부스트 타입</value>
+    <comment>BoostType for crafting advisor</comment>
+  </data>
+  <data name="EquipmentSet" xml:space="preserve">
+    <value>설정</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Eight" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Five" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Four" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="One" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Seven" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Six" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Three" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Two" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="HowToLogHeader" xml:space="preserve">
+    <value>로그 방법</value>
+    <comment>Page header for the how to on logging</comment>
+  </data>
+  <data name="HowToLogText" xml:space="preserve">
+    <value>앱은 항상 기본 정보를 기록합니다. 그러나 이 정보는 자동으로 전송되지 않습니다. 
+
+앱 내에서 중요한 오류가 있는 경우 개발자에게 이메일을 보낼 수 있습니다. 이 작업이 완료되면 앱에서 로그 파일을 첨부하려고 합니다.
+
+경우에 따라 개발자가 자세한 로그를 받아야 합니다. 
+이렇게 만들려면 다음과 같이 진행하십시오.
+설정으로 이동하여 자세한 로깅을 활성화합니다. 그런 다음 가능한 한 몇 단계로 문제를 다시 만들어 보십시오.
+그런 다음 설정으로 돌아가 세부 로깅을 비활성화합니다.
+이제 "내 정보" 페이지로 이동하여 "메일 보내기"를 클릭합니다.</value>
+    <comment>Detail text on how to send a log and logging in general</comment>
+  </data>
+  <data name="SpOptSpSpentText" xml:space="preserve">
+    <value>당신은 {0} 기술 포인트가 남아있다.</value>
+    <comment>SPOptimizer result text to inform user about how many SP he has left after he followed the optimization suggestion</comment>
+  </data>
+  <data name="SpOptNextSkillButNotEnoughSp" xml:space="preserve">
+    <value>다음 기술은 {0} 것이지만 너무 비쌉니다 ({1} SP)</value>
+    <comment>SPOptimizer: Attention text to tell the player which skill would be the next but is not contained in the list because there is just too few skill points left</comment>
+  </data>
+  <data name="SpOptNextSkillIncludedButNotEnoughSp" xml:space="preserve">
+    <value>마지막 기술({0})은 SP에 {1} 비용이 들며, SP가 지출할 {2} 있습니다.</value>
+    <comment>SPOptimizer: Attention text to tell the player that his upgrade list contains a skill which he can not affort.</comment>
+  </data>
+  <data name="ChangeAbyssSavefilePath" xml:space="preserve">
+    <value>경로 저장 대기를 변경</value>
+    <comment>Settings: Change file path to abyssal savefile</comment>
+  </data>
+  <data name="Skill.HelperBoostMultiCastSkill" xml:space="preserve">
+    <value>명령 패권</value>
+    <comment>Skill: Warcry Damage per Multi-Cast</comment>
+  </data>
+  <data name="Skill.TapBoostMultiCastSkill" xml:space="preserve">
+    <value>화산 우월주의</value>
+    <comment>Skill: Fire Sword Damage per Multi-Cast</comment>
+  </data>
+  <data name="PendingPurchasementDetectedText" xml:space="preserve">
+    <value>보류 중인 구매가 인정됩니다. 거래를 완료한 경우 설정 페이지를 방문하여 복원 구매 버튼을 클릭하십시오. 결제가 승인되지 않은 경우 tt2master@fistelmann.de 따라 당사에 문의하십시오.</value>
+    <comment>Information text that will be displayed if a user makes a purchasement with pending transaction.</comment>
+  </data>
+  <data name="DailyAutoSnapshotThreshold" xml:space="preserve">
+    <value>자동 일일 스냅샷 임계값</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="ExportSnapshotDiff" xml:space="preserve">
+    <value>두 스냅숏 간에 diff 내보내기</value>
+    <comment>Export page</comment>
+  </data>
+  <data name="Artifact98" xml:space="preserve">
+    <value>반짝이는 오일</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Skill.BurstDamageMultiCastSkill" xml:space="preserve">
+    <value>신성한 우월주의</value>
+    <comment>Skill</comment>
+  </data>
+  <data name="Skill.ShadowCloneMultiCastSkill" xml:space="preserve">
+    <value>팬텀 패권</value>
+    <comment>Skill</comment>
+  </data>
+</root>

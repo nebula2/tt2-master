@@ -1,0 +1,27 @@
+﻿@using TT2MasterAdministrationApp.Shared
+<EditForm Model="@Container" OnValidSubmit="@OnValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <label>Version to download: </label>
+        <InputText @bind-Value="@Container.LatestVersion" />
+        <ValidationMessage For="@(() => Container.LatestVersion)" />
+    </div>
+
+    <button type="submit" disabled="@(!IsEnabled)" class="btn btn-success">
+        @ButtonText
+    </button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public AssetContainer Container { get; set; }
+
+    [Parameter] 
+    public string ButtonText { get; set; } = "Save";
+    
+    [Parameter]
+    public bool IsEnabled { get; set; }
+
+    [Parameter] 
+    public EventCallback OnValidSubmit { get; set; }
+}

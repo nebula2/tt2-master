@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             x:Class="TT2Master.StatisticsPage"
+             Title="{Binding Title}"
+             >
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Add" Command="{Binding SnapshotCommand}" Icon="add_icon"/>
+    </ContentPage.ToolbarItems>
+
+    <Grid Margin="2">
+
+        <ListView CachingStrategy="RetainElement" ItemsSource="{Binding Snapshots}" HasUnevenRows="True" SelectionMode="None">
+
+            <ListView.Behaviors>
+                <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EnterSnapshotCommand}" Converter="{StaticResource ItemTappedConverter}" />
+            </ListView.Behaviors>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="5">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding ID, StringFormat='ID: {0}'}" FontSize="Medium" VerticalTextAlignment="Center"/>
+                                <Label Text=" - " />
+                                <Label Text="{Binding Timestamp, StringFormat='Date: {0:yyyy.MM.dd - HH:mm}'}" FontSize="Medium" VerticalTextAlignment="Center"/>
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>

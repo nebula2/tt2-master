@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+          xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+          xmlns:model="clr-namespace:TT2Master.Model.Arti"
+          xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+          mc:Ignorable="d"
+          x:Class="TT2Master.Views.Arti.ArtOptCell"
+          x:DataType="model:ArtifactToOptimize">
+    
+    <ViewCell.View>
+        <Frame Margin="5" BackgroundColor="{StaticResource FrameBackground}">
+
+            <Frame.Resources>
+                <converter:CoinStringConverter x:Key="CoinStr" />
+                <converter:ArtPercentageConverter x:Key="ArtPerc" />
+                <converter:ArtStepConverter x:Key="ArtStep" />
+                <converter:DoneToArtCellColorConverter x:Key="DoneToColorConverter"/>
+                <converter:BoolConverter x:Key="boolConvert" />
+                <converter:EfficiencyConverter x:Key="effConvert" />
+            </Frame.Resources>
+            
+            <Grid HorizontalOptions="FillAndExpand" 
+                  VerticalOptions="FillAndExpand"
+                  ColumnDefinitions="50, *, Auto">
+                
+                <!-- Artifact Image -->
+                <Image Grid.Column="0" Source="{Binding ImagePath}" 
+                       WidthRequest="50" MinimumHeightRequest="50" />
+
+                <!-- Artifact Text -->
+                <Grid Grid.Column="1" 
+                      HorizontalOptions="FillAndExpand" 
+                      VerticalOptions="FillAndExpand"
+                      RowDefinitions="Auto, Auto">
+
+                    <!-- Name -->
+                    <Label Grid.Row="0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <!-- Sort ID -->
+                                    <Span Text="(ID " />
+                                    <Span Text="{Binding SortIndex}" />
+                                    <Span Text=") " />
+                                    <!-- Name -->
+                                    <Span Text="{Binding Name}" FontAttributes="Bold"/>
+                                    <Span Text=" " />
+                                    <!-- Efficiency -->
+                                    <Span Text="{Binding Efficiency, Converter={StaticResource effConvert}, StringFormat='(x{0})'}" />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <!-- Level -->
+                    <Label Grid.Row="1">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <!-- Current Level -->
+                                    <Span Text="{Binding Level, StringFormat='Lvl: {0}', Converter={StaticResource CoinStr}}" />
+                                    <Span Text=" " />
+                                    <!-- Current Percentage -->
+                                    <Span Text="{Binding CurrPercentage, StringFormat='({0} %)'}" />
+                                    <Span Text=" " />
+                                    <!-- Upgrade Reason -->
+                                    <Span Text="{Binding UpgradeReason}" />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </Grid>
+
+                <!--Artifact Upgrade-->
+                <Frame Grid.Column="2" 
+                       BackgroundColor="{Binding IsTaggedAsDone, Converter={StaticResource DoneToColorConverter}}" 
+                       Margin="1" 
+                       Padding="1">
+                    <StackLayout Orientation="Vertical">
+                        <!--Amount Single -->
+                        <Label Text="{Binding AmountString, StringFormat='+{0}', Converter={StaticResource CoinStr}}" 
+                               Margin="2"
+                               IsVisible="{Binding IsClickEnabled, Converter={StaticResource boolConvert}, ConverterParameter=true}"/>
+
+                        <!-- Percent (when single) -->
+                        <Label Text="{Binding InPercent, Converter={StaticResource ArtPerc}, StringFormat='% {0}'}" 
+                               Margin="2"
+                               IsVisible="{Binding IsClickEnabled, Converter={StaticResource boolConvert}, ConverterParameter=true}"/>
+
+                        <!-- Click Amount -->
+                        <Label Text="{Binding ClickAmount, Converter={StaticResource ArtStep}}" 
+                               Margin="2" 
+                               IsVisible="{Binding IsClickEnabled}"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </Frame>
+    </ViewCell.View>
+</ViewCell>

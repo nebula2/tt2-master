@@ -1,0 +1,66 @@
+﻿<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" 
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <OnPlatform x:TypeArguments="x:String" 
+                x:Key="FontAwesomeSolid">
+        <On Platform="Android" 
+          Value="fa-solid-900.ttf#Font Awesome 5 Free Solid" />
+        <On Platform="iOS" 
+          Value="FontAwesome5FreeSolid" />
+    </OnPlatform>
+    
+    <OnPlatform x:TypeArguments="x:String" 
+                x:Key="FontAwesome">
+        <On Platform="Android" 
+          Value="fa-solid-900.ttf#Font Awesome 5 Free Solid" />
+        <On Platform="iOS" 
+          Value="FontAwesome5FreeSolid" />
+    </OnPlatform>
+
+    <!--<x:String x:Key="FontAwesomeSolid">fa-solid-900.ttf#Font Awesome 5 Free Solid</x:String>-->
+    <!--<x:String x:Key="FontAwesome">fa-solid-900.ttf#Font Awesome 5 Free Solid</x:String>-->
+    
+
+    <x:Double x:Key="FontSizeSmaller">10</x:Double>
+    <x:Double x:Key="FontSizeSmall">12</x:Double>
+    <x:Double x:Key="FontSizeRegular">14</x:Double>
+    <x:Double x:Key="FontSizeLarge">20</x:Double>
+    <x:Double x:Key="FontSizeXLarge">24</x:Double>
+    <x:Double x:Key="FontSizeXXLarge">30</x:Double>
+
+    <x:String x:Key="FontAwesomeChatIcon">&#xf086;</x:String>
+    <x:String x:Key="FontAwesomeUserIcon">&#xf1ae;</x:String>
+    <x:String x:Key="FontAwesomePictureIcon">&#xf1c5;</x:String>
+    <x:String x:Key="FontAwesomeCogIcon">&#xf013;</x:String>
+    <x:String x:Key="FontAwesomeSearchIcon">&#xf002;</x:String>
+    <x:String x:Key="FontAwesomeEllipsisIcon">&#xf141;</x:String>
+    <x:String x:Key="FontAwesomeEllipsisVerticalIcon">&#xf142;</x:String>
+    <x:String x:Key="FontAwesomePaperclipIcon">&#xf0c6;</x:String>
+    <x:String x:Key="FontAwesomeEmojiIcon">&#xf118;</x:String>
+    <x:String x:Key="FontAwesomeArrowLeftIcon">&#xf060;</x:String>
+    <x:String x:Key="FontAwesomeTickIcon">&#xf00c;</x:String>
+    <x:String x:Key="FontAwesomeCloseIcon">&#xf00d;</x:String>
+    <x:String x:Key="FontAwesomeInfoIcon">&#xf129;</x:String>
+    <x:String x:Key="FontAwesomeCalculatorIcon">&#xf1ec;</x:String>
+    <x:String x:Key="FontAwesomeBalanceScaleIcon">&#xf24e;</x:String>
+    <x:String x:Key="FontAwesomeAddIcon">&#xf067;</x:String>
+    <x:String x:Key="FontAwesomeEditIcon">&#xf044;</x:String>
+    <x:String x:Key="FontAwesomeCircleIcon">&#xf111;</x:String>
+    <x:String x:Key="FontAwesomeCircleNotchIcon">&#xf22d;</x:String>
+    <x:String x:Key="FontAwesomeBookIcon">&#xf02d;</x:String>
+    <x:String x:Key="FontAwesomeCloudIcon">&#xf382;</x:String>
+    <x:String x:Key="FontAwesomeChartIcon">&#xf080;</x:String>
+    <x:String x:Key="FontAwesomeDNAIcon">&#xf471;</x:String>
+    <x:String x:Key="FontAwesomeHammerIcon">&#xf0e3;</x:String>
+    <x:String x:Key="FontAwesomeAtlasIcon">&#xf558;</x:String>
+    <x:String x:Key="FontAwesomeBellIcon">&#xf0f3;</x:String>
+    <x:String x:Key="FontAwesomeOptimizerIcon">&#xf1ec;</x:String>
+    <x:String x:Key="FontAwesomeSPOptimizerIcon">&#xf471;</x:String>
+    <x:String x:Key="FontAwesomeEquipAdvIcon">&#xf21d;</x:String>
+    <x:String x:Key="FontAwesomeArrowDownIcon">&#xf107;</x:String>
+    <x:String x:Key="FontAwesomeArrowUpIcon">&#xf106;</x:String>
+    <x:String x:Key="FontAwesomeResetIcon">&#xf0e2;</x:String>
+    <x:String x:Key="FontAwesomeQuestionIcon">&#xf059;</x:String>
+    <x:String x:Key="FontAwesomeMinusIcon">&#xf068;</x:String>
+</ResourceDictionary>

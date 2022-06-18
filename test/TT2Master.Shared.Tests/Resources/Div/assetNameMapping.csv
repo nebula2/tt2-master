@@ -1,0 +1,102 @@
+PropertyName,HeaderName
+HPRatio,HP Ratio
+ClanXPCost,ClanXP/Cost
+ClanXPCost,ClanXP/Week
+TotalInArmour,Total In Armour
+TotalInBody,Total in Body
+ID,ArtifactID
+InternalName,Name
+Description,Note
+GeneralTier,Tier
+CostCoefficient,CostCoef
+ClanExp,ClanExperienceCost
+AdvancedStart,AdvanceStart
+CardType,Type
+CardType,Type
+BoostId,Boost
+ShipReduction,Ship
+TapReduction,Tap
+PetReduction,Pet
+ShadowCloneReduction,SC
+HeavenlyStrikeReduction,HS
+ChestersonReduction,Chesterson
+FairyReduction,Fairy
+AllGoldReduction,All Gold
+PHoMReduction,pHoM
+BossGoldReduction,Boss Gold
+SkillId,Skill
+ShipReduction,Ship
+PetReduction,Pet
+ShadowCloneReduction,SC
+HeavenlyStrikeReduction,HS
+ChestersonReduction,Chesterson
+FairyReduction,Fairy
+AllGoldReduction,All Gold
+PHoMReduction,pHoM
+BossGoldReduction,Boss Gold
+IsDmgRelevant,Dmg Relevant
+IsGoldRelevant,Gold Relevant
+IsOnline,Online
+IsOffline,Offline
+IsSecondaryRelevant,SecondaryRelevant
+Set,EquipmentSet
+PlayerName,Spieler Name
+PlayerCode,Spieler Code
+TotalRaidAttacks,Insgesamte Raubzugsangriffe
+TitanNumber,Titan Nummer
+TitanName,Titan Name
+TitanDamage,Titan Schaden
+ArmorHead,Rüstung Kopf
+ArmorTorso,Rüstung Torso
+ArmorLeftArm,Rüstung Linker Arm
+ArmorRightArm,Rüstung Rechter Arm
+ArmorLeftHand,Rüstung Linke Hand
+ArmorRightHand,Rüstung Rechte Hand
+ArmorLeftLeg,Rüstung Linkes Bein
+ArmorRightLeg,Rüstung Rechtes Bein
+BodyHead,Körper Kopf
+BodyTorso,Körper Torso
+BodyLeftArm,Körper Linker Arm
+BodyRightArm,Körper Rechter Arm
+BodyLeftHand,Körper Linke Hand
+BodyRightHand,Körper Rechte Hand
+BodyLeftLeg,Körper Linkes Bein
+BodyRightLeg,Körper Rechtes Bein
+SkeletonHead,Skelett Kopf
+SkeletonTorso,Skelett Torso
+SkeletonLeftArm,Skelett Linker Arm
+SkeletonRightArm,Skelett Rechter Arm
+SkeletonLeftHand,Skelett Linke Hand
+SkeletonRightHand,Skelett Rechte Hand
+SkeletonLeftLeg,Skelett Linkes Bein
+SkeletonRightLeg,Skelett Rechtes Bein
+PlayerName,ИмяИгрока
+PlayerCode,ИгрокКод
+TotalRaidAttacks,ВсегоАтакиРейдовые
+TitanNumber,ЗаказТитана
+TitanName,ИмяТитана
+TitanDamage,ПовреждениеТитана
+ArmorHead,БроняГоловы
+ArmorTorso,БроняТорс
+ArmorLeftArm,БроняЛеваяРука
+ArmorRightArm,БронейПравуюРуку
+ArmorLeftHand,БроняЛеваяРука
+ArmorRightHand,БронейПравуюРуку
+ArmorLeftLeg,БроняЛеваяНога
+ArmorRightLeg,БронейПравуюНогу
+BodyHead,ГоловаТела
+BodyTorso,ТелоТорс
+BodyLeftArm,ТелоЛеваяРука
+BodyRightArm,ТелоПраваяРука
+BodyLeftHand,ТелоЛеваяРука
+BodyRightHand,ТелоПраваяРука
+BodyLeftLeg,ТелоЛеваяНога
+BodyRightLeg,ТелоПраваяНога
+SkeletonHead,ГоловаСкелет
+SkeletonTorso,СкелетТуловища
+SkeletonLeftArm,СкелетЛеваяРука
+SkeletonRightArm,СкелетПравойРуки
+SkeletonLeftHand,СкелетЛеваяРука
+SkeletonRightHand,СкелетПравойРуки
+SkeletonLeftLeg,СкелетЛеваяНога
+SkeletonRightLeg,СкелетПравойНоги

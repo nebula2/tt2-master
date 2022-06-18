@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             x:Class="TT2Master.ClanMemberOverviewPage"
+             Title="{Binding Title}"
+             x:Name="MemberOverview">
+
+    <ContentPage.Resources>
+        <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter"/>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Export" Command="{Binding ExportClanCSVCommand}" Icon="export_icon"/>
+    </ContentPage.ToolbarItems>
+
+    <ListView CachingStrategy="RetainElement" Margin="2" ItemsSource="{Binding Member}" HasUnevenRows="True" SelectionMode="None">
+
+        <ListView.Behaviors>
+            <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EnterDetailCommand}" Converter="{StaticResource ItemTappedConverter}" />
+        </ListView.Behaviors>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.ContextActions>
+                        <MenuItem Text="{x:Static resource:AppResources.Compare}" Command="{Binding Source={x:Reference MemberOverview}, Path=BindingContext.CompareCommand}" CommandParameter="{Binding .}"/>
+                    </ViewCell.ContextActions>
+
+                    <Frame Margin="5" BackgroundColor="{StaticResource FrameBackground}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <!-- Rank -->
+                                <ColumnDefinition Width="50" />
+                                <!-- PlayerName -->
+                                <ColumnDefinition Width="*" />
+                                <!-- MaxStage -->
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" Text="{Binding ClanRank}" />
+
+                            <Label Grid.Column="1" Text="{Binding PlayerName}" />
+
+                            <Label Grid.Column="2" Text="{Binding StageMax}" />
+                        </Grid>
+                    </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

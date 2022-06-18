@@ -1,0 +1,4774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HelloWorld" xml:space="preserve">
+    <value>Привет от ресурсов приложений</value>
+    <comment>Test</comment>
+  </data>
+  <data name="AboutMeHeader" xml:space="preserve">
+    <value>Обо мне</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="CompareValueHeader" xml:space="preserve">
+    <value>Сравните значение:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="CQAutoResetHeader" xml:space="preserve">
+    <value>CQ автоматического сброса:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="CQCounterHeader" xml:space="preserve">
+    <value>CQ Счетчик:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="DescriptionHeader" xml:space="preserve">
+    <value>Описание/контроль:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="MinsBeforeHeader" xml:space="preserve">
+    <value>Мин. до:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="MyMailHeader" xml:space="preserve">
+    <value>Почта:</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="MyNameHeader" xml:space="preserve">
+    <value>Моё имя:</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="NotifyHeader" xml:space="preserve">
+    <value>Уведомления:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ResetDayHeader" xml:space="preserve">
+    <value>День возврата:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ResetLastNotifiedBoss" xml:space="preserve">
+    <value>Восстановить Последнее уведомление босс</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ResetTimeHeader" xml:space="preserve">
+    <value>Время сброса:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="StartService" xml:space="preserve">
+    <value>Запуск службы</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ToSayHeader" xml:space="preserve">
+    <value>Чтобы сказать:</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="WeeklyCQHeader" xml:space="preserve">
+    <value>CQ загрузок:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="AppSettings" xml:space="preserve">
+    <value>Параметры приложений</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="AutoUpdateHeader" xml:space="preserve">
+    <value>Автоматическое обновление</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="BuildHeader" xml:space="preserve">
+    <value>Построить</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="CostCoefficientHeader" xml:space="preserve">
+    <value>Стоимость коэффициент:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="CostExpoHeader" xml:space="preserve">
+    <value>Стоимость экспоненты:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="CurrentHeader" xml:space="preserve">
+    <value>Тока?</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="DamageBonusHeader" xml:space="preserve">
+    <value>Урон:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="DefaultCategoryHeader" xml:space="preserve">
+    <value>Категория по умолчанию:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="DeleteText" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="DisableAllAds" xml:space="preserve">
+    <value>Отключить все объявления</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="DisableSmallAds" xml:space="preserve">
+    <value>Отключить объявления</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="EffectHeader" xml:space="preserve">
+    <value>Эффект:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="EffectPerLvlHeader" xml:space="preserve">
+    <value>Эффект в lvl:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="FoundTT2Version" xml:space="preserve">
+    <value>Найдена версия TT2</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="GeneralHeader" xml:space="preserve">
+    <value>Общие</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="GoldSourceHeader" xml:space="preserve">
+    <value>Золотой источник</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="GrowthExpoHeader" xml:space="preserve">
+    <value>Показатель роста:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="GrowthMaximumHeader" xml:space="preserve">
+    <value>Максимальный рост:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="GrowthRateHeader" xml:space="preserve">
+    <value>Темпы роста:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="HeroHeader" xml:space="preserve">
+    <value>Hero</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="HighHeader" xml:space="preserve">
+    <value>Высоко</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="IngoredArtifactsHeader" xml:space="preserve">
+    <value>Ingored артефакты</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="InputCCText" xml:space="preserve">
+    <value>Входное имя для категории</value>
+    <comment>CustomCategoryInputPopupPage</comment>
+  </data>
+  <data name="LevelHeader" xml:space="preserve">
+    <value>Уровень:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="LifeTimeHeader" xml:space="preserve">
+    <value>Пожизненная %</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="LinksHeader" xml:space="preserve">
+    <value>Ссылки</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Нагрузка</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LocalizationHeader" xml:space="preserve">
+    <value>Локализация</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LoggingHeader" xml:space="preserve">
+    <value>Ведение журнала</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LoggingSwitch" xml:space="preserve">
+    <value>Вход вкл/выкл</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LowHeader" xml:space="preserve">
+    <value>Низк.</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="MediumHeader" xml:space="preserve">
+    <value>средний</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="MilestoneHeader" xml:space="preserve">
+    <value>Веха</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="NameHeader" xml:space="preserve">
+    <value>Имя</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="NoAds" xml:space="preserve">
+    <value>Нет объявлений</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="NumbersScientific" xml:space="preserve">
+    <value>Число научных</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="OnlyRelevantHeader" xml:space="preserve">
+    <value>Только соответствующие</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="OpenHeader" xml:space="preserve">
+    <value>Открытые</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerHeader" xml:space="preserve">
+    <value>Оптимизатора</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="PushingTypeHeader" xml:space="preserve">
+    <value>Толкая тип</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="RangeHeader" xml:space="preserve">
+    <value>Диапазон</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="RelicsSpentHeader" xml:space="preserve">
+    <value>Реликвии провел:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="ReloadCsvAndVersion" xml:space="preserve">
+    <value>Перезагрузить CSV и версии</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="ReloadDefaultBuilds" xml:space="preserve">
+    <value>Перезагрузка по умолчанию сборки</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="ResetCompareValue" xml:space="preserve">
+    <value>Сброс Comparevalue</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="SaveText" xml:space="preserve">
+    <value>сохранить</value>
+    <comment>CustomCategoryInputPopupPage</comment>
+  </data>
+  <data name="SettingsHeader" xml:space="preserve">
+    <value>Параметры</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="ShortHeader" xml:space="preserve">
+    <value>Короткие</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="SmallAds" xml:space="preserve">
+    <value>Небольшие объявления</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="StepAmountHeader" xml:space="preserve">
+    <value>Шаг сумма</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="Supporter" xml:space="preserve">
+    <value>Сторонник</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="SupporterDesc" xml:space="preserve">
+    <value>Отключите все объявления и получить доступ к функциям, доступным только для сторонников. 
+Функции в настоящее время:
+- создать свой собственный строит
+- редактирования сборки и весов
+- доля строит
+- создавать пользовательские категории
+- сохранить построения от клан чат
+- Автоматические ежедневные снимки
+- имеют хорошее чувство</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="SwipeText" xml:space="preserve">
+    <value>Пресс спина на верхней и проведите право&gt;</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="ToBeContinued" xml:space="preserve">
+    <value>Продолжение следует</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="UsageHeader" xml:space="preserve">
+    <value>Использование</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="VersionHeader" xml:space="preserve">
+    <value>Версия</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="VideosHeader" xml:space="preserve">
+    <value>Видео</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="WeightsHeader" xml:space="preserve">
+    <value>Веса</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="YoutubeVideo" xml:space="preserve">
+    <value>YouTube видео</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ArtifactHeader" xml:space="preserve">
+    <value>Артефакты</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="AlertHeader" xml:space="preserve">
+    <value>Оповещения</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckDefaultSpBuildsText" xml:space="preserve">
+    <value>Проверка по умолчанию SP строит</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckingDefaultBuildsText" xml:space="preserve">
+    <value>Проверка по умолчанию артефакт строит</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckingPermissionsText" xml:space="preserve">
+    <value>Проверка разрешений</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckingPurchasementsText" xml:space="preserve">
+    <value>Проверка purchasements</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotCatchFileText" xml:space="preserve">
+    <value>не мог поймать файл</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotFindFileText" xml:space="preserve">
+    <value>Не удалось найти файл</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotFindSavefileText" xml:space="preserve">
+    <value>Не удалось найти сохранить файл. Обычно он должен быть унтер: {0}. вы хотите, чтобы найти его?</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotGetAdIdText" xml:space="preserve">
+    <value>Не удалось получить Аддис. TT2 работает?</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotGetFilepathText" xml:space="preserve">
+    <value>Не удалось получить filepath</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotReadGHDbText" xml:space="preserve">
+    <value>Не удалось прочитать GH базы данных {0}</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotRecreateDefaultBuildsText" xml:space="preserve">
+    <value>Не может заново построения по умолчанию</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DbFileNotExistsText" xml:space="preserve">
+    <value>DB файл не существует.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DbFileNotPickedText" xml:space="preserve">
+    <value>DB файл не был выбран пользователем.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DontCareText" xml:space="preserve">
+    <value>Меня не волнует</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="FirstStartInfoText" xml:space="preserve">
+    <value>При первом запуске - коснитесь титанов должны быть запущены</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="KeepUpText" xml:space="preserve">
+    <value>Не сдаваться. Повторить. Иногда может завершиться ошибкой при запуске</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="LoadingSavefileText" xml:space="preserve">
+    <value>Загрузка Savefile</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="NoText" xml:space="preserve">
+    <value>Нет</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="PermissionNotGrantedText" xml:space="preserve">
+    <value>Разрешение не предоставляется</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="PromptDbFilePath" xml:space="preserve">
+    <value>Пожалуйста, выберите файл DB. Обычно следует {0}</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="SendToDevText" xml:space="preserve">
+    <value>отправить на разработчика</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="StartMainAppText" xml:space="preserve">
+    <value>Запуск основного приложения</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="YesText" xml:space="preserve">
+    <value>Да</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="AlreadyPurchasedIncludingText" xml:space="preserve">
+    <value>Вы уже приобрели пакет, который включает это</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="AlreadyPurchasedText" xml:space="preserve">
+    <value>Вы уже приобрели это</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="BuildsRestoredText" xml:space="preserve">
+    <value>Строит восстановлен</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ErrorHeader" xml:space="preserve">
+    <value>Ошибка</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="FilesDownloadedText" xml:space="preserve">
+    <value>Загруженные файлы</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="InfoHeader" xml:space="preserve">
+    <value>Информация</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ItemNotPurchasedText" xml:space="preserve">
+    <value>Элемент не был приобретен</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ItemPurchasedText" xml:space="preserve">
+    <value>Спасибо :) Пожалуйста перезапустите приложение</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="LoggingActiveText" xml:space="preserve">
+    <value>ведение журнала является активным. Отключить?</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="LoggingInactiveText" xml:space="preserve">
+    <value>Активировать ведение журнала? Будут сохранены в папке Мои документы под {0}</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="NotSet" xml:space="preserve">
+    <value>Не задано</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="OKText" xml:space="preserve">
+    <value>Хорошо</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ProblemRestoringDefaultBuildsText" xml:space="preserve">
+    <value>возникла проблема восстановления по умолчанию сборки</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="BossTimerDescription" xml:space="preserve">
+    <value>Эта функция уведомляет вас, когда появляется новый босс. Установите «Уведомлять». После этого значение в минутах, когда вы хотите получить информацию о босс заранее. Введите значение между 0 и 300. Когда впервые с помощью, вам нужно нажать на кнопку «Запустить службу». «Сброс последнего уведомления босс»-кнопка позволяет службе думаю, это еще ничего уведомление (Kinda как сброс).</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="BuildInfoText" xml:space="preserve">
+    <value>В зависимости от вашего playstile - выберите Построение следовать.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Отмена</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="CouldNotFillDataText" xml:space="preserve">
+    <value>Не могли бы заполнить данные</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="CouldNotFindText" xml:space="preserve">
+    <value>не удалось найти что-нибудь</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="CouldNotLoadFileText" xml:space="preserve">
+    <value>Не удалось загрузить файл</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="CouldNotLoadSkillsText" xml:space="preserve">
+    <value>Не удалось загрузить навыки</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="CouldNotSaveExceptionText" xml:space="preserve">
+    <value>не удалось сохранить: </value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="CurrSPInfoText" xml:space="preserve">
+    <value>Показывает количество SP, в настоящее время у вас</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="DestroyText" xml:space="preserve">
+    <value>Уничтожить</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="ExportedToText" xml:space="preserve">
+    <value>Экспортировать в: </value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="ExportQuestionText" xml:space="preserve">
+    <value>Вы хотите экспортировать это?</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="FinishedText" xml:space="preserve">
+    <value>Завершена</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="MilestoneInfoText" xml:space="preserve">
+    <value>SPBuilds руководство вашего навыка, расходы в несколько этапов. Они разделены на так называемые вехи. Каждый этап имеет количество SP, вам нужно выполнить его.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="OnlyForSupporterInfoText" xml:space="preserve">
+    <value>только для пользователей, которые приобрели пакет сторонником</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="OpenVideoText" xml:space="preserve">
+    <value>Открыть видео</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="PrivacyPolicyHeader" xml:space="preserve">
+    <value>Политика конфиденциальности</value>
+    <comment>PrivacyPolicyVM</comment>
+  </data>
+  <data name="ResetCQCompareValueText" xml:space="preserve">
+    <value>Resetted CqCompareValue на ваш текущий счетчик cq (значение, сохраненное в Интернете)</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="ResetLastBossText" xml:space="preserve">
+    <value>Последний босс сбрасываются</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="ServiceStartedText" xml:space="preserve">
+    <value>Сервис запущен или обновляться, если выполняется</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="SettingsSavedText" xml:space="preserve">
+    <value>Параметры, сохраненные</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="ShortInfoText" xml:space="preserve">
+    <value>Показать только те навыки, которые находятся в указанной сборки. Вступает в силу после перезагрузки</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="SPBuildDescText" xml:space="preserve">
+    <value>С последователем строит SP вы можете следить за общей сборки.</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="SPEditBuildsTitle" xml:space="preserve">
+    <value>SP строит редактирования</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="SPReqInfoText" xml:space="preserve">
+    <value>Чтобы пройти этот этап вам нужно {0} SP</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="VersionInfoText" xml:space="preserve">
+    <value>TT2-версия этой сборки предназначен для</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="WidgetDescriptionText" xml:space="preserve">
+    <value>Ты знала?
+У меня есть виджет для вас. Будьте всегда информированы о том, когда следующий турнир начинается и цены, которые вы можете получить-без того, чтобы начать TAP титанов.</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="ArtifactDetailHeader" xml:space="preserve">
+    <value>Артефакт деталь</value>
+    <comment>ArtDetailVM</comment>
+  </data>
+  <data name="ArtifactOverviewHeader" xml:space="preserve">
+    <value>Артефакт обзор</value>
+    <comment>ArtOverviewVM</comment>
+  </data>
+  <data name="AttentionHeader" xml:space="preserve">
+    <value>Внимание</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="AvailableSPInfoText" xml:space="preserve">
+    <value>Показывает количество SP, вы можете потратить.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="BosInfoText" xml:space="preserve">
+    <value>Сколько ваших все время заработал реликвий должно быть инвестировано в книгу Тень?</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="BuildExistsText" xml:space="preserve">
+    <value>Сборка существует. Вы хотите перезаписать?</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="BuildFirstLetterRestrictionText" xml:space="preserve">
+    <value>Первое письмо не может быть «_». Вот, отведенные для построения по умолчанию</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="BuildImportedText" xml:space="preserve">
+    <value>Построение успешно импортированы</value>
+    <comment>BuildsVM</comment>
+  </data>
+  <data name="BuildNotImportedText" xml:space="preserve">
+    <value>Строить не импортированы</value>
+    <comment>BuildsVM</comment>
+  </data>
+  <data name="BuildsHeader" xml:space="preserve">
+    <value>Строит</value>
+    <comment>BuildsVM</comment>
+  </data>
+  <data name="CategoryAlreadyExistsText" xml:space="preserve">
+    <value>Категория уже существует</value>
+    <comment>CCInputVM</comment>
+  </data>
+  <data name="ChangesSavedText" xml:space="preserve">
+    <value>Изменения сохраняются</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="CouldNotFillArtifactsText" xml:space="preserve">
+    <value>Не могли бы заполнить артефакты</value>
+    <comment>ArtOverviewVM</comment>
+  </data>
+  <data name="CurrentBuildCannotBeDeletedText" xml:space="preserve">
+    <value>Текущие сборки не могут быть удалены</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="DeletedText" xml:space="preserve">
+    <value>Удалены</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="EditBuildHeader" xml:space="preserve">
+    <value>Редактирование сборки</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="FileNotExportedText" xml:space="preserve">
+    <value>файл не экспортируется</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="FileSavedToText" xml:space="preserve">
+    <value>файл, сохраненный в:</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="FillNameFirstText" xml:space="preserve">
+    <value>Сначала заполните имя</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="HeroDamageInfoText" xml:space="preserve">
+    <value>Какого рода повреждения дело сильнейших героя?</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="HeroDamageTypeHeader" xml:space="preserve">
+    <value>Тип повреждения героя</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="HeroRangeInfoText" xml:space="preserve">
+    <value>Это ваш текущий герой ближнего боя или колебались?</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="LifeTimeInfoText" xml:space="preserve">
+    <value>Значение, чтобы манипулировать результаты предлагаемый уровень. Чем выше это значение, тем выше уровень предлагаемых. (Только для визуального мера)</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="MenuAboutTitle" xml:space="preserve">
+    <value>Обо мне</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuArtifactOverviewTitle" xml:space="preserve">
+    <value>Артефакт обзор</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuBossTimerTitle" xml:space="preserve">
+    <value>Босс таймер</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuInfoTitle" xml:space="preserve">
+    <value>Гиды</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuOptimizerTitle" xml:space="preserve">
+    <value>Искусство. Оптимизатора</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuPrivacyPolicyTitle" xml:space="preserve">
+    <value>Политика конфиденциальности</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuPurchaseTitle" xml:space="preserve">
+    <value>Покупка</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuSettingsTitle" xml:space="preserve">
+    <value>Параметры</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="NoCurrentBuildSelectedText" xml:space="preserve">
+    <value>Пожалуйста, выберите сначала текущего построения. Из главного меню перейдите к значку весы. Там вы выстукиваете на построения и выберите пункт «текущий». Сохраните его, и вы хорошо идти.</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="PushTypeInfoText" xml:space="preserve">
+    <value>Играете ли вы онлайн или в автономном режиме? активный/неактивный</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="RelationshipDeletedText" xml:space="preserve">
+    <value>Удалить связь</value>
+    <comment>ArtDetailVM</comment>
+  </data>
+  <data name="SaveFirstText" xml:space="preserve">
+    <value>Сохранить это первое</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="SelectCurrentBuildPromptText" xml:space="preserve">
+    <value>Пожалуйста, выберите текущее построение здесь</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="SomeWeightsNotLoadedText" xml:space="preserve">
+    <value>Может быть некоторые веса не были загружены. Сохраните и повторно введите</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="StepAmountInfoText" xml:space="preserve">
+    <value>Уровень предложения будет округляться до этого</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="SureToDeleteText" xml:space="preserve">
+    <value>Конечно, чтобы удалить это?</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="WantToSaveBuildText" xml:space="preserve">
+    <value>построение не сохраняется. Хотите сэкономить?</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="Artifact1" xml:space="preserve">
+    <value>Героический щит</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact10" xml:space="preserve">
+    <value>Предвестник Рагнарока</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact11" xml:space="preserve">
+    <value>Титан маска</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact12" xml:space="preserve">
+    <value>Болото перчатку</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact13" xml:space="preserve">
+    <value>Запрещенные прокрутки</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact14" xml:space="preserve">
+    <value>Эгидой</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact15" xml:space="preserve">
+    <value>Кольцо верности</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact16" xml:space="preserve">
+    <value>Ледниковые топор</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact17" xml:space="preserve">
+    <value>Шлем безумия</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact18" xml:space="preserve">
+    <value>Яйца судьбы</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact19" xml:space="preserve">
+    <value>Грудь довольство</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact2" xml:space="preserve">
+    <value>Камень Valrunes</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact20" xml:space="preserve">
+    <value>Книга пророчества</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact21" xml:space="preserve">
+    <value>Божественный чаша</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact22" xml:space="preserve">
+    <value>Книга теней</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact23" xml:space="preserve">
+    <value>Обшивка титана</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact24" xml:space="preserve">
+    <value>Сотрудники сияние</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact25" xml:space="preserve">
+    <value>Клинок Damocles</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact26" xml:space="preserve">
+    <value>Небесный меч</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact27" xml:space="preserve">
+    <value>Перчатки «Кума»</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact28" xml:space="preserve">
+    <value>Аметист сотрудников</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact29" xml:space="preserve">
+    <value>Пьяный молот</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact3" xml:space="preserve">
+    <value>Старших Арканов плащ</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact30" xml:space="preserve">
+    <value>Влиятельных эликсир</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact31" xml:space="preserve">
+    <value>Божественное возмездие</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact32" xml:space="preserve">
+    <value>Меч бури</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact33" xml:space="preserve">
+    <value>Фурии лук</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact34" xml:space="preserve">
+    <value>Очарование древней</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact35" xml:space="preserve">
+    <value>Лезвия героя</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact36" xml:space="preserve">
+    <value>Бесконечности маятник</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact37" xml:space="preserve">
+    <value>Дуб сотрудников</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact38" xml:space="preserve">
+    <value>Плод Эдема</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact39" xml:space="preserve">
+    <value>Титан копье</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact4" xml:space="preserve">
+    <value>Топор Muerte</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact40" xml:space="preserve">
+    <value>Кольцо Калисто</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact41" xml:space="preserve">
+    <value>Королевские токсин</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact42" xml:space="preserve">
+    <value>Птичьим пером</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact43" xml:space="preserve">
+    <value>Закинтос монета</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact44" xml:space="preserve">
+    <value>Великий Фэй медальон</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact45" xml:space="preserve">
+    <value>Монеты Ebizu</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact46" xml:space="preserve">
+    <value>Поврежденные Руне сердце</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact47" xml:space="preserve">
+    <value>Invader Gjalarhorn</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact48" xml:space="preserve">
+    <value>Фантомные часы</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact49" xml:space="preserve">
+    <value>Мастер меча</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact5" xml:space="preserve">
+    <value>Invader щит</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact50" xml:space="preserve">
+    <value>Амброзия эликсир</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact51" xml:space="preserve">
+    <value>Samosek меч</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact52" xml:space="preserve">
+    <value>Сердце бури</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact53" xml:space="preserve">
+    <value>Аполлон Orb</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact54" xml:space="preserve">
+    <value>Суть Kitsune</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact55" xml:space="preserve">
+    <value>Дюрандаль меч</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact56" xml:space="preserve">
+    <value>Helheim череп</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact57" xml:space="preserve">
+    <value>Арам копье</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact58" xml:space="preserve">
+    <value>Мистик сотрудников</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact59" xml:space="preserve">
+    <value>Retaliator</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact6" xml:space="preserve">
+    <value>Эликсир из Эдема</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact60" xml:space="preserve">
+    <value>Уорд тьмы</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact61" xml:space="preserve">
+    <value>Крошечные Титан дерево</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact62" xml:space="preserve">
+    <value>Шлем Гермеса</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact63" xml:space="preserve">
+    <value>Потерял короля маска</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact64" xml:space="preserve">
+    <value>Очарование в O'Ryan</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact65" xml:space="preserve">
+    <value>«Песочные часы» о нетерпеливых</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact66" xml:space="preserve">
+    <value>Khrysos чаша</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact67" xml:space="preserve">
+    <value>Серьги Portara</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact68" xml:space="preserve">
+    <value>Мистические фасоль Senzu</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact69" xml:space="preserve">
+    <value>Счастливый подножья аль Мирадж</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact7" xml:space="preserve">
+    <value>Пергамент предвидения</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact70" xml:space="preserve">
+    <value>Сапоги Гермеса</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact71" xml:space="preserve">
+    <value>Morgelai меч</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact72" xml:space="preserve">
+    <value>Оберон Кулон</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact73" xml:space="preserve">
+    <value>Лунный свет браслет</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact74" xml:space="preserve">
+    <value>Несвязанный вызов</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact75" xml:space="preserve">
+    <value>Клятва в бремя</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact76" xml:space="preserve">
+    <value>Корона созвездия</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact77" xml:space="preserve">
+    <value>Титания скипетр</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact78" xml:space="preserve">
+    <value>Фейджина сцепление</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact79" xml:space="preserve">
+    <value>Neko скульптура</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact8" xml:space="preserve">
+    <value>Мазь охотника</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact80" xml:space="preserve">
+    <value>Экранная лупа</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact81" xml:space="preserve">
+    <value>Сокровища Фергус</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact82" xml:space="preserve">
+    <value>Бронзовый компас</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact83" xml:space="preserve">
+    <value>Страйфа и мира</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact84" xml:space="preserve">
+    <value>Флейта солиста</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact85" xml:space="preserve">
+    <value>Der белый карлик</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact9" xml:space="preserve">
+    <value>Чернорабочий Кулон</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="PurchaseHeader" xml:space="preserve">
+    <value>Покупка</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="AboutMeMessage" xml:space="preserve">
+    <value>Это мой первый App когда-либо. Пожалуйста, будьте добры :) для сообщения об ошибках или предложения почты на адреса выше. Было бы хорошо, если вы поддерживаете меня для дальнейшей реализации развертывания. Если у вас есть любые вопросы, пожалуйста, пришлите мне tt2startuplog.txt. Вы найдете его в папке Мои документы.</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="AvailableSPText" xml:space="preserve">
+    <value>Доступные SP</value>
+    <comment>SPOptimizerPage</comment>
+  </data>
+  <data name="CategoryHeader" xml:space="preserve">
+    <value>Категория</value>
+    <comment>Artifact</comment>
+  </data>
+  <data name="CostText" xml:space="preserve">
+    <value>Стоимость</value>
+    <comment>SPOptimizerPage</comment>
+  </data>
+  <data name="LevelUpAmountText" xml:space="preserve">
+    <value>Увеличить</value>
+    <comment>SPOptimizerPage</comment>
+  </data>
+  <data name="NewLanguageHeader" xml:space="preserve">
+    <value>Новый язык</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="NewLanguageText" xml:space="preserve">
+    <value>Вы хотите, чтобы ваш родной язык? Свяжитесь со мной и мы будем делать это вместе :)</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Автономный режим</value>
+    <comment>PushTypeEnum</comment>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Онлайн</value>
+    <comment>PushTypeEnum</comment>
+  </data>
+  <data name="BossGold" xml:space="preserve">
+    <value>Босс золото</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="ChestersonGold" xml:space="preserve">
+    <value>Chesterson золото</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="FairyGold" xml:space="preserve">
+    <value>Фея золото</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="Flying" xml:space="preserve">
+    <value>Перелет</value>
+    <comment>HeroBaseTypeEnum</comment>
+  </data>
+  <data name="Ground" xml:space="preserve">
+    <value>Наземный транспорт</value>
+    <comment>HeroBaseTypeEnum</comment>
+  </data>
+  <data name="Melee" xml:space="preserve">
+    <value>Ближний бой</value>
+    <comment>HeroDmgTypeEnum</comment>
+  </data>
+  <data name="NormalMobGold" xml:space="preserve">
+    <value>Нормальный толпы золото</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="pHoM" xml:space="preserve">
+    <value>ФОМ</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="Ranged" xml:space="preserve">
+    <value>Варьировались</value>
+    <comment>HeroDmgTypeEnum</comment>
+  </data>
+  <data name="Spell" xml:space="preserve">
+    <value>Заклинание</value>
+    <comment>HeroDmgTypeEnum</comment>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Пятница</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Понедельник</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Суббота</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Воскресенье</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Четверг</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Вторник</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Среда</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="MyMailText" xml:space="preserve">
+    <value>Отправить почту</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="BeginSavingX" xml:space="preserve">
+    <value>Начать сохранение {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="CheckingDefaultBuilds" xml:space="preserve">
+    <value>Проверка по умолчанию строит</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="CurrentBuildExists" xml:space="preserve">
+    <value>Существует текущее построение</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="DeletingX" xml:space="preserve">
+    <value>Удаление {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="InitSpBuildList" xml:space="preserve">
+    <value>Инициализация SP построения списка</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="LookingForX" xml:space="preserve">
+    <value>Глядя для {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="MilestoneX" xml:space="preserve">
+    <value>Веха {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="NoCurrentBuildReaction" xml:space="preserve">
+    <value>Текущее построения не найдено. Задание {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="RetrievingStoredDefaultBuilds" xml:space="preserve">
+    <value>Извлечение сохраненных по умолчанию сборки</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="SavingX" xml:space="preserve">
+    <value>Сохранение {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="SecuringCurrentBuild" xml:space="preserve">
+    <value>Обеспечение текущего построения</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="ExportTitle" xml:space="preserve">
+    <value>Экспорт</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ExportText" xml:space="preserve">
+    <value>Экспорт артефакт и SP информация</value>
+    <comment>Export</comment>
+  </data>
+  <data name="BuildNotFoundText" xml:space="preserve">
+    <value>По умолчанию не найден. Задание {0}</value>
+    <comment>SPOptimizerVM</comment>
+  </data>
+  <data name="ErrorOccuredText" xml:space="preserve">
+    <value>Произошла ошибка</value>
+    <comment>ExportVM</comment>
+  </data>
+  <data name="ClanTitle" xml:space="preserve">
+    <value>Клан</value>
+    <comment>ClanOverviewPage</comment>
+  </data>
+  <data name="AverageMaxStage" xml:space="preserve">
+    <value>Средний этап Макс</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Описание</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="Member" xml:space="preserve">
+    <value>Член</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>Ранг</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="ReadingClanData" xml:space="preserve">
+    <value>Чтение данных клана</value>
+    <comment>SafeFile</comment>
+  </data>
+  <data name="ReadingClanMemberX" xml:space="preserve">
+    <value>Чтение клана члена {0}</value>
+    <comment>SafeFile</comment>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Оценка</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="ClanMemberTitle" xml:space="preserve">
+    <value>Член клана</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="CQAmount" xml:space="preserve">
+    <value>CQ сумма</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="CurrentStage" xml:space="preserve">
+    <value>текущий этап</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="LastTimeSeen" xml:space="preserve">
+    <value>Последний раз видел</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="MaximumStage" xml:space="preserve">
+    <value>Макс. этап</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="TournamenAmount" xml:space="preserve">
+    <value>Количество турниров</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="ClanMessagesTitle" xml:space="preserve">
+    <value>Клан сообщения</value>
+    <comment>ClanMessages</comment>
+  </data>
+  <data name="ClickToView" xml:space="preserve">
+    <value>Нажмите для просмотра</value>
+    <comment>ClanMessage</comment>
+  </data>
+  <data name="SharedBuildFrom" xml:space="preserve">
+    <value>Общие сборки от</value>
+    <comment>ClanMessage</comment>
+  </data>
+  <data name="Artifact86" xml:space="preserve">
+    <value>Меч Royals</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact87" xml:space="preserve">
+    <value>Spearit's Vigil</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact88" xml:space="preserve">
+    <value>Пластину кобальта</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact89" xml:space="preserve">
+    <value>Печатей суждения</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact90" xml:space="preserve">
+    <value>Листва хранителя</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="ExportSmallTitle" xml:space="preserve">
+    <value>Небольшой экспорт</value>
+    <comment>Export</comment>
+  </data>
+  <data name="BannedPlayersTitle" xml:space="preserve">
+    <value>Заблокированные игроки</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="NotDeletedText" xml:space="preserve">
+    <value>Не удалять</value>
+    <comment>General</comment>
+  </data>
+  <data name="SureToBanText" xml:space="preserve">
+    <value>Вы хотите запретить этот игрок?</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="BannedReason" xml:space="preserve">
+    <value>Причина</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="PlayerAlreadyBanned" xml:space="preserve">
+    <value>Игрок уже запретили</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="PlayerIsBanned" xml:space="preserve">
+    <value>Игрок будет запрещен</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="BannedPlayersInClan" xml:space="preserve">
+    <value>Запретили игрока в клан!</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="NotAllValuesEntered" xml:space="preserve">
+    <value>Не все значения были введены</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="ClickSuggestionInfoHeader" xml:space="preserve">
+    <value>Щелкните предложение</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="ClickSuggestionInfoText" xml:space="preserve">
+    <value>Если установить это на оптимизатор будет вычислить количество кликов, что вам нужно сделать на каждом артефакт. Учтите, что вычисление может занять некоторое время, когда эта опция включена. 
+PS: Если вы в настоящее время не имеют достаточно реликвии, чтобы приобрести еще один уровень топ предлагаемые артефакт - только один артефакт будет показан в списке оптимизации</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="StepAmountTooLow" xml:space="preserve">
+    <value>Шаг сумма является слишком низкой. Процесс оптимизации будет принять возрастов. Сумма 
+пожалуйста Увеличение шага или жизни %</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="RelicsTooLow" xml:space="preserve">
+    <value>Реликвии сумма является слишком низким для обработки.</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="BosTourneyInfoText" xml:space="preserve">
+    <value>Бос-процент в турнире</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="CopyContentToClipboard" xml:space="preserve">
+    <value>Скопировать содержимое в буфер обмена</value>
+    <comment>Export</comment>
+  </data>
+  <data name="SaveToDownloads" xml:space="preserve">
+    <value>Сохранить в неделю</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ShareFile" xml:space="preserve">
+    <value>Доля файл</value>
+    <comment>Export</comment>
+  </data>
+  <data name="FeatureNotImplementedYet" xml:space="preserve">
+    <value>Функция не реализована</value>
+    <comment>General</comment>
+  </data>
+  <data name="Copied" xml:space="preserve">
+    <value>Копировать</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Статистика</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Сохраненные</value>
+    <comment>General</comment>
+  </data>
+  <data name="DeleteOldClanData" xml:space="preserve">
+    <value>Удалять старые данные клана</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="MaxSnapshotAmount" xml:space="preserve">
+    <value>Макс. Снимок сумма</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="SevenDays" xml:space="preserve">
+    <value>7 дней</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="ThirtyDays" xml:space="preserve">
+    <value>30 дней</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="HundredDays" xml:space="preserve">
+    <value>100 дней</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="IncreasedXStages" xml:space="preserve">
+    <value>Увеличение {0} этапы</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="PleaseCheckSettings" xml:space="preserve">
+    <value>Пожалуйста, проверьте ваши настройки</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Изменить язык</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="Changelog" xml:space="preserve">
+    <value>Журнал изменений</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildFromChat" xml:space="preserve">
+    <value>Строить импорт из чата</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="HowTo" xml:space="preserve">
+    <value>Инструкции</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="WidgetOutsideDescription" xml:space="preserve">
+    <value>Существует также информация о бесплатных капель оборудования для текущего запуска. 
+И Последнее, но не менее, вы получаете информацию о своих ежедневных достижениях. </value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildFromChatDesc" xml:space="preserve">
+    <value>Вы можете импортировать SP построения из клан чат - смысл, если кто-то в ваш клан должности его навык деревьев вы можете сравнить это ваш собственный, а также сохранить его. 
+Сделать это-перейти к клану сообщения</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildImgOneDesc" xml:space="preserve">
+    <value>Под «Build» вы можете нажать на построения, чтобы открыть его.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildImgTwoDesc" xml:space="preserve">
+    <value>Оттуда вы можете нажать на навыки, чтобы просмотреть различия или сохранить его.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsImgOneDesc" xml:space="preserve">
+    <value>В главном меню статистики можно создавать новые моментальные снимки. Для сторонник есть авто снимки, которая создает моментальный снимок каждый раз, когда вы раскроете app (и держит один в день). 
+С помощью кнопки выше можно вручную создать новый моментальный снимок. 
+Ниже вы найдете список ваших сохраненных снимков, которые можно ввести, нажав на него.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsImgThreeDesc" xml:space="preserve">
+    <value>Если вы введете членом клана, вы можете увидеть некоторую информацию, которая собирается из вашего хранимых моментальных снимков. 
+Вы видите, как много этапов, ТП и клана квесты, игрок увеличилась</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsImgTwoDesc" xml:space="preserve">
+    <value>Это подробное представление моментального снимка. для каждого члена в ваш клан вы видите некоторую информацию, как имя или максимальная стадии. 
+Здесь приведен список того, что означают поля:
+ов-T: всего клана квесты
+ов-W: клана квесты на этой неделе
+Tourn.: количество турниров игрок присоединился
+ТП: общее количество ТП игрок заработал.
+ 
+, Нажав Бен вы удалить снимок и, нажав на стрелку моментальный снимок будет экспортировать в csv-файл.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsIntroduction" xml:space="preserve">
+    <value>Статистический модуль предназначен для предоставления вам некоторую информацию о прогрессе и вы клана товарищей и будут отделены в «Моментальные снимки». 
+Каждый снимок содержит соответствующую информацию, которые можно экспортировать или посмотреть в app.
+для предотвращения слишком высокой коллекцию моментальных снимков можно задать максимальную сумму, которая должна храниться в меню настроек.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildImgOneDesc" xml:space="preserve">
+    <value>В панели инструментов вы найдете некоторые кнопки. Слева направо они делают следующее: сохранение, удаление, копирование, экспорт. 
+При вводе построения вы находитесь на вкладке «Общие ". Можно задать имя и золотой источник. 
+Переход направо, чтобы добраться до веса.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildImgTwoDesc" xml:space="preserve">
+    <value>Для каждой категории есть набор веса. Категории можно рассматривать подробно артефакт, который можно ввести из обзор артефакт. 
+Значение веса говорит оптимизатор если категория является эффективным или не. чем выше значение более эффективной категории. 
+Перейти справа, чтобы получить игнорируются артефактов.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildIntroduction" xml:space="preserve">
+    <value>Артефакт оптимизатор использует сборки для определения эффективности артефактов. Этот учебник должен дать вам информацию, вам нужно понимать и управлять ими с учетом ваших личных предпочтений. 
+Для редактирования сборки, navigato для сборки и нажмите на построение, которое требуется изменить.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="SPFollowerHeader" xml:space="preserve">
+    <value>Последователь SP</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="SPFollowerImgOneDesc" xml:space="preserve">
+    <value>Если вы нажмете на кнопку Info на усмотрение записи вы получите описание на что означают поля.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="SPFollowerIntroduction" xml:space="preserve">
+    <value>С последователем SP вы можете сравнить ваши навыки дерево с другими и следовать за ними. Некоторые сборки являются разделены в несколько этапов, что облегчает отслеживание. 
+На закладке скилов - цвета указанием различия и если вы можете позволить до уровня мастерства. 
+Зеленый: у вас достаточно очков навыка, чтобы уровень вверх
+оранжевый: вы должны уровня это, но не хватает навыка
+Красный: слишком высок уровень этот навык
+нейтральной: уровень просто отлично</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildImgThreeDesc" xml:space="preserve">
+    <value>Здесь вы можете игнорировать артефакты, нажав на переключатель. Если артефакт игнорируется он не будет рассматриваться в процессе оптимизации.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgFourDesc" xml:space="preserve">
+    <value>Последний артефакт в списке имеет MAX. Это означает, что если вы получите здесь, вы должны изменить свою внутриигровой шаг сумму до максимума и положить остальные реликвии в этот артефакт.
+
+Если вы получаете сообщение "не хватает реликвий", то это может означать две вещи:
+1. Вы должны заработать больше реликвий. Играть в игру, престиж и перезагрузить оптимизатора
+2. ваши BoS% ниже, чем значение в настройках. Положите реликвии в книгу теней или уменьшите количество в настройках</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgOneDesc" xml:space="preserve">
+    <value>Прежде чем вы начнете работать с оптимизатором, не забудьте правильно настроить свои настройки. 
+Для ввода их нажмите на перо, которое выделяется на картинке.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgThreeDesc" xml:space="preserve">
+    <value>Когда оптимизатор сделал это работа вы получите список артефактов для обновления. 
+Идите сверху вниз. 
+Вы видите картинку и название артефакта до уровня. Под названием вы видите текущий уровень и в скобках вы видите, сколько из вашей жизни провел реликвии пошел в этот артефакт.
+
+Рядом с этим вы видите коробку, которая говорит вам, как часто вы должны нажать на кнопку уровня этого артефакта. Здесь оно говорит 12x (намереваться давление 12 времен на кнопке подъема того артефакта). </value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgTwoDesc" xml:space="preserve">
+    <value>Здесь вы видите настройки, которые вы можете сделать. 
+Слева от каждого параметра вы найдете Инфо-кнопку. Щелкните по нему, чтобы получить краткое описание того, что вы можете задать.
+
+Сначала выберите Построение, которое подходит вашему стилю игры. Вы можете использовать предопределенные сборки (_ как первая буква) или один из ваших собственных.
+
+После этого установите ваш тип нажатия. Если вы хотите воспользоваться преимуществами молчания марта, но в основном играть в онлайн набор этого "не набор".
+
+Далее идет сумма шага. Здесь вы установите ту же ценность, что вы используете игре! 
+Чем ниже размер шага, тем точнее оптимизация. Но она не должна быть слишком низкой. Оптимальное значение составляет 5%. 
+
+BoS роялти процентное количество реликвий вы хотите положить в книгу теней вне турнира. 
+Большинств игрок нажимы BoS вне турниров и внутри турниров они игнорируют его. 
+
+BoS T-роялти такой же внутри турниров. Это значение не должно быть выше, чем за пределами турнира. Большинство игроков устанавливают это значение до 0, что означает, что Книга теней будет полностью проигнорирована, пока вы находитесь в турнире.
+
+Герой: есть ли заклинание типа повреждений, Ближний или Дальний? Этот параметр используется для игнорирования артефактов. Если вы установите в ближнем бою вам не нужно увеличивать артефакт, который прочность колебались герои
+
+Диапазон: так же, как и выше
+
+Золотой источник: установите источник золота. Откуда вы получаете свое золото?</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerIntroduction" xml:space="preserve">
+    <value>Этот учебник предназначен, чтобы помочь вам понять, оптимизатор артефактов. Преимущество, которое вы получаете с помощью этого оптимизатора в том, что вы не должны отслеживать любое значение. Вы установите это один раз и хорошо для запуска. При правильном использовании вы можете сэкономить много времени. 
+Последняя вещь, прежде чем мы начнем: когда вы уровень ваших артефактов, то предполагается, что вы используете на расще, функции телефона. На вершине у вас есть нажмите Титаны открыть и на кнопке у вас есть оптимизатор. 
+Так что теперь давайте начнем. Сначала мы погрузимся в настройки. После этого мы взглянем на список, который производится оптимизатором.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="DeleteArtSettings" xml:space="preserve">
+    <value>Удалить параметры оптимизатора</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="DashboardHeader" xml:space="preserve">
+    <value>Панель мониторинга</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="Tournament" xml:space="preserve">
+    <value>Первенство</value>
+    <comment>Tournament</comment>
+  </data>
+  <data name="HS" xml:space="preserve">
+    <value>HS</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="Pet" xml:space="preserve">
+    <value>Домашнее животное</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="SC" xml:space="preserve">
+    <value>SC</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="Ship" xml:space="preserve">
+    <value>Корабль</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="Tap" xml:space="preserve">
+    <value>Нажмите</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="ClickGoldTypeInfoText" xml:space="preserve">
+    <value>Установите ваш основной источник золота</value>
+    <comment>ArtOpt</comment>
+  </data>
+  <data name="GoldTypeInfoHeader" xml:space="preserve">
+    <value>Тип золота</value>
+    <comment>ArtOpt</comment>
+  </data>
+  <data name="SupporterAboDesc" xml:space="preserve">
+    <value>Есть все разблокирована при активной и поддерживать этот app ежемесячно с течением времени.</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="SupTimeHeader" xml:space="preserve">
+    <value>Поддержка Або</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="TimeHeader" xml:space="preserve">
+    <value>Время</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="Aura_BoneTribe" xml:space="preserve">
+    <value>Древняя мудрость</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Colors" xml:space="preserve">
+    <value>Цвет поп</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Cyborg" xml:space="preserve">
+    <value>Заряженные поле</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Diamonds" xml:space="preserve">
+    <value>Бриллиантовое кольцо</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_GoldenRays" xml:space="preserve">
+    <value>Годовщины Аура</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Knight" xml:space="preserve">
+    <value>Рассвет</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Monk" xml:space="preserve">
+    <value>Внутренний мир</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Samurai" xml:space="preserve">
+    <value>Цветение сакуры</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Titan" xml:space="preserve">
+    <value>Титан пара</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Travel" xml:space="preserve">
+    <value>Закрученного воспоминания</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Wolf" xml:space="preserve">
+    <value>Фазы Луны</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Wonder" xml:space="preserve">
+    <value>Пуленепробиваемые</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_BlackEnergy" xml:space="preserve">
+    <value>Тёмная энергия</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Bugs" xml:space="preserve">
+    <value>Эффект бабочки</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Captain" xml:space="preserve">
+    <value>Героический сияние</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Chains" xml:space="preserve">
+    <value>Шлифовальные Gears</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_CNY" xml:space="preserve">
+    <value>Бумага Фонари</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Crow" xml:space="preserve">
+    <value>Роковой перья</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_DarkAlien" xml:space="preserve">
+    <value>Измученных духов</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Dragon" xml:space="preserve">
+    <value>Quake дракона</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Embers" xml:space="preserve">
+    <value>Падение уголек</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Fur" xml:space="preserve">
+    <value>Лавина</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Ghost" xml:space="preserve">
+    <value>Фантомные туман</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Green" xml:space="preserve">
+    <value>В клочья</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_HighTecLightning" xml:space="preserve">
+    <value>Межпространственной кубов</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_LightBunny" xml:space="preserve">
+    <value>Весенняя лихорадка</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Mage" xml:space="preserve">
+    <value>Рун</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Mech" xml:space="preserve">
+    <value>D.R.O.I.D.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Pirate" xml:space="preserve">
+    <value>Мистик туман</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Platinum" xml:space="preserve">
+    <value>Платиновый Аура</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Poet" xml:space="preserve">
+    <value>Шелковые бриз</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Pumpkin" xml:space="preserve">
+    <value>Тыквенные патч</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Quinn" xml:space="preserve">
+    <value>Пиротехника</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Rockstar" xml:space="preserve">
+    <value>Эквалайзер</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Skulls" xml:space="preserve">
+    <value>Мрачное сияние</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Slayer" xml:space="preserve">
+    <value>Зловещий туман</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Sled" xml:space="preserve">
+    <value>Фестиваль мерцание</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_SnowStorm" xml:space="preserve">
+    <value>Шторм снега</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Surf" xml:space="preserve">
+    <value>Залив смотреть</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Viking" xml:space="preserve">
+    <value>Дух из Валгаллы</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_BatRed" xml:space="preserve">
+    <value>Красный рыцарь</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_BoneTribe" xml:space="preserve">
+    <value>Саблезубый уличный Корона</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Cap" xml:space="preserve">
+    <value>Каждый день Cap</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Captain" xml:space="preserve">
+    <value>Вырез "Водопад" капитана</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Cat" xml:space="preserve">
+    <value>Кошачий шлем</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Chains" xml:space="preserve">
+    <value>Платиновый дьявола</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_CNY" xml:space="preserve">
+    <value>Красные цветы</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Crow" xml:space="preserve">
+    <value>Три eyed блики</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_DarkAlien" xml:space="preserve">
+    <value>Трекер маска</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Dragon" xml:space="preserve">
+    <value>Шлем блистательной</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Ears" xml:space="preserve">
+    <value>Уши</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Fur" xml:space="preserve">
+    <value>Жерлянкоподобная Корона</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Ghost" xml:space="preserve">
+    <value>Фантомные прическа</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Gold" xml:space="preserve">
+    <value>Годовщины шлем</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Green" xml:space="preserve">
+    <value>Шлем из Эдема</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HelmHorned" xml:space="preserve">
+    <value>Рогатый шлем</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HelmWhite" xml:space="preserve">
+    <value>Шлем Белый воин</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HighTecLightning" xml:space="preserve">
+    <value>Крылья Икара</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Ice" xml:space="preserve">
+    <value>Льда Уокер шлем</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Kid" xml:space="preserve">
+    <value>Whiz Kid крышка</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Knight" xml:space="preserve">
+    <value>Валькирия Ciclet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_LightBunny" xml:space="preserve">
+    <value>Легкие Банни шлем</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Mage" xml:space="preserve">
+    <value>Маг Худ</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Mech" xml:space="preserve">
+    <value>V.I.S.O.R.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Monk" xml:space="preserve">
+    <value>Благородный символы</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Music" xml:space="preserve">
+    <value>Голова бум бокс</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Pirate" xml:space="preserve">
+    <value>Покрытием во</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Platinum" xml:space="preserve">
+    <value>Платиновый шлем</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Poet" xml:space="preserve">
+    <value>Artsy берет</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Pumpkin" xml:space="preserve">
+    <value>Полые тыквы</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Quinn" xml:space="preserve">
+    <value>Поспешное косички</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Robot" xml:space="preserve">
+    <value>Кибернетический козырек</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Rockstar" xml:space="preserve">
+    <value>Бандана подписи</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Samurai" xml:space="preserve">
+    <value>Бусидо головных уборов</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Skulls" xml:space="preserve">
+    <value>Усиленные череп</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Slayer" xml:space="preserve">
+    <value>Брюнетка бомба</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Sled" xml:space="preserve">
+    <value>Доверенные Toque</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Snowman" xml:space="preserve">
+    <value>Снеговика головы</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Surf" xml:space="preserve">
+    <value>Замачивания шаг</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Titan" xml:space="preserve">
+    <value>Вундеркинд стрижка</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Travel" xml:space="preserve">
+    <value>Шляпа для сафари</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Tribal" xml:space="preserve">
+    <value>Племенной шлем</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Viking" xml:space="preserve">
+    <value>Битва рога</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Wolf" xml:space="preserve">
+    <value>Фенрира взгляд</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Wonder" xml:space="preserve">
+    <value>Amazon роялти</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_BoneTribe" xml:space="preserve">
+    <value>Прямой удар</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Captain" xml:space="preserve">
+    <value>Пойло полосой</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Chains" xml:space="preserve">
+    <value>Ограда</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_CNY" xml:space="preserve">
+    <value>Фейерверки</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Crow" xml:space="preserve">
+    <value>Ворона слэш</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_DarkAlien" xml:space="preserve">
+    <value>Кислой глазури</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Darkness" xml:space="preserve">
+    <value>Литье тени</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_DeepPurple" xml:space="preserve">
+    <value>Deep Purple</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Dragon" xml:space="preserve">
+    <value>Дух дракона</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireTribe" xml:space="preserve">
+    <value>Заработанные шрам</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Fur" xml:space="preserve">
+    <value>Похолодание</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Ghost" xml:space="preserve">
+    <value>Фантомное забастовку</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Gold" xml:space="preserve">
+    <value>Годовщины слэш</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Green" xml:space="preserve">
+    <value>Поврежденного леса</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_HighTecLightning" xml:space="preserve">
+    <value>Божественная Клив</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Knight" xml:space="preserve">
+    <value>Sun полосы</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Lava" xml:space="preserve">
+    <value>Раскаленная лава</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Leaves" xml:space="preserve">
+    <value>Опавшие листья</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_LightBunny" xml:space="preserve">
+    <value>Желток Splash</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Lightning" xml:space="preserve">
+    <value>Голубые молнии</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Mage" xml:space="preserve">
+    <value>Мистические эхо</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Mech" xml:space="preserve">
+    <value>B.U.R.S.T.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Monk" xml:space="preserve">
+    <value>Священное сценариев</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_MouthWash" xml:space="preserve">
+    <value>Бит полосы</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Paint" xml:space="preserve">
+    <value>Краской полосы</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Pirate" xml:space="preserve">
+    <value>Фортуна забастовка</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Platinum" xml:space="preserve">
+    <value>Платиновый слэш</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Poet" xml:space="preserve">
+    <value>Бархат поцелуй</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Quinn" xml:space="preserve">
+    <value>Безумно влюбленный</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_RedPaint" xml:space="preserve">
+    <value>Красная краска</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Rockstar" xml:space="preserve">
+    <value>Художественной слэш</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Samurai" xml:space="preserve">
+    <value>Заработанные шрам</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Skulls" xml:space="preserve">
+    <value>Кости выключатель</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Slayer" xml:space="preserve">
+    <value>Проклятый отрубы</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Sled" xml:space="preserve">
+    <value>Candystripes</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_SnowFlakes" xml:space="preserve">
+    <value>Снежки</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_SpiderWeb" xml:space="preserve">
+    <value>Паук лямки</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Surf" xml:space="preserve">
+    <value>Высокий прилив</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Titan" xml:space="preserve">
+    <value>Крюк</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Travel" xml:space="preserve">
+    <value>Papercuts</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Viking" xml:space="preserve">
+    <value>Забастовка света</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Wolf" xml:space="preserve">
+    <value>Злобный инсульта</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Wonder" xml:space="preserve">
+    <value>Падающая звезда</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorFace" xml:space="preserve">
+    <value>Неизвестные лица</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorGreen" xml:space="preserve">
+    <value>Лес истребитель</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorIce" xml:space="preserve">
+    <value>Морозная броня</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorPurple" xml:space="preserve">
+    <value>Аметист броня</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorScale" xml:space="preserve">
+    <value>Чешуйчатая костюм</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorWhite" xml:space="preserve">
+    <value>Белый воин</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_BoneTribe" xml:space="preserve">
+    <value>Кости племени</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Captain" xml:space="preserve">
+    <value>Отечественной Garb</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Casual" xml:space="preserve">
+    <value>Каждый день свитер</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Chains" xml:space="preserve">
+    <value>Кожа и кружево</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_CNY" xml:space="preserve">
+    <value>Династия платье</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Crow" xml:space="preserve">
+    <value>Морриган в броне</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_DarkAlien" xml:space="preserve">
+    <value>Stealthweave</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Dragon" xml:space="preserve">
+    <value>Доспех блистательной</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Fur" xml:space="preserve">
+    <value>Watcher шкаф</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Ghost" xml:space="preserve">
+    <value>Phantom Armor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Gold" xml:space="preserve">
+    <value>Годовщины броня</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Green" xml:space="preserve">
+    <value>Броня из Эдема</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_HighTecLightning" xml:space="preserve">
+    <value>Божественный броня</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Knight" xml:space="preserve">
+    <value>Полировка Platemail</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_LightBunny" xml:space="preserve">
+    <value>Броня свет Банни</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Mage" xml:space="preserve">
+    <value>Адепт одеяния</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Mech" xml:space="preserve">
+    <value>C.H.A.S.S.I.S.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Monk" xml:space="preserve">
+    <value>Вневременной обертывания</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Pirate" xml:space="preserve">
+    <value>Костюм капитана</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Platinum" xml:space="preserve">
+    <value>Платиновый броня</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Poet" xml:space="preserve">
+    <value>Поэтический пуловер</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Quinn" xml:space="preserve">
+    <value>Любовные Acrobat</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Robot" xml:space="preserve">
+    <value>Робототехнические оболочка</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Rockstar" xml:space="preserve">
+    <value>Тур куртка</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Samurai" xml:space="preserve">
+    <value>Предков броня</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Scarecrow" xml:space="preserve">
+    <value>Пугало</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Skulls" xml:space="preserve">
+    <value>Экзоскелет</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Slayer" xml:space="preserve">
+    <value>Кровавый платье</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Sled" xml:space="preserve">
+    <value>Одаренный свитер</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Snowman" xml:space="preserve">
+    <value>Тело снеговика</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Surf" xml:space="preserve">
+    <value>Повесить десять</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Titan" xml:space="preserve">
+    <value>Крейсером Упряжь</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Travel" xml:space="preserve">
+    <value>Fanny Pack</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Viking" xml:space="preserve">
+    <value>Рейдерство Gear</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Wizard" xml:space="preserve">
+    <value>Мастер свитер</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Wolf" xml:space="preserve">
+    <value>Даже переход</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Wonder" xml:space="preserve">
+    <value>Битва юбка</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Basic" xml:space="preserve">
+    <value>Средняя меч</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_BattleAxe" xml:space="preserve">
+    <value>Топор возрастов</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Beam" xml:space="preserve">
+    <value>Свет Сабер</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_BlueSword" xml:space="preserve">
+    <value>Призрачный меч</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_BoneTribe" xml:space="preserve">
+    <value>Церемониальный нож</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Buster" xml:space="preserve">
+    <value>Бастер лезвие</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Captain" xml:space="preserve">
+    <value>Щит героя</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Carrot" xml:space="preserve">
+    <value>Снеговик нос</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Chains" xml:space="preserve">
+    <value>Синхронизатор</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Club" xml:space="preserve">
+    <value>клубная</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_CNY" xml:space="preserve">
+    <value>Фортуна Вентилятор</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Crow" xml:space="preserve">
+    <value>Никогда</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_DarkAlien" xml:space="preserve">
+    <value>Shadowsteel</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Dragon" xml:space="preserve">
+    <value>Dragonbreath</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Fur" xml:space="preserve">
+    <value>Ского края</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Gear" xml:space="preserve">
+    <value>Редукторный лезвие</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_GoldSword" xml:space="preserve">
+    <value>Годовщины меч</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Green" xml:space="preserve">
+    <value>Deforester</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_HighTecLightning" xml:space="preserve">
+    <value>Рунический меч</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Katana" xml:space="preserve">
+    <value>Перекованный Катана</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Key" xml:space="preserve">
+    <value>Блокировки лезвие</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Knight" xml:space="preserve">
+    <value>Крылатый копье</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Laser" xml:space="preserve">
+    <value>Энергии меч</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_LightBunny" xml:space="preserve">
+    <value>Eggbeater</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Mage" xml:space="preserve">
+    <value>Волшебный жезл</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Mech" xml:space="preserve">
+    <value>B.L.A.D.E.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Monk" xml:space="preserve">
+    <value>Сотрудники вечности</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Ninja" xml:space="preserve">
+    <value>Ниндзя кинжал</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Pirate" xml:space="preserve">
+    <value>Разрушителя</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Platinum" xml:space="preserve">
+    <value>Платиновый Лэнс</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Poet" xml:space="preserve">
+    <value>Сердцеед</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Quinn" xml:space="preserve">
+    <value>Биение сердца</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Rockstar" xml:space="preserve">
+    <value>Уничтожитель</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Samurai" xml:space="preserve">
+    <value>Последний Катана</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Skull" xml:space="preserve">
+    <value>Череп дробилка меч</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Skulls" xml:space="preserve">
+    <value>Позвоночника меч</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Slayer" xml:space="preserve">
+    <value>Пророчество меч</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Sled" xml:space="preserve">
+    <value>Бутон розы</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Spear" xml:space="preserve">
+    <value>Быстрое Копье</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Steel" xml:space="preserve">
+    <value>Стальной меч</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_StreetLamp" xml:space="preserve">
+    <value>Уличный фонарь</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Surf" xml:space="preserve">
+    <value>Вощеная Совет</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Sythe" xml:space="preserve">
+    <value>Смерть Sythe</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Titan" xml:space="preserve">
+    <value>Rectable клинок</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Viking" xml:space="preserve">
+    <value>Северные чоппер</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Wolf" xml:space="preserve">
+    <value>Альфа-коготь</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Wonder" xml:space="preserve">
+    <value>Титан-убийца</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_WoodAxe" xml:space="preserve">
+    <value>Топор лесоруба</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Thief" xml:space="preserve">
+    <value>Бросали звезда</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Thief" xml:space="preserve">
+    <value>Shinobi Wrap</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireOrange" xml:space="preserve">
+    <value>Призыватель пламени</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Thief" xml:space="preserve">
+    <value>Шепот</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Farmer" xml:space="preserve">
+    <value>Фермер Спецодежда</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Thief" xml:space="preserve">
+    <value>Молчаливый костюм</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Thief" xml:space="preserve">
+    <value>Чудесный нож</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Star" xml:space="preserve">
+    <value>Звездный блеск</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireGray" xml:space="preserve">
+    <value>Серый пламя</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_StarsBlue" xml:space="preserve">
+    <value>Звездный путь</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Rose" xml:space="preserve">
+    <value>Букет из роз</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Staff" xml:space="preserve">
+    <value>Сотрудники Сумерки</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="AllDamage" xml:space="preserve">
+    <value>Все повреждения</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="AllHelperDamage" xml:space="preserve">
+    <value>Все повреждения героя</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ChestAmount" xml:space="preserve">
+    <value>Chesterson золото</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ClanShipDamage" xml:space="preserve">
+    <value>Клан корабль повреждения</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="CritDamage" xml:space="preserve">
+    <value>Критический урон</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="MeleeHelperDamage" xml:space="preserve">
+    <value>Герой урон</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="PetDamage" xml:space="preserve">
+    <value>Урон, наносимый питомцем</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="RangedHelperDamage" xml:space="preserve">
+    <value>Варьировались героя урон</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ShadowCloneSkillAmount" xml:space="preserve">
+    <value>Клон урон</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SlashBoost" xml:space="preserve">
+    <value>Основной импульс слэш</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SpellHelperDamage" xml:space="preserve">
+    <value>Заклинаний героя</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SwordBoost" xml:space="preserve">
+    <value>Основной импульс меч</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="TapDamage" xml:space="preserve">
+    <value>Нажмите повреждения</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="Armor" xml:space="preserve">
+    <value>Броня</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="Aura" xml:space="preserve">
+    <value>Аура</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="Helmet" xml:space="preserve">
+    <value>Шлем</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>NONE</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="Slash" xml:space="preserve">
+    <value>косая черта</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="Weapon" xml:space="preserve">
+    <value>Оружие</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="AllProbabilityBoost" xml:space="preserve">
+    <value>Все вероятности</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="BossDamage" xml:space="preserve">
+    <value>Босс повреждения</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="BossGoldx10Chance" xml:space="preserve">
+    <value>10 x босс золотой шанс</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="BurstDamageSkillAmount" xml:space="preserve">
+    <value>Небесный удар ущерб</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ChestChance" xml:space="preserve">
+    <value>Шанс Chesterson</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="CritBoostSkillAmount" xml:space="preserve">
+    <value>Смертоносный удар ущерб</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="CritChance" xml:space="preserve">
+    <value>Критический шанс</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="DeadlyChance" xml:space="preserve">
+    <value>Смертоносный удар шанс</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="FairySpawnChance" xml:space="preserve">
+    <value>Несколько шанс фея</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="FlyingHelperDamage" xml:space="preserve">
+    <value>Полет героя урон</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="GroundHelperDamage" xml:space="preserve">
+    <value>Герой ущерб земле</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="HandOfMidasSkillAmount" xml:space="preserve">
+    <value>Рука Мидас золота</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="HelperBoostSkillAmount" xml:space="preserve">
+    <value>Клич повреждения</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="InactiveAllDamage" xml:space="preserve">
+    <value>Неактивные повреждения</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ManaMonsterSpawnChance" xml:space="preserve">
+    <value>Manni Mana шанс</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="MultiMonsters" xml:space="preserve">
+    <value>Несколько икру шанс</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="PerkGold" xml:space="preserve">
+    <value>Воспрянуть духом золото</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="PetGoldQTEAmount" xml:space="preserve">
+    <value>Мидас Золотое сердце</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="StageSkipMonsterSpawnChance" xml:space="preserve">
+    <value>Шанс Portar икру</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="TapBoostSkillAmount" xml:space="preserve">
+    <value>Меч пожара</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="TitanDamage" xml:space="preserve">
+    <value>Ущерб-босс</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ChestGoldx10Chance" xml:space="preserve">
+    <value>10 x Chesterson золотой шанс</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="GoldAll" xml:space="preserve">
+    <value>Все золото</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="GoldBoss" xml:space="preserve">
+    <value>Босс золото</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="HelmetBoost" xml:space="preserve">
+    <value>Основной импульс шлем</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="InactiveGold" xml:space="preserve">
+    <value>Неактивные золото</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SwordAttackDamage" xml:space="preserve">
+    <value>Урон от атаки мечом</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="UnskilledGold" xml:space="preserve">
+    <value>Стелс золото</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="EquippedText" xml:space="preserve">
+    <value>Оборудованы</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="EquipAdvisor" xml:space="preserve">
+    <value>Оборудовать советник</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Hat_Kitty" xml:space="preserve">
+    <value>Китти Худ</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Took" xml:space="preserve">
+    <value>Шипами оболочка</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_OrangeTribe" xml:space="preserve">
+    <value>Оранжевый пойло</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Poison" xml:space="preserve">
+    <value>Ядовитый клинок</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_ZigZag" xml:space="preserve">
+    <value>Изогнутых лезвия</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Valentines" xml:space="preserve">
+    <value>Круг любви</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Valentines" xml:space="preserve">
+    <value>Шляпа любви</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_PitchFork" xml:space="preserve">
+    <value>Вилы</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_SwordMaster" xml:space="preserve">
+    <value>Мастер меча меч</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Valentines" xml:space="preserve">
+    <value>Bane сердца</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Anniversary" xml:space="preserve">
+    <value>Золотой юбилей</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="BoneTribe" xml:space="preserve">
+    <value>Древний воин</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Captain" xml:space="preserve">
+    <value>Капитан Титан</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Chains" xml:space="preserve">
+    <value>Цепные заводной</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="CNY" xml:space="preserve">
+    <value>Лунный фестиваль</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Crow" xml:space="preserve">
+    <value>Полночь ворон</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Cyborg" xml:space="preserve">
+    <value>Саботёрами</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="DarkAlien" xml:space="preserve">
+    <value>Темный хищник</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Dragon" xml:space="preserve">
+    <value>Убийца дракона</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Fur" xml:space="preserve">
+    <value>Страж мороза</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Ghost" xml:space="preserve">
+    <value>Фантомные присутствие</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Коррумпированные Изумрудный рыцарь</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="HighTecLightning" xml:space="preserve">
+    <value>Ангел хранитель</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Knight" xml:space="preserve">
+    <value>Солнечной Paragon</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="LightBunny" xml:space="preserve">
+    <value>Защитник яйцо</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Mage" xml:space="preserve">
+    <value>Вызывающе Spellsinger</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Mech" xml:space="preserve">
+    <value>Механизированная меч</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Monk" xml:space="preserve">
+    <value>Вечный монах</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Pirate" xml:space="preserve">
+    <value>Охотник за сокровищами</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Platinum" xml:space="preserve">
+    <value>Годовщины платины</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Poet" xml:space="preserve">
+    <value>Сердцеед</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Quinn" xml:space="preserve">
+    <value>От всей души Королева</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Rockstar" xml:space="preserve">
+    <value>Rockstar</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Samurai" xml:space="preserve">
+    <value>Роковой Самурай</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Scarecrow" xml:space="preserve">
+    <value>Пугало Джек</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Skulls" xml:space="preserve">
+    <value>Беспощадного некроманта</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Slayer" xml:space="preserve">
+    <value>Токсичные Slayer</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Sled" xml:space="preserve">
+    <value>След сезон</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Snowman" xml:space="preserve">
+    <value>Мастер снег</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Surf" xml:space="preserve">
+    <value>Suft забастовка</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Thief" xml:space="preserve">
+    <value>Тень ученик</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Titan" xml:space="preserve">
+    <value>Злоумышленник Титан</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Viking" xml:space="preserve">
+    <value>Викинг Кинг</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Хитрый волк</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Wonder" xml:space="preserve">
+    <value>Amazon принцесса</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="BossKills" xml:space="preserve">
+    <value>Босс убивает</value>
+    <comment>BossKills</comment>
+  </data>
+  <data name="KillTime" xml:space="preserve">
+    <value>Убить время</value>
+    <comment>Boss</comment>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>Продолжительность: </value>
+    <comment>Boss</comment>
+  </data>
+  <data name="EquipAdvisorSpecialThanks" xml:space="preserve">
+    <value>Особая благодарность Коши для немецких математика!</value>
+    <comment>EquipAdvisor</comment>
+  </data>
+  <data name="CompendiumDiscordText" xml:space="preserve">
+    <value>Есть также сервер рознь. Нажмите кнопку, чтобы туда добраться.</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="CompendiumIntroduction" xml:space="preserve">
+    <value>Строит и сборник взносов является команда, которая обеспечивает оптимизированный SP строит, а также весьма полезным вклад сообщества. 
+ 
+Если у вас есть какие-либо вопросы относительно какие построения, вы должны выбрать или нуждаются в руководстве это место, где вы получите it.
+ 
+Вы должны проверить его вне! 
+</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="CompendiumWebsiteText" xml:space="preserve">
+    <value>Если вы нажмете на кнопку ниже, вы получите на сайте.</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="MyDiscordButton" xml:space="preserve">
+    <value>Раздора</value>
+    <comment>AboutMe</comment>
+  </data>
+  <data name="MyDiscordHeader" xml:space="preserve">
+    <value>Я также хотел, чтобы вы знали, что у нас есть разногласия-сервера. Не стесняйтесь, Присоединяйтесь к нам</value>
+    <comment>AboutMe</comment>
+  </data>
+  <data name="Aura_Dizzy" xml:space="preserve">
+    <value>Головокружение</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Fire" xml:space="preserve">
+    <value>Танец огня</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Kookie" xml:space="preserve">
+    <value>Куки Swirl</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Leaves" xml:space="preserve">
+    <value>Лист щит</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Water" xml:space="preserve">
+    <value>Ванна с водным массажем</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Chicken" xml:space="preserve">
+    <value>Beanie курица</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HeadPhones" xml:space="preserve">
+    <value>Наушники</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HelmDevil" xml:space="preserve">
+    <value>Шлем дьявола</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_PowerRanger" xml:space="preserve">
+    <value>Серебряная маска</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_RedTopHat" xml:space="preserve">
+    <value>Red Hat</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Top" xml:space="preserve">
+    <value>Цилиндр</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_EmbersBlue" xml:space="preserve">
+    <value>Морозная угли</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireBlack" xml:space="preserve">
+    <value>Малиновый пламя</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Rainbow" xml:space="preserve">
+    <value>Радуга дороги</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Smelly" xml:space="preserve">
+    <value>Что-то воняет</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorHighTec" xml:space="preserve">
+    <value>Футуристический Гладиатор</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorOrange" xml:space="preserve">
+    <value>Восход броня</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorRoyal" xml:space="preserve">
+    <value>Пригодный для королевской семьи</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_KungFu" xml:space="preserve">
+    <value>Мастер кунфу</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Fan" xml:space="preserve">
+    <value>Вентилятор</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_FriedEgg" xml:space="preserve">
+    <value>Сковорода</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="CompendiumHowToText" xml:space="preserve">
+    <value>Здесь вы получите Reddit-сообщение об использовании</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="NotSaved" xml:space="preserve">
+    <value>Не сохранять</value>
+    <comment>General</comment>
+  </data>
+  <data name="IsCalculated" xml:space="preserve">
+    <value>Вычисляется</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="AverageStageIncrease" xml:space="preserve">
+    <value>AVG. стадии роста</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Конец</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="MinutesPassed" xml:space="preserve">
+    <value>Прошло минут</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="Relics" xml:space="preserve">
+    <value>Реликвии</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMInfoText" xml:space="preserve">
+    <value>Реликвии/мин не рассчитывается. Нажмите на соответствующую кнопку в панели инструментов, чтобы получить значения, рассчитанные</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMRpmText" xml:space="preserve">
+    <value>Реликвии в записи</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMStageText" xml:space="preserve">
+    <value>Этапы в записи</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Начало</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMStartedText" xml:space="preserve">
+    <value>Служба запущена</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="AlreadyCalculatedRpmText" xml:space="preserve">
+    <value>Уже рассчитаны об/мин</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="CalculatedRpMSuccessfully" xml:space="preserve">
+    <value>Успешно рассчитывается об/мин.</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="CalculateRpM" xml:space="preserve">
+    <value>Вычислить об/мин</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="CalculateRpMAgainQuestion" xml:space="preserve">
+    <value>Уже были рассчитаны об/мин. Вы хотите вычислить снова?</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="NoNetwork" xml:space="preserve">
+    <value>Нет сети</value>
+    <comment>General</comment>
+  </data>
+  <data name="RpMRpmDiffText" xml:space="preserve">
+    <value>RpM на запись</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>закрыть</value>
+    <comment>General</comment>
+  </data>
+  <data name="NewInThisVersion" xml:space="preserve">
+    <value>Новое в этой версии</value>
+    <comment>General</comment>
+  </data>
+  <data name="NoPrestigeData" xml:space="preserve">
+    <value>Данные не престиж. Дайте мне один день.</value>
+    <comment>General</comment>
+  </data>
+  <data name="PrestigeTodayText" xml:space="preserve">
+    <value>{0} престиж сегодня</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Профиль</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Дней</value>
+    <comment>General</comment>
+  </data>
+  <data name="IncreasedXPrestige" xml:space="preserve">
+    <value>Увеличение {0} престиж</value>
+    <comment>ClanMemberDetail</comment>
+  </data>
+  <data name="Artifact91" xml:space="preserve">
+    <value>Звеня камень</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Aura_Zeus" xml:space="preserve">
+    <value>Хрустящее развертки</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Hat_Zeus" xml:space="preserve">
+    <value>Волнистый кудри</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Slash_Zeus" xml:space="preserve">
+    <value>Голова в облаках</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Suit_Zeus" xml:space="preserve">
+    <value>ТОГА шторм</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Weapon_Zeus" xml:space="preserve">
+    <value>Истребляйте Сабер</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Leader" xml:space="preserve">
+    <value>Ведущий</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="RaidAttackCount" xml:space="preserve">
+    <value>Рейд атаки</value>
+    <comment>Raid</comment>
+  </data>
+  <data name="Builds" xml:space="preserve">
+    <value>Сборки</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ChooseWhatToExport" xml:space="preserve">
+    <value>Пожалуйста, выберите, что вы хотите меня для экспорта</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Clipboard" xml:space="preserve">
+    <value>Буфер обмена</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Сообщения</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Raid" xml:space="preserve">
+    <value>Рейд</value>
+    <comment>Export</comment>
+  </data>
+  <data name="CsvDelimiterHeader" xml:space="preserve">
+    <value>Разделитель CSV</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="Artifact92" xml:space="preserve">
+    <value>Гусиное перо свитков</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact93" xml:space="preserve">
+    <value>Старый король марка</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact94" xml:space="preserve">
+    <value>Лингвистическое стек</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact95" xml:space="preserve">
+    <value>Заряженные карта</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="ClanExportTitle" xml:space="preserve">
+    <value>Клан экспорт</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EnableDisableText" xml:space="preserve">
+    <value>Включить / отключить</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ArtifactCount" xml:space="preserve">
+    <value>Артефакты</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ClanRole" xml:space="preserve">
+    <value>Клан роль</value>
+    <comment>Export</comment>
+  </data>
+  <data name="CraftingShardsSpent" xml:space="preserve">
+    <value>Крафтинг осколки провел</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EquipmentSetCount" xml:space="preserve">
+    <value>Комплект оборудования фото</value>
+    <comment>Export</comment>
+  </data>
+  <data name="LastTimestamp" xml:space="preserve">
+    <value>Штампа времени последнего</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidBaseDamage" xml:space="preserve">
+    <value>Базовый урон RAID</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidPlayerLevel" xml:space="preserve">
+    <value>RAID-уровень игрока</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidTicketsCollected" xml:space="preserve">
+    <value>Рейд билеты собранные</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidTotalCardLevel" xml:space="preserve">
+    <value>Общая карта уровень RAID</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidTotalXP" xml:space="preserve">
+    <value>Рейд всего exp</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidUniqueSkillCount" xml:space="preserve">
+    <value>Количество уникальных навыков RAID</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TitanPoints" xml:space="preserve">
+    <value>Очки Titan</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalHelperScrolls" xml:space="preserve">
+    <value>Общая вспомогательная свитки</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalHelperWeapons" xml:space="preserve">
+    <value>Общая вспомогательная оружие</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalPetLevels" xml:space="preserve">
+    <value>Всего ПЭТ уровней</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalSkillPoints" xml:space="preserve">
+    <value>Всего очков</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TournamentCount" xml:space="preserve">
+    <value>Количество турниров</value>
+    <comment>Export</comment>
+  </data>
+  <data name="WeeklyTicketCount" xml:space="preserve">
+    <value>За билет фото</value>
+    <comment>Export</comment>
+  </data>
+  <data name="MaxClanMsgAmount" xml:space="preserve">
+    <value>Клан сообщение сумма</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="ErrorLoadingClanMsg" xml:space="preserve">
+    <value>Не удалось загрузить сообщения</value>
+    <comment>ClanMsg</comment>
+  </data>
+  <data name="Aura_LightBeams" xml:space="preserve">
+    <value>Световые лучи</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Hat_Bag" xml:space="preserve">
+    <value>Незнакомец</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Hat_Link" xml:space="preserve">
+    <value>Фригийский Кап</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Slash_Bishop" xml:space="preserve">
+    <value>Крест слэш</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Weapon_Saw" xml:space="preserve">
+    <value>Заточенная Пила</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>поиск</value>
+    <comment>ClanMsg</comment>
+  </data>
+  <data name="TournamentPoints" xml:space="preserve">
+    <value>Турнирные очки</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="AttackCount" xml:space="preserve">
+    <value>Кол атаки</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="BaseDamage" xml:space="preserve">
+    <value>Базовый урон</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="CratesShared" xml:space="preserve">
+    <value>Ящики разделяют</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="HelperLevel" xml:space="preserve">
+    <value>Уровень помощника</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="PetLevel" xml:space="preserve">
+    <value>Уровень ПЭТ</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Проигрыватель</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="PlayerLevel" xml:space="preserve">
+    <value>Уровень игрока</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="RaidClan" xml:space="preserve">
+    <value>Рейд/клан</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="ShardsSpent" xml:space="preserve">
+    <value>Осколки, потраченные</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TicketsCollected" xml:space="preserve">
+    <value>Билеты собраны</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TotalCardLevel" xml:space="preserve">
+    <value>Общий уровень карты</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TotalEXP" xml:space="preserve">
+    <value>Всего опыта</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="UniqueSkillCount" xml:space="preserve">
+    <value>Уникальный навык граф</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Свитки вспомогательные</value>
+    <comment>MemberDetail</comment>
+  </data>
+  <data name="AntiTitanCannon" xml:space="preserve">
+    <value>Анти Титан Пушка</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="ArcaneBargain" xml:space="preserve">
+    <value>Аркан Сделка</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="IntimidatingPresence" xml:space="preserve">
+    <value>Устрашающее присутствие</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="MysticalImpact" xml:space="preserve">
+    <value>Мистическое воздействие</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="PowerSurge" xml:space="preserve">
+    <value>Энергетический всплеск</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="Clan" xml:space="preserve">
+    <value>Клан</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>Оборудование</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Навыки</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Things" xml:space="preserve">
+    <value>Вещи</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="SPSplashCalculator" xml:space="preserve">
+    <value>Калькулятор SP Skip</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="SplashSkillHeader" xml:space="preserve">
+    <value>Навыки всплеска</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="SplashSnapHeader" xml:space="preserve">
+    <value>Всплеск Snap</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="AerialAssault" xml:space="preserve">
+    <value>Воздушное нападение (AA)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="AngelicRadiance" xml:space="preserve">
+    <value>Анжелическое сияние (AR)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="DoubleSnap" xml:space="preserve">
+    <value>Двойная привязка</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="EternalDarkness" xml:space="preserve">
+    <value>Вечная тьма (ED)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="LightningBurst" xml:space="preserve">
+    <value>Молния Взрыв (lb)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="SingleSnap" xml:space="preserve">
+    <value>Одиночный привязка</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="WithoutSnap" xml:space="preserve">
+    <value>Без привязки</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="AGSetCompleted" xml:space="preserve">
+    <value>Завершен ли ag Set?</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="NormalTitanCount" xml:space="preserve">
+    <value>Нормальный граф Титана</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="PassiveSkillReduction" xml:space="preserve">
+    <value>Пассивное снижение квалификации</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="StagesToSplash" xml:space="preserve">
+    <value>Этапы для всплеска</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="APSetCompleted" xml:space="preserve">
+    <value>Завершен ли набор AP?</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="StagesToSkip" xml:space="preserve">
+    <value>Этапы, чтобы пропустить</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="SkipSkillHeader" xml:space="preserve">
+    <value>Навыки для пропуска</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="SkipSnapHeader" xml:space="preserve">
+    <value>Выбор привязки</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Конфигурация</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CurrentSP" xml:space="preserve">
+    <value>Current SP</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DamageSource" xml:space="preserve">
+    <value>Damage Source</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>По Умолчанию</value>
+    <comment>General</comment>
+  </data>
+  <data name="GoldSourceDescription" xml:space="preserve">
+    <value>The gold source is where the most part of your gold comes from</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Режим</value>
+    <comment>General</comment>
+  </data>
+  <data name="SPConfigDefaultDescription" xml:space="preserve">
+    <value>Here you can set whether or not the chosen configuration is your default configuration.
+If you navigate to this menu the app automatically loads the default configuration.
+In addition to that other modules of this app may take a look at your default configuration.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPConfigModeDescription" xml:space="preserve">
+    <value>There are two config modes: "continuous" and "creation".
+When continuous is chosen the SP Optimizer will suggest you skills to level based on your current ingame setup.
+When creation is chosen the SP Optimizer will create a whole new build and ignore your current setup.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPConfigurationDescription" xml:space="preserve">
+    <value>A configuration is just a set of preferences.
+The SP Optimizer needs a configuration in order to make a calculation.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPDamageSourceDescription" xml:space="preserve">
+    <value>The damage source is where your main damage comes from</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPConfigurationsHeader" xml:space="preserve">
+    <value>SP Configurations</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Название</value>
+    <comment>General</comment>
+  </data>
+  <data name="ClanShip" xml:space="preserve">
+    <value>Clan Ship</value>
+    <comment>General</comment>
+  </data>
+  <data name="HeavenlyStrike" xml:space="preserve">
+    <value>Heavenly Strike</value>
+    <comment>General</comment>
+  </data>
+  <data name="ShadowClone" xml:space="preserve">
+    <value>Shadow Clone</value>
+    <comment>General</comment>
+  </data>
+  <data name="GiveAName" xml:space="preserve">
+    <value>Give me a name</value>
+    <comment>General</comment>
+  </data>
+  <data name="DamageReduction" xml:space="preserve">
+    <value>Damage reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="GoldReduction" xml:space="preserve">
+    <value>Gold reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Ignored" xml:space="preserve">
+    <value>Игнорируется</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SpecialCalculation" xml:space="preserve">
+    <value>Специальный расчет</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DefaultDamageReduction" xml:space="preserve">
+    <value>Default damage reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DefaultGoldReduction" xml:space="preserve">
+    <value>Default gold reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CustomDamageReduction" xml:space="preserve">
+    <value>Custom damage reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CustomGoldReduction" xml:space="preserve">
+    <value>Custom gold reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Caution" xml:space="preserve">
+    <value>Предостережение</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="TreeIgnorationQuestion" xml:space="preserve">
+    <value>You are about to ignore the whole tree. Are you sure?</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>Выбрать</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Изменить</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPOptimizer" xml:space="preserve">
+    <value>SP Optimizer</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="WhatDoYouWant" xml:space="preserve">
+    <value>What do you want?</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Continuous" xml:space="preserve">
+    <value>Непрерывная</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Creation" xml:space="preserve">
+    <value>Создание</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="OnlyForSupporterItemLimitText" xml:space="preserve">
+    <value>Only supporters can save more than {0} items</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="FixedLevel" xml:space="preserve">
+    <value>Fixed level</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="UpdateReasonFixedLevel" xml:space="preserve">
+    <value>Upgrade to fixed level: {0}</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="EverySkillIgnoredAlert" xml:space="preserve">
+    <value>Every skill is ignored. So I can not optimize anything</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="Efficiency" xml:space="preserve">
+    <value>Эффективность</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="UpgradeParent" xml:space="preserve">
+    <value>Upgrade parent</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="UpgradeReason" xml:space="preserve">
+    <value>Upgrade reason</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="BranchUpgradeParent" xml:space="preserve">
+    <value>Spent points in branch</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="Tree" xml:space="preserve">
+    <value>дерево</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="AboutThisApp" xml:space="preserve">
+    <value>Об этом приложении</value>
+    <comment>About</comment>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Титры</value>
+    <comment>About</comment>
+  </data>
+  <data name="BranchUpgradeGrandParent" xml:space="preserve">
+    <value>Spent points in branch for {1} because {2} points are missing to unlock it to then get to {0}</value>
+    <comment>SPOpt (Reason to upgrade)</comment>
+  </data>
+  <data name="UpgradeGrandParent" xml:space="preserve">
+    <value>Upgrade this to get to parent {0} and then to {1}</value>
+    <comment>SPOpt (Reason to upgrade)</comment>
+  </data>
+  <data name="FeatureNotThereYet" xml:space="preserve">
+    <value>This feature is not implemented yet. I do not know why. I am just here to say this to you.</value>
+    <comment>General</comment>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Результат</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPOverclockAmount" xml:space="preserve">
+    <value>Overclock amount</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPOverclockInfoText" xml:space="preserve">
+    <value>The SP optimizer spends your available skill points. This value tells the Sp Optimizer, how far ahead he goes beyond that. If you have 100 SP and enter 10, then the SP optimizer will act like you have 110 SP</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CloseText" xml:space="preserve">
+    <value>закрыть</value>
+    <comment>General</comment>
+  </data>
+  <data name="RaidResult" xml:space="preserve">
+    <value>Raid result</value>
+    <comment>ClanMessage</comment>
+  </data>
+  <data name="OptimizedBuildFrom" xml:space="preserve">
+    <value>Optimized build from {0}</value>
+    <comment>SP follower</comment>
+  </data>
+  <data name="IgnoredSkillFixedLevelNotReached" xml:space="preserve">
+    <value>- Could not reach fixed level of {1} for {0}. Only got it to level {2}.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="IgnoredSkillWithFixedLevel" xml:space="preserve">
+    <value>- Could not level {0} because it is ignored</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="OfflineBuildWithoutSilentMarch" xml:space="preserve">
+    <value>- The build is configured to have offline progress but Silent March is not leveled</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Compare" xml:space="preserve">
+    <value>Сравнить</value>
+    <comment>PlayerComparison</comment>
+  </data>
+  <data name="PlayerComparison" xml:space="preserve">
+    <value>Player Comparison</value>
+    <comment>PlayerComparison</comment>
+  </data>
+  <data name="CreateConfig" xml:space="preserve">
+    <value>Создать конфигурацию</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="NeedToCreateConfig" xml:space="preserve">
+    <value>You need to create a configuration before you can use this.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="NextTournamentInfo" xml:space="preserve">
+    <value>Next Tournament is {0}
+Starting: {1} with {2}x {3}</value>
+    <comment>Tournament</comment>
+  </data>
+  <data name="IsIgnoredIfNotEnoughSP" xml:space="preserve">
+    <value>Ignored if not enough SP</value>
+    <comment>SP Optimizer</comment>
+  </data>
+  <data name="IsIgnoredIfNotEnoughSPText" xml:space="preserve">
+    <value>If you can not afford to upgrade a skill then the Optimizer tries to ignore it. Instead the optimizer tries to take a skill which you can afford to spend as many skill points as possible</value>
+    <comment>SP Optimizer</comment>
+  </data>
+  <data name="PushBoS" xml:space="preserve">
+    <value>Push Book of Shadows!</value>
+    <comment>ArtOptimizer</comment>
+  </data>
+  <data name="AdvancedStart" xml:space="preserve">
+    <value>Advanced start</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="ExportRaidAsJson" xml:space="preserve">
+    <value>Export Raid as JSON</value>
+    <comment>ExportPage</comment>
+  </data>
+  <data name="MaxArtifactAmountInfoText" xml:space="preserve">
+    <value>The optimization will stop when the suggestion list contains more items than the amount that is set here. The default value is 30.</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="MaxArtifactAmountOption" xml:space="preserve">
+    <value>Max. Artifacts</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="MinEfficiencyInfoText" xml:space="preserve">
+    <value>The optimization will stop when the efficiency is lower than this value. The default value is 1.05</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="MinEfficiencyOption" xml:space="preserve">
+    <value>Min. Efficiency</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="CheckStepAmountOrEfficiency" xml:space="preserve">
+    <value>Please check your step amount or minimum efficiency</value>
+    <comment>ArtifactOptimizer</comment>
+  </data>
+  <data name="LocalFileError" xml:space="preserve">
+    <value>Локальная ошибка файловой системы</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>Вы не подключены к Интернету</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="ServerError" xml:space="preserve">
+    <value>Ошибка стороны сервера</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="SuccessfulAssetDownload" xml:space="preserve">
+    <value>Активы были успешно загружены.</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="TotalFuckUp" xml:space="preserve">
+    <value>Произошла непредвиденная ошибка</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="UnstableAssetState" xml:space="preserve">
+    <value>Состояние активов нестабильно. Если это ваш первый старт, пожалуйста, убедитесь, что у вас есть надлежащее подключение к Интернету, так что активы могут быть загружены. Ошибка менеджера активов: {0}</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="VersionNotOnServer" xml:space="preserve">
+    <value>Текущая версия не присутствует на сервере</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="WrongParameter" xml:space="preserve">
+    <value>Неправильные параметры пройдены</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="AssetProblemDetail" xml:space="preserve">
+    <value>Существует проблема с некоторыми справочными данными. Вот деталь: {0}</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="Problem" xml:space="preserve">
+    <value>проблема</value>
+    <comment>General</comment>
+  </data>
+  <data name="CheckAssetState" xml:space="preserve">
+    <value>Возможны проблемы с состоянием актива. пожалуйста, нажмите кнопку внимания в панели инструментов, чтобы получить более подробную информацию</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="VariousVersion" xml:space="preserve">
+    <value>Различные версии</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="ClanAutoExportTitle" xml:space="preserve">
+    <value>Автоматический экспорт клана</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ClanAutoExportText" xml:space="preserve">
+    <value>Здесь вы можете установить, если вы хотите автоматически экспортировать клановые статистические данные.</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EnableClanAutoExportText" xml:space="preserve">
+    <value>Включить/ отключить</value>
+    <comment>Export</comment>
+  </data>
+  <data name="HourlyTimeInterval" xml:space="preserve">
+    <value>Часовой интервал времени</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EnableClanAutoNotificationText" xml:space="preserve">
+    <value>Сообщите мне, когда данные экспортируются</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Automation" xml:space="preserve">
+    <value>автоматизация</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="AutomationService" xml:space="preserve">
+    <value>Служба автоматизации</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="AutoServiceDescription" xml:space="preserve">
+    <value>Здесь вы можете настроить свой передний план servce, который будет автоматически проверять, что нужно сделать для вас.
+
+Служба повторяется в количестве минут, которые вы установили ниже.
+
+Вы сами решаете, какие модули проверяются. Служба, по крайней мере, отобразит ваш текущий BoS%.
+
+Если вы включили автоматический экспорт клана и закроете TT2Master, эта служба будет продолжать планировать экспорт, если он запущен.</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="MinuteTimeInterval" xml:space="preserve">
+    <value>Интервал времени в минутах</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="ChangeSavefilePath" xml:space="preserve">
+    <value>Изменение пути для сохранения</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="SavefilePathChangedSuccessfully" xml:space="preserve">
+    <value>Успешно изменен путь к сэйтфайлу. Это может потребовать перезагрузки приложения, чтобы полностью применить все изменения.</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="WrongFileTypeSelectedAdat" xml:space="preserve">
+    <value>Тип файла должен быть .adat. Пожалуйста, попробуйте еще раз.</value>
+    <comment>Savefile</comment>
+  </data>
+  <data name="CheckingPurchasesText" xml:space="preserve">
+    <value>Проверка покупок</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DownloadAssetsAgainText" xml:space="preserve">
+    <value>Вы собираетесь скачать все файлы активов снова. Этот процесс может занять несколько секунд. Пожалуйста, убедитесь, что у вас есть стабильное подключение к Интернету. Вы хотите продолжить загрузку?</value>
+    <comment>AssetManager</comment>
+  </data>
+  <data name="DownloadAssetsAgain" xml:space="preserve">
+    <value>Скачать активы снова</value>
+    <comment>AssetManager</comment>
+  </data>
+  <data name="SpEfficiencyWarning" xml:space="preserve">
+    <value>Предупреждение: Список содержит элементы с эффективностью 1 или ниже. Не повысите уровень этих! Они просто там, потому что вы закончились точки провел</value>
+    <comment>SpOptimizer</comment>
+  </data>
+  <data name="ForbiddenContractSpOptInfo" xml:space="preserve">
+    <value>У вас есть Запретный контракт в вашей сборке. Убедитесь, что у вас есть достаточно маны, а также достаточно регенерации маны. Если это не так, убедитесь, что отключить этот навык в вашей конфигурации сборки!</value>
+    <comment>SP Optimizer</comment>
+  </data>
+  <data name="DiamondFairy" xml:space="preserve">
+    <value>Бриллиантовая фея</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="FatFairy" xml:space="preserve">
+    <value>Толстая фея</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="FreeEquipment" xml:space="preserve">
+    <value>Бесплатное оборудование</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="ChangeBoSPercentageDisplay" xml:space="preserve">
+    <value>Изменение отображения BoS%</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="Artifact96" xml:space="preserve">
+    <value>Странные фрукты</value>
+    <comment>Artifact</comment>
+  </data>
+  <data name="Artifact97" xml:space="preserve">
+    <value>Аид Соб</value>
+    <comment>Artifact</comment>
+  </data>
+  <data name="Aura_ElectricWarlord" xml:space="preserve">
+    <value>Печать тигра</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Hat_ElectricWarlord" xml:space="preserve">
+    <value>Шлем Упроара</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Slash_ElectricWarlord" xml:space="preserve">
+    <value>Дуговая молния</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Suit_ElectricWarlord" xml:space="preserve">
+    <value>Броня ветра</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Weapon_ElectricWarlord" xml:space="preserve">
+    <value>Айронхарт</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Skill.AllHelperDmg" xml:space="preserve">
+    <value>Мастер-командующий</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.BossDmgQTE" xml:space="preserve">
+    <value>Флэш-зип</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.BossTimer" xml:space="preserve">
+    <value>Размерная смена</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.BurstSkillBoost" xml:space="preserve">
+    <value>Анжелическое радианс</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ChestGold" xml:space="preserve">
+    <value>Спойты войны</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ClanQTE" xml:space="preserve">
+    <value>Скоординированное наступление</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ClanShipDmg" xml:space="preserve">
+    <value>Воздушное нападение</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ClanShipStun" xml:space="preserve">
+    <value>Якорный выстрел</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.Cloaking" xml:space="preserve">
+    <value>Маскировочное</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CloneDmg" xml:space="preserve">
+    <value>Фантомная месть</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CloneSkillBoost" xml:space="preserve">
+    <value>Вечная тьма</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CritSkillBoost" xml:space="preserve">
+    <value>Удар молнии</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CritSkillBoostDmg" xml:space="preserve">
+    <value>Убить</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.Fairy" xml:space="preserve">
+    <value>Очарование феи</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.FireTapSkillBoost" xml:space="preserve">
+    <value>Призыв Ад</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ForbiddenContract" xml:space="preserve">
+    <value>Запретный контракт</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.Frenzy" xml:space="preserve">
+    <value>Варварская ярость</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.GuidedBlade" xml:space="preserve">
+    <value>Лезвие с гидом</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HeavyStrikes" xml:space="preserve">
+    <value>Cleaving Strike</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperBoost" xml:space="preserve">
+    <value>Тактическое инсайт</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperDmgQTE" xml:space="preserve">
+    <value>Астрального пробуждения</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperDmgSkillBoost" xml:space="preserve">
+    <value>Героическая мощь</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperInspiredWeaken" xml:space="preserve">
+    <value>Поиск света</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ManaMonster" xml:space="preserve">
+    <value>Манни Мана</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ManaStealSkillBoost" xml:space="preserve">
+    <value>Мана Сифон</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.MidasSkillBoost" xml:space="preserve">
+    <value>Мидас Окончательный</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.MPCapacityBoost" xml:space="preserve">
+    <value>Предельный перерыв</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.MultiMonsters" xml:space="preserve">
+    <value>Засаду</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.OfflineGold" xml:space="preserve">
+    <value>Мастер Вор</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PetDmg" xml:space="preserve">
+    <value>Эволюция домашних животных</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PetGoldQTE" xml:space="preserve">
+    <value>Сердце Мидаса</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PetQTE" xml:space="preserve">
+    <value>Молния взрыв</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PoisonedBlade" xml:space="preserve">
+    <value>Отравленный клинок</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.SoulBlade" xml:space="preserve">
+    <value>Лезвие души</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.StrokeOfLuck" xml:space="preserve">
+    <value>Инсульт удачи</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.TapDmg" xml:space="preserve">
+    <value>Рыцарская доблесть</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.TapDmgFromHelpers" xml:space="preserve">
+    <value>Рыцарский орден</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.UltraDagger" xml:space="preserve">
+    <value>Призыв кинжал</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="CreateSnapshotOnDashboardReload" xml:space="preserve">
+    <value>Создание моментального снимка при перезагрузке панели мониторинга</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="DefaultList" xml:space="preserve">
+    <value>Список по умолчанию</value>
+    <comment>Artifact optimizer view mode</comment>
+  </data>
+  <data name="ImageGrid" xml:space="preserve">
+    <value>Сетка изображений</value>
+    <comment>Artifact optimizer view mode</comment>
+  </data>
+  <data name="ArtOptViewModeSettingsHeader" xml:space="preserve">
+    <value>Режим оптимизатора артефактов</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="CellSize" xml:space="preserve">
+    <value>Размер ячейки</value>
+    <comment>Art optimizer view settings</comment>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Направление</value>
+    <comment>Art optimizer view settings</comment>
+  </data>
+  <data name="CopyLtrValue" xml:space="preserve">
+    <value>Копирование значения LTR в буфер обмена</value>
+    <comment>Copy LTR value to clipboard</comment>
+  </data>
+  <data name="UseIngameBoSDisplay" xml:space="preserve">
+    <value>Отображение BoS как в игре</value>
+    <comment>BoS Display Settings</comment>
+  </data>
+  <data name="UseMasterBoSDisplay" xml:space="preserve">
+    <value>Отображение BoS как мастер</value>
+    <comment>BoS Display Settings</comment>
+  </data>
+  <data name="CompletedSets" xml:space="preserve">
+    <value>Завершенные наборы</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="CraftingPower" xml:space="preserve">
+    <value>Сила крафта</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="LTR" xml:space="preserve">
+    <value>Пожизненные реликвии</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="SilentMarch" xml:space="preserve">
+    <value>Тихий марш</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="SkillPoints" xml:space="preserve">
+    <value>Очки навыка</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="Reporting" xml:space="preserve">
+    <value>Отчеты</value>
+    <comment>Reporting</comment>
+  </data>
+  <data name="CompleteMemberReport" xml:space="preserve">
+    <value>Полный отчет о участниках</value>
+    <comment>CompleteMemberReport</comment>
+  </data>
+  <data name="MemberBaseStatsReport" xml:space="preserve">
+    <value>Отчет о статистике базы участников</value>
+    <comment>Member base stats report</comment>
+  </data>
+  <data name="MemberRaidStatsReport" xml:space="preserve">
+    <value>Отчет о статистике рейда участников</value>
+    <comment>Member raid stats report</comment>
+  </data>
+  <data name="Strategies" xml:space="preserve">
+    <value>Стратегии</value>
+    <comment>Raid strategies</comment>
+  </data>
+  <data name="Strategy" xml:space="preserve">
+    <value>Стратегии</value>
+    <comment>Raid Strategy</comment>
+  </data>
+  <data name="DoYouWantToOverwrite" xml:space="preserve">
+    <value>Элемент уже существует. Вы хотите перезаписать его?</value>
+    <comment>Question which may occur when saving an item</comment>
+  </data>
+  <data name="Enemy" xml:space="preserve">
+    <value>Врага</value>
+    <comment>Enemy</comment>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>Голову</value>
+    <comment>Head</comment>
+  </data>
+  <data name="LeftHand" xml:space="preserve">
+    <value>Левая рука</value>
+    <comment>Left hand</comment>
+  </data>
+  <data name="LeftLeg" xml:space="preserve">
+    <value>Левая нога</value>
+    <comment>Left leg</comment>
+  </data>
+  <data name="LeftShoulder" xml:space="preserve">
+    <value>Левое плечо</value>
+    <comment>Left shoulder</comment>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>НО</value>
+    <comment>No</comment>
+  </data>
+  <data name="RaidHeader" xml:space="preserve">
+    <value>Рейды</value>
+    <comment>Raids Header</comment>
+  </data>
+  <data name="RightHand" xml:space="preserve">
+    <value>Правая рука</value>
+    <comment>Right hand</comment>
+  </data>
+  <data name="RightLeg" xml:space="preserve">
+    <value>Правая нога</value>
+    <comment>Right leg</comment>
+  </data>
+  <data name="RightShoulder" xml:space="preserve">
+    <value>Правое плечо</value>
+    <comment>Right shoulder</comment>
+  </data>
+  <data name="ToP" xml:space="preserve">
+    <value>Вверх</value>
+    <comment>Totem of Power</comment>
+  </data>
+  <data name="Torso" xml:space="preserve">
+    <value>Туловища</value>
+    <comment>Torso</comment>
+  </data>
+  <data name="VM" xml:space="preserve">
+    <value>Vm</value>
+    <comment>Victory March</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="ClanRaidHeader" xml:space="preserve">
+    <value>Рейды кланов</value>
+    <comment>Clan Raids Header</comment>
+  </data>
+  <data name="Analysis" xml:space="preserve">
+    <value>Анализ</value>
+    <comment>Analysis</comment>
+  </data>
+  <data name="Attacks" xml:space="preserve">
+    <value>Атак</value>
+    <comment>raid details</comment>
+  </data>
+  <data name="AttacksInTotal" xml:space="preserve">
+    <value>Нападения в общей сложности</value>
+    <comment>Attacks in total for raid analysis</comment>
+  </data>
+  <data name="Damage" xml:space="preserve">
+    <value>Повреждения</value>
+    <comment>raid details</comment>
+  </data>
+  <data name="DamagePerAttack" xml:space="preserve">
+    <value>Ущерб / Атака</value>
+    <comment>Damage / Attack for raid analysis</comment>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Детали</value>
+    <comment>Details</comment>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Уровень</value>
+    <comment>Raid level</comment>
+  </data>
+  <data name="Overkill" xml:space="preserve">
+    <value>Излишним</value>
+    <comment>raid details</comment>
+  </data>
+  <data name="OverkillAmount" xml:space="preserve">
+    <value>Сумма перебора</value>
+    <comment>Overkill amount for raid analysis</comment>
+  </data>
+  <data name="OverkillPercentage" xml:space="preserve">
+    <value>Перебор %</value>
+    <comment>Overkill % for raid analysis</comment>
+  </data>
+  <data name="PasteResultFromClipboard" xml:space="preserve">
+    <value>Результат пасты из буфера обмена</value>
+    <comment>Paste clan raid result from clipboard button text</comment>
+  </data>
+  <data name="Tier" xml:space="preserve">
+    <value>Уровень</value>
+    <comment>Raid Tier</comment>
+  </data>
+  <data name="WorstOverkills" xml:space="preserve">
+    <value>худшие излишние излишества</value>
+    <comment>Worst overkills for raid analysis</comment>
+  </data>
+  <data name="WorstParticipation" xml:space="preserve">
+    <value>худшее участие</value>
+    <comment>Worst participation for raid analysis</comment>
+  </data>
+  <data name="ExportDetailsToClipboard" xml:space="preserve">
+    <value>Детали для буфера обмена</value>
+    <comment>raid results details to clipboard</comment>
+  </data>
+  <data name="ExportDetailsToCsvFile" xml:space="preserve">
+    <value>Подробная информация в файлcs CSV</value>
+    <comment>raid results details to CSV file</comment>
+  </data>
+  <data name="ExportDetailsToShare" xml:space="preserve">
+    <value>Поделитесь подробностями CSV файл</value>
+    <comment>raid results details to csv and share</comment>
+  </data>
+  <data name="ExportRaidResultToClipboard" xml:space="preserve">
+    <value>Результат для буфера обмена</value>
+    <comment>raid result export to clipboard</comment>
+  </data>
+  <data name="ExportRaidResultToCsvFile" xml:space="preserve">
+    <value>Результат к файлу CSV</value>
+    <comment>raid result to CSV file</comment>
+  </data>
+  <data name="ExportRaidResultToShare" xml:space="preserve">
+    <value>Поделиться файлом CSV результат</value>
+    <comment>raid results to csv and share</comment>
+  </data>
+  <data name="YouNeedToAddRaidResultsBefore" xml:space="preserve">
+    <value>Вам нужно добавить результаты рейда, прежде чем вы сможете экспортировать данные</value>
+    <comment>Raid result detail information when a user tries to export results without imported data</comment>
+  </data>
+  <data name="MaxOverkillAmount" xml:space="preserve">
+    <value>Макс. Излишним</value>
+    <comment>max overkill amount</comment>
+  </data>
+  <data name="MinAttackAmount" xml:space="preserve">
+    <value>Мин. Нападения</value>
+    <comment>min amount of attacks</comment>
+  </data>
+  <data name="SidesAreSeenFromYou" xml:space="preserve">
+    <value>Стороны видны от вас</value>
+    <comment>raid strategy information text</comment>
+  </data>
+  <data name="MinAverageDamage" xml:space="preserve">
+    <value>Мин. средний ущерб</value>
+    <comment>minimum average damage</comment>
+  </data>
+  <data name="AttackFlaws" xml:space="preserve">
+    <value>Недостатки атаки</value>
+    <comment>Clan raid attack flaw</comment>
+  </data>
+  <data name="BelowAvgDamage" xml:space="preserve">
+    <value>Ниже avg. повреждения</value>
+    <comment>Clan raid flaw</comment>
+  </data>
+  <data name="BelowMinAttacks" xml:space="preserve">
+    <value>Ниже мин. атак</value>
+    <comment>Clan raid flaw</comment>
+  </data>
+  <data name="ClanRaidDetailInformations" xml:space="preserve">
+    <value>Для работы анализа необходимо импортировать результаты рейда раньше.
+
+Расчет Overkill учитывает повреждения титановой брони и скелета.
+
+Средний ущерб в анализе не содержит излишних повреждений.</value>
+    <comment>Information you get when clicking on the information button in clan raid detail</comment>
+  </data>
+  <data name="ExportDatabase" xml:space="preserve">
+    <value>Файл базы данных экспорта</value>
+    <comment>Settings: button text to export the db file</comment>
+  </data>
+  <data name="AboveMaxOverKill" xml:space="preserve">
+    <value>Выше макс. Излишним</value>
+    <comment>Clan raid flaw</comment>
+  </data>
+  <data name="ArtOpt" xml:space="preserve">
+    <value>Искусство выбрать</value>
+    <comment>for shortcut</comment>
+  </data>
+  <data name="BoSPercent" xml:space="preserve">
+    <value>BoS %</value>
+    <comment>for shortcut</comment>
+  </data>
+  <data name="SP" xml:space="preserve">
+    <value>ТП</value>
+    <comment>SP display for dashboard shortcut</comment>
+  </data>
+  <data name="DoYouWantToResetPrestigeAmount" xml:space="preserve">
+    <value>Вы хотите сбросить сегодняшнюю сумму престижа до 0?</value>
+    <comment>Dashboard info text when pressing on the chart to reset todays prestige amount</comment>
+  </data>
+  <data name="Tolerance" xml:space="preserve">
+    <value>Отклонение</value>
+    <comment>Raid tolerance detail header</comment>
+  </data>
+  <data name="Tolerances" xml:space="preserve">
+    <value>Допуски</value>
+    <comment>Raid tolerances header</comment>
+  </data>
+  <data name="Absolute" xml:space="preserve">
+    <value>Абсолютный</value>
+    <comment>Overkill calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AbsoluteInAttacks" xml:space="preserve">
+    <value>Абсолютный в атаках</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AbsoluteInWavesExcludingLastWave" xml:space="preserve">
+    <value>Абсолютный в волнах за исключением последней волны</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AbsoluteInWavesIncludingLastWave" xml:space="preserve">
+    <value>Абсолютный в волнах, включая последнюю волну</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="RelativeFromAllAttacksSum" xml:space="preserve">
+    <value>Родственник от суммы всех атак</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="RelativeFromAllPlayerDamage" xml:space="preserve">
+    <value>Родственник от всех повреждений игрока</value>
+    <comment>Overkill calculation type used for raid tolerance</comment>
+  </data>
+  <data name="RelativeFromCurrentPlayerDamage" xml:space="preserve">
+    <value>Относительно от текущего повреждения игрока</value>
+    <comment>Overkill calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AverageDamageDescription" xml:space="preserve">
+    <value>Минимальный средний ущерб</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="MaxOverkillDescription" xml:space="preserve">
+    <value>Максимальное излишество (сумма урона брони на неправильных частях и повреждения скелета)</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="MinAttackAmountDescription" xml:space="preserve">
+    <value>Минимальная сумма атаки</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Тип</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Значение</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="TotalDamage" xml:space="preserve">
+    <value>Общий ущерб</value>
+    <comment>Raid analysis total damage</comment>
+  </data>
+  <data name="Waves" xml:space="preserve">
+    <value>Волны</value>
+    <comment>Amount of waves display text for raid analysis</comment>
+  </data>
+  <data name="ExportRaidAnalysisImage" xml:space="preserve">
+    <value>Изображение анализа рейда</value>
+    <comment>Clan raid export of analysis data to image</comment>
+  </data>
+  <data name="FillAllFieldsFirst" xml:space="preserve">
+    <value>Пожалуйста, заполните все поля в первую очередь</value>
+    <comment>Fill all fields before you can proceed info text</comment>
+  </data>
+  <data name="OverkillParts" xml:space="preserve">
+    <value>Переутверда части</value>
+    <comment>Raid analysis image header</comment>
+  </data>
+  <data name="WorstOverkillAmounts" xml:space="preserve">
+    <value>Худшие суммы перебора</value>
+    <comment>Raid analysis image header</comment>
+  </data>
+  <data name="ExportRaidTacticsImage" xml:space="preserve">
+    <value>Образ тактики рейда</value>
+    <comment>Clan raid detail export option</comment>
+  </data>
+  <data name="FillAllStrategiesAndTolerancesFirst" xml:space="preserve">
+    <value>Вы должны заполнить стратегии и допуски, прежде чем</value>
+    <comment>Clan raid detail export info message</comment>
+  </data>
+  <data name="RaidTactics" xml:space="preserve">
+    <value>Тактика рейда</value>
+    <comment>Clan raid tactics exported image header</comment>
+  </data>
+  <data name="AllPlayers" xml:space="preserve">
+    <value>все игроки</value>
+    <comment>Clan raid analysis image tolerance text in brackets</comment>
+  </data>
+  <data name="AmountInWaves" xml:space="preserve">
+    <value>{0} волны ({1} атаки)</value>
+    <comment>Clan raid analysis image tolerance text 6 waves (24 attacks)</comment>
+  </data>
+  <data name="PercentageOfAllAttacks" xml:space="preserve">
+    <value>{0}% всех атак</value>
+    <comment>Clan raid analysis image tolerance text</comment>
+  </data>
+  <data name="WithoutLastWave" xml:space="preserve">
+    <value>{0} волны ({1} атаки) без последних</value>
+    <comment>Clan raid analysis image tolerance text 6 waves (24 attacks)</comment>
+  </data>
+  <data name="XofYWaves" xml:space="preserve">
+    <value>{0} волн {1} ({2}/{3})</value>
+    <comment>Clan raid analysis image tolerance text 5 of 6 (20/24)</comment>
+  </data>
+  <data name="PrestigeSinceLastRecord" xml:space="preserve">
+    <value>{0} с момента последнего рекорда</value>
+    <comment>Dashboard prestige text when last snapshot is older than a day</comment>
+  </data>
+  <data name="ValueIsCappedAtTwoPercent" xml:space="preserve">
+    <value>Значение ограничено на уровне 2%.</value>
+    <comment>Information text for raid tolerance when you enter a relative min attack amount</comment>
+  </data>
+  <data name="WaveToleranceInfotext" xml:space="preserve">
+    <value>Сделано волны - x (включая или исключая последнюю волну)</value>
+    <comment>Information text for raid tolerance when you enter a wave based min attack amount</comment>
+  </data>
+  <data name="GiveNewName" xml:space="preserve">
+    <value>Дайте новое имя</value>
+    <comment>Give a new name text on rename popup page</comment>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>переименовать</value>
+    <comment>Rename</comment>
+  </data>
+  <data name="MaxWavesExcluding" xml:space="preserve">
+    <value>Макс волны - {0} (без последнего)</value>
+    <comment>tactics tolerance image text</comment>
+  </data>
+  <data name="MaxWavesMinusIncluding" xml:space="preserve">
+    <value>Макс волны - {0}</value>
+    <comment>tactics tolerance image text</comment>
+  </data>
+  <data name="AbsoluteAttackToleranceInfotext" xml:space="preserve">
+    <value>Дайте значение, которое представляет минимальное необходимое количество атак.</value>
+    <comment>Raid tolerance info for amount of attacks</comment>
+  </data>
+  <data name="ExportPartsAnalysis" xml:space="preserve">
+    <value>Анализ деталей</value>
+    <comment>Export parts analysis (raid module)</comment>
+  </data>
+  <data name="CouldAccessSavefileText" xml:space="preserve">
+    <value>Не убраться "{0}"!
+Это может быть связано с Android 11 в объеме хранения. 
+Более подробная информация о том, что здесь: https://fistelmann.de/tt2master-on-android-11/
+Пожалуйста, скопировать сохранить в другой (общественный) каталог.
+Вы хотите найти файл сейчас?</value>
+    <comment>Savefile handling</comment>
+  </data>
+  <data name="CouldNotAccessFileTitle" xml:space="preserve">
+    <value>Не у нее не у нее не у нее есть доступ</value>
+    <comment>Savefile handling</comment>
+  </data>
+  <data name="ImportFromClipboardText" xml:space="preserve">
+    <value>Данные по импорту с буфера обмена</value>
+    <comment>Manual data import from clipboard text shown on dashboard button</comment>
+  </data>
+  <data name="ChangeDataSourceButtonText" xml:space="preserve">
+    <value>Изменить источник данных</value>
+    <comment>Text on button to change data source between save file and clipboard export</comment>
+  </data>
+  <data name="ChangeFromClipboardToSavefileSourceQuestion" xml:space="preserve">
+    <value>В настоящее время вы загружаете данные с буфера обмена.
+Вы действительно хотите изменить это?</value>
+    <comment>Question when a user changes from clipboard to savefile data source</comment>
+  </data>
+  <data name="ChangeFromSavefileToClipboardSourceQuestion" xml:space="preserve">
+    <value>В настоящее время вы загружаете данные непосредственно из сохранить.
+Вполне возможно, что некоторые функции не будут доступны!
+Вы действительно хотите изменить это?</value>
+    <comment>Question when a user changes from savefile to clipboard data source</comment>
+  </data>
+  <data name="PleaseRestartTheAppForChangesToTakeEffect" xml:space="preserve">
+    <value>Перезапустите приложение, чтобы изменения вступили в силу</value>
+    <comment>Informational text for user if a restart of the app is recommended due to changes in settings</comment>
+  </data>
+  <data name="CheckPurchases" xml:space="preserve">
+    <value>Проверка покупок</value>
+    <comment>Button text in settings for checking purchases</comment>
+  </data>
+  <data name="CouldNotUpdatePurchasementInformation" xml:space="preserve">
+    <value>Не у не у нее не у последнее время не у последнее время</value>
+    <comment>Information when purchasement information could not be updated</comment>
+  </data>
+  <data name="PurchasementInformationUpdated" xml:space="preserve">
+    <value>Обновленная информация о закупках</value>
+    <comment>Information when purchasement information successfully updated</comment>
+  </data>
+  <data name="ChangeToClipboardDataToFixSafeFileIssuesQuestion" xml:space="preserve">
+    <value>В настоящее время вы загружаете данные непосредственно из сохранить. Но кажется, что есть проблема обнаружения или чтения этого файла.
+Вы хотите перейти на буфер обмена в качестве источника данных?
+
+Внимание!
+Вполне возможно, что некоторые функции не будут доступны!
+Вы действительно хотите изменить это?</value>
+    <comment>If loading from savefile fails - give user the chance to change to clipboard loading</comment>
+  </data>
+  <data name="PleaseImportClipboardDataSoAppCanWork" xml:space="preserve">
+    <value>Для того, чтобы это приложение работало, вам нужно импортировать ваши данные Tap Titans 2 через буфер обмена. Пожалуйста, сделайте это в первую очередь, так что все работает.</value>
+    <comment>Information when you are on clipboard as data source and you have not imported any data yet.</comment>
+  </data>
+  <data name="DisableBigAdsInformation" xml:space="preserve">
+    <value>С небольшим пакетом объявлений вы увидите только небольшую рекламу на приборной панели. Большая реклама больше не будет показана.</value>
+    <comment>IAP - Informational text for the small ads package</comment>
+  </data>
+  <data name="SupporterPurchasementInformation" xml:space="preserve">
+    <value>Отключите все объявления и получите неограниченный доступ ко всем функциям, таким как:
+- Создайте столько конфигураций SP, сколько пожелаете
+- Редактировать Artifact Оптимизатор строит и весит
+Вы также будете иметь неограниченный доступ к функциям, которые будут выпущены в будущем!
+</value>
+    <comment>IAP - Informational text for the supporter package</comment>
+  </data>
+  <data name="HasHerosMaxedInfoText" xml:space="preserve">
+    <value>У вас есть все герои maxed из?
+Если ваши герои maxed, золото не имеет значения и будет игнорироваться.</value>
+    <comment>ArtifactOptimizerSettings HarHerosMaxed Infotext</comment>
+  </data>
+  <data name="HasHerosMaxedOption" xml:space="preserve">
+    <value>Герои maxed?</value>
+    <comment>ArtifactOptimizerSettings HasHerosMaxed Label</comment>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Общая</value>
+    <comment>General like "in General"</comment>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Размер</value>
+    <comment>Size</comment>
+  </data>
+  <data name="AlreadyImportedThisData" xml:space="preserve">
+    <value>Уже импортированы эти данные</value>
+    <comment>Clipboard import info when you import exactly the same data as before</comment>
+  </data>
+  <data name="CraftingAdvisor" xml:space="preserve">
+    <value>Советник по крафту</value>
+    <comment>CraftingAdvisor</comment>
+  </data>
+  <data name="NoCraftableEquipmentFoundText" xml:space="preserve">
+    <value>Не найдено крафтовое оборудование</value>
+    <comment>Info text for user if no set is completed and therefore nothing to craft</comment>
+  </data>
+  <data name="BoostType" xml:space="preserve">
+    <value>Повысить тип</value>
+    <comment>BoostType for crafting advisor</comment>
+  </data>
+  <data name="EquipmentSet" xml:space="preserve">
+    <value>Выбор</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Eight" xml:space="preserve">
+    <value>Восемь</value>
+  </data>
+  <data name="Five" xml:space="preserve">
+    <value>Пять</value>
+  </data>
+  <data name="Four" xml:space="preserve">
+    <value>Четыре</value>
+  </data>
+  <data name="One" xml:space="preserve">
+    <value>ОДИН</value>
+  </data>
+  <data name="Seven" xml:space="preserve">
+    <value>СЕМЬ</value>
+  </data>
+  <data name="Six" xml:space="preserve">
+    <value>Шесть</value>
+  </data>
+  <data name="Three" xml:space="preserve">
+    <value>ТРИ</value>
+  </data>
+  <data name="Two" xml:space="preserve">
+    <value>ДВА</value>
+  </data>
+  <data name="HowToLogHeader" xml:space="preserve">
+    <value>Как войти в журнал</value>
+    <comment>Page header for the how to on logging</comment>
+  </data>
+  <data name="HowToLogText" xml:space="preserve">
+    <value>Приложение регистрирует основную информацию в любой момент. Однако эта информация никогда не отправляется автоматически. 
+
+Если в приложении есть критическая ошибка, у вас есть возможность отправить разработчику электронное письмо. Если это будет сделано, приложение попытается прикрепить файлы журнала.
+
+В некоторых случаях разработчику необходимо получить подробный журнал. 
+Чтобы создать это, пожалуйста, продолжайте следующим образом:
+Перейдите к настройкам и активируйте подробный журнал. Затем попробуйте воссоздать проблему в несколько шагов, как это возможно.
+Затем вернитесь к настройкам и деактивировать подробный журнал.
+Теперь перейдите на страницу "О мне" и нажмите кнопку "Отправить почту".</value>
+    <comment>Detail text on how to send a log and logging in general</comment>
+  </data>
+  <data name="SpOptSpSpentText" xml:space="preserve">
+    <value>У вас {0} навыков.</value>
+    <comment>SPOptimizer result text to inform user about how many SP he has left after he followed the optimization suggestion</comment>
+  </data>
+  <data name="SpOptNextSkillButNotEnoughSp" xml:space="preserve">
+    <value>Ваш следующий навык будет {0} но это слишком дорого ({1} SP)</value>
+    <comment>SPOptimizer: Attention text to tell the player which skill would be the next but is not contained in the list because there is just too few skill points left</comment>
+  </data>
+  <data name="SpOptNextSkillIncludedButNotEnoughSp" xml:space="preserve">
+    <value>Последний навык ({0}) стоит {1} SP, и у вас есть только {2} SP осталось потратить.</value>
+    <comment>SPOptimizer: Attention text to tell the player that his upgrade list contains a skill which he can not affort.</comment>
+  </data>
+  <data name="ChangeAbyssSavefilePath" xml:space="preserve">
+    <value>Изменить бездну сохранить путь</value>
+    <comment>Settings: Change file path to abyssal savefile</comment>
+  </data>
+  <data name="Skill.HelperBoostMultiCastSkill" xml:space="preserve">
+    <value>Командное превосходство</value>
+    <comment>Skill: Warcry Damage per Multi-Cast</comment>
+  </data>
+  <data name="Skill.TapBoostMultiCastSkill" xml:space="preserve">
+    <value>Вулканическое превосходство</value>
+    <comment>Skill: Fire Sword Damage per Multi-Cast</comment>
+  </data>
+  <data name="PendingPurchasementDetectedText" xml:space="preserve">
+    <value>До покупки признано. Если вы закончили транзакцию, пожалуйста, посетите страницу настроек и нажмите кнопку восстановления покупок. Если ваш платеж не получил признания, пожалуйста, свяжитесь с нами tt2master@fistelmann.de</value>
+    <comment>Information text that will be displayed if a user makes a purchasement with pending transaction.</comment>
+  </data>
+  <data name="DailyAutoSnapshotThreshold" xml:space="preserve">
+    <value>Порог для автоматических ежедневных снимков</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="ExportSnapshotDiff" xml:space="preserve">
+    <value>Экспортная дифф между двумя снимками</value>
+    <comment>Export page</comment>
+  </data>
+  <data name="Artifact98" xml:space="preserve">
+    <value>Мерцающее масло</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Skill.BurstDamageMultiCastSkill" xml:space="preserve">
+    <value>Божественное превосходство</value>
+    <comment>Skill</comment>
+  </data>
+  <data name="Skill.ShadowCloneMultiCastSkill" xml:space="preserve">
+    <value>Призрачное превосходство</value>
+    <comment>Skill</comment>
+  </data>
+</root>

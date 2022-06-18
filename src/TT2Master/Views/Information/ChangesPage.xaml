@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:TT2Master"
+            xmlns:resource="clr-namespace:TT2Master.Resources"
+            xmlns:conv="clr-namespace:TT2Master.ValueConverter"
+            x:Class="TT2Master.Views.Information.ChangesPage"
+            Title="{x:Static resource:AppResources.InfoHeader}">
+
+    <!-- Announcements -->
+    <ContentPage Title="Announcements">
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="info_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+        
+        <ContentPage.Resources>
+            <ResourceDictionary>
+                <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+                <conv:BoolConverter x:Key="boolConv" />
+            </ResourceDictionary>
+        </ContentPage.Resources>
+
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Command="{Binding MarkAsReadCommand}" Icon="eye_icon"/>
+        </ContentPage.ToolbarItems>
+        
+        <!-- Items -->
+        <ListView CachingStrategy="RetainElement" 
+                  ItemsSource="{Binding Ann}"
+                  BackgroundColor="Transparent"
+                  HasUnevenRows="True" 
+                  SelectionMode="None">
+
+            <ListView.Behaviors>
+                <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EditCommand}" Converter="{StaticResource ItemTappedConverter}" />
+            </ListView.Behaviors>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame OutlineColor="{StaticResource ForegroundDark}" 
+                               BackgroundColor="{StaticResource FrameBackground}" 
+                               Margin="5">
+                            <StackLayout>
+                                <Label Text="* " IsVisible="{Binding IsSeen, Converter={StaticResource boolConv}, ConverterParameter=smellyFart}" />
+                                <Label Text="{Binding Header}" />
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage>
+
+    <!-- Changelog -->
+    <ContentPage Title="{x:Static resource:AppResources.Changelog}">
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="history_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+        
+        <ContentPage.Resources>
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter"/>
+        </ContentPage.Resources>
+
+        <!-- Info Entries -->
+        <ListView SeparatorVisibility="None" BackgroundColor="Transparent" 
+                          ItemsSource="{Binding Changelog}" HasUnevenRows="True"
+                          SelectionMode="None" CachingStrategy="RetainElement">
+
+            <ListView.Behaviors>
+                <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding TapCommand}" Converter="{StaticResource ItemTappedConverter}"/>
+            </ListView.Behaviors>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Margin="5" BackgroundColor="{StaticResource FrameBackground}">
+                            <StackLayout>
+                                <Label Text="{Binding Version}" FontAttributes="Bold"/>
+                                <Label Text="{Binding Changes}" MaxLines="99"/>
+                                <Label Text="{Binding Hyperlink}" MaxLines="99" TextDecorations="Underline" TextColor="Blue"/>
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage>
+</TabbedPage>

@@ -1,0 +1,4886 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutMeHeader" xml:space="preserve">
+    <value>About me</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="CompareValueHeader" xml:space="preserve">
+    <value>Compare Value:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="CQAutoResetHeader" xml:space="preserve">
+    <value>CQ auto-reset:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="CQCounterHeader" xml:space="preserve">
+    <value>CQ Counter:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="DescriptionHeader" xml:space="preserve">
+    <value>Description:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="HelloWorld" xml:space="preserve">
+    <value>Hello from TT2Master</value>
+    <comment>Test</comment>
+  </data>
+  <data name="MinsBeforeHeader" xml:space="preserve">
+    <value>Mins. before:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="MyMailHeader" xml:space="preserve">
+    <value>Mail:</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="MyNameHeader" xml:space="preserve">
+    <value>My Name:</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="NotifyHeader" xml:space="preserve">
+    <value>Notify:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ResetDayHeader" xml:space="preserve">
+    <value>Reset Day:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ResetLastNotifiedBoss" xml:space="preserve">
+    <value>Reset last notified Boss</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ResetTimeHeader" xml:space="preserve">
+    <value>Reset Time:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="StartService" xml:space="preserve">
+    <value>Start Service</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="ToSayHeader" xml:space="preserve">
+    <value>To say:</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="WeeklyCQHeader" xml:space="preserve">
+    <value>Weekly CQ:</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="AppSettings" xml:space="preserve">
+    <value>App Settings</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="ArtifactHeader" xml:space="preserve">
+    <value>Artifacts</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="AutoUpdateHeader" xml:space="preserve">
+    <value>Auto-Update</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="BuildHeader" xml:space="preserve">
+    <value>Build</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="CostCoefficientHeader" xml:space="preserve">
+    <value>Cost Coefficient:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="CostExpoHeader" xml:space="preserve">
+    <value>Cost exponent:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="CurrentHeader" xml:space="preserve">
+    <value>Current?</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="DamageBonusHeader" xml:space="preserve">
+    <value>Damage Bonus:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="DefaultCategoryHeader" xml:space="preserve">
+    <value>Default category:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="DeleteText" xml:space="preserve">
+    <value>Delete</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="DisableAllAds" xml:space="preserve">
+    <value>Disable all Ads</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="DisableSmallAds" xml:space="preserve">
+    <value>Disable small Ads</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="EffectHeader" xml:space="preserve">
+    <value>Effect:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="EffectPerLvlHeader" xml:space="preserve">
+    <value>Effect per lvl:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="FoundTT2Version" xml:space="preserve">
+    <value>Found TT2 Version</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="GeneralHeader" xml:space="preserve">
+    <value>General</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="GoldSourceHeader" xml:space="preserve">
+    <value>Gold Source</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="GrowthExpoHeader" xml:space="preserve">
+    <value>Growth exponent:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="GrowthMaximumHeader" xml:space="preserve">
+    <value>Growth maximum:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="GrowthRateHeader" xml:space="preserve">
+    <value>Growth rate:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="HeroHeader" xml:space="preserve">
+    <value>Hero</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="HighHeader" xml:space="preserve">
+    <value>High</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="IngoredArtifactsHeader" xml:space="preserve">
+    <value>Ignored Artifacts</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="InputCCText" xml:space="preserve">
+    <value>Input Name for Category</value>
+    <comment>CustomCategoryInputPopupPage</comment>
+  </data>
+  <data name="LevelHeader" xml:space="preserve">
+    <value>Level:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="LifeTimeHeader" xml:space="preserve">
+    <value>Lifetime %</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="LinksHeader" xml:space="preserve">
+    <value>Links</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Load</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LocalizationHeader" xml:space="preserve">
+    <value>Localization</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LoggingHeader" xml:space="preserve">
+    <value>Logging</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LoggingSwitch" xml:space="preserve">
+    <value>Log on/off</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="LowHeader" xml:space="preserve">
+    <value>Low</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="MediumHeader" xml:space="preserve">
+    <value>Medium</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="MilestoneHeader" xml:space="preserve">
+    <value>Milestone</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="NameHeader" xml:space="preserve">
+    <value>Name</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="NoAds" xml:space="preserve">
+    <value>No Ads</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="NumbersScientific" xml:space="preserve">
+    <value>Numbers scientific</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="OnlyRelevantHeader" xml:space="preserve">
+    <value>Only Relevant</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="OpenHeader" xml:space="preserve">
+    <value>Open</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerHeader" xml:space="preserve">
+    <value>Optimizer</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="PushingTypeHeader" xml:space="preserve">
+    <value>Pushing Type</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="RangeHeader" xml:space="preserve">
+    <value>Range</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="RelicsSpentHeader" xml:space="preserve">
+    <value>Relics spent:</value>
+    <comment>ArtifactDetailPage</comment>
+  </data>
+  <data name="ReloadCsvAndVersion" xml:space="preserve">
+    <value>Reload CSV and Version</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="ReloadDefaultBuilds" xml:space="preserve">
+    <value>Reload default builds</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="ResetCompareValue" xml:space="preserve">
+    <value>Reset Comparevalue</value>
+    <comment>BossTimer</comment>
+  </data>
+  <data name="SaveText" xml:space="preserve">
+    <value>Save</value>
+    <comment>CustomCategoryInputPopupPage</comment>
+  </data>
+  <data name="SettingsHeader" xml:space="preserve">
+    <value>Settings</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="ShortHeader" xml:space="preserve">
+    <value>Short</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="SmallAds" xml:space="preserve">
+    <value>Small Ads</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="StepAmountHeader" xml:space="preserve">
+    <value>Step amount</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="Supporter" xml:space="preserve">
+    <value>Supporter</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="SupporterDesc" xml:space="preserve">
+    <value>Disable all Ads and get access to Supporters-only features. 
+Features are currently:
+- Create your own builds
+- Edit builds and weights
+- Share builds
+- Save builds from clan chat
+- Endless RpM recalculation
+- Have a good feeling</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="SwipeText" xml:space="preserve">
+    <value>Press spin on top and swipe to the right-&gt;</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="ToBeContinued" xml:space="preserve">
+    <value>To be continued</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="UsageHeader" xml:space="preserve">
+    <value>Usage</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="VersionHeader" xml:space="preserve">
+    <value>Version</value>
+    <comment>OptimizerPage</comment>
+  </data>
+  <data name="VideosHeader" xml:space="preserve">
+    <value>Videos</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="WeightsHeader" xml:space="preserve">
+    <value>Weights</value>
+    <comment>EditBuildPage</comment>
+  </data>
+  <data name="YoutubeVideo" xml:space="preserve">
+    <value>Youtube Video</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="AlertHeader" xml:space="preserve">
+    <value>Alert</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckDefaultSpBuildsText" xml:space="preserve">
+    <value>Checking default SP builds</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckingDefaultBuildsText" xml:space="preserve">
+    <value>Checking default artifact builds</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckingPermissionsText" xml:space="preserve">
+    <value>checking permissions</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CheckingPurchasementsText" xml:space="preserve">
+    <value>Checking purchasements</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotCatchFileText" xml:space="preserve">
+    <value>could not catch file</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotFindFileText" xml:space="preserve">
+    <value>Could not find file</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotFindSavefileText" xml:space="preserve">
+    <value>Could not find Save file. Normally it should be under: {0}. Do you want to search for it?</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotGetAdIdText" xml:space="preserve">
+    <value>Could not get AdId. TT2 running?</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotGetFilepathText" xml:space="preserve">
+    <value>Could not get filepath</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotReadGHDbText" xml:space="preserve">
+    <value>Could not read GH Database {0}</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="CouldNotRecreateDefaultBuildsText" xml:space="preserve">
+    <value>Could not recreate default builds</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DbFileNotExistsText" xml:space="preserve">
+    <value>DB file does not exist.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DbFileNotPickedText" xml:space="preserve">
+    <value>DB file was not picked by user.</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DontCareText" xml:space="preserve">
+    <value>i don't care</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="FirstStartInfoText" xml:space="preserve">
+    <value>When first starting - Tap Titans need to be running</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="KeepUpText" xml:space="preserve">
+    <value>Don't give up. Try again. Startup can fail sometimes</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="LoadingSavefileText" xml:space="preserve">
+    <value>Loading Savefile</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="NoText" xml:space="preserve">
+    <value>No</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="PermissionNotGrantedText" xml:space="preserve">
+    <value>Permission not granted</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="PromptDbFilePath" xml:space="preserve">
+    <value>Please select DB file. Should normally be {0}</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="SendToDevText" xml:space="preserve">
+    <value>send to developer</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="StartMainAppText" xml:space="preserve">
+    <value>Starting Main App</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="YesText" xml:space="preserve">
+    <value>Yes</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="AlreadyPurchasedIncludingText" xml:space="preserve">
+    <value>you already purchased a package which includes this</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="AlreadyPurchasedText" xml:space="preserve">
+    <value>you already have purchased this</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="BuildsRestoredText" xml:space="preserve">
+    <value>Builds restored</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ErrorHeader" xml:space="preserve">
+    <value>Error</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="FilesDownloadedText" xml:space="preserve">
+    <value>Files downloaded</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="InfoHeader" xml:space="preserve">
+    <value>Information</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ItemNotPurchasedText" xml:space="preserve">
+    <value>Item was not purchased</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ItemPurchasedText" xml:space="preserve">
+    <value>Thank you :) please restart the app</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="LoggingActiveText" xml:space="preserve">
+    <value>logging is active. Deactivate?</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="LoggingInactiveText" xml:space="preserve">
+    <value>Activate logging? Will be stored in your documents folder under {0}</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="NotSet" xml:space="preserve">
+    <value>Not Set</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="OKText" xml:space="preserve">
+    <value>Ok</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ProblemRestoringDefaultBuildsText" xml:space="preserve">
+    <value>there was a problem restoring the default builds</value>
+    <comment>SettingsVM</comment>
+  </data>
+  <data name="ArtifactDetailHeader" xml:space="preserve">
+    <value>Artifact Detail</value>
+    <comment>ArtDetailVM</comment>
+  </data>
+  <data name="ArtifactOverviewHeader" xml:space="preserve">
+    <value>Artifact overview</value>
+    <comment>ArtOverviewVM</comment>
+  </data>
+  <data name="AttentionHeader" xml:space="preserve">
+    <value>Attention</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="AvailableSPInfoText" xml:space="preserve">
+    <value>Shows the amount of SP you can spend.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="BosInfoText" xml:space="preserve">
+    <value>How much of your all time earned Relics should be invested into Book of Shadow?</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="BossTimerDescription" xml:space="preserve">
+    <value>This feature notifies you when a new boss appears. Set "Notify" on. After that, set a value in minutes when you want to get informed about the boss in advance. Enter a Value between 0 and 300. When first using, you need to press the "Start Service" Button. The "Reset last notified Boss"-Button lets the service think it has nothing notified yet (Kinda like a reset).</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="BuildExistsText" xml:space="preserve">
+    <value>Build exists. Do you want to overwrite?</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="BuildFirstLetterRestrictionText" xml:space="preserve">
+    <value>First letter cannot be "_". That is reserved for default builds</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="BuildImportedText" xml:space="preserve">
+    <value>Build successfully imported</value>
+    <comment>BuildsVM</comment>
+  </data>
+  <data name="BuildInfoText" xml:space="preserve">
+    <value>Depending on your playstile - pick a build to follow.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="BuildNotImportedText" xml:space="preserve">
+    <value>Build not imported</value>
+    <comment>BuildsVM</comment>
+  </data>
+  <data name="BuildsHeader" xml:space="preserve">
+    <value>Builds</value>
+    <comment>BuildsVM</comment>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="CategoryAlreadyExistsText" xml:space="preserve">
+    <value>Category already exists</value>
+    <comment>CCInputVM</comment>
+  </data>
+  <data name="ChangesSavedText" xml:space="preserve">
+    <value>Changes saved</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="CouldNotFillArtifactsText" xml:space="preserve">
+    <value>Could not fill Artifacts</value>
+    <comment>ArtOverviewVM</comment>
+  </data>
+  <data name="CouldNotFillDataText" xml:space="preserve">
+    <value>Could not fill data</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="CouldNotFindText" xml:space="preserve">
+    <value>could not find anything</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="CouldNotLoadFileText" xml:space="preserve">
+    <value>Could not load file</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="CouldNotLoadSkillsText" xml:space="preserve">
+    <value>Could not load Skills</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="CouldNotSaveExceptionText" xml:space="preserve">
+    <value>could not save: </value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="CurrentBuildCannotBeDeletedText" xml:space="preserve">
+    <value>Current Build can not be deleted</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="CurrSPInfoText" xml:space="preserve">
+    <value>Shows the amount of SP you currently have</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="DeletedText" xml:space="preserve">
+    <value>Deleted</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="DestroyText" xml:space="preserve">
+    <value>Destroy</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="EditBuildHeader" xml:space="preserve">
+    <value>Edit build</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="ExportedToText" xml:space="preserve">
+    <value>Exported to: </value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="ExportQuestionText" xml:space="preserve">
+    <value>do you want to export this?</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="FileNotExportedText" xml:space="preserve">
+    <value>file not exported</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="FileSavedToText" xml:space="preserve">
+    <value>file saved to:</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="FillNameFirstText" xml:space="preserve">
+    <value>Fill name first</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="FinishedText" xml:space="preserve">
+    <value>Finished</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="HeroDamageInfoText" xml:space="preserve">
+    <value>What kind of Damage does your strongest hero deal?</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="HeroDamageTypeHeader" xml:space="preserve">
+    <value>Hero damage type</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="HeroRangeInfoText" xml:space="preserve">
+    <value>Is your current hero melee or ranged?</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="LifeTimeInfoText" xml:space="preserve">
+    <value>A value to manipulate the outcome of suggested level. The higher this value, the higher the suggested level. (Just for visual measure)</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="MenuAboutTitle" xml:space="preserve">
+    <value>About me</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuArtifactOverviewTitle" xml:space="preserve">
+    <value>Artifact Overview</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuBossTimerTitle" xml:space="preserve">
+    <value>Boss Timer Settings</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuInfoTitle" xml:space="preserve">
+    <value>Guides</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuOptimizerTitle" xml:space="preserve">
+    <value>Art. Optimizer</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuPrivacyPolicyTitle" xml:space="preserve">
+    <value>Privacy Policy</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuPurchaseTitle" xml:space="preserve">
+    <value>Purchase</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MenuSettingsTitle" xml:space="preserve">
+    <value>Settings</value>
+    <comment>MasterDetailVM</comment>
+  </data>
+  <data name="MilestoneInfoText" xml:space="preserve">
+    <value>SPBuilds guide your skill point spending into several steps. They are separated into so called milestones. each milestone has an amount of SP you need to have to fulfill it.</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="NoCurrentBuildSelectedText" xml:space="preserve">
+    <value>Please select a current build first. From Main Menu go to the libra icon. There you tap on a build and select 'current'. Save it and you are good to go.</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="OnlyForSupporterInfoText" xml:space="preserve">
+    <value>only for users who purchased the supporter pack</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="OpenVideoText" xml:space="preserve">
+    <value>Open Video</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="PrivacyPolicyHeader" xml:space="preserve">
+    <value>Privacy Policy</value>
+    <comment>PrivacyPolicyVM</comment>
+  </data>
+  <data name="PushTypeInfoText" xml:space="preserve">
+    <value>Do you play online or offline? active/inactive</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="RelationshipDeletedText" xml:space="preserve">
+    <value>Relationship deleted</value>
+    <comment>ArtDetailVM</comment>
+  </data>
+  <data name="ResetCQCompareValueText" xml:space="preserve">
+    <value>Resetted CqCompareValue to your current cq count (value stored online)</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="ResetLastBossText" xml:space="preserve">
+    <value>Resetted last boss</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="SaveFirstText" xml:space="preserve">
+    <value>Save this first</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="SelectCurrentBuildPromptText" xml:space="preserve">
+    <value>Please select a current Build here</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="ServiceStartedText" xml:space="preserve">
+    <value>Service started or updated if running</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="SettingsSavedText" xml:space="preserve">
+    <value>Settings saved</value>
+    <comment>BossTimerVM</comment>
+  </data>
+  <data name="ShortInfoText" xml:space="preserve">
+    <value>Show only skills that are in the selected build. Takes effect after reload</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="SomeWeightsNotLoadedText" xml:space="preserve">
+    <value>Maybe some weights were not loaded. Please save and enter again</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="SPBuildDescText" xml:space="preserve">
+    <value>With the SP Builds Follower you can follow common builds.</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="SPEditBuildsTitle" xml:space="preserve">
+    <value>SP Builds Edit</value>
+    <comment>SPBuildsVM</comment>
+  </data>
+  <data name="SPReqInfoText" xml:space="preserve">
+    <value>In order to pass this milestone you need {0} SP</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="StepAmountInfoText" xml:space="preserve">
+    <value>Level suggestions will be rounded to this</value>
+    <comment>OptimizerVM</comment>
+  </data>
+  <data name="SureToDeleteText" xml:space="preserve">
+    <value>Sure to delete this?</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="VersionInfoText" xml:space="preserve">
+    <value>The TT2-Version this build is designed for</value>
+    <comment>SpOptimizerVM</comment>
+  </data>
+  <data name="WantToSaveBuildText" xml:space="preserve">
+    <value>build is not saved. Want to save?</value>
+    <comment>EditBuildVM</comment>
+  </data>
+  <data name="WidgetDescriptionText" xml:space="preserve">
+    <value>Did you know?
+I have a widget for you. Be always informed about when the next tournament starts and the prices you can get - without having to start Tap Titans.</value>
+    <comment>InfoVM</comment>
+  </data>
+  <data name="Artifact1" xml:space="preserve">
+    <value>Heroic Shield</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact10" xml:space="preserve">
+    <value>Bringer of Ragnarok</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact11" xml:space="preserve">
+    <value>Titan Mask</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact12" xml:space="preserve">
+    <value>Swamp Gauntlet</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact13" xml:space="preserve">
+    <value>Forbidden Scroll</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact14" xml:space="preserve">
+    <value>Aegis</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact15" xml:space="preserve">
+    <value>Ring of Fealty</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact16" xml:space="preserve">
+    <value>Glacial Axe</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact17" xml:space="preserve">
+    <value>Helmet of Madness</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact18" xml:space="preserve">
+    <value>Egg of Fortune</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact19" xml:space="preserve">
+    <value>Chest of Contentment</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact2" xml:space="preserve">
+    <value>Stone of the Valrunes</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact20" xml:space="preserve">
+    <value>Book of Prophecy</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact21" xml:space="preserve">
+    <value>Divine Chalice</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact22" xml:space="preserve">
+    <value>Book of Shadows</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact23" xml:space="preserve">
+    <value>Titanium Plating</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact24" xml:space="preserve">
+    <value>Staff of Radiance</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact25" xml:space="preserve">
+    <value>Blade of Damocles</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact26" xml:space="preserve">
+    <value>Heavenly Sword</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact27" xml:space="preserve">
+    <value>Gloves of Kuma</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact28" xml:space="preserve">
+    <value>Amethyst Staff</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact29" xml:space="preserve">
+    <value>Drunken Hammer</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact3" xml:space="preserve">
+    <value>The Arcana Cloak</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact30" xml:space="preserve">
+    <value>Influential Elixir</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact31" xml:space="preserve">
+    <value>Divine Retribution</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact32" xml:space="preserve">
+    <value>The Sword of Storms</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact33" xml:space="preserve">
+    <value>Furies Bow</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact34" xml:space="preserve">
+    <value>Charm of the Ancient</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact35" xml:space="preserve">
+    <value>Hero's Blade</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact36" xml:space="preserve">
+    <value>Infinity Pendulum</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact37" xml:space="preserve">
+    <value>Oak Staff</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact38" xml:space="preserve">
+    <value>Fruit of Eden</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact39" xml:space="preserve">
+    <value>Titan Spear</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact4" xml:space="preserve">
+    <value>Axe of Muerte</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact40" xml:space="preserve">
+    <value>Ring of Calisto</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact41" xml:space="preserve">
+    <value>Royal Toxin</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact42" xml:space="preserve">
+    <value>Avian Feather</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact43" xml:space="preserve">
+    <value>Zakynthos Coin</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact44" xml:space="preserve">
+    <value>Great Fay Medallion</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact45" xml:space="preserve">
+    <value>Neko Sculpture</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact46" xml:space="preserve">
+    <value>Corrupted Rune Heart</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact47" xml:space="preserve">
+    <value>Invader's Gjalarhorn</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact48" xml:space="preserve">
+    <value>Phantom Timepiece</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact49" xml:space="preserve">
+    <value>The Master's Sword</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact5" xml:space="preserve">
+    <value>Invader's Shield</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact50" xml:space="preserve">
+    <value>Ambrosia Elixir</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact51" xml:space="preserve">
+    <value>Samosek Sword</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact52" xml:space="preserve">
+    <value>Heart of Storms</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact53" xml:space="preserve">
+    <value>Apollo Orb</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact54" xml:space="preserve">
+    <value>Essence of the Kitsune</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact55" xml:space="preserve">
+    <value>Durendal Sword</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact56" xml:space="preserve">
+    <value>Helheim Skull</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact57" xml:space="preserve">
+    <value>Aram Spear</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact58" xml:space="preserve">
+    <value>Mystic Staff</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact59" xml:space="preserve">
+    <value>The Retaliator</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact6" xml:space="preserve">
+    <value>Elixir of Eden</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact60" xml:space="preserve">
+    <value>Ward of the Darkness</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact61" xml:space="preserve">
+    <value>Tiny Titan Tree</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact62" xml:space="preserve">
+    <value>Helm of Hermes</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact63" xml:space="preserve">
+    <value>Lost King's Mask</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact64" xml:space="preserve">
+    <value>O'Ryan's Charm</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact65" xml:space="preserve">
+    <value>Hourglass of the Impatient</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact66" xml:space="preserve">
+    <value>Khrysos Bowl</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact67" xml:space="preserve">
+    <value>Earrings of Portara</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact68" xml:space="preserve">
+    <value>Mystical Beans of Senzu</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact69" xml:space="preserve">
+    <value>Lucky Foot of Al-mi'raj</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact7" xml:space="preserve">
+    <value>Parchment of Foresight</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact70" xml:space="preserve">
+    <value>Boots of Hermes</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact71" xml:space="preserve">
+    <value>Morgelai Sword</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact72" xml:space="preserve">
+    <value>Oberon Pendant</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact73" xml:space="preserve">
+    <value>Moonlight Bracelet</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact74" xml:space="preserve">
+    <value>Unbound Gauntlet</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact75" xml:space="preserve">
+    <value>Oath's Burden</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact76" xml:space="preserve">
+    <value>Crown of the Constellation</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact77" xml:space="preserve">
+    <value>Titania's Sceptre</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact78" xml:space="preserve">
+    <value>Fagin's Grip</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact79" xml:space="preserve">
+    <value>Coins of Ebizu</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact8" xml:space="preserve">
+    <value>Hunter's Ointment</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact80" xml:space="preserve">
+    <value>The Magnifier</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact81" xml:space="preserve">
+    <value>The Treasure of Fergus</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact82" xml:space="preserve">
+    <value>The Bronzed Compass</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact83" xml:space="preserve">
+    <value>Stryfe's Peace</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact84" xml:space="preserve">
+    <value>Flute of the Soloist</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact85" xml:space="preserve">
+    <value>The White Dwarf</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Artifact9" xml:space="preserve">
+    <value>Laborer's Pendant</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="AboutMeMessage" xml:space="preserve">
+    <value>This is my first App ever. Please be kind :) for bugreports or suggestions mail to the adress above. It would be nice if you support me to realize further deployment. If you have any issues, please send me the tt2startuplog.txt. You will find it in your documents folder.</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="AvailableSPText" xml:space="preserve">
+    <value>Available SP</value>
+    <comment>SPOptimizerPage</comment>
+  </data>
+  <data name="CategoryHeader" xml:space="preserve">
+    <value>Category</value>
+    <comment>Artifact</comment>
+  </data>
+  <data name="CostText" xml:space="preserve">
+    <value>Cost</value>
+    <comment>SPOptimizerPage</comment>
+  </data>
+  <data name="LevelUpAmountText" xml:space="preserve">
+    <value>Increase</value>
+    <comment>SPOptimizerPage</comment>
+  </data>
+  <data name="PurchaseHeader" xml:space="preserve">
+    <value>Purchase</value>
+    <comment>PurchasePage</comment>
+  </data>
+  <data name="NewLanguageHeader" xml:space="preserve">
+    <value>New Language</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="NewLanguageText" xml:space="preserve">
+    <value>Do you want your native language? Contact me and we will do it together :)</value>
+    <comment>SettingsPage</comment>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Offline</value>
+    <comment>PushTypeEnum</comment>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+    <comment>PushTypeEnum</comment>
+  </data>
+  <data name="BossGold" xml:space="preserve">
+    <value>Boss gold</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="ChestersonGold" xml:space="preserve">
+    <value>Chesterson gold</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="FairyGold" xml:space="preserve">
+    <value>Fairy gold</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="Flying" xml:space="preserve">
+    <value>Flying</value>
+    <comment>HeroBaseTypeEnum</comment>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Friday</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Ground" xml:space="preserve">
+    <value>Ground</value>
+    <comment>HeroBaseTypeEnum</comment>
+  </data>
+  <data name="Melee" xml:space="preserve">
+    <value>Melee</value>
+    <comment>HeroDmgTypeEnum</comment>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Monday</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="NormalMobGold" xml:space="preserve">
+    <value>Normal mob gold</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="pHoM" xml:space="preserve">
+    <value>pHoM</value>
+    <comment>GoldTypeEnum</comment>
+  </data>
+  <data name="Ranged" xml:space="preserve">
+    <value>Ranged</value>
+    <comment>HeroDmgTypeEnum</comment>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Saturday</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Spell" xml:space="preserve">
+    <value>Spell</value>
+    <comment>HeroDmgTypeEnum</comment>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Sunday</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Thursday</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+    <comment>DayOfWeekEnum</comment>
+  </data>
+  <data name="MyMailText" xml:space="preserve">
+    <value>Send Mail</value>
+    <comment>AboutPage</comment>
+  </data>
+  <data name="BeginSavingX" xml:space="preserve">
+    <value>Begin saving {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="CheckingDefaultBuilds" xml:space="preserve">
+    <value>Checking default builds</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="CurrentBuildExists" xml:space="preserve">
+    <value>Current build exists</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="DeletingX" xml:space="preserve">
+    <value>Deleting {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="InitSpBuildList" xml:space="preserve">
+    <value>Initializing SP Build list</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="LookingForX" xml:space="preserve">
+    <value>looking for {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="MilestoneX" xml:space="preserve">
+    <value>Milestone {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="NoCurrentBuildReaction" xml:space="preserve">
+    <value>No current build found. Setting it to {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="RetrievingStoredDefaultBuilds" xml:space="preserve">
+    <value>Retrieving stored default builds</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="SavingX" xml:space="preserve">
+    <value>Saving {0}</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="SecuringCurrentBuild" xml:space="preserve">
+    <value>Securing current build</value>
+    <comment>DefaultBuildFactory</comment>
+  </data>
+  <data name="ExportTitle" xml:space="preserve">
+    <value>Export</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ExportText" xml:space="preserve">
+    <value>Export Artifact and SP Information</value>
+    <comment>Export</comment>
+  </data>
+  <data name="BuildNotFoundText" xml:space="preserve">
+    <value>Current default not found. Setting it to {0}</value>
+    <comment>SPOptimizerVM</comment>
+  </data>
+  <data name="ErrorOccuredText" xml:space="preserve">
+    <value>An error occured</value>
+    <comment>ExportVM</comment>
+  </data>
+  <data name="ClanTitle" xml:space="preserve">
+    <value>Clan</value>
+    <comment>ClanOverviewPage</comment>
+  </data>
+  <data name="AverageMaxStage" xml:space="preserve">
+    <value>Average max stage</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="Member" xml:space="preserve">
+    <value>Member</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>Rank</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="ReadingClanData" xml:space="preserve">
+    <value>Reading clan data</value>
+    <comment>SafeFile</comment>
+  </data>
+  <data name="ReadingClanMemberX" xml:space="preserve">
+    <value>Reading clan member {0}</value>
+    <comment>SafeFile</comment>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Score</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="ClanMemberTitle" xml:space="preserve">
+    <value>Clan member</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="CQAmount" xml:space="preserve">
+    <value>CQ amount</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="CurrentStage" xml:space="preserve">
+    <value>current stage</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="LastTimeSeen" xml:space="preserve">
+    <value>Last time seen</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="MaximumStage" xml:space="preserve">
+    <value>max. stage</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="TournamenAmount" xml:space="preserve">
+    <value>Tournaments</value>
+    <comment>ClanMember</comment>
+  </data>
+  <data name="ClanMessagesTitle" xml:space="preserve">
+    <value>Clan messages</value>
+    <comment>ClanMessages</comment>
+  </data>
+  <data name="ClickToView" xml:space="preserve">
+    <value>Click to view</value>
+    <comment>ClanMessage</comment>
+  </data>
+  <data name="SharedBuildFrom" xml:space="preserve">
+    <value>Shared Build from</value>
+    <comment>ClanMessage</comment>
+  </data>
+  <data name="Artifact86" xml:space="preserve">
+    <value>Sword of the Royals</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact87" xml:space="preserve">
+    <value>Spearit's Vigil</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact88" xml:space="preserve">
+    <value>The Cobalt Plate</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact89" xml:space="preserve">
+    <value>Sigils of Judgement</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact90" xml:space="preserve">
+    <value>Foliage of the Keeper</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="ExportSmallTitle" xml:space="preserve">
+    <value>Small Export</value>
+    <comment>Export</comment>
+  </data>
+  <data name="BannedPlayersTitle" xml:space="preserve">
+    <value>Banned players</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="NotDeletedText" xml:space="preserve">
+    <value>Did not delete</value>
+    <comment>General</comment>
+  </data>
+  <data name="SureToBanText" xml:space="preserve">
+    <value>Do you want to ban this player?</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="BannedReason" xml:space="preserve">
+    <value>Reason</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="PlayerAlreadyBanned" xml:space="preserve">
+    <value>Player is already banned</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="BannedPlayersInClan" xml:space="preserve">
+    <value>Banned players in clan!</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="PlayerIsBanned" xml:space="preserve">
+    <value>Player is banned</value>
+    <comment>Banned</comment>
+  </data>
+  <data name="NotAllValuesEntered" xml:space="preserve">
+    <value>Not all values have been entered</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="ClickSuggestionInfoHeader" xml:space="preserve">
+    <value>Click Suggestion</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="ClickSuggestionInfoText" xml:space="preserve">
+    <value>If you set this on the optimizer will calculate the amount of clicks you have to do on each artifact. Please consider that the calculation may take some time when this option is enabled.
+PS: If you currently do not have enough relics to purchase even one level of the top suggested artifact - only one Artifact will be shown in the optimization list</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="RelicsTooLow" xml:space="preserve">
+    <value>Relics amount is too low to process.</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="StepAmountTooLow" xml:space="preserve">
+    <value>Step Amount is too low. The optimization process would take ages. 
+Please increase the step amount or Lifetime%</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="BosTourneyInfoText" xml:space="preserve">
+    <value>BoS-Percentage while in a Tournament</value>
+    <comment>Optimizer</comment>
+  </data>
+  <data name="Copied" xml:space="preserve">
+    <value>Copied</value>
+    <comment>Export</comment>
+  </data>
+  <data name="CopyContentToClipboard" xml:space="preserve">
+    <value>Copy content to clipboard</value>
+    <comment>Export</comment>
+  </data>
+  <data name="FeatureNotImplementedYet" xml:space="preserve">
+    <value>Feature not implemented yet</value>
+    <comment>General</comment>
+  </data>
+  <data name="SaveToDownloads" xml:space="preserve">
+    <value>Save to downloads</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ShareFile" xml:space="preserve">
+    <value>Share file</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistics</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Saved</value>
+    <comment>General</comment>
+  </data>
+  <data name="DeleteOldClanData" xml:space="preserve">
+    <value>Delete old clan data</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="MaxSnapshotAmount" xml:space="preserve">
+    <value>Max. Snapshot-Amount</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="HundredDays" xml:space="preserve">
+    <value>100 days</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="IncreasedXStages" xml:space="preserve">
+    <value>Increased {0} stages</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="SevenDays" xml:space="preserve">
+    <value>7 days</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="ThirtyDays" xml:space="preserve">
+    <value>30 days</value>
+    <comment>Statistics</comment>
+  </data>
+  <data name="PleaseCheckSettings" xml:space="preserve">
+    <value>Please check your settings</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Change language</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="Changelog" xml:space="preserve">
+    <value>Changelog</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildFromChat" xml:space="preserve">
+    <value>Import build from chat</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="HowTo" xml:space="preserve">
+    <value>How to</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="WidgetOutsideDescription" xml:space="preserve">
+    <value>There is also information about the free equipment drops for the current run. 
+Last but not least you get information about your daily achievements. </value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildFromChatDesc" xml:space="preserve">
+    <value>You can import a SP Build from clan chat - meaning if someone in your clan posts his skill tree you can compare this to your own and also save it.
+To do this - Navigate to the clan messages</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildImgOneDesc" xml:space="preserve">
+    <value>Under "Build" you can click on a build to open it.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="ImportBuildImgTwoDesc" xml:space="preserve">
+    <value>From there you can click on skills to view the differences or save it.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildImgOneDesc" xml:space="preserve">
+    <value>In the toolbar you will find some buttons. From left to right they do the following: Save, delete, copy, export.
+When entering a build you are on the "General"-Tab. You can set the name and the gold source.
+Navigate to the right to get to the weights.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildImgThreeDesc" xml:space="preserve">
+    <value>Here you can ignore Artifacts by clicking on the switch. If an Artifact is ignored it will not be considered in the Process of optimization.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildImgTwoDesc" xml:space="preserve">
+    <value>For each category there is a weight set. Categories can be viewed in the Artifact detail which you can enter from the Artifact overview.
+The weight value is telling the optimizer if a category is efficient or not. the higher the value the more efficient the category is.
+Navigate to the right to get to the ignored Artifacts.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="EditBuildIntroduction" xml:space="preserve">
+    <value>The Artifact Optimizer uses Builds to determine the efficiency of artifacts. This tutorial should give you the information you need to understand and manipulate them to fit your personal preferences.
+To edit a build, navigate to Builds and click on the build you want to edit.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgFourDesc" xml:space="preserve">
+    <value>The last artifact in the list has MAX. That means that if you get here you should change your ingame step amount to maximum and put the rest of your relics into this artifact.
+
+If you get the message "Not enough relics" then this can mean two things:
+1. You have to earn more relics. Play the game, prestige and reload the optimizer
+2. Your BoS% is lower than the value in the settings. Put relics into Book of Shadows or reduce the amount in the settings</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgOneDesc" xml:space="preserve">
+    <value>Before you start to work with the optimizer keep sure to have your settings right. 
+To enter them click on the pen which is highlighted in the picture.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgThreeDesc" xml:space="preserve">
+    <value>When the optimizer has done it's work you get a list of Artifacts to upgrade. 
+Go from the top to the bottom. 
+You see a picture and the name of the artifact to level. Beneath the Name you see the current level and in the brackets you see how much of your lifetime spent relics has gone into this artifact.
+
+Next to that you see a box which tells you how often you should press the button the level this artifact. Here it says 12x (meaning press 12 times on the upgrade button of that artifact). </value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerImgTwoDesc" xml:space="preserve">
+    <value>Here you see the settings you can make. 
+On the left of each setting you will find an info-button. Click on it to get a short description of what you can set.
+
+First select a build which fits your playstile. You can use a predefined build (_ as first letter) or one of your own ones.
+
+After that, set your pushing type. If you want to take advantage from silent march but mainly play online set this to "Not Set".
+
+Next there is the step amount. Here you set the same value that you use ingame! 
+The lower the step amount the more precise the optimization. But it should not be too low. The optimal value is 5%. 
+
+BoS Royalty is the percentual amount of relics you want to put into Book of Shadows outside of a Tournament. 
+Most player push BoS outside of tournaments and inside of tournaments they ignore it. 
+
+BoS T-Royalty is the same inside of tournaments. This value should not be higher than outside of a tournament. Most players set this value to 0, which means that Book of Shadows will be totally ignored while you are in a tournament.
+
+Hero: Is the damage type spell, melee or ranged? This setting is used to ignore artifacts. If you set melee you do not need to increase an artifact which strenghens ranged heroes
+
+Range: Same as above
+
+Gold Source: Set the gold source. Where do you get your gold from?</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="OptimizerIntroduction" xml:space="preserve">
+    <value>This tutorial is meant to help you understanding the Artifact optimizer. The advantage you get using this optimizer is that you do not have to keep track of any value. You set this up once and are good to run. With the correct usage you can save a lot of time. 
+One last thing before we start: When you level your artifacts it is suggested that you use the splitscreen-function of your phone. On the top you have Tap Titans open and on the button you have the optimizer. 
+So now let's get started. First we will dive into the settings. After that we take a look at the list which is produced by the optimizer.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="SPFollowerHeader" xml:space="preserve">
+    <value>Sp Follower</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="SPFollowerImgOneDesc" xml:space="preserve">
+    <value>If you click on the Info-Button left to the entries you will get a description on what the fields mean.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="SPFollowerIntroduction" xml:space="preserve">
+    <value>With the SP Follower you can compare your skill tree with others and follow them. Some builds are seperated into multiple milestones which makes the tracking easier.
+On the skills tab - colors are indicating differences and if you can afford to level up a skill.
+Green: You have enough Skill Points to level up
+Orange: You should level this but have not enough Skill Points
+Red: The level of this skill is too high
+Neutral: The level is just fine</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsImgOneDesc" xml:space="preserve">
+    <value>From the statistics main menu you can create new snapshots. For supporter there is auto-snapshotting which creates a snapshot each time you open the app (and keeps one per day).
+With the button above you can manually create a new snapshot.
+Below you will find a list of your stored snapshots which you can enter by clicking on it.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsImgThreeDesc" xml:space="preserve">
+    <value>If you enter a clan member you can see some information which is collected from your stored snapshots. 
+You see how many stages, TP and clan quests the player increased</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsImgTwoDesc" xml:space="preserve">
+    <value>This is the detailed view of a Snapshot. for each member in your clan you see some information like the name or the maximum stage.
+Here is a list of what the fields mean:
+CQ-T: The total clan quests
+CQ-W: Clan quests this week
+Tourn.: The amount of Tournaments the player has joined
+TP: The total amount of TP the player earned.
+
+By clicking the bin you delete the snapshot and by clicking on the arrow you will export the snapshot to a csv-file.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="StatisticsIntroduction" xml:space="preserve">
+    <value>The statistics module is meant to provide you some information about the progress of you and you clan mates and are seperated into "Snapshots".
+Each snapshot holds relevant informations which you can export or view in the app.
+To prevent a too high collection of Snapshots you can set the maximum amount that should be stored in the Settings menu.</value>
+    <comment>InfoPage</comment>
+  </data>
+  <data name="DeleteArtSettings" xml:space="preserve">
+    <value>Delete optimizer settings</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="DashboardHeader" xml:space="preserve">
+    <value>Dashboard</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="Tournament" xml:space="preserve">
+    <value>Tournament</value>
+    <comment>Tournament</comment>
+  </data>
+  <data name="HS" xml:space="preserve">
+    <value>HS</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="Pet" xml:space="preserve">
+    <value>Pet</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="SC" xml:space="preserve">
+    <value>SC</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="Ship" xml:space="preserve">
+    <value>Ship</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="Tap" xml:space="preserve">
+    <value>Tap</value>
+    <comment>EquipmentBuilds</comment>
+  </data>
+  <data name="ClickGoldTypeInfoText" xml:space="preserve">
+    <value>Set your main gold source</value>
+    <comment>ArtOpt</comment>
+  </data>
+  <data name="GoldTypeInfoHeader" xml:space="preserve">
+    <value>Gold Type</value>
+    <comment>ArtOpt</comment>
+  </data>
+  <data name="SupporterAboDesc" xml:space="preserve">
+    <value>Have all features unlocked while active and support this app monthly over time.</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="SupTimeHeader" xml:space="preserve">
+    <value>Support Abo</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="TimeHeader" xml:space="preserve">
+    <value>Time</value>
+    <comment>Purchase</comment>
+  </data>
+  <data name="Aura_BlackEnergy" xml:space="preserve">
+    <value>Dark Energy</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_BoneTribe" xml:space="preserve">
+    <value>Ancient Wisdom</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Bugs" xml:space="preserve">
+    <value>Butterfly Effect</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Captain" xml:space="preserve">
+    <value>Heroic Radiance</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Chains" xml:space="preserve">
+    <value>Grinding Gears</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_CNY" xml:space="preserve">
+    <value>Paper Lanterns</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Colors" xml:space="preserve">
+    <value>Color Pop</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Crow" xml:space="preserve">
+    <value>Fatal Feathers</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Cyborg" xml:space="preserve">
+    <value>Charged Field</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_DarkAlien" xml:space="preserve">
+    <value>Tormented Spirits</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Diamonds" xml:space="preserve">
+    <value>Diamond Ring</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Dragon" xml:space="preserve">
+    <value>Dragon Quake</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Embers" xml:space="preserve">
+    <value>Falling Ember</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Fur" xml:space="preserve">
+    <value>Avalanche</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Ghost" xml:space="preserve">
+    <value>Phantom Mist</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_GoldenRays" xml:space="preserve">
+    <value>Anniversary Aura</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Green" xml:space="preserve">
+    <value>Will of the Wisps</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_HighTecLightning" xml:space="preserve">
+    <value>Interdimensional Cubes</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Knight" xml:space="preserve">
+    <value>Daybreak</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_LightBunny" xml:space="preserve">
+    <value>Spring Fever</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Mage" xml:space="preserve">
+    <value>Runic Power</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Mech" xml:space="preserve">
+    <value>D.R.O.I.D.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Monk" xml:space="preserve">
+    <value>Inner Peace</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Pirate" xml:space="preserve">
+    <value>Mystic Fog</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Platinum" xml:space="preserve">
+    <value>Platinum Aura</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Poet" xml:space="preserve">
+    <value>Silk Breeze</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Pumpkin" xml:space="preserve">
+    <value>Pumpkin Patch</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Quinn" xml:space="preserve">
+    <value>Pyrotechnics</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Rockstar" xml:space="preserve">
+    <value>Equalizer</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Samurai" xml:space="preserve">
+    <value>Cherry Blossoms</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Skulls" xml:space="preserve">
+    <value>Grim Radiance</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Slayer" xml:space="preserve">
+    <value>Ominous Fog</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Sled" xml:space="preserve">
+    <value>Festival Twinkling</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_SnowStorm" xml:space="preserve">
+    <value>Snow Storm</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Surf" xml:space="preserve">
+    <value>Bay Watching</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Thief" xml:space="preserve">
+    <value>Shurikens</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Titan" xml:space="preserve">
+    <value>Titan Steam</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Travel" xml:space="preserve">
+    <value>Swirling Memories</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Viking" xml:space="preserve">
+    <value>Spirit of Valhalla</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Wolf" xml:space="preserve">
+    <value>Lunar Phases</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Wonder" xml:space="preserve">
+    <value>Bulletproof</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_BatRed" xml:space="preserve">
+    <value>Crimson Knight</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_BoneTribe" xml:space="preserve">
+    <value>Sabertooth Crown</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Cap" xml:space="preserve">
+    <value>Everyday Cap</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Captain" xml:space="preserve">
+    <value>Captain's Cowl</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Cat" xml:space="preserve">
+    <value>Feline Helmet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Chains" xml:space="preserve">
+    <value>Platinum Devil</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_CNY" xml:space="preserve">
+    <value>Red Blossoms</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Crow" xml:space="preserve">
+    <value>Three-eyed Glare</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_DarkAlien" xml:space="preserve">
+    <value>Tracker Mask</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Dragon" xml:space="preserve">
+    <value>Dragonplate Helmet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Ears" xml:space="preserve">
+    <value>Ears</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Fur" xml:space="preserve">
+    <value>Tusked Crown</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Ghost" xml:space="preserve">
+    <value>Phantom Hairstyle</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Gold" xml:space="preserve">
+    <value>Anniversary Helm</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Green" xml:space="preserve">
+    <value>Helmet of Eden</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HelmHorned" xml:space="preserve">
+    <value>Horned Helmet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HelmWhite" xml:space="preserve">
+    <value>White Warrior Helmet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HighTecLightning" xml:space="preserve">
+    <value>Wings of Icarus</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Ice" xml:space="preserve">
+    <value>Ice Walker Helmet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Kid" xml:space="preserve">
+    <value>Whiz Kid's Cap</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Knight" xml:space="preserve">
+    <value>Valkyrie Ciclet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_LightBunny" xml:space="preserve">
+    <value>Light Bunny Helmet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Mage" xml:space="preserve">
+    <value>Mage Hood</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Mech" xml:space="preserve">
+    <value>V.I.S.O.R.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Monk" xml:space="preserve">
+    <value>Noble Symbols</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Music" xml:space="preserve">
+    <value>Boom Box Head</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Pirate" xml:space="preserve">
+    <value>Plated Tricorne</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Platinum" xml:space="preserve">
+    <value>Platinum Helm</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Poet" xml:space="preserve">
+    <value>Artsy Beret</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Pumpkin" xml:space="preserve">
+    <value>Hollow Pumpkin</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Quinn" xml:space="preserve">
+    <value>Hasty Pigtails</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Robot" xml:space="preserve">
+    <value>Cybernetic Visor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Rockstar" xml:space="preserve">
+    <value>Signature Bandana</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Samurai" xml:space="preserve">
+    <value>Bushido Headgear</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Skulls" xml:space="preserve">
+    <value>Reinforced Skull</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Slayer" xml:space="preserve">
+    <value>Brunette Bombshell</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Sled" xml:space="preserve">
+    <value>Trusted Toque</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Snowman" xml:space="preserve">
+    <value>Snowman Head</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Surf" xml:space="preserve">
+    <value>Soaking Shag</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Thief" xml:space="preserve">
+    <value>Shinobi Wrap</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Titan" xml:space="preserve">
+    <value>Prodigy Haircut</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Travel" xml:space="preserve">
+    <value>Safari Hat</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Tribal" xml:space="preserve">
+    <value>Tribal Helmet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Viking" xml:space="preserve">
+    <value>Battle Horns</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Wolf" xml:space="preserve">
+    <value>Fenrir's Gaze</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Wonder" xml:space="preserve">
+    <value>Amazon Royalty</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_BoneTribe" xml:space="preserve">
+    <value>Primal Strike</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Captain" xml:space="preserve">
+    <value>Stripe Swipes</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Chains" xml:space="preserve">
+    <value>Chainlink</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_CNY" xml:space="preserve">
+    <value>Firecrackers</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Crow" xml:space="preserve">
+    <value>Crow Slash</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_DarkAlien" xml:space="preserve">
+    <value>Acidic Glaze</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Darkness" xml:space="preserve">
+    <value>Casting Shadows</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_DeepPurple" xml:space="preserve">
+    <value>Deep Purple</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Dragon" xml:space="preserve">
+    <value>Dragon Spirit</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireOrange" xml:space="preserve">
+    <value>Summoner Flames</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireTribe" xml:space="preserve">
+    <value>Earned Scar</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Fur" xml:space="preserve">
+    <value>Cold Snap</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Ghost" xml:space="preserve">
+    <value>Phantom Strike</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Gold" xml:space="preserve">
+    <value>Anniversary Slash</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Green" xml:space="preserve">
+    <value>Corrupted Forest</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_HighTecLightning" xml:space="preserve">
+    <value>Divine Cleave</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Knight" xml:space="preserve">
+    <value>Sun Streaks</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Lava" xml:space="preserve">
+    <value>Hot Lava</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Leaves" xml:space="preserve">
+    <value>Fallen Leaves</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_LightBunny" xml:space="preserve">
+    <value>Yolk Splash</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Lightning" xml:space="preserve">
+    <value>Blue Lightning</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Mage" xml:space="preserve">
+    <value>Mystical Echo</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Mech" xml:space="preserve">
+    <value>B.U.R.S.T.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Monk" xml:space="preserve">
+    <value>Sacred Scripts</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_MouthWash" xml:space="preserve">
+    <value>Bit Streaks</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Paint" xml:space="preserve">
+    <value>Paint Streaks</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Pirate" xml:space="preserve">
+    <value>Fortune Strike</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Platinum" xml:space="preserve">
+    <value>Platinum Slash</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Poet" xml:space="preserve">
+    <value>Velvet Kiss</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Quinn" xml:space="preserve">
+    <value>Lovestruck</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_RedPaint" xml:space="preserve">
+    <value>Red Paint</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Rockstar" xml:space="preserve">
+    <value>Rhythmic Slash</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Samurai" xml:space="preserve">
+    <value>Earned Scar</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Skulls" xml:space="preserve">
+    <value>Bone Breaker</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Slayer" xml:space="preserve">
+    <value>Cursed Cuts</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Sled" xml:space="preserve">
+    <value>Candystripes</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_SnowFlakes" xml:space="preserve">
+    <value>Snow Balls</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_SpiderWeb" xml:space="preserve">
+    <value>Spider Webbing</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Surf" xml:space="preserve">
+    <value>High Tide</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Thief" xml:space="preserve">
+    <value>Whispers</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Titan" xml:space="preserve">
+    <value>Grappling Hook</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Travel" xml:space="preserve">
+    <value>Papercuts</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Viking" xml:space="preserve">
+    <value>Strike of Light</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Wolf" xml:space="preserve">
+    <value>Malevolent Stroke</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Wonder" xml:space="preserve">
+    <value>Shooting Star</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorFace" xml:space="preserve">
+    <value>Unknown Face</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorGreen" xml:space="preserve">
+    <value>Forest Fighter</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorIce" xml:space="preserve">
+    <value>Frosted Armor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorPurple" xml:space="preserve">
+    <value>Amethyst Armor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorScale" xml:space="preserve">
+    <value>Scaly Suit</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorWhite" xml:space="preserve">
+    <value>White Warrior</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_BoneTribe" xml:space="preserve">
+    <value>Bone Tribe</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Captain" xml:space="preserve">
+    <value>Patriotic Garb</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Casual" xml:space="preserve">
+    <value>Everyday Sweater</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Chains" xml:space="preserve">
+    <value>Leather and Lace</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_CNY" xml:space="preserve">
+    <value>Dynasty Dress</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Crow" xml:space="preserve">
+    <value>Morrigan's Armor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_DarkAlien" xml:space="preserve">
+    <value>Stealthweave</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Dragon" xml:space="preserve">
+    <value>Dragonplate Armor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Farmer" xml:space="preserve">
+    <value>Farmer Overalls</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Fur" xml:space="preserve">
+    <value>Watcher Wardrobe</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Ghost" xml:space="preserve">
+    <value>Phantom Armor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Gold" xml:space="preserve">
+    <value>Anniversary Armor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Green" xml:space="preserve">
+    <value>Armor of Eden</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_HighTecLightning" xml:space="preserve">
+    <value>Divine Armor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Knight" xml:space="preserve">
+    <value>Polished Platemail</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_LightBunny" xml:space="preserve">
+    <value>Light Bunny Armor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Mage" xml:space="preserve">
+    <value>Adept Robes</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Mech" xml:space="preserve">
+    <value>C.H.A.S.S.I.S.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Monk" xml:space="preserve">
+    <value>Timeless Wraps</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Pirate" xml:space="preserve">
+    <value>Captain's Garb</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Platinum" xml:space="preserve">
+    <value>Platinum Armor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Poet" xml:space="preserve">
+    <value>Poetic Pullover</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Quinn" xml:space="preserve">
+    <value>Amorous Acrobat</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Robot" xml:space="preserve">
+    <value>Robotic Shell</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Rockstar" xml:space="preserve">
+    <value>Tour Jacket</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Samurai" xml:space="preserve">
+    <value>Ancestral Armor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Scarecrow" xml:space="preserve">
+    <value>Scarecrow</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Skulls" xml:space="preserve">
+    <value>Exoskeleton</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Slayer" xml:space="preserve">
+    <value>Bloodstained Dress</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Sled" xml:space="preserve">
+    <value>Gifted Sweater</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Snowman" xml:space="preserve">
+    <value>Snowman Body</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Surf" xml:space="preserve">
+    <value>Hang Ten</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Thief" xml:space="preserve">
+    <value>Silent Suit</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Titan" xml:space="preserve">
+    <value>Highflyer's Harness</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Travel" xml:space="preserve">
+    <value>Fanny Pack</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Viking" xml:space="preserve">
+    <value>Raiding Gear</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Wizard" xml:space="preserve">
+    <value>Wizard Sweater</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Wolf" xml:space="preserve">
+    <value>Lycanthropic Shift</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_Wonder" xml:space="preserve">
+    <value>Battle Skirt</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Basic" xml:space="preserve">
+    <value>Average Sword</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_BattleAxe" xml:space="preserve">
+    <value>Axe of Ages</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Beam" xml:space="preserve">
+    <value>Light Saber</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_BlueSword" xml:space="preserve">
+    <value>Phantom Sword</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_BoneTribe" xml:space="preserve">
+    <value>Ceremonial Blade</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Buster" xml:space="preserve">
+    <value>Buster Blade</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Captain" xml:space="preserve">
+    <value>Hero's Shield</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Carrot" xml:space="preserve">
+    <value>Snowman Nose</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Chains" xml:space="preserve">
+    <value>The Synchronizer</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Club" xml:space="preserve">
+    <value>Club</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_CNY" xml:space="preserve">
+    <value>Fortune Fan</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Crow" xml:space="preserve">
+    <value>Nevermore</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_DarkAlien" xml:space="preserve">
+    <value>Shadowsteel</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Dragon" xml:space="preserve">
+    <value>Dragonbreath</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Fur" xml:space="preserve">
+    <value>Sky's Edge</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Gear" xml:space="preserve">
+    <value>Geared Blade</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_GoldSword" xml:space="preserve">
+    <value>Anniversary Sword</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Green" xml:space="preserve">
+    <value>The Deforester</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_HighTecLightning" xml:space="preserve">
+    <value>Rune Sword</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Katana" xml:space="preserve">
+    <value>Reforged Katana</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Key" xml:space="preserve">
+    <value>Locking Blade</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Knight" xml:space="preserve">
+    <value>Winged Spear</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Laser" xml:space="preserve">
+    <value>Energy Sword</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_LightBunny" xml:space="preserve">
+    <value>The Eggbeater</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Mage" xml:space="preserve">
+    <value>Enchanted Wand</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Mech" xml:space="preserve">
+    <value>B.L.A.D.E.</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Monk" xml:space="preserve">
+    <value>Staff of Eternity</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Ninja" xml:space="preserve">
+    <value>Ninja Dagger</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Pirate" xml:space="preserve">
+    <value>The Swashbuckler</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Platinum" xml:space="preserve">
+    <value>Platinum Lance</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Poet" xml:space="preserve">
+    <value>Heartbreaker</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Quinn" xml:space="preserve">
+    <value>Beating Heart</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Rockstar" xml:space="preserve">
+    <value>The Shredder</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Samurai" xml:space="preserve">
+    <value>The Last Katana</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Skull" xml:space="preserve">
+    <value>Skull-crusher Sword</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Skulls" xml:space="preserve">
+    <value>Spinal Sword</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Slayer" xml:space="preserve">
+    <value>Prophecy Sword</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Sled" xml:space="preserve">
+    <value>Rosebud</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Spear" xml:space="preserve">
+    <value>Swift Spear</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Steel" xml:space="preserve">
+    <value>Steel Sword</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_StreetLamp" xml:space="preserve">
+    <value>Street Lamp</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Surf" xml:space="preserve">
+    <value>Waxed Board</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Sythe" xml:space="preserve">
+    <value>Death Sythe</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Thief" xml:space="preserve">
+    <value>Subtle Knife</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Titan" xml:space="preserve">
+    <value>Rectable Blade</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Viking" xml:space="preserve">
+    <value>Nordic Chopper</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Wolf" xml:space="preserve">
+    <value>Alpha Claw</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Wonder" xml:space="preserve">
+    <value>The Titan Killer</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_WoodAxe" xml:space="preserve">
+    <value>Lumberjack Axe</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Star" xml:space="preserve">
+    <value>Star Shine</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireGray" xml:space="preserve">
+    <value>Gray Flames</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_StarsBlue" xml:space="preserve">
+    <value>Starry Path</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Rose" xml:space="preserve">
+    <value>Bouquet of Roses</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Staff" xml:space="preserve">
+    <value>Twilight Staff</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="AllDamage" xml:space="preserve">
+    <value>All Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="AllHelperDamage" xml:space="preserve">
+    <value>All Hero Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="AllProbabilityBoost" xml:space="preserve">
+    <value>All Probabilities</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="Armor" xml:space="preserve">
+    <value>Armor</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="Aura" xml:space="preserve">
+    <value>Aura</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="BossDamage" xml:space="preserve">
+    <value>Boss Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="BossGoldx10Chance" xml:space="preserve">
+    <value>10x Boss Gold Chance</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="BurstDamageSkillAmount" xml:space="preserve">
+    <value>Heavenly Strike Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ChestAmount" xml:space="preserve">
+    <value>Chesterson Gold</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ChestChance" xml:space="preserve">
+    <value>Chesterson Chance</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ChestGoldx10Chance" xml:space="preserve">
+    <value>10x Chesterson Gold Chance</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ClanShipDamage" xml:space="preserve">
+    <value>Clan Ship Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="CritBoostSkillAmount" xml:space="preserve">
+    <value>Deadly Strike Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="CritChance" xml:space="preserve">
+    <value>Critical Chance</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="CritDamage" xml:space="preserve">
+    <value>Critical Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="DeadlyChance" xml:space="preserve">
+    <value>Deadly Strike Chance</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="EquipAdvisor" xml:space="preserve">
+    <value>Equip Advisor</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="EquippedText" xml:space="preserve">
+    <value>Equipped</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="FairySpawnChance" xml:space="preserve">
+    <value>Multiple Fairy Chance</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="FlyingHelperDamage" xml:space="preserve">
+    <value>Flying Hero Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="GoldAll" xml:space="preserve">
+    <value>All Gold</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="GoldBoss" xml:space="preserve">
+    <value>Boss Gold</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="GroundHelperDamage" xml:space="preserve">
+    <value>Ground Hero Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="HandOfMidasSkillAmount" xml:space="preserve">
+    <value>Hand of Midas Gold</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="Helmet" xml:space="preserve">
+    <value>Helmet</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="HelmetBoost" xml:space="preserve">
+    <value>Helmet Primary Boost</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="HelperBoostSkillAmount" xml:space="preserve">
+    <value>War Cry Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="InactiveAllDamage" xml:space="preserve">
+    <value>Inactive Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="InactiveGold" xml:space="preserve">
+    <value>Inactive Gold</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ManaMonsterSpawnChance" xml:space="preserve">
+    <value>Manni Mana Chance</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="MeleeHelperDamage" xml:space="preserve">
+    <value>Melee Hero Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="MultiMonsters" xml:space="preserve">
+    <value>Multiple Spawn Chance</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="PerkGold" xml:space="preserve">
+    <value>Perk Gold</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="PetDamage" xml:space="preserve">
+    <value>Pet Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="PetGoldQTEAmount" xml:space="preserve">
+    <value>Heart of Midas Gold</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="RangedHelperDamage" xml:space="preserve">
+    <value>Ranged Hero Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="ShadowCloneSkillAmount" xml:space="preserve">
+    <value>Shadow Clone Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="Slash" xml:space="preserve">
+    <value>Slash</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="SlashBoost" xml:space="preserve">
+    <value>Slash Primary Boost</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SpellHelperDamage" xml:space="preserve">
+    <value>Spell Hero Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="StageSkipMonsterSpawnChance" xml:space="preserve">
+    <value>Portar Spawn Chance</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SwordAttackDamage" xml:space="preserve">
+    <value>Sword Attack Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="SwordBoost" xml:space="preserve">
+    <value>Sword Primary Boost</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="TapBoostSkillAmount" xml:space="preserve">
+    <value>Fire Sword Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="TapDamage" xml:space="preserve">
+    <value>Tap Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="TitanDamage" xml:space="preserve">
+    <value>Non-Boss Damage</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="UnskilledGold" xml:space="preserve">
+    <value>Stealth Gold</value>
+    <comment>EquipmentBoost</comment>
+  </data>
+  <data name="Weapon" xml:space="preserve">
+    <value>Weapon</value>
+    <comment>EquipmentCategory</comment>
+  </data>
+  <data name="Aura_Valentines" xml:space="preserve">
+    <value>Circle of Love</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Kitty" xml:space="preserve">
+    <value>Kitty Hood</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Took" xml:space="preserve">
+    <value>Spiked Shell</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Valentines" xml:space="preserve">
+    <value>Hat of Love</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_OrangeTribe" xml:space="preserve">
+    <value>Orange Swipes</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_PitchFork" xml:space="preserve">
+    <value>Pitchfork</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Poison" xml:space="preserve">
+    <value>Poisonous Spellblade</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_SwordMaster" xml:space="preserve">
+    <value>Sword Master Sword</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Valentines" xml:space="preserve">
+    <value>Heart's Bane</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_ZigZag" xml:space="preserve">
+    <value>Crooked Blade</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Anniversary" xml:space="preserve">
+    <value>Anniversary Gold</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="BoneTribe" xml:space="preserve">
+    <value>Ancient Warrior</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Captain" xml:space="preserve">
+    <value>Captain Titan</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Chains" xml:space="preserve">
+    <value>Chained Clockwork</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="CNY" xml:space="preserve">
+    <value>Lunar Festival</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Crow" xml:space="preserve">
+    <value>Midnight Raven</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Cyborg" xml:space="preserve">
+    <value>Cybernetic Enhancements</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="DarkAlien" xml:space="preserve">
+    <value>Dark Predator</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Dragon" xml:space="preserve">
+    <value>Dragon Slayer</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Fur" xml:space="preserve">
+    <value>Frost Warden</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Ghost" xml:space="preserve">
+    <value>Phantom Presence</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Corrupt Emerald Knight</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="HighTecLightning" xml:space="preserve">
+    <value>Angelic Guardian</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Knight" xml:space="preserve">
+    <value>Solar Paragon</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="LightBunny" xml:space="preserve">
+    <value>Defender of the Egg</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Mage" xml:space="preserve">
+    <value>Defiant Spellsinger</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Mech" xml:space="preserve">
+    <value>Mechanized Sword</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Monk" xml:space="preserve">
+    <value>Eternal Monk</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Pirate" xml:space="preserve">
+    <value>Treasure Hunter</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Platinum" xml:space="preserve">
+    <value>Anniversary Platinum</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Poet" xml:space="preserve">
+    <value>The Heartbreaker</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Quinn" xml:space="preserve">
+    <value>Heartly Queen</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Rockstar" xml:space="preserve">
+    <value>The Rockstar</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Samurai" xml:space="preserve">
+    <value>Fatal Samurai</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Scarecrow" xml:space="preserve">
+    <value>Scarecrow Jack</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Skulls" xml:space="preserve">
+    <value>Ruthless Necromancer</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Slayer" xml:space="preserve">
+    <value>Toxic Slayer</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Sled" xml:space="preserve">
+    <value>Sled Season</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Snowman" xml:space="preserve">
+    <value>Snow Master</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Surf" xml:space="preserve">
+    <value>Suft Strike</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Thief" xml:space="preserve">
+    <value>Shadow Disciple</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Titan" xml:space="preserve">
+    <value>Titan Attacker</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Viking" xml:space="preserve">
+    <value>Viking King</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>The Sly Wolf</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Wonder" xml:space="preserve">
+    <value>Amazon Princess</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="BossKills" xml:space="preserve">
+    <value>Boss kills</value>
+    <comment>BossKills</comment>
+  </data>
+  <data name="KillTime" xml:space="preserve">
+    <value>Kill time</value>
+    <comment>Boss</comment>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>Duration: </value>
+    <comment>Boss</comment>
+  </data>
+  <data name="EquipAdvisorSpecialThanks" xml:space="preserve">
+    <value>Special thanks to Cauchy for dem maths!</value>
+    <comment>EquipAdvisor</comment>
+  </data>
+  <data name="CompendiumDiscordText" xml:space="preserve">
+    <value>There is also a Discord server. Click the button to get there.</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="CompendiumIntroduction" xml:space="preserve">
+    <value>The Builds and Contributions Compendium is a team that provides optimized SP Builds as well as very useful Community contributions. 
+
+If you have any questions regarding what build you should choose or need guidance this is the place where you get it.
+
+You should check it out!
+</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="CompendiumWebsiteText" xml:space="preserve">
+    <value>If you click the button below you will get to the website.</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="MyDiscordButton" xml:space="preserve">
+    <value>Discord</value>
+    <comment>AboutMe</comment>
+  </data>
+  <data name="MyDiscordHeader" xml:space="preserve">
+    <value>I also wanted to let you know that we have a Discord-Server. Feel free to join us</value>
+    <comment>AboutMe</comment>
+  </data>
+  <data name="Aura_Dizzy" xml:space="preserve">
+    <value>Dizzy</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Fire" xml:space="preserve">
+    <value>Dancing Flames</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Kookie" xml:space="preserve">
+    <value>Kookie Swirl</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Leaves" xml:space="preserve">
+    <value>Leaf Shield</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Aura_Water" xml:space="preserve">
+    <value>Whirlpool</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Chicken" xml:space="preserve">
+    <value>Chicken Beanie</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HeadPhones" xml:space="preserve">
+    <value>Headphones</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_HelmDevil" xml:space="preserve">
+    <value>Devil Helmet</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_PowerRanger" xml:space="preserve">
+    <value>Silver Mask</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_RedTopHat" xml:space="preserve">
+    <value>Red Hat</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Hat_Top" xml:space="preserve">
+    <value>Top Hat</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_EmbersBlue" xml:space="preserve">
+    <value>Frosted Embers</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_FireBlack" xml:space="preserve">
+    <value>Crimson Flames</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Rainbow" xml:space="preserve">
+    <value>Rainbow Road</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Slash_Smelly" xml:space="preserve">
+    <value>Something Stinks</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorHighTec" xml:space="preserve">
+    <value>Futuristic Gladiator</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorOrange" xml:space="preserve">
+    <value>Sunrise Armor</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_ArmorRoyal" xml:space="preserve">
+    <value>Fit for Royals</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Suit_KungFu" xml:space="preserve">
+    <value>Kungfu Master</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_Fan" xml:space="preserve">
+    <value>Fan</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="Weapon_FriedEgg" xml:space="preserve">
+    <value>Frying Pan</value>
+    <comment>EquipmentName</comment>
+  </data>
+  <data name="CompendiumHowToText" xml:space="preserve">
+    <value>Here you get a Reddit-Post about the usage</value>
+    <comment>Compendium</comment>
+  </data>
+  <data name="NotSaved" xml:space="preserve">
+    <value>Did not save</value>
+    <comment>General</comment>
+  </data>
+  <data name="IsCalculated" xml:space="preserve">
+    <value>Is calculated</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="AverageStageIncrease" xml:space="preserve">
+    <value>Avg. Stage increase</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>End</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="MinutesPassed" xml:space="preserve">
+    <value>Min. passed</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="Relics" xml:space="preserve">
+    <value>Relics</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMInfoText" xml:space="preserve">
+    <value>Relics/min not calculated. Press the corresponding Button in the toolbar to get the values calculated</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMRpmText" xml:space="preserve">
+    <value>Relics in Record</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMStageText" xml:space="preserve">
+    <value>Stages in Record</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="RpMStartedText" xml:space="preserve">
+    <value>Service started</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="AlreadyCalculatedRpmText" xml:space="preserve">
+    <value>Already calculated RpM</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="CalculatedRpMSuccessfully" xml:space="preserve">
+    <value>Calculated RpM successfully.</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="CalculateRpM" xml:space="preserve">
+    <value>Calculate RpM</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="CalculateRpMAgainQuestion" xml:space="preserve">
+    <value>RpM have already been calculated. Do you want to calculate again?</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="NoNetwork" xml:space="preserve">
+    <value>No network</value>
+    <comment>General</comment>
+  </data>
+  <data name="RpMRpmDiffText" xml:space="preserve">
+    <value>RpM in Record</value>
+    <comment>RpM</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+    <comment>General</comment>
+  </data>
+  <data name="NewInThisVersion" xml:space="preserve">
+    <value>New in this version</value>
+    <comment>General</comment>
+  </data>
+  <data name="NoPrestigeData" xml:space="preserve">
+    <value>No prestige data. Give me a day.</value>
+    <comment>General</comment>
+  </data>
+  <data name="PrestigeTodayText" xml:space="preserve">
+    <value>{0} Prestige today</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profile</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Days</value>
+    <comment>General</comment>
+  </data>
+  <data name="IncreasedXPrestige" xml:space="preserve">
+    <value>Increased {0} prestige</value>
+    <comment>ClanMemberDetail</comment>
+  </data>
+  <data name="Artifact91" xml:space="preserve">
+    <value>Ringing Stone</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Aura_Zeus" xml:space="preserve">
+    <value>Crackling Sweep</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Hat_Zeus" xml:space="preserve">
+    <value>Wreathed Curls</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Slash_Zeus" xml:space="preserve">
+    <value>Head in the Clouds</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Suit_Zeus" xml:space="preserve">
+    <value>Storm Toga</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Weapon_Zeus" xml:space="preserve">
+    <value>Smite Saber</value>
+    <comment>Equipment</comment>
+  </data>
+  <data name="Leader" xml:space="preserve">
+    <value>Leader</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="RaidAttackCount" xml:space="preserve">
+    <value>Raid Attacks</value>
+    <comment>Raid</comment>
+  </data>
+  <data name="Builds" xml:space="preserve">
+    <value>Builds</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ChooseWhatToExport" xml:space="preserve">
+    <value>Please choose what you want me to export</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Clipboard" xml:space="preserve">
+    <value>Clipboard</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Messages</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Raid" xml:space="preserve">
+    <value>Raid</value>
+    <comment>Export</comment>
+  </data>
+  <data name="CsvDelimiterHeader" xml:space="preserve">
+    <value>CSV Delimiter</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="Artifact92" xml:space="preserve">
+    <value>Quill of Scrolls</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact93" xml:space="preserve">
+    <value>Old King's Stamp</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact94" xml:space="preserve">
+    <value>Evergrowing Stack</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="Artifact95" xml:space="preserve">
+    <value>Charged Card</value>
+    <comment>Artifacts</comment>
+  </data>
+  <data name="ClanExportTitle" xml:space="preserve">
+    <value>Clan Export</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EnableDisableText" xml:space="preserve">
+    <value>Enable/ Disable</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ArtifactCount" xml:space="preserve">
+    <value>Artifacts</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ClanRole" xml:space="preserve">
+    <value>Clan role</value>
+    <comment>Export</comment>
+  </data>
+  <data name="CraftingShardsSpent" xml:space="preserve">
+    <value>Crafting shards spent</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EquipmentSetCount" xml:space="preserve">
+    <value>Equipment set count</value>
+    <comment>Export</comment>
+  </data>
+  <data name="LastTimestamp" xml:space="preserve">
+    <value>Last timestamp</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidBaseDamage" xml:space="preserve">
+    <value>Raid base damage</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidPlayerLevel" xml:space="preserve">
+    <value>Raid player level</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidTicketsCollected" xml:space="preserve">
+    <value>Raid morale collected</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidTotalCardLevel" xml:space="preserve">
+    <value>Card level</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidTotalXP" xml:space="preserve">
+    <value>Raid total exp</value>
+    <comment>Export</comment>
+  </data>
+  <data name="RaidUniqueSkillCount" xml:space="preserve">
+    <value>Cards</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TitanPoints" xml:space="preserve">
+    <value>Titan points</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalHelperScrolls" xml:space="preserve">
+    <value>Scrolls</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalHelperWeapons" xml:space="preserve">
+    <value>Total helper weapons</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalPetLevels" xml:space="preserve">
+    <value>Total pet levels</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TotalSkillPoints" xml:space="preserve">
+    <value>Total skill points</value>
+    <comment>Export</comment>
+  </data>
+  <data name="TournamentCount" xml:space="preserve">
+    <value>Tournament count</value>
+    <comment>Export</comment>
+  </data>
+  <data name="WeeklyTicketCount" xml:space="preserve">
+    <value>Weekly morale</value>
+    <comment>Export</comment>
+  </data>
+  <data name="MaxClanMsgAmount" xml:space="preserve">
+    <value>Clan Message amount</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="ErrorLoadingClanMsg" xml:space="preserve">
+    <value>Failed to load messages</value>
+    <comment>ClanMsg</comment>
+  </data>
+  <data name="Aura_LightBeams" xml:space="preserve">
+    <value>Light Beams</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Hat_Bag" xml:space="preserve">
+    <value>The Stranger</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Hat_Link" xml:space="preserve">
+    <value>Phrygian Cap</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Slash_Bishop" xml:space="preserve">
+    <value>Cross Slash</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Weapon_Saw" xml:space="preserve">
+    <value>Sharpened Saw</value>
+    <comment>Equip</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+    <comment>ClanMsg</comment>
+  </data>
+  <data name="AttackCount" xml:space="preserve">
+    <value>Attacks</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="BaseDamage" xml:space="preserve">
+    <value>Damage</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="CratesShared" xml:space="preserve">
+    <value>Crates shared</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="HelperLevel" xml:space="preserve">
+    <value>Helper level</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="PetLevel" xml:space="preserve">
+    <value>Pets</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Player</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="PlayerLevel" xml:space="preserve">
+    <value>Player Level</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="RaidClan" xml:space="preserve">
+    <value>Raid/Clan</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="ShardsSpent" xml:space="preserve">
+    <value>Shards spent</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TicketsCollected" xml:space="preserve">
+    <value>Total morale</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TotalCardLevel" xml:space="preserve">
+    <value>Total Card Level</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TotalEXP" xml:space="preserve">
+    <value>EXP</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="TournamentPoints" xml:space="preserve">
+    <value>Tournament Points</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="UniqueSkillCount" xml:space="preserve">
+    <value>Unique Skill Count</value>
+    <comment>PlayerDetail</comment>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Helper Scrolls</value>
+    <comment>MemberDetail</comment>
+  </data>
+  <data name="AntiTitanCannon" xml:space="preserve">
+    <value>Anti Titan Cannon</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="ArcaneBargain" xml:space="preserve">
+    <value>Arcane Bargain</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="IntimidatingPresence" xml:space="preserve">
+    <value>Intimidating Presence</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="MysticalImpact" xml:space="preserve">
+    <value>Mystical Impact</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="PowerSurge" xml:space="preserve">
+    <value>Power Surge</value>
+    <comment>Passive</comment>
+  </data>
+  <data name="Clan" xml:space="preserve">
+    <value>Clan</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>Equipment</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Skills</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="Things" xml:space="preserve">
+    <value>Things</value>
+    <comment>Menu</comment>
+  </data>
+  <data name="SPSplashCalculator" xml:space="preserve">
+    <value>SP Skip Calculator</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="AerialAssault" xml:space="preserve">
+    <value>Aerial Assault (AA)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="AGSetCompleted" xml:space="preserve">
+    <value>Is AG Set completed?</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="AngelicRadiance" xml:space="preserve">
+    <value>Angelic Radiance (AR)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="APSetCompleted" xml:space="preserve">
+    <value>Is AP Set completed?</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="DoubleSnap" xml:space="preserve">
+    <value>Double Snap</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="EternalDarkness" xml:space="preserve">
+    <value>Eternal Darkness (ED)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="LightningBurst" xml:space="preserve">
+    <value>Lightning Burst (LB)</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="NormalTitanCount" xml:space="preserve">
+    <value>Normal Titan Count</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="PassiveSkillReduction" xml:space="preserve">
+    <value>Passive Skill Reduction</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="SingleSnap" xml:space="preserve">
+    <value>Single Snap</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="SplashSkillHeader" xml:space="preserve">
+    <value>Splash Skill</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="SplashSnapHeader" xml:space="preserve">
+    <value>Splash Snap</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="StagesToSplash" xml:space="preserve">
+    <value>Stages to splash</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="WithoutSnap" xml:space="preserve">
+    <value>Without Snap</value>
+    <comment>SplashCalculator</comment>
+  </data>
+  <data name="SkipSkillHeader" xml:space="preserve">
+    <value>Skill for skipping</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="SkipSnapHeader" xml:space="preserve">
+    <value>Snap choice</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="StagesToSkip" xml:space="preserve">
+    <value>Stages to skip</value>
+    <comment>SPSplashCalculator</comment>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Configuration</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CurrentSP" xml:space="preserve">
+    <value>Current SP</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DamageSource" xml:space="preserve">
+    <value>Damage Source</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Default</value>
+    <comment>General</comment>
+  </data>
+  <data name="GoldSourceDescription" xml:space="preserve">
+    <value>The gold source is where the most part of your gold comes from</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Mode</value>
+    <comment>General</comment>
+  </data>
+  <data name="SPConfigDefaultDescription" xml:space="preserve">
+    <value>Here you can set whether or not the chosen configuration is your default configuration.
+If you navigate to this menu the app automatically loads the default configuration.
+In addition to that other modules of this app may take a look at your default configuration.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPConfigModeDescription" xml:space="preserve">
+    <value>There are two config modes: "continuous" and "creation".
+When continuous is chosen the SP Optimizer will suggest you skills to level based on your current ingame setup.
+When creation is chosen the SP Optimizer will create a whole new build and ignore your current setup.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPConfigurationDescription" xml:space="preserve">
+    <value>A configuration is just a set of preferences.
+The SP Optimizer needs a configuration in order to make a calculation.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPDamageSourceDescription" xml:space="preserve">
+    <value>The damage source is where your main damage comes from</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPConfigurationsHeader" xml:space="preserve">
+    <value>SP Configurations</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>General</comment>
+  </data>
+  <data name="ClanShip" xml:space="preserve">
+    <value>Clan Ship</value>
+    <comment>General</comment>
+  </data>
+  <data name="HeavenlyStrike" xml:space="preserve">
+    <value>Heavenly Strike</value>
+    <comment>General</comment>
+  </data>
+  <data name="ShadowClone" xml:space="preserve">
+    <value>Shadow Clone</value>
+    <comment>General</comment>
+  </data>
+  <data name="GiveAName" xml:space="preserve">
+    <value>Give me a name</value>
+    <comment>General</comment>
+  </data>
+  <data name="Caution" xml:space="preserve">
+    <value>Caution</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>Choose</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Continuous" xml:space="preserve">
+    <value>Continuous</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Creation" xml:space="preserve">
+    <value>Creation</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CustomDamageReduction" xml:space="preserve">
+    <value>Custom damage reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CustomGoldReduction" xml:space="preserve">
+    <value>Custom gold reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DamageReduction" xml:space="preserve">
+    <value>Damage reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DefaultDamageReduction" xml:space="preserve">
+    <value>Default damage reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="DefaultGoldReduction" xml:space="preserve">
+    <value>Default gold reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="GoldReduction" xml:space="preserve">
+    <value>Gold reduction</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Ignored" xml:space="preserve">
+    <value>Ignored</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SpecialCalculation" xml:space="preserve">
+    <value>Special calculation</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPOptimizer" xml:space="preserve">
+    <value>SP Optimizer</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="TreeIgnorationQuestion" xml:space="preserve">
+    <value>You are about to ignore the whole tree. Are you sure?</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="WhatDoYouWant" xml:space="preserve">
+    <value>What do you want?</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="OnlyForSupporterItemLimitText" xml:space="preserve">
+    <value>Only supporters can save more than {0} items</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="FixedLevel" xml:space="preserve">
+    <value>Fixed level</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="EverySkillIgnoredAlert" xml:space="preserve">
+    <value>Every skill is ignored. So I can not optimize anything</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="UpdateReasonFixedLevel" xml:space="preserve">
+    <value>Upgrade to fixed level: {0}</value>
+    <comment>SpOpt</comment>
+  </data>
+  <data name="BranchUpgradeParent" xml:space="preserve">
+    <value>Spent points in branch for {0} because {1} points are missing</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="Efficiency" xml:space="preserve">
+    <value>Efficiency</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="UpgradeParent" xml:space="preserve">
+    <value>Upgrade this to get to parent {0}</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="UpgradeReason" xml:space="preserve">
+    <value>Upgrade reason</value>
+    <comment>SP Optimizer (reason to upgrade)</comment>
+  </data>
+  <data name="Tree" xml:space="preserve">
+    <value>Tree</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="AboutThisApp" xml:space="preserve">
+    <value>About this app</value>
+    <comment>About</comment>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Credits</value>
+    <comment>About</comment>
+  </data>
+  <data name="BranchUpgradeGrandParent" xml:space="preserve">
+    <value>Spent points in branch for {1} because {2} points are missing to unlock it to then get to {0}</value>
+    <comment>SPOpt (Reason to upgrade)</comment>
+  </data>
+  <data name="UpgradeGrandParent" xml:space="preserve">
+    <value>Upgrade this to get to parent {0} and then to {1}</value>
+    <comment>SPOpt (Reason to upgrade)</comment>
+  </data>
+  <data name="FeatureNotThereYet" xml:space="preserve">
+    <value>This feature is not implemented yet. I do not know why. I am just here to say this to you.</value>
+    <comment>General</comment>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="CloseText" xml:space="preserve">
+    <value>Close</value>
+    <comment>General</comment>
+  </data>
+  <data name="SPOverclockAmount" xml:space="preserve">
+    <value>Overclock amount</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="SPOverclockInfoText" xml:space="preserve">
+    <value>The SP optimizer spends your available skill points. This value tells the Sp Optimizer, how far ahead he goes beyond that. If you have 100 SP and enter 10, then the SP optimizer will act like you have 110 SP</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="RaidResult" xml:space="preserve">
+    <value>Raid result</value>
+    <comment>ClanMessage</comment>
+  </data>
+  <data name="OptimizedBuildFrom" xml:space="preserve">
+    <value>Optimized build from {0}</value>
+    <comment>SP follower</comment>
+  </data>
+  <data name="IgnoredSkillFixedLevelNotReached" xml:space="preserve">
+    <value>- Could not reach fixed level of {1} for {0}. Only got it to level {2}.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="IgnoredSkillWithFixedLevel" xml:space="preserve">
+    <value>- Could not level {0} because it is ignored</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="OfflineBuildWithoutSilentMarch" xml:space="preserve">
+    <value>- The build is configured to have offline progress but Silent March is not leveled</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="Compare" xml:space="preserve">
+    <value>Compare</value>
+    <comment>PlayerComparison</comment>
+  </data>
+  <data name="PlayerComparison" xml:space="preserve">
+    <value>Player Comparison</value>
+    <comment>PlayerComparison</comment>
+  </data>
+  <data name="CreateConfig" xml:space="preserve">
+    <value>Create configuration</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="NeedToCreateConfig" xml:space="preserve">
+    <value>You need to create a configuration before you can use this.</value>
+    <comment>SPOpt</comment>
+  </data>
+  <data name="NextTournamentInfo" xml:space="preserve">
+    <value>Next Tournament is {0}
+Starting: {1} with {2}x {3}</value>
+    <comment>Tournament</comment>
+  </data>
+  <data name="IsIgnoredIfNotEnoughSP" xml:space="preserve">
+    <value>Ignored if not enough SP</value>
+    <comment>SP Optimizer</comment>
+  </data>
+  <data name="IsIgnoredIfNotEnoughSPText" xml:space="preserve">
+    <value>If you can not afford to upgrade a skill then the Optimizer tries to ignore it. Instead the optimizer tries to take a skill which you can afford to spend as many skill points as possible</value>
+    <comment>SP Optimizer</comment>
+  </data>
+  <data name="PushBoS" xml:space="preserve">
+    <value>Push Book of Shadows!</value>
+    <comment>ArtOptimizer</comment>
+  </data>
+  <data name="AdvancedStart" xml:space="preserve">
+    <value>Advanced start</value>
+    <comment>ClanOverview</comment>
+  </data>
+  <data name="ExportRaidAsJson" xml:space="preserve">
+    <value>Export Raid as JSON</value>
+    <comment>ExportPage</comment>
+  </data>
+  <data name="CheckStepAmountOrEfficiency" xml:space="preserve">
+    <value>Please check your step amount or minimum efficiency</value>
+    <comment>ArtifactOptimizer</comment>
+  </data>
+  <data name="MaxArtifactAmountInfoText" xml:space="preserve">
+    <value>The optimization will stop when the suggestion list contains more items than the amount that is set here. The default value is 30.</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="MaxArtifactAmountOption" xml:space="preserve">
+    <value>Max. Artifacts</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="MinEfficiencyInfoText" xml:space="preserve">
+    <value>The optimization will stop when the efficiency is lower than this value. The default value is 1.05</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="MinEfficiencyOption" xml:space="preserve">
+    <value>Min. Efficiency</value>
+    <comment>Artifact Optimizer Setting</comment>
+  </data>
+  <data name="LocalFileError" xml:space="preserve">
+    <value>Local file system error</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>You are not connected to the internet</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="ServerError" xml:space="preserve">
+    <value>Server side error</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="SuccessfulAssetDownload" xml:space="preserve">
+    <value>Assets have been downloaded successfully.</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="TotalFuckUp" xml:space="preserve">
+    <value>Something unexpected happened</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="UnstableAssetState" xml:space="preserve">
+    <value>Asset state is unstable. If this is your first start please make sure that you have a proper internet connection so that assets can be downloaded. Asset Manager Error: {0}</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="VersionNotOnServer" xml:space="preserve">
+    <value>The current version is not present on the server</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="WrongParameter" xml:space="preserve">
+    <value>Wrong parameters passed</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="AssetProblemDetail" xml:space="preserve">
+    <value>There is a problem with some background data. Here is the detail: {0}</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="Problem" xml:space="preserve">
+    <value>Problem</value>
+    <comment>General</comment>
+  </data>
+  <data name="CheckAssetState" xml:space="preserve">
+    <value>There may be a problem with the asset state. please click the attention button in the toolbar to get further detail</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="VariousVersion" xml:space="preserve">
+    <value>Various version</value>
+    <comment>Asset Manager</comment>
+  </data>
+  <data name="ClanAutoExportTitle" xml:space="preserve">
+    <value>Clan automatic export</value>
+    <comment>Export</comment>
+  </data>
+  <data name="ClanAutoExportText" xml:space="preserve">
+    <value>Here you can set if you wish to automatically export the clan statistics.</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EnableClanAutoExportText" xml:space="preserve">
+    <value>Enable/ Disable</value>
+    <comment>Export</comment>
+  </data>
+  <data name="HourlyTimeInterval" xml:space="preserve">
+    <value>Hourly time interval</value>
+    <comment>Export</comment>
+  </data>
+  <data name="EnableClanAutoNotificationText" xml:space="preserve">
+    <value>Notify me when data is exported</value>
+    <comment>Export</comment>
+  </data>
+  <data name="Automation" xml:space="preserve">
+    <value>Automation</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="AutomationService" xml:space="preserve">
+    <value>Automation service</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="AutoServiceDescription" xml:space="preserve">
+    <value>Here you can set up your Foreground servce, which will automatically check for things to do for you.
+
+The service repeats in the amount of minutes which you set below.
+
+You decide which modules are checked. The service will at least display your current BoS%.
+
+If you enabled the automatic clan export and close TT2Master, this service will continue to schedule the export if it is started.</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="MinuteTimeInterval" xml:space="preserve">
+    <value>Time interval in minutes</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="ChangeSavefilePath" xml:space="preserve">
+    <value>Change path to savefile</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="SavefilePathChangedSuccessfully" xml:space="preserve">
+    <value>Changed path to the savefile successfully. It may require a restart of the app to fully apply all changes.</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="WrongFileTypeSelectedAdat" xml:space="preserve">
+    <value>The file type must be .adat. Please try again.</value>
+    <comment>Savefile</comment>
+  </data>
+  <data name="CheckingPurchasesText" xml:space="preserve">
+    <value>Checking purchases</value>
+    <comment>SplashVM</comment>
+  </data>
+  <data name="DownloadAssetsAgain" xml:space="preserve">
+    <value>Download assets again</value>
+    <comment>AssetManager</comment>
+  </data>
+  <data name="DownloadAssetsAgainText" xml:space="preserve">
+    <value>You are about to download all asset files again. This process may take some seconds. Please make sure you have a stable internet connection. Do you wish to continue with downloading?</value>
+    <comment>AssetManager</comment>
+  </data>
+  <data name="SpEfficiencyWarning" xml:space="preserve">
+    <value>Warning: The list contains elements with an efficiency of 1 or below. Do not increase the level of those! They are just there because you ran out of points to spend.</value>
+    <comment>SpOptimizer</comment>
+  </data>
+  <data name="ForbiddenContractSpOptInfo" xml:space="preserve">
+    <value>You have Forbidden Contract in your build. Make sure you have enough mana as well as enough mana regeneration. If that is not the case make sure to disable this skill in your build configuration!</value>
+    <comment>SP Optimizer</comment>
+  </data>
+  <data name="DiamondFairy" xml:space="preserve">
+    <value>Diamond fairy</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="FatFairy" xml:space="preserve">
+    <value>Fat fairy</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="FreeEquipment" xml:space="preserve">
+    <value>Free equipment</value>
+    <comment>Automation</comment>
+  </data>
+  <data name="ChangeBoSPercentageDisplay" xml:space="preserve">
+    <value>Change display of BoS%</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="Artifact96" xml:space="preserve">
+    <value>Sticky Fruit</value>
+    <comment>Artifact</comment>
+  </data>
+  <data name="Artifact97" xml:space="preserve">
+    <value>Hades Orb</value>
+    <comment>Artifact</comment>
+  </data>
+  <data name="Aura_ElectricWarlord" xml:space="preserve">
+    <value>Seal of the Tiger</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Hat_ElectricWarlord" xml:space="preserve">
+    <value>Helm of Uproar</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Slash_ElectricWarlord" xml:space="preserve">
+    <value>Arc Lightning</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Suit_ElectricWarlord" xml:space="preserve">
+    <value>Armor of Wind</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Weapon_ElectricWarlord" xml:space="preserve">
+    <value>Ironheart</value>
+    <comment>EquipmentName Ironheart, the Crackling Tiger</comment>
+  </data>
+  <data name="Skill.AllHelperDmg" xml:space="preserve">
+    <value>Master Commander</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.BossDmgQTE" xml:space="preserve">
+    <value>Flash Zip</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.BossTimer" xml:space="preserve">
+    <value>Dimensional Shift</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.BurstSkillBoost" xml:space="preserve">
+    <value>Angelic Radiance</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ChestGold" xml:space="preserve">
+    <value>Spoils of War</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ClanQTE" xml:space="preserve">
+    <value>Coordinated Offensive</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ClanShipDmg" xml:space="preserve">
+    <value>Aerial Assault</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ClanShipStun" xml:space="preserve">
+    <value>Anchoring Shot</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.Cloaking" xml:space="preserve">
+    <value>Cloaking</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CloneDmg" xml:space="preserve">
+    <value>Phantom Vengeance</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CloneSkillBoost" xml:space="preserve">
+    <value>Eternal Darkness</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CritSkillBoost" xml:space="preserve">
+    <value>Lightning Strike</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.CritSkillBoostDmg" xml:space="preserve">
+    <value>Assassinate</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.Fairy" xml:space="preserve">
+    <value>Fairy Charm</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.FireTapSkillBoost" xml:space="preserve">
+    <value>Summon Inferno</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ForbiddenContract" xml:space="preserve">
+    <value>Forbidden Contract</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.Frenzy" xml:space="preserve">
+    <value>Barbaric Fury</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.GuidedBlade" xml:space="preserve">
+    <value>Deadly Focus</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HeavyStrikes" xml:space="preserve">
+    <value>Cleaving Strike</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperBoost" xml:space="preserve">
+    <value>Tactical Insight</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperDmgQTE" xml:space="preserve">
+    <value>Astral Awakening</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperDmgSkillBoost" xml:space="preserve">
+    <value>Heroic Might</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.HelperInspiredWeaken" xml:space="preserve">
+    <value>Searching Light</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ManaMonster" xml:space="preserve">
+    <value>Manni Mana</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.ManaStealSkillBoost" xml:space="preserve">
+    <value>Mana Siphon</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.MidasSkillBoost" xml:space="preserve">
+    <value>Midas Ultimate</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.MPCapacityBoost" xml:space="preserve">
+    <value>Limit Break</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.MultiMonsters" xml:space="preserve">
+    <value>Ambush</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.OfflineGold" xml:space="preserve">
+    <value>Master Thief</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PetDmg" xml:space="preserve">
+    <value>Pet Evolution</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PetGoldQTE" xml:space="preserve">
+    <value>Heart of Midas</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PetQTE" xml:space="preserve">
+    <value>Lightning Burst</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.PoisonedBlade" xml:space="preserve">
+    <value>Poisoned Blade</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.SoulBlade" xml:space="preserve">
+    <value>Soul Blade</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.StrokeOfLuck" xml:space="preserve">
+    <value>Stroke Of Luck</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.TapDmg" xml:space="preserve">
+    <value>Knight's Valor</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.TapDmgFromHelpers" xml:space="preserve">
+    <value>Chivalric Order</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="Skill.UltraDagger" xml:space="preserve">
+    <value>Summon Dagger</value>
+    <comment>Skill name</comment>
+  </data>
+  <data name="CreateSnapshotOnDashboardReload" xml:space="preserve">
+    <value>Create snapshot when dashboard reloads</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="DefaultList" xml:space="preserve">
+    <value>Default list</value>
+    <comment>Artifact optimizer view mode</comment>
+  </data>
+  <data name="ImageGrid" xml:space="preserve">
+    <value>Grid of images</value>
+    <comment>Artifact optimizer view mode</comment>
+  </data>
+  <data name="ArtOptViewModeSettingsHeader" xml:space="preserve">
+    <value>Artifact optimizer view mode</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="CellSize" xml:space="preserve">
+    <value>Cell size</value>
+    <comment>Art optimizer view settings</comment>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Direction</value>
+    <comment>Art optimizer view settings</comment>
+  </data>
+  <data name="CopyLtrValue" xml:space="preserve">
+    <value>Copy LTR value to clipboard</value>
+    <comment>Copy LTR value to clipboard</comment>
+  </data>
+  <data name="UseIngameBoSDisplay" xml:space="preserve">
+    <value>Display BoS like ingame</value>
+    <comment>BoS Display Settings</comment>
+  </data>
+  <data name="UseMasterBoSDisplay" xml:space="preserve">
+    <value>Display BoS like a master</value>
+    <comment>BoS Display Settings</comment>
+  </data>
+  <data name="CompletedSets" xml:space="preserve">
+    <value>Sets</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="CraftingPower" xml:space="preserve">
+    <value>Crafting power</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="LTR" xml:space="preserve">
+    <value>Lifetime relics</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="SilentMarch" xml:space="preserve">
+    <value>Silent march</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="SkillPoints" xml:space="preserve">
+    <value>Skill points</value>
+    <comment>Clanmember Detail</comment>
+  </data>
+  <data name="Reporting" xml:space="preserve">
+    <value>Reporting</value>
+    <comment>Reporting</comment>
+  </data>
+  <data name="CompleteMemberReport" xml:space="preserve">
+    <value>Complete member report</value>
+    <comment>CompleteMemberReport</comment>
+  </data>
+  <data name="MemberBaseStatsReport" xml:space="preserve">
+    <value>Member base stats report</value>
+    <comment>Member base stats report</comment>
+  </data>
+  <data name="MemberRaidStatsReport" xml:space="preserve">
+    <value>Member raid stats report</value>
+    <comment>Member raid stats report</comment>
+  </data>
+  <data name="Strategies" xml:space="preserve">
+    <value>Strategies</value>
+    <comment>Raid strategies</comment>
+  </data>
+  <data name="Strategy" xml:space="preserve">
+    <value>Strategy</value>
+    <comment>Raid Strategy</comment>
+  </data>
+  <data name="DoYouWantToOverwrite" xml:space="preserve">
+    <value>Item already exists. Do you want to overwrite it?</value>
+    <comment>Question which may occur when saving an item</comment>
+  </data>
+  <data name="ClanRaidHeader" xml:space="preserve">
+    <value>Clan raids</value>
+    <comment>Clan Raids Header</comment>
+  </data>
+  <data name="Enemy" xml:space="preserve">
+    <value>Enemy</value>
+    <comment>Enemy</comment>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>Head</value>
+    <comment>Head</comment>
+  </data>
+  <data name="LeftHand" xml:space="preserve">
+    <value>Left hand</value>
+    <comment>Left hand</comment>
+  </data>
+  <data name="LeftLeg" xml:space="preserve">
+    <value>Left leg</value>
+    <comment>Left leg</comment>
+  </data>
+  <data name="LeftShoulder" xml:space="preserve">
+    <value>Left shoulder</value>
+    <comment>Left shoulder</comment>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+    <comment>No</comment>
+  </data>
+  <data name="RaidHeader" xml:space="preserve">
+    <value>Raids</value>
+    <comment>Raids Header</comment>
+  </data>
+  <data name="RightHand" xml:space="preserve">
+    <value>Right hand</value>
+    <comment>Right hand</comment>
+  </data>
+  <data name="RightLeg" xml:space="preserve">
+    <value>Right leg</value>
+    <comment>Right leg</comment>
+  </data>
+  <data name="RightShoulder" xml:space="preserve">
+    <value>Right shoulder</value>
+    <comment>Right shoulder</comment>
+  </data>
+  <data name="ToP" xml:space="preserve">
+    <value>ToP</value>
+    <comment>Totem of Power</comment>
+  </data>
+  <data name="Torso" xml:space="preserve">
+    <value>Torso</value>
+    <comment>Torso</comment>
+  </data>
+  <data name="VM" xml:space="preserve">
+    <value>VM</value>
+    <comment>Victory March</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+    <comment>Yes</comment>
+  </data>
+  <data name="Analysis" xml:space="preserve">
+    <value>Analysis</value>
+    <comment>Analysis</comment>
+  </data>
+  <data name="Attacks" xml:space="preserve">
+    <value>Attacks</value>
+    <comment>raid details</comment>
+  </data>
+  <data name="AttacksInTotal" xml:space="preserve">
+    <value>Attacks in total</value>
+    <comment>Attacks in total for raid analysis</comment>
+  </data>
+  <data name="Damage" xml:space="preserve">
+    <value>Damage</value>
+    <comment>raid details</comment>
+  </data>
+  <data name="DamagePerAttack" xml:space="preserve">
+    <value>Damage / Attack</value>
+    <comment>Damage / Attack for raid analysis</comment>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+    <comment>Details</comment>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Level</value>
+    <comment>Raid level</comment>
+  </data>
+  <data name="Overkill" xml:space="preserve">
+    <value>Overkill</value>
+    <comment>raid details</comment>
+  </data>
+  <data name="OverkillAmount" xml:space="preserve">
+    <value>Overkill amount</value>
+    <comment>Overkill amount for raid analysis</comment>
+  </data>
+  <data name="OverkillPercentage" xml:space="preserve">
+    <value>Overkill %</value>
+    <comment>Overkill % for raid analysis</comment>
+  </data>
+  <data name="PasteResultFromClipboard" xml:space="preserve">
+    <value>Paste result from clipboard</value>
+    <comment>Paste clan raid result from clipboard button text</comment>
+  </data>
+  <data name="Tier" xml:space="preserve">
+    <value>Tier</value>
+    <comment>Raid Tier</comment>
+  </data>
+  <data name="WorstOverkills" xml:space="preserve">
+    <value>worst overkills</value>
+    <comment>Worst overkills for raid analysis</comment>
+  </data>
+  <data name="WorstParticipation" xml:space="preserve">
+    <value>worst participation</value>
+    <comment>Worst participation for raid analysis</comment>
+  </data>
+  <data name="AboveMaxOverKill" xml:space="preserve">
+    <value>Above max. overkill</value>
+    <comment>Clan raid flaw</comment>
+  </data>
+  <data name="AttackFlaws" xml:space="preserve">
+    <value>Attack flaws</value>
+    <comment>Clan raid attack flaw</comment>
+  </data>
+  <data name="BelowAvgDamage" xml:space="preserve">
+    <value>Below avg. damage</value>
+    <comment>Clan raid flaw</comment>
+  </data>
+  <data name="BelowMinAttacks" xml:space="preserve">
+    <value>Below min. attacks</value>
+    <comment>Clan raid flaw</comment>
+  </data>
+  <data name="ExportDetailsToClipboard" xml:space="preserve">
+    <value>Details to clipboard</value>
+    <comment>raid results details to clipboard</comment>
+  </data>
+  <data name="ExportDetailsToCsvFile" xml:space="preserve">
+    <value>Details to CSV file</value>
+    <comment>raid results details to CSV file</comment>
+  </data>
+  <data name="ExportDetailsToShare" xml:space="preserve">
+    <value>Share Details CSV file</value>
+    <comment>raid results details to csv and share</comment>
+  </data>
+  <data name="ExportRaidResultToClipboard" xml:space="preserve">
+    <value>Result to clipboard</value>
+    <comment>raid result export to clipboard</comment>
+  </data>
+  <data name="ExportRaidResultToCsvFile" xml:space="preserve">
+    <value>Result to CSV file</value>
+    <comment>raid result to CSV file</comment>
+  </data>
+  <data name="ExportRaidResultToShare" xml:space="preserve">
+    <value>Share Result CSV file</value>
+    <comment>raid results to csv and share</comment>
+  </data>
+  <data name="MaxOverkillAmount" xml:space="preserve">
+    <value>Max. Overkill</value>
+    <comment>max overkill amount</comment>
+  </data>
+  <data name="MinAttackAmount" xml:space="preserve">
+    <value>Min. Attacks</value>
+    <comment>min amount of attacks</comment>
+  </data>
+  <data name="MinAverageDamage" xml:space="preserve">
+    <value>Min. average damage</value>
+    <comment>minimum average damage</comment>
+  </data>
+  <data name="SidesAreSeenFromYou" xml:space="preserve">
+    <value>The sides are seen from you</value>
+    <comment>raid strategy information text</comment>
+  </data>
+  <data name="YouNeedToAddRaidResultsBefore" xml:space="preserve">
+    <value>You need to add raid results before you can export data</value>
+    <comment>Raid result detail information when a user tries to export results without imported data</comment>
+  </data>
+  <data name="ClanRaidDetailInformations" xml:space="preserve">
+    <value>For the analysis to work you need to import the raid results before.
+
+The Overkill calculation considers damage on titan armor and skeleton.
+
+The average damage in the analysis does not contain overkill damage.</value>
+    <comment>Information you get when clicking on the information button in clan raid detail</comment>
+  </data>
+  <data name="ExportDatabase" xml:space="preserve">
+    <value>Export database file</value>
+    <comment>Settings: button text to export the db file</comment>
+  </data>
+  <data name="ArtOpt" xml:space="preserve">
+    <value>Art opt</value>
+    <comment>for shortcut</comment>
+  </data>
+  <data name="BoSPercent" xml:space="preserve">
+    <value>BoS %</value>
+    <comment>for shortcut</comment>
+  </data>
+  <data name="SP" xml:space="preserve">
+    <value>SP</value>
+    <comment>SP display for dashboard shortcut</comment>
+  </data>
+  <data name="DoYouWantToResetPrestigeAmount" xml:space="preserve">
+    <value>Do you want to reset today's prestige amount to 0?</value>
+    <comment>Dashboard info text when pressing on the chart to reset todays prestige amount</comment>
+  </data>
+  <data name="Tolerance" xml:space="preserve">
+    <value>Tolerance</value>
+    <comment>Raid tolerance detail header</comment>
+  </data>
+  <data name="Tolerances" xml:space="preserve">
+    <value>Tolerances</value>
+    <comment>Raid tolerances header</comment>
+  </data>
+  <data name="Absolute" xml:space="preserve">
+    <value>Absolute</value>
+    <comment>Overkill calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AbsoluteInAttacks" xml:space="preserve">
+    <value>Absolute in attacks</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AbsoluteInWavesExcludingLastWave" xml:space="preserve">
+    <value>Absolute in waves excluding last wave</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AbsoluteInWavesIncludingLastWave" xml:space="preserve">
+    <value>Absolute in waves including last wave</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="AverageDamageDescription" xml:space="preserve">
+    <value>Minimum Average Damage</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="MaxOverkillDescription" xml:space="preserve">
+    <value>Maximum overkill (sum of armor damage on wrong parts and skeleton damage)</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="MinAttackAmountDescription" xml:space="preserve">
+    <value>Minimum attack amount</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="RelativeFromAllAttacksSum" xml:space="preserve">
+    <value>Relative from sum of all attacks</value>
+    <comment>Attack amount calculation type used for raid tolerance</comment>
+  </data>
+  <data name="RelativeFromAllPlayerDamage" xml:space="preserve">
+    <value>Relative from all player damage</value>
+    <comment>Overkill calculation type used for raid tolerance</comment>
+  </data>
+  <data name="RelativeFromCurrentPlayerDamage" xml:space="preserve">
+    <value>Relative from current player damage</value>
+    <comment>Overkill calculation type used for raid tolerance</comment>
+  </data>
+  <data name="TotalDamage" xml:space="preserve">
+    <value>Total damage</value>
+    <comment>Raid analysis total damage</comment>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+    <comment>Raid tolerance detail page</comment>
+  </data>
+  <data name="Waves" xml:space="preserve">
+    <value>Waves</value>
+    <comment>Amount of waves display text for raid analysis</comment>
+  </data>
+  <data name="ExportRaidAnalysisImage" xml:space="preserve">
+    <value>Raid analysis image</value>
+    <comment>Clan raid export of analysis data to image</comment>
+  </data>
+  <data name="FillAllFieldsFirst" xml:space="preserve">
+    <value>Please fill all fields first</value>
+    <comment>Fill all fields before you can proceed info text</comment>
+  </data>
+  <data name="OverkillParts" xml:space="preserve">
+    <value>Overkill parts</value>
+    <comment>Raid analysis image header</comment>
+  </data>
+  <data name="WorstOverkillAmounts" xml:space="preserve">
+    <value>Worst overkill amounts</value>
+    <comment>Raid analysis image header</comment>
+  </data>
+  <data name="ExportRaidTacticsImage" xml:space="preserve">
+    <value>Raid tactics image</value>
+    <comment>Clan raid detail export option</comment>
+  </data>
+  <data name="FillAllStrategiesAndTolerancesFirst" xml:space="preserve">
+    <value>You need to fill the strategies and tolerances before</value>
+    <comment>Clan raid detail export info message</comment>
+  </data>
+  <data name="RaidTactics" xml:space="preserve">
+    <value>Raid tactics</value>
+    <comment>Clan raid tactics exported image header</comment>
+  </data>
+  <data name="AllPlayers" xml:space="preserve">
+    <value>all players</value>
+    <comment>Clan raid analysis image tolerance text in brackets</comment>
+  </data>
+  <data name="AmountInWaves" xml:space="preserve">
+    <value>{0} waves ({1} attacks)</value>
+    <comment>Clan raid analysis image tolerance text 6 waves (24 attacks)</comment>
+  </data>
+  <data name="PercentageOfAllAttacks" xml:space="preserve">
+    <value>{0} % of all attacks</value>
+    <comment>Clan raid analysis image tolerance text</comment>
+  </data>
+  <data name="WithoutLastWave" xml:space="preserve">
+    <value>{0} waves ({1} attacks) without last</value>
+    <comment>Clan raid analysis image tolerance text 6 waves (24 attacks)</comment>
+  </data>
+  <data name="XofYWaves" xml:space="preserve">
+    <value>{0} of {1} waves ({2}/{3})</value>
+    <comment>Clan raid analysis image tolerance text 5 of 6 (20/24)</comment>
+  </data>
+  <data name="PrestigeSinceLastRecord" xml:space="preserve">
+    <value>{0} since last record</value>
+    <comment>Dashboard prestige text when last snapshot is older than a day</comment>
+  </data>
+  <data name="ValueIsCappedAtTwoPercent" xml:space="preserve">
+    <value>The value is capped at 2%.</value>
+    <comment>Information text for raid tolerance when you enter a relative min attack amount</comment>
+  </data>
+  <data name="WaveToleranceInfotext" xml:space="preserve">
+    <value>Done waves - x (including or excluding last wave)</value>
+    <comment>Information text for raid tolerance when you enter a wave based min attack amount</comment>
+  </data>
+  <data name="GiveNewName" xml:space="preserve">
+    <value>Give a new name</value>
+    <comment>Give a new name text on rename popup page</comment>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Rename</value>
+    <comment>Rename</comment>
+  </data>
+  <data name="MaxWavesExcluding" xml:space="preserve">
+    <value>Max waves - {0} (without last)</value>
+    <comment>tactics tolerance image text</comment>
+  </data>
+  <data name="MaxWavesMinusIncluding" xml:space="preserve">
+    <value>Max waves - {0}</value>
+    <comment>tactics tolerance image text</comment>
+  </data>
+  <data name="AbsoluteAttackToleranceInfotext" xml:space="preserve">
+    <value>Give a value which represents the minimum required amount of attacks.</value>
+    <comment>Raid tolerance info for amount of attacks</comment>
+  </data>
+  <data name="ExportPartsAnalysis" xml:space="preserve">
+    <value>Parts analysis</value>
+    <comment>Export parts analysis (raid module)</comment>
+  </data>
+  <data name="CouldAccessSavefileText" xml:space="preserve">
+    <value>Could not access "{0}"!
+This may be due to Android 11's scoped storage. 
+More info on that here: https://fistelmann.de/tt2master-on-android-11/
+Please copy the savefile to another (public) directory.
+Do you want to search for a file now?</value>
+    <comment>Savefile handling</comment>
+  </data>
+  <data name="CouldNotAccessFileTitle" xml:space="preserve">
+    <value>Could not access file</value>
+    <comment>Savefile handling</comment>
+  </data>
+  <data name="ImportFromClipboardText" xml:space="preserve">
+    <value>Import data from clipboard</value>
+    <comment>Manual data import from clipboard text shown on dashboard button</comment>
+  </data>
+  <data name="ChangeDataSourceButtonText" xml:space="preserve">
+    <value>Change data source</value>
+    <comment>Text on button to change data source between save file and clipboard export</comment>
+  </data>
+  <data name="ChangeFromClipboardToSavefileSourceQuestion" xml:space="preserve">
+    <value>You are currently loading your data from clipboard.
+Do you really wish to change this?</value>
+    <comment>Question when a user changes from clipboard to savefile data source</comment>
+  </data>
+  <data name="ChangeFromSavefileToClipboardSourceQuestion" xml:space="preserve">
+    <value>You are currently loading your data directly from the savefile.
+It may be, that some features will not be available!
+Do you really wish to change this?</value>
+    <comment>Question when a user changes from savefile to clipboard data source</comment>
+  </data>
+  <data name="PleaseRestartTheAppForChangesToTakeEffect" xml:space="preserve">
+    <value>Please restart the app for changes to take effect</value>
+    <comment>Informational text for user if a restart of the app is recommended due to changes in settings</comment>
+  </data>
+  <data name="CheckPurchases" xml:space="preserve">
+    <value>Check purchases</value>
+    <comment>Button text in settings for checking purchases</comment>
+  </data>
+  <data name="CouldNotUpdatePurchasementInformation" xml:space="preserve">
+    <value>Could not update purchasement information</value>
+    <comment>Information when purchasement information could not be updated</comment>
+  </data>
+  <data name="PurchasementInformationUpdated" xml:space="preserve">
+    <value>Updated purchasement information</value>
+    <comment>Information when purchasement information successfully updated</comment>
+  </data>
+  <data name="ChangeToClipboardDataToFixSafeFileIssuesQuestion" xml:space="preserve">
+    <value>You are currently loading your data directly from the savefile. But it seems like there is an issue locating or reading that file.
+Do you want to switch to clipboard as data source?
+
+Attention!
+It may be, that some features will not be available!
+Do you really wish to change this?</value>
+    <comment>If loading from savefile fails - give user the chance to change to clipboard loading</comment>
+  </data>
+  <data name="PleaseImportClipboardDataSoAppCanWork" xml:space="preserve">
+    <value>In order for this app to work you need to import your Tap Titans 2 data through clipboard. Please do this first so everything works.</value>
+    <comment>Information when you are on clipboard as data source and you have not imported any data yet.</comment>
+  </data>
+  <data name="DisableBigAdsInformation" xml:space="preserve">
+    <value>With the small ads package you will only see the small advertisement on the dashboard. The big advertisement will not be shown anymore.</value>
+    <comment>IAP - Informational text for the small ads package</comment>
+  </data>
+  <data name="SupporterPurchasementInformation" xml:space="preserve">
+    <value>Disable all ads and get unlimited access to all features like:
+- Create as many SP Configurations as you wish
+- Edit Artifact Optimizer builds and weights
+You will also have unlimited access to features which are released in future!
+</value>
+    <comment>IAP - Informational text for the supporter package</comment>
+  </data>
+  <data name="HasHerosMaxedInfoText" xml:space="preserve">
+    <value>Do you have all heros maxed out?
+If your heros are maxed, gold is irrelevant and will be ignored.</value>
+    <comment>ArtifactOptimizerSettings HarHerosMaxed Infotext</comment>
+  </data>
+  <data name="HasHerosMaxedOption" xml:space="preserve">
+    <value>Heros maxed?</value>
+    <comment>ArtifactOptimizerSettings HasHerosMaxed Label</comment>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+    <comment>General like "in General"</comment>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Size</value>
+    <comment>Size</comment>
+  </data>
+  <data name="AlreadyImportedThisData" xml:space="preserve">
+    <value>Already imported this data</value>
+    <comment>Clipboard import info when you import exactly the same data as before</comment>
+  </data>
+  <data name="CraftingAdvisor" xml:space="preserve">
+    <value>Crafting advisor</value>
+    <comment>CraftingAdvisor</comment>
+  </data>
+  <data name="NoCraftableEquipmentFoundText" xml:space="preserve">
+    <value>No craftable equipment found</value>
+    <comment>Info text for user if no set is completed and therefore nothing to craft</comment>
+  </data>
+  <data name="BoostType" xml:space="preserve">
+    <value>Boost type</value>
+    <comment>BoostType for crafting advisor</comment>
+  </data>
+  <data name="EquipmentSet" xml:space="preserve">
+    <value>Set</value>
+    <comment>EquipmentSet</comment>
+  </data>
+  <data name="Eight" xml:space="preserve">
+    <value>Eight</value>
+  </data>
+  <data name="Five" xml:space="preserve">
+    <value>Five</value>
+  </data>
+  <data name="Four" xml:space="preserve">
+    <value>Four</value>
+  </data>
+  <data name="One" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="Seven" xml:space="preserve">
+    <value>Seven</value>
+  </data>
+  <data name="Six" xml:space="preserve">
+    <value>Six</value>
+  </data>
+  <data name="Three" xml:space="preserve">
+    <value>Three</value>
+  </data>
+  <data name="Two" xml:space="preserve">
+    <value>Two</value>
+  </data>
+  <data name="HowToLogHeader" xml:space="preserve">
+    <value>How to log</value>
+    <comment>Page header for the how to on logging</comment>
+  </data>
+  <data name="HowToLogText" xml:space="preserve">
+    <value>The app logs basic information at all times. However, this information is never sent automatically. 
+
+If there is a critical error within the app, you have the opportunity to send an email to the developer. If this is done, the app tries to attach log files.
+
+In some cases it is necessary for the developer to get a detailed log. 
+To create this, please proceed as follows:
+Go to the settings and activate detailed logging. Then try to recreate the problem in as few steps as possible.
+Then go back to the settings and deactivate the detailed logging.
+Now go to the "About Me" page and click "Send Mail".</value>
+    <comment>Detail text on how to send a log and logging in general</comment>
+  </data>
+  <data name="SpOptSpSpentText" xml:space="preserve">
+    <value>You have {0} skill points left.</value>
+    <comment>SPOptimizer result text to inform user about how many SP he has left after he followed the optimization suggestion</comment>
+  </data>
+  <data name="SpOptNextSkillButNotEnoughSp" xml:space="preserve">
+    <value>Your next skill would be {0} but it is too expensive ({1} SP)</value>
+    <comment>SPOptimizer: Attention text to tell the player which skill would be the next but is not contained in the list because there is just too few skill points left</comment>
+  </data>
+  <data name="SpOptNextSkillIncludedButNotEnoughSp" xml:space="preserve">
+    <value>The last skill ({0}) costs {1} SP and you only have {2} SP left to spend.</value>
+    <comment>SPOptimizer: Attention text to tell the player that his upgrade list contains a skill which he can not affort.</comment>
+  </data>
+  <data name="ChangeAbyssSavefilePath" xml:space="preserve">
+    <value>Change abyss save path</value>
+    <comment>Settings: Change file path to abyssal savefile</comment>
+  </data>
+  <data name="Skill.HelperBoostMultiCastSkill" xml:space="preserve">
+    <value>Command Supremacy</value>
+    <comment>Skill: Warcry Damage per Multi-Cast</comment>
+  </data>
+  <data name="Skill.TapBoostMultiCastSkill" xml:space="preserve">
+    <value>Volcanic Supremacy</value>
+    <comment>Skill: Fire Sword Damage per Multi-Cast</comment>
+  </data>
+  <data name="PendingPurchasementDetectedText" xml:space="preserve">
+    <value>Pending purchasement recognized. If you finished the transaction please visit the settings page and click the button the restore purchases. If your payment does not get acknowledged please contact us under tt2master@fistelmann.de</value>
+    <comment>Information text that will be displayed if a user makes a purchasement with pending transaction.</comment>
+  </data>
+  <data name="DailyAutoSnapshotThreshold" xml:space="preserve">
+    <value>Threshold for automatic daily snapshots</value>
+    <comment>Settings page</comment>
+  </data>
+  <data name="ExportSnapshotDiff" xml:space="preserve">
+    <value>Export diff between two snapshots</value>
+    <comment>Export page</comment>
+  </data>
+  <data name="Artifact98" xml:space="preserve">
+    <value>Shimmering Oil</value>
+    <comment>Artefakte</comment>
+  </data>
+  <data name="Skill.BurstDamageMultiCastSkill" xml:space="preserve">
+    <value>Divine Supremacy</value>
+    <comment>Skill</comment>
+  </data>
+  <data name="Skill.ShadowCloneMultiCastSkill" xml:space="preserve">
+    <value>Phantom Supremacy</value>
+    <comment>Skill</comment>
+  </data>
+  <data name="RaidSeedHeader" xml:space="preserve">
+    <value>Raid Seeds</value>
+    <comment>Raid Seed Header</comment>
+  </data>
+  <data name="Artifact99" xml:space="preserve">
+    <value>Golden Scope</value>
+    <comment>Artifact</comment>
+  </data>
+</root>

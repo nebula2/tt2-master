@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TT2Master"
+    xmlns:resource="clr-namespace:TT2Master.Resources"
+    xmlns:htmlLabel="clr-namespace:LabelHtml.Forms.Plugin.Abstractions;assembly=HtmlLabel.Forms.Plugin"
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup" 
+    xmlns:information="clr-namespace:TT2Master.ViewModels.Information" 
+    x:DataType="information:AnnouncementPopupVM"
+    x:Class="TT2Master.Views.Information.AnnouncementPopupPage">
+
+    <pages:PopupPage.Resources>
+        <ResourceDictionary>
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter"/>
+        </ResourceDictionary>
+    </pages:PopupPage.Resources>
+    
+    <!--You can set an animation in the xaml file or in the csharp code behind-->
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="400"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+    <!--You can use any elements here which are extended from Xamarin.Forms.View-->
+    <ScrollView>
+        <Grid BackgroundColor="{StaticResource FrameBackground}" 
+              Padding="4"
+              Margin="4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <StackLayout>
+                <Label Text="{Binding CurrentItem.Header}" 
+                       FontAttributes="Bold" 
+                       FontSize="Large" 
+                       MaxLines="99" 
+                       HorizontalTextAlignment="Center" />
+
+                <htmlLabel:HtmlLabel Text="{Binding CurrentItem.Body}"/>
+            </StackLayout>
+
+            <Button Grid.Row="1" Command="{Binding CloseCommand}" Text="{x:Static resource:AppResources.Close}" />
+        </Grid>
+    </ScrollView>
+</pages:PopupPage>

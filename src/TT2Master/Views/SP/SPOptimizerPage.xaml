@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+            xmlns:resource="clr-namespace:TT2Master.Resources" 
+            xmlns:tt2master="clr-namespace:TT2Master" 
+            x:DataType="tt2master:SPOptimizerViewModel"
+            x:Class="TT2Master.SPOptimizerPage"
+            Title="{Binding Title}"
+            >
+
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+            <converter:IntEnumConverter x:Key="IntEnum"/>
+            <converter:CoinStringConverter x:Key="CoinStr" />
+            <converter:ArtPercentageConverter x:Key="ArtPerc" />
+        </ResourceDictionary>
+    </TabbedPage.Resources>
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Name="Save" Command="{Binding SaveCommand}"  Icon="save_icon" />
+        <ToolbarItem Name="Delete" Command="{Binding DeleteCommand}"  Icon="delete_icon" />
+        <ToolbarItem Name="ReloadArts" Command="{Binding ReloadCommand}" Icon="reload_icon"/>
+    </TabbedPage.ToolbarItems>
+
+    <!-- General and Settings -->
+    <ContentPage Title="{x:Static resource:AppResources.GeneralHeader}">
+        <ScrollView>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                <!-- Info Button -->
+                <ColumnDefinition Width="Auto" />
+                <!-- Desc -->
+                <ColumnDefinition Width="Auto" />
+                <!-- Content -->
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- Build Selection -->
+                <Grid Grid.Row="0" Grid.Column="0" WidthRequest="20" HeightRequest="20">
+                    <Image Source="info_icon"/>
+                    <Button Margin="0" BackgroundColor="Transparent"
+                            TextColor="{StaticResource WordBlue}"
+                            Command="{Binding BuildInfoCommand}"/>
+                </Grid>
+                <Label Grid.Row="0" Grid.Column="1" Text="Build:" VerticalTextAlignment="Center" />
+                <Picker Grid.Row="0" Grid.Column="2" ItemsSource="{Binding AvailableBuilds}" SelectedItem="{Binding SelectedBuild, Mode=TwoWay}"/>
+
+                <!-- Owner name -->
+                <Label Grid.Row="1" Grid.Column="1" Text="From:" />
+                <Label Grid.Row="1" Grid.Column="2" Text="{Binding CurrentBuild.OwnerName}" MaxLines="99" />
+                
+                <!-- Description -->
+                <Label Grid.Row="2" Grid.Column="1" Text="Descr.:" />
+                <Label Grid.Row="2" Grid.Column="2" Text="{Binding CurrentBuild.Description}" MaxLines="99" />
+                
+                <!-- Build Version -->
+                <Grid Grid.Row="3" Grid.Column="0" WidthRequest="20" HeightRequest="20">
+                    <Image Source="info_icon"/>
+                    <Button Margin="0" BackgroundColor="Transparent"
+                            TextColor="{StaticResource WordBlue}"
+                            Command="{Binding VersionInfoCommand}"/>
+                </Grid>
+                <Label Grid.Row="3" Grid.Column="1" Text="{x:Static resource:AppResources.VersionHeader}" VerticalTextAlignment="Center" />
+                <Label Grid.Row="3" Grid.Column="2" Text="{Binding CurrentBuild.Version}" VerticalTextAlignment="Center" />
+
+                <!-- Only Relevant -->
+                <Grid Grid.Row="4" Grid.Column="0" WidthRequest="20" HeightRequest="20">
+                    <Image Source="info_icon"/>
+                    <Button Margin="0" BackgroundColor="Transparent"
+                            TextColor="{StaticResource WordBlue}"
+                            Command="{Binding OnlyRelevantInfoCommand}"/>
+                </Grid>
+                <Label Grid.Row="4" Grid.Column="1" Text="{x:Static resource:AppResources.ShortHeader}" VerticalTextAlignment="Center" />
+                <Switch Grid.Row="4" Grid.Column="2" IsToggled="{Binding OnlyRelevant}" HorizontalOptions="Start" />
+
+                <!-- CurrentMilestone -->
+                <Grid Grid.Row="5" Grid.Column="0" WidthRequest="20" HeightRequest="20">
+                    <Image Source="info_icon"/>
+                    <Button Margin="0" BackgroundColor="Transparent"
+                            TextColor="{StaticResource WordBlue}"
+                            Command="{Binding MilestoneInfoCommand}"/>
+                </Grid>
+                <Label Grid.Row="5" Grid.Column="1" Text="{x:Static resource:AppResources.MilestoneHeader}" VerticalTextAlignment="Center" />
+                <Label Grid.Row="5" Grid.Column="2" Text="{Binding MilestoneProgressText}" VerticalTextAlignment="Center" />
+
+                <!-- Current SP -->
+                <Grid Grid.Row="6" Grid.Column="0" WidthRequest="20" HeightRequest="20">
+                    <Image Source="info_icon"/>
+                    <Button Margin="0" BackgroundColor="Transparent"
+                            TextColor="{StaticResource WordBlue}"
+                            Command="{Binding CurrSPInfoCommand}"/>
+                </Grid>
+                <Label Grid.Row="6" Grid.Column="1" Text="Curr. SP:" VerticalTextAlignment="Center" />
+                <Label Grid.Row="6" Grid.Column="2" Text="{Binding CurrentSP}" VerticalTextAlignment="Center" />
+
+                <!-- SPReq -->
+                <Grid Grid.Row="7" Grid.Column="0" WidthRequest="20" HeightRequest="20">
+                    <Image Source="info_icon"/>
+                    <Button Margin="0" BackgroundColor="Transparent"
+                            TextColor="{StaticResource WordBlue}"
+                            Command="{Binding SPReqInfoCommand}"/>
+                </Grid>
+                <Label Grid.Row="7" Grid.Column="1" Text="SP Req.:" VerticalTextAlignment="Center" />
+                <Label Grid.Row="7" Grid.Column="2" Text="{Binding CurrentMilestone.SPReq}" VerticalTextAlignment="Center" />
+
+                <!-- Avail. SP -->
+                <Grid Grid.Row="8" Grid.Column="0" WidthRequest="20" HeightRequest="20">
+                    <Image Source="info_icon"/>
+                    <Button Margin="0" BackgroundColor="Transparent"
+                            TextColor="{StaticResource WordBlue}"
+                            Command="{Binding AvailableSPInfoCommand}"/>
+                </Grid>
+                <Label Grid.Row="8" Grid.Column="1" Text="{x:Static resource:AppResources.AvailableSPText}" VerticalTextAlignment="Center" />
+                <Label Grid.Row="8" Grid.Column="2" Text="{Binding AvailableSP}" VerticalTextAlignment="Center" />
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+
+    <!-- Skill Overview -->
+    <ContentPage Title="Skills">
+        <Grid Margin="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <!-- Skills to follow -->
+
+            <ListView CachingStrategy="RetainElement" 
+                      Grid.Row="0" 
+                      ItemsSource="{Binding OptimizeList}" 
+                      HasUnevenRows="True"
+                      IsPullToRefreshEnabled="True" 
+                      RefreshCommand="{Binding ReloadCommand}" 
+                      IsRefreshing="{Binding IsRefreshing}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame OutlineColor="{StaticResource ForegroundDark}" 
+                                   BackgroundColor="{StaticResource FrameBackground}" 
+                                   Margin="5">
+                                <Grid x:DataType="tt2master:SPPatch">
+                                    <Grid.ColumnDefinitions>
+                                        <!-- Image -->
+                                        <ColumnDefinition Width="50" />
+                                        <!-- Text -->
+                                        <ColumnDefinition Width="*" />
+                                        <!-- Level -->
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <!-- Artifact Image -->
+                                    <Image Grid.Column="0" Source="{Binding ImagePath}" WidthRequest="50" HeightRequest="50" />
+
+                                    <!-- Artifact Text -->
+                                    <Grid Grid.Column="1">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+
+                                        <!-- Name -->
+                                        <Label Grid.Row="0" Grid.Column="0" Text="{Binding Name}" FontAttributes="Bold"/>
+
+                                        <!-- Level -->
+                                        <StackLayout Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
+                                            <!-- Current Level -->
+                                            <Label Text="{Binding CurrentLevel, StringFormat='Lvl: {0}'}"/>
+                                        </StackLayout>
+                                    </Grid>
+
+                                    <!--Upgrade-->
+                                    <Frame Grid.Column="2" OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{Binding ColorToShow}" Margin="1" Padding="1">
+                                        <StackLayout Orientation="Vertical">
+                                            <Label Margin="2" TextColor="Black">
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <FormattedString.Spans>
+                                                            <Span Text="{x:Static resource:AppResources.LevelUpAmountText}" />
+                                                            <Span Text=" " />
+                                                            <Span Text="{Binding LevelUpAmount}" />
+                                                        </FormattedString.Spans>
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+
+                                            <Label Margin="2" TextColor="Black">
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <FormattedString.Spans>
+                                                            <Span Text="{x:Static resource:AppResources.CostText}" />
+                                                            <Span Text=" " />
+                                                            <Span Text="{Binding UpgradeCost}" />
+                                                        </FormattedString.Spans>
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                        </StackLayout>
+                                    </Frame>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </ContentPage>
+</TabbedPage>

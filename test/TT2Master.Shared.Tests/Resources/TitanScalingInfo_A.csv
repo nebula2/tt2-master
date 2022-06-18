@@ -1,0 +1,11 @@
+Stage,BonusTypeA,BonusAmountA,Variance
+1,MonsterHPScaling,2.50E-01,0
+2,MonsterHPScaling,4.00E-01,0
+3,MonsterHPScaling,4.75E-01,0
+4,MonsterHPScaling,5.50E-01,0
+5,MonsterHPScaling,6.25E-01,0
+6,MonsterHPScaling,7.00E-01,0
+7,MonsterHPScaling,7.75E-01,0
+8,MonsterHPScaling,8.50E-01,0
+9,MonsterHPScaling,9.25E-01,0
+10,MonsterHPScaling,1.00E+00,0.3

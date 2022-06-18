@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             x:Class="TT2Master.LinksInfoPage"
+             Title="{Binding Title}">
+    <ScrollView>
+        <Grid Margin="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Usage -->
+            <Label Text="{x:Static resource:AppResources.UsageHeader}" HorizontalOptions="Start" VerticalOptions="Center" />
+            <Button Grid.Column="1" Text="{x:Static resource:AppResources.YoutubeVideo}" Command="{Binding UsageVideoCommand}" />
+
+            <!-- TT2Master Reddit -->
+            <Label  Grid.Row="1" Grid.Column="0" Text="TT2Master Reddit" HorizontalOptions="Start" VerticalOptions="Center"/>
+            <Button Grid.Row="1"  Grid.Column="1" Text="{x:Static resource:AppResources.OpenHeader}" Command="{Binding OpenTT2MasterRedditPageCommand}"/>
+
+            <!-- Playlist -->
+            <Label  Grid.Row="2" Grid.Column="0" Text="Playlist" HorizontalOptions="Start" VerticalOptions="Center"/>
+            <Button Grid.Row="2" Grid.Column="1" Text="{x:Static resource:AppResources.OpenHeader}" Command="{Binding OpenPlaylistCommand}" />
+
+            <!-- Soulrise -->
+            <Label  Grid.Row="3" Grid.Column="0" Text="Soulrise Youtube Channel" HorizontalOptions="Start" VerticalOptions="Center"/>
+            <Button Grid.Row="3" Grid.Column="1" Text="{x:Static resource:AppResources.OpenHeader}" Command="{Binding OpenSoulriseCommand}" />
+            
+        </Grid>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,37 @@
+trigger:
+  tags:
+    include:
+    - n*
+
+pool:
+  vmImage: 'windows-latest'
+variables:
+  buildConfiguration: Release
+  restoreBuildProjects: 'TT2Master.Shared/TT2Master.Shared.csproj'
+  
+steps:
+- task: NuGetToolInstaller@1
+  displayName: 'Install NuGet'
+- task: NuGetCommand@2
+  displayName: 'Restoring NuGet Packages'
+  inputs:
+    restoreSolution: $(restoreBuildProjects)
+    vstsFeed: 'Nugetti'
+  
+- task: DotNetCoreCLI@2
+  displayName: Build
+  inputs:
+    projects: $(restoreBuildProjects)
+    arguments: '--configuration $(buildConfiguration)'
+  
+- task: DotNetCoreCLI@2
+  displayName: Pack
+  inputs:
+    command: pack
+    packagesToPack: 'TT2Master.Shared/TT2Master.Shared.csproj'
+    arguments: --configuration $(buildConfiguration) --output $(build.artifactstagingdirectory)
+
+- task: PublishBuildArtifacts@1
+  displayName: Publish Artifact
+  inputs:
+    PathtoPublish: $(build.artifactstagingdirectory)

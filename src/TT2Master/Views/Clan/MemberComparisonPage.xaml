@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:charts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+            xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+            xmlns:resource="clr-namespace:TT2Master.Resources"
+            x:Class="TT2Master.MemberComparisonPage"
+            Title="{Binding Title}">
+
+    <TabbedPage.Resources>
+        <converter:CoinStringConverter x:Key="CoinStr" />
+    </TabbedPage.Resources>
+    
+    <ContentPage Title="{x:Static resource:AppResources.Player}">
+        <ScrollView>
+            <Grid Padding="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- Player -->
+                <Label Grid.Row="0" Grid.Column="0" Text="{x:Static resource:AppResources.Player}"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="{Binding SourcePlayer.PlayerName}" TextColor="#23B391"/>
+                <Label Grid.Row="0" Grid.Column="2" Text="{Binding TargetPlayer.PlayerName}" TextColor="#B33123"/>
+                
+                <!-- MS -->
+                <Label Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.MaximumStage}"/>
+                <Label Grid.Row="1" Grid.Column="1" Text="{Binding SourcePlayer.StageMax}"/>
+                <Label Grid.Row="1" Grid.Column="2" Text="{Binding TargetPlayer.StageMax}"/>
+                
+                <!-- Artifacts -->
+                <Label Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.ArtifactHeader}" />
+                <Label Grid.Row="2" Grid.Column="1" Text="{Binding SourcePlayer.ArtifactCount}" />
+                <Label Grid.Row="2" Grid.Column="2" Text="{Binding TargetPlayer.ArtifactCount}" />
+
+                <!-- SP -->
+                <Label Grid.Row="3" Grid.Column="0" Text="SP" />
+                <Label Grid.Row="3" Grid.Column="1" Text="{Binding SourcePlayer.TotalSkillPoints}" />
+                <Label Grid.Row="3" Grid.Column="2" Text="{Binding TargetPlayer.TotalSkillPoints}" />
+
+                <!-- TournamentCount -->
+                <Label Grid.Row="4" Grid.Column="0" Text="{x:Static resource:AppResources.TournamenAmount}" />
+                <Label Grid.Row="4" Grid.Column="1" Text="{Binding SourcePlayer.TournamentCount}" />
+                <Label Grid.Row="4" Grid.Column="2" Text="{Binding TargetPlayer.TournamentCount}" />
+
+                <!-- TournamentPoints -->
+                <Label Grid.Row="5" Grid.Column="0" Text="{x:Static resource:AppResources.TournamentPoints}" />
+                <Label Grid.Row="5" Grid.Column="1" Text="{Binding SourcePlayer.TitanPoints}" />
+                <Label Grid.Row="5" Grid.Column="2" Text="{Binding TargetPlayer.TitanPoints}" />
+
+                <!-- Equipment Sets -->
+                <Label Grid.Row="6" Grid.Column="0" Text="Sets" />
+                <Label Grid.Row="6" Grid.Column="1" Text="{Binding SourcePlayer.EquipmentSetCount}" />
+                <Label Grid.Row="6" Grid.Column="2" Text="{Binding TargetPlayer.EquipmentSetCount}" />
+
+                <!-- Shards spent -->
+                <Label Grid.Row="7" Grid.Column="0" Text="{x:Static resource:AppResources.ShardsSpent}" />
+                <Label Grid.Row="7" Grid.Column="1" Text="{Binding SourcePlayer.CraftingShardsSpent}" />
+                <Label Grid.Row="7" Grid.Column="2" Text="{Binding TargetPlayer.CraftingShardsSpent}" />
+
+                <!-- Pet Level -->
+                <Label Grid.Row="8" Grid.Column="0" Text="{x:Static resource:AppResources.PetLevel}" />
+                <Label Grid.Row="8" Grid.Column="1" Text="{Binding SourcePlayer.TotalPetLevels}" />
+                <Label Grid.Row="8" Grid.Column="2" Text="{Binding TargetPlayer.TotalPetLevels}" />
+
+                <!-- Helper Level -->
+                <Label Grid.Row="9" Grid.Column="0" Text="{x:Static resource:AppResources.HelperLevel}" />
+                <Label Grid.Row="9" Grid.Column="1" Text="{Binding SourcePlayer.TotalHelperWeapons}" />
+                <Label Grid.Row="9" Grid.Column="2" Text="{Binding TargetPlayer.TotalHelperWeapons}" />
+
+                <!-- Helper Scrolls -->
+                <Label Grid.Row="10" Grid.Column="0" Text="{x:Static resource:AppResources.TotalHelperScrolls}" />
+                <Label Grid.Row="10" Grid.Column="1" Text="{Binding SourcePlayer.TotalHelperScrolls}" />
+                <Label Grid.Row="10" Grid.Column="2" Text="{Binding TargetPlayer.TotalHelperScrolls}" />
+
+                <!-- Days -->
+                <Label  Grid.Row="11" Grid.Column="0" Text="{x:Static resource:AppResources.Days}" VerticalTextAlignment="Center" IsVisible="{Binding ShowCharts}"/>
+
+                <Picker Grid.Row="11" Grid.Column="1" Grid.ColumnSpan="2" ItemsSource="{Binding Times}" SelectedIndex="{Binding StatTimeId, Mode=TwoWay}" 
+                        ItemDisplayBinding="{Binding Description}" IsVisible="{Binding ShowCharts}"/>
+
+
+                <!-- MS Chart -->
+                <charts:ChartView Grid.Row="12" Grid.ColumnSpan="3" HeightRequest="150" Chart="{Binding MsChartSource}" IsVisible="{Binding ShowCharts}"/>
+                <charts:ChartView Grid.Row="13" Grid.ColumnSpan="3" HeightRequest="150" Chart="{Binding MsChartTarget}" IsVisible="{Binding ShowCharts}"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="{x:Static resource:AppResources.RaidClan}">
+        <ScrollView>
+            <Grid Padding="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- Player -->
+                <Label Grid.Row="0" Grid.Column="0" Text="{x:Static resource:AppResources.Player}"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="{Binding SourcePlayer.PlayerName}" TextColor="#23B391"/>
+                <Label Grid.Row="0" Grid.Column="2" Text="{Binding TargetPlayer.PlayerName}" TextColor="#B33123"/>
+                
+                <!-- Raid Player Level -->
+                <Label Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.PlayerLevel}" />
+                <Label Grid.Row="1" Grid.Column="1" Text="{Binding SourcePlayer.RaidPlayerLevel}" />
+                <Label Grid.Row="1" Grid.Column="2" Text="{Binding TargetPlayer.RaidPlayerLevel}" />
+
+                <!-- Raid base Damage -->
+                <Label Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.BaseDamage}" />
+                <Label Grid.Row="2" Grid.Column="1" Text="{Binding SourcePlayer.RaidBaseDamage}" />
+                <Label Grid.Row="2" Grid.Column="2" Text="{Binding TargetPlayer.RaidBaseDamage}" />
+
+                <!-- Raid Total EXP -->
+                <Label Grid.Row="3" Grid.Column="0" Text="{x:Static resource:AppResources.TotalEXP}" />
+                <Label Grid.Row="3" Grid.Column="1" Text="{Binding SourcePlayer.RaidTotalXP}" />
+                <Label Grid.Row="3" Grid.Column="2" Text="{Binding TargetPlayer.RaidTotalXP}" />
+                
+                <!-- Raid Attack Count -->
+                <Label Grid.Row="4" Grid.Column="0" Text="{x:Static resource:AppResources.AttackCount}" />
+                <Label Grid.Row="4" Grid.Column="1" Text="{Binding SourcePlayer.RaidAttackCount}" />
+                <Label Grid.Row="4" Grid.Column="2" Text="{Binding TargetPlayer.RaidAttackCount}" />
+                
+                <!-- Raid Total Card Level -->
+                <Label Grid.Row="5" Grid.Column="0" Text="{x:Static resource:AppResources.TotalCardLevel}" />
+                <Label Grid.Row="5" Grid.Column="1" Text="{Binding SourcePlayer.RaidTotalCardLevel}" />
+                <Label Grid.Row="5" Grid.Column="2" Text="{Binding TargetPlayer.RaidTotalCardLevel}" />
+                
+                <!-- Raid Unique Skill Count -->
+                <Label Grid.Row="6" Grid.Column="0" Text="{x:Static resource:AppResources.UniqueSkillCount}" />
+                <Label Grid.Row="6" Grid.Column="1" Text="{Binding SourcePlayer.RaidUniqueSkillCount}" />
+                <Label Grid.Row="6" Grid.Column="2" Text="{Binding TargetPlayer.RaidUniqueSkillCount}" />
+                
+                <!-- Raid Tickets collected -->
+                <Label Grid.Row="7" Grid.Column="0" Text="{x:Static resource:AppResources.TicketsCollected}" />
+                <Label Grid.Row="7" Grid.Column="1" Text="{Binding SourcePlayer.RaidTicketsCollected}" />
+                <Label Grid.Row="7" Grid.Column="2" Text="{Binding TargetPlayer.RaidTicketsCollected}" />
+                
+                <!-- Raid Weekly Ticket Count -->
+                <Label Grid.Row="8" Grid.Column="0" Text="{x:Static resource:AppResources.WeeklyTicketCount}" />
+                <Label Grid.Row="8" Grid.Column="1" Text="{Binding SourcePlayer.WeeklyTicketCount}" />
+                <Label Grid.Row="8" Grid.Column="2" Text="{Binding TargetPlayer.WeeklyTicketCount}" />
+                
+                <!-- Clan Crates shared -->
+                <Label Grid.Row="9" Grid.Column="0" Text="{x:Static resource:AppResources.CratesShared}" />
+                <Label Grid.Row="9" Grid.Column="1" Text="{Binding SourcePlayer.ClanCratesShared}" />
+                <Label Grid.Row="9" Grid.Column="2" Text="{Binding TargetPlayer.ClanCratesShared}" />
+
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

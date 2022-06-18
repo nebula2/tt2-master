@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TT2Master.PlayerPage"
+             Title="{Binding Title}"
+             BackgroundColor="{StaticResource AppBackground}">
+        <ScrollView>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Player -->
+            <Label Grid.Row="0" Grid.Column="0" Text="Me:" />
+            <Label Grid.Row="0" Grid.Column="1" Text="{Binding Me.PlayerName}" />
+
+            <!-- Max Stage -->
+            <Label Grid.Row="1" Grid.Column="0" Text="Max Stage:" />
+            <Label Grid.Row="1" Grid.Column="1" Text="{Binding Me.StageMax}" />
+            
+            <!-- Current Stage -->
+            <Label Grid.Row="2" Grid.Column="0" Text="Current Stage:" />
+            <Label Grid.Row="2" Grid.Column="1" Text="{Binding Me.CurrentStage}" />
+
+            <!-- Clan current -->
+            <Label Grid.Row="3" Grid.Column="0" Text="Current Clan:" />
+            <Label Grid.Row="3" Grid.Column="1" Text="{Binding Me.ClanCurrent}" />
+
+            <!-- Clan Role -->
+            <Label Grid.Row="4" Grid.Column="0" Text="Clan role:" />
+            <Label Grid.Row="4" Grid.Column="1" Text="{Binding Me.ClanRole}" />
+
+            <!-- Clan Quest Count -->
+            <Label Grid.Row="5" Grid.Column="0" Text="Clan Quests:" />
+            <Label Grid.Row="5" Grid.Column="1" Text="{Binding Me.ClanQuestCount}" />
+
+            <!-- Clan Crates Shared -->
+            <Label Grid.Row="6" Grid.Column="0" Text="Clan Crates shared:" />
+            <Label Grid.Row="6" Grid.Column="1" Text="{Binding Me.ClanCratesShared}" />
+
+            <!-- Tournaments -->
+            <Label Grid.Row="7" Grid.Column="0" Text="Tournaments:" />
+            <Label Grid.Row="7" Grid.Column="1" Text="{Binding Me.TournamentCount}" />
+
+            <!-- Tournament Max Rank -->
+            <Label Grid.Row="8" Grid.Column="0" Text="Tournament Max Rank:" />
+            <Label Grid.Row="8" Grid.Column="1" Text="{Binding Me.TournamentMaxRank}" />
+        </Grid>
+            
+        </ScrollView>
+</ContentPage>

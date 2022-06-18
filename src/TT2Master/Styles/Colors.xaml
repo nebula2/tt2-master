@@ -1,0 +1,57 @@
+﻿<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" 
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TT2Master">
+
+    <Color x:Key="BackgroundLight">#efefef</Color>
+
+    <Color x:Key="BackgroundVeryLight">#fafafa</Color>
+
+    <Color x:Key="ForegroundMain">#686868</Color>
+
+    <Color x:Key="ForegroundVeryDark">#000000</Color>
+
+    <Color x:Key="ForegroundLight">#ffffff</Color>
+
+    <Color x:Key="ForegroundDark">#bdbdbd</Color>
+
+    <Color x:Key="WordBlue">#3099c5</Color>
+
+    <Color x:Key="WordTransparentBlue">#003099c5</Color>
+
+    <Color x:Key="WordLightBlue">#45b6e5</Color>
+
+    <Color x:Key="WordVeryLightBlue">#c3e5f3</Color>
+
+    <Color x:Key="WordVeryVeryLightBlue">#abcdef</Color>
+
+    <Color x:Key="WordDarkBlue">#0c6991</Color>
+
+    <Color x:Key="WordOrange">#ffa800</Color>
+
+    <Color x:Key="WordRed">#ff4747</Color>
+
+    <Color x:Key="WordGreen">#00c541</Color>
+
+    <Color x:Key="AppBackground">#efefef</Color>
+
+    <Color x:Key="BlackColor">#000000</Color>
+    
+    <Color x:Key="BackgroundColor">#181818</Color>
+    
+    <Color x:Key="MenuBackgroundColor">#272627</Color>
+
+    <Color x:Key="MenuHeaderBackgroundColor">#312a2a</Color>
+
+    <Color x:Key="MenuTextColor">#B9B8B9</Color>
+    
+    <Color x:Key="WhiteColor">#FFFFFF</Color>
+
+    <Color x:Key="FrameBackground">#1A2634</Color>
+
+    <Color x:Key="OptimizerLevelFrameColor">#344860</Color>
+
+    <Color x:Key="EntryColor">#C8175A</Color>
+
+    <Color x:Key="NavigationBarColor">#23B391</Color>
+
+</ResourceDictionary>

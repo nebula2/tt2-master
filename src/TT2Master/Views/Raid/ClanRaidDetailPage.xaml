@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:resource="clr-namespace:TT2Master.Resources"
+            xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+            xmlns:dg="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid"
+            mc:Ignorable="d"
+            x:Class="TT2Master.Views.Raid.ClanRaidDetailPage"
+            Title="{Binding Title}">
+    
+    <TabbedPage.BarBackgroundColor>
+        <OnPlatform x:TypeArguments="Color">
+            <On Platform="iOS" Value="{StaticResource BackgroundColor}"></On>
+        </OnPlatform>
+    </TabbedPage.BarBackgroundColor>
+
+    <TabbedPage.SelectedTabColor>
+        <OnPlatform x:TypeArguments="Color">
+            <On Platform="iOS" Value="White"></On>
+        </OnPlatform>
+    </TabbedPage.SelectedTabColor>
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Name="ReloadArts" Command="{Binding ReloadAnalysisCommand}" Icon="reload_icon"/>
+        <ToolbarItem Name="Info" Command="{Binding InfoCommand}" Icon="info_icon"/>
+        <ToolbarItem Name="Export" Command="{Binding ExportCommand}" Icon="export_icon"/>
+        <ToolbarItem Name="Save" Command="{Binding SaveCommand}"  Icon="save_icon" />
+    </TabbedPage.ToolbarItems>
+
+    <TabbedPage.Resources>
+        <converter:DoubleValueConverter x:Key="DoubleConverter" />
+        <converter:CoinStringConverter x:Key="CoinStr" />
+    </TabbedPage.Resources>
+    
+    <ContentPage Title="{x:Static resource:AppResources.General}">
+
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="import_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+
+        <ScrollView>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- Tier -->
+                <Label  Grid.Row="0" Grid.Column="0" 
+                        Text="{x:Static resource:AppResources.Tier}" 
+                        VerticalTextAlignment="Center"/>
+                <Picker Grid.Row="0" Grid.Column="1" 
+                        VerticalOptions="Center" 
+                        ItemsSource="{Binding AvailableTiers}" 
+                        SelectedItem="{Binding CurrentRaid.Tier, Mode=TwoWay}"/>
+
+                <!-- Level -->
+                <Label  Grid.Row="1" Grid.Column="0" 
+                        Text="{x:Static resource:AppResources.Level}" 
+                        VerticalTextAlignment="Center"/>
+                <Picker Grid.Row="1" Grid.Column="1" 
+                        VerticalOptions="Center" 
+                        ItemsSource="{Binding AvailableLevels}" 
+                        SelectedItem="{Binding CurrentRaid.Level, Mode=TwoWay}"/>
+
+                <!-- Description -->
+                <Label Grid.Row="2" Grid.Column="0" 
+                       Text="{x:Static resource:AppResources.Description}" 
+                       VerticalTextAlignment="Center"/>
+                <Editor Grid.Row="2" Grid.Column="1"
+                       Text="{Binding CurrentRaid.Description}"/>
+                
+                <!-- Enemy 1 -->
+                <Label  Grid.Row="3" Grid.Column="0" 
+                        Text="{Binding Enemy1}" 
+                        VerticalTextAlignment="Center" 
+                        IsVisible="{Binding IsEnemy1Visible}"/>
+                <Picker Grid.Row="3" Grid.Column="1" 
+                        VerticalOptions="Center" 
+                        ItemsSource="{Binding StrategiesForEnemy1}" 
+                        SelectedItem="{Binding Strategy1Name, Mode=TwoWay}" 
+                        IsVisible="{Binding IsEnemy1Visible}"/>
+                
+                <!-- Enemy 2 -->
+                <Label  Grid.Row="4" Grid.Column="0" 
+                        Text="{Binding Enemy2}" 
+                        VerticalTextAlignment="Center" 
+                        IsVisible="{Binding IsEnemy2Visible}"/>
+                <Picker Grid.Row="4" Grid.Column="1" 
+                        VerticalOptions="Center" 
+                        ItemsSource="{Binding StrategiesForEnemy2}" 
+                        SelectedItem="{Binding Strategy2Name, Mode=TwoWay}" 
+                        IsVisible="{Binding IsEnemy2Visible}"/>
+
+                <!-- Enemy 3 -->
+                <Label  Grid.Row="5" Grid.Column="0" 
+                        Text="{Binding Enemy3}" 
+                        VerticalTextAlignment="Center" 
+                        IsVisible="{Binding IsEnemy3Visible}"/>
+                <Picker Grid.Row="5" Grid.Column="1" 
+                        VerticalOptions="Center" 
+                        ItemsSource="{Binding StrategiesForEnemy3}" 
+                        SelectedItem="{Binding Strategy3Name, Mode=TwoWay}" 
+                        IsVisible="{Binding IsEnemy3Visible}"/>
+
+                <!-- Tolerances -->
+                <Label  Grid.Row="6" Grid.Column="0"
+                        Text="{x:Static resource:AppResources.Tolerance}"
+                        VerticalTextAlignment="Center" />
+                <Picker Grid.Row="6" Grid.Column="1" 
+                        VerticalOptions="Center" 
+                        ItemsSource="{Binding AvailableTolerances}" 
+                        SelectedItem="{Binding CurrentRaid.Tolerance, Mode=TwoWay}" 
+                        ItemDisplayBinding="{Binding Name}"/>
+
+                <!-- Get Result -->
+                <Button Grid.Row="7" Grid.Column="1" 
+                        Text="{x:Static resource:AppResources.PasteResultFromClipboard}" 
+                        Command="{Binding PasteResultCommand}"/>
+                
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+    
+    <ContentPage Title="{x:Static resource:AppResources.Analysis}">
+
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="report_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- TotalAttacks -->
+            <Label Grid.Row="0" Grid.Column="0" 
+                       Text="{x:Static resource:AppResources.AttacksInTotal}" 
+                       VerticalTextAlignment="Center"/>
+            <Label Grid.Row="0" Grid.Column="1" 
+                       Text="{Binding AnalysisHeaderData.TotalAttacks, StringFormat='{}{0:N0}'}"
+                       VerticalTextAlignment="Center"/>
+
+            <!-- Amount of Waves -->
+            <Label Grid.Row="1" Grid.Column="0" 
+                       Text="{x:Static resource:AppResources.Waves}" 
+                       VerticalTextAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="1" 
+                       Text="{Binding AnalysisHeaderData.AmountOfWaves}"
+                       VerticalTextAlignment="Center"/>
+            
+            <!-- Total Damage -->
+            <Label Grid.Row="2" Grid.Column="0" 
+                       Text="{x:Static resource:AppResources.TotalDamage}" 
+                       VerticalTextAlignment="Center"/>
+            <Label Grid.Row="2" Grid.Column="1" 
+                       Text="{Binding AnalysisHeaderData.TotalDamage, StringFormat='{}{0:N0}'}"
+                       VerticalTextAlignment="Center"/>
+            
+            <!-- Damage/Attack -->
+            <Label Grid.Row="3" Grid.Column="0" 
+                       Text="{x:Static resource:AppResources.DamagePerAttack}" 
+                       VerticalTextAlignment="Center"/>
+            <Label Grid.Row="3" Grid.Column="1" 
+                       Text="{Binding AnalysisHeaderData.DamagePerAttack, StringFormat='{}{0:N0}'}"
+                       VerticalTextAlignment="Center"/>
+
+            <!-- Overkill amount -->
+            <Label Grid.Row="4" Grid.Column="0" 
+                       Text="{x:Static resource:AppResources.OverkillAmount}" 
+                       VerticalTextAlignment="Center"/>
+            <Label Grid.Row="4" Grid.Column="1" 
+                       Text="{Binding AnalysisHeaderData.TotalOverkillAmount, StringFormat='{}{0:N0}'}"
+                       VerticalTextAlignment="Center"/>
+
+            <!-- Overkill % -->
+            <Label Grid.Row="5" Grid.Column="0" 
+                       Text="{x:Static resource:AppResources.OverkillPercentage}" 
+                       VerticalTextAlignment="Center"/>
+            <Label Grid.Row="5" Grid.Column="1" 
+                       Text="{Binding AnalysisHeaderData.TotalOverkillPercentage, Converter={StaticResource CoinStr}}"
+                       VerticalTextAlignment="Center"/>
+
+            <!-- attack flaws -->
+            <Label Grid.Row="6" Grid.ColumnSpan="2" 
+                       Margin="0,20,0,0"
+                       Text="{x:Static resource:AppResources.AttackFlaws}" 
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>
+
+            <ListView Grid.Row="7" Grid.ColumnSpan="2" 
+                      Margin="2"
+                      CachingStrategy="RetainElement" 
+                      ItemsSource="{Binding AttackFlawGrouping}"
+                      HasUnevenRows="True"
+                      SelectionMode="None"
+                      IsGroupingEnabled="True"
+                      GroupDisplayBinding="{Binding LongName}"
+                      GroupShortNameBinding="{Binding ShortName}"
+                      BackgroundColor="{StaticResource BackgroundColor}">
+                <ListView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout VerticalOptions="FillAndExpand"
+                                             Padding="4"
+                                             BackgroundColor="{StaticResource OptimizerLevelFrameColor}">
+                                <Label Text="{Binding LongName}" TextColor="White" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.GroupHeaderTemplate>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Margin="4" BackgroundColor="{StaticResource FrameBackground}">
+                                <Grid HorizontalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <!-- Name -->
+                                        <ColumnDefinition Width="*" />
+                                        <!-- value -->
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Column="0" Text="{Binding PlayerName}"/>
+                                    <Label Grid.Column="1" Text="{Binding Value, StringFormat='{}{0:N0}'}"/>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </ContentPage>
+    
+    <ContentPage Title="{x:Static resource:AppResources.Details}">
+
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="info_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+
+        <ScrollView Orientation="Horizontal">
+            <dg:DataGrid ItemsSource="{Binding RaidResultAnalysisList}" 
+                     BorderColor="#CCCCCC" 
+                     HeaderBackground="#E0E6F8"
+                     HeaderHeight="35"
+                     SelectionEnabled="False"
+                     IsSortable="False"
+                     HeaderFontSize="13">
+                <dg:DataGrid.Columns>
+                    <dg:DataGridColumn Title="{x:Static resource:AppResources.Name}" PropertyName="Name" Width="1.1*"/>
+                    <dg:DataGridColumn Title="{x:Static resource:AppResources.Attacks}" Width="0.5*">
+                        <dg:DataGridColumn.CellTemplate>
+                            <DataTemplate>
+                                <ContentView HorizontalOptions="Fill" 
+                                    VerticalOptions="Fill" 
+                                    BackgroundColor="{Binding IsOneOfWorstParticipents, Converter={StaticResource WorstToColorConverter}}">
+                                    <Label Text="{Binding Attacks, StringFormat='{}{0:N0}'}" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+                                </ContentView>
+                            </DataTemplate>
+                        </dg:DataGridColumn.CellTemplate>
+                    </dg:DataGridColumn>
+                    <dg:DataGridColumn Title="{x:Static resource:AppResources.Damage}" Width="0.8*">
+                        <dg:DataGridColumn.CellTemplate>
+                            <DataTemplate>
+                                <ContentView HorizontalOptions="Fill" 
+                                    VerticalOptions="Fill">
+                                    <Label Text="{Binding Damage, StringFormat='{}{0:N0}'}" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White"/>
+                                </ContentView>
+                            </DataTemplate>
+                        </dg:DataGridColumn.CellTemplate>
+                    </dg:DataGridColumn>
+                    <dg:DataGridColumn Title="{x:Static resource:AppResources.DamagePerAttack}" Width="0.7*">
+                        <dg:DataGridColumn.CellTemplate>
+                            <DataTemplate>
+                                <ContentView HorizontalOptions="Fill" 
+                                    VerticalOptions="Fill" 
+                                    BackgroundColor="{Binding IsBelowMinAverageDamage, Converter={StaticResource WorstToColorConverter}}">
+                                    <Label Text="{Binding DamagePerAttack, StringFormat='{}{0:N0}'}" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+                                </ContentView>
+                            </DataTemplate>
+                        </dg:DataGridColumn.CellTemplate>
+                    </dg:DataGridColumn>
+                    <dg:DataGridColumn Title="{x:Static resource:AppResources.Overkill}" Width="0.6*">
+                        <dg:DataGridColumn.CellTemplate>
+                            <DataTemplate>
+                                <ContentView HorizontalOptions="Fill" 
+                                    VerticalOptions="Fill" 
+                                    BackgroundColor="{Binding IsOneOfWorstOverkills, Converter={StaticResource WorstToColorConverter}}">
+                                    <Label Text="{Binding Overkill, StringFormat='{}{0:N0}'}" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"/>
+                                </ContentView>
+                            </DataTemplate>
+                        </dg:DataGridColumn.CellTemplate>
+                    </dg:DataGridColumn>
+                </dg:DataGrid.Columns>
+                <dg:DataGrid.RowsBackgroundColorPalette>
+                    <dg:PaletteCollection>
+                        <Color>#1A2634</Color>
+                        <Color>#344860</Color>
+                    </dg:PaletteCollection>
+                </dg:DataGrid.RowsBackgroundColorPalette>
+                <dg:DataGrid.RowsTextColorPalette>
+                    <dg:PaletteCollection>
+                        <Color>#FFFFFF</Color>
+                    </dg:PaletteCollection>
+                </dg:DataGrid.RowsTextColorPalette>
+                <dg:DataGrid.Resources>
+                    <ResourceDictionary>
+                        <converter:WorstToColorConverter x:Key="WorstToColorConverter"/>
+                    </ResourceDictionary>
+                </dg:DataGrid.Resources>
+            </dg:DataGrid>
+        </ScrollView>
+    </ContentPage>
+    
+</TabbedPage>

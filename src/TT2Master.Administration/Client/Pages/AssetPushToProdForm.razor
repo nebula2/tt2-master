@@ -1,0 +1,51 @@
+﻿@using TT2MasterAdministrationApp.Shared
+<EditForm Model="@Container">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <label>Production container: </label>
+        @foreach (var item in Container.ProductionContainerReferences)
+        {
+            <div>
+                <input type="radio" name="question"
+                       id="@item"
+                       value="@item"
+                       @onchange="SelectionChanged"
+                       checked=@(selectedProdContainer?.Equals(item,StringComparison.OrdinalIgnoreCase) ?? false)/>
+                <label for="@item">@item</label>
+            </div>
+        }
+        <div>
+            <em>Selected answer is: @selectedProdContainer</em>
+        </div>
+    </div>
+
+    <button type="submit" disabled="@(!IsEnabled || string.IsNullOrEmpty(selectedProdContainer))" class="btn btn-success" @onclick="@OnSubmit">
+        @ButtonText
+    </button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public AssetContainer Container { get; set; }
+
+    [Parameter]
+    public string ButtonText { get; set; } = "Push";
+
+    [Parameter]
+    public bool IsEnabled { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnValidSubmit { get; set; }
+
+    private string selectedProdContainer = "";
+
+    void SelectionChanged(ChangeEventArgs args)
+    {
+        selectedProdContainer = args.Value.ToString();
+    }
+
+    public void OnSubmit()
+    {
+        if (OnValidSubmit.HasDelegate) OnValidSubmit.InvokeAsync(selectedProdContainer);
+    }
+}

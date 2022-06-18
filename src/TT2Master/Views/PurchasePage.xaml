@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             x:Class="TT2Master.PurchasePage"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             Title="{Binding Title}">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid Margin="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- only show small ads -->
+                <Label  Grid.Row="0" Grid.Column="0" Text="{x:Static resource:AppResources.LowHeader}"  VerticalTextAlignment="Center"/>
+                <Label  Grid.Row="0" Grid.Column="1" Text="{x:Static resource:AppResources.DisableBigAdsInformation}" HorizontalOptions="Center"/>
+                <Button Grid.Row="1" Grid.Column="1" Text="{x:Static resource:AppResources.SmallAds}" Command="{Binding PurchaseSmallAdsCommand}"/>
+
+                <!-- no ads -->
+                <Label  Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.MediumHeader}" VerticalTextAlignment="Center" />
+                <Label  Grid.Row="2" Grid.Column="1" Text="{x:Static resource:AppResources.DisableAllAds}" HorizontalOptions="Center"/>
+                <Button Grid.Row="3" Grid.Column="1" Text="{x:Static resource:AppResources.NoAds}" Command="{Binding PurchaseNoAdsCommand}" />
+
+                <!-- supporter -->
+                <Label  Grid.Row="4" Grid.Column="0" Text="{x:Static resource:AppResources.HighHeader}" VerticalTextAlignment="Center" />
+                <Label  Grid.Row="4" Grid.Column="1" Text="{x:Static resource:AppResources.SupporterPurchasementInformation}" HorizontalOptions="Center"/>
+                <Button Grid.Row="5" Grid.Column="1" Text="{x:Static resource:AppResources.Supporter}" Command="{Binding PurchaseSupporterCommand}" />
+
+                <!-- supporter over time -->
+                <Label  Grid.Row="6" Grid.Column="0" Text="{x:Static resource:AppResources.TimeHeader}" VerticalTextAlignment="Center">
+                    <Label.IsVisible>
+                        <OnPlatform x:TypeArguments="x:Boolean">
+                            <On Platform="iOS" Value="false" />
+                        </OnPlatform>
+                    </Label.IsVisible>
+                </Label>
+                <Label  Grid.Row="6" Grid.Column="1" Text="{x:Static resource:AppResources.SupporterAboDesc}" HorizontalOptions="Center">
+                    <Label.IsVisible>
+                        <OnPlatform x:TypeArguments="x:Boolean">
+                            <On Platform="iOS" Value="false" />
+                        </OnPlatform>
+                    </Label.IsVisible>
+                </Label>
+                <Button Grid.Row="7" Grid.Column="1" Text="{x:Static resource:AppResources.SupTimeHeader}" Command="{Binding PurchaseSupporterAboCommand}">
+                    <Button.IsVisible>
+                        <OnPlatform x:TypeArguments="x:Boolean">
+                            <On Platform="iOS" Value="false" />
+                        </OnPlatform>
+                    </Button.IsVisible>
+                </Button>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:TT2Master"
+            xmlns:resource="clr-namespace:TT2Master.Resources"
+            x:Class="TT2Master.EquipAdvisorPage"
+            Title="{Binding Title}">
+
+    <TabbedPage.Resources>
+        <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter"/>
+
+        <Style TargetType="ListView">
+            <Setter Property="BackgroundColor" Value="Transparent" />
+            <Setter Property="HasUnevenRows" Value="True" />
+            <Setter Property="SelectionMode" Value="None" />
+            <Setter Property="Margin" Value="2" />
+        </Style>
+
+        <Style TargetType="Frame">
+            <Setter Property="Margin" Value="5" />
+        </Style>
+
+        <DataTemplate x:Key="itemTemplate">
+            <ViewCell>
+                <Frame BackgroundColor="{Binding EquippedColor}" BorderColor="{Binding RarityColor}">
+                    <Grid ColumnDefinitions="*, Auto"
+                          RowDefinitions="Auto, Auto, Auto, *">
+
+                        <!-- Description -->
+                        <Label Grid.Column="0" Text="{Binding Name}" TextColor="{Binding RarityColor}" FontAttributes="Bold"/>
+                        <Label Grid.Column="1" Text="{Binding LevelDisplay}" TextColor="{Binding RarityColor}"/>
+
+                        <!-- Primary Boost and Equipped -->
+                        <Label Grid.Row="1" Grid.Column="0" Text="{Binding BonusTypeDisplay}"/>
+                        <Label Grid.Row="1" Grid.Column="1" Text="{x:Static resource:AppResources.EquippedText}" IsVisible="{Binding Equipped}"/>
+
+                        <!-- Eff -->
+                        <Label Grid.Row="3" Grid.Column="0" Text="{Binding EfficiencyValue, StringFormat='Eff. {0:#.###e+00}'}"/>
+                    </Grid>
+                </Frame>
+            </ViewCell>
+        </DataTemplate>
+    </TabbedPage.Resources>
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Name="EditSettings" Command="{Binding GoToSettingsCommand}" Icon="edit_icon"/>
+        <ToolbarItem Command="{Binding RefreshCommand}" Icon="reload_icon"/>
+    </TabbedPage.ToolbarItems>
+    
+    <ContentPage Title="{x:Static resource:AppResources.Weapon}">
+        <ListView CachingStrategy="RetainElement" ItemsSource="{Binding MySwords}" ItemTemplate="{StaticResource itemTemplate}"
+                  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
+            <ListView.Behaviors>
+                <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EnterDetailCommand}" Converter="{StaticResource ItemTappedConverter}" />
+            </ListView.Behaviors>
+        </ListView>
+    </ContentPage>
+
+    <ContentPage Title="{x:Static resource:AppResources.Helmet}">
+        <ListView CachingStrategy="RetainElement" ItemsSource="{Binding MyHats}" ItemTemplate="{StaticResource itemTemplate}"
+                  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
+            <ListView.Behaviors>
+                <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EnterDetailCommand}" Converter="{StaticResource ItemTappedConverter}" />
+            </ListView.Behaviors>
+        </ListView>
+    </ContentPage>
+
+    <ContentPage Title="{x:Static resource:AppResources.Armor}">
+        <ListView CachingStrategy="RetainElement" ItemsSource="{Binding MyChests}" ItemTemplate="{StaticResource itemTemplate}"
+                  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
+            <ListView.Behaviors>
+                <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EnterDetailCommand}" Converter="{StaticResource ItemTappedConverter}" />
+            </ListView.Behaviors>
+        </ListView>
+    </ContentPage>
+
+    <ContentPage Title="{x:Static resource:AppResources.Aura}">
+        <ListView CachingStrategy="RetainElement" ItemsSource="{Binding MyAuras}" ItemTemplate="{StaticResource itemTemplate}"
+                  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
+            <ListView.Behaviors>
+                <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EnterDetailCommand}" Converter="{StaticResource ItemTappedConverter}" />
+            </ListView.Behaviors>
+        </ListView>
+    </ContentPage>
+
+    <ContentPage Title="{x:Static resource:AppResources.Slash}">
+        <ListView CachingStrategy="RetainElement" ItemsSource="{Binding MySlashs}" ItemTemplate="{StaticResource itemTemplate}"
+                  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
+            <ListView.Behaviors>
+                <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EnterDetailCommand}" Converter="{StaticResource ItemTappedConverter}" />
+            </ListView.Behaviors>
+        </ListView>
+    </ContentPage>
+</TabbedPage>

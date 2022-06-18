@@ -1,0 +1,12 @@
+RewardA,WeightA,ChanceA,RewardB,WeightB,ChanceB,RewardC,WeightC,ChanceC,Chance,TypeChance,Type
+Equipment:1,80,0.400,Equipment:3,75,0.375,RaidCardCurrency:25,65,0.325,0.40,0.77,Dust
+Equipment:2,50,0.250,Equipment:5,64,0.320,RaidCardCurrency:50,25,0.125,0.25,0.77,Dust
+Equipment:3,24,0.120,Equipment:10,12,0.060,RaidCardCurrency:100,4,0.020,0.12,0.77,Dust
+Diamonds:3,28,0.140,Diamonds:5,30,0.150,RaidCardCurrency:200,2,0.010,0.14,0.14,Pets
+Diamonds:5,12,0.060,Diamonds:10,10,0.050,RaidCardCurrency:500,1,0.005,0.06,0.06,Shards
+Diamonds:10,4,0.020,Diamonds:15,2,0.010,Diamonds:10,61,0.305,0.02,0.02,Equipment
+PetsLvl1:1,2,0.010,PetsLvl1:1,3,0.015,Diamonds:15,24,0.120,0.01,0.01,Diamonds
+,,,PetsLvl1:2,2,0.010,Diamonds:25,14,0.070,0.00,0.01,Diamonds
+,,,PetsLvl1:3,1,0.005,Diamonds:50,2,0.010,0.00,0.01,Diamonds
+,,,Perk:1,1,0.005,EquipmentShards:5,1,0.005,0.00,0.01,Diamonds
+,,,,,,FortuneHelperWeapon:1,1,0.005,0.00,0.01,Diamonds
