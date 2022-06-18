@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             x:Class="TT2Master.ClanMsgExportPopupPage"
+             Title="{Binding Title}">
+
+    <ScrollView>
+        <Grid Padding="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            
+            <!-- Header-->
+            <Label Grid.Row="0" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.ChooseWhatToExport}" FontAttributes="Bold"/>
+            
+            <!-- Export options -->
+            <Label  Grid.Row="1" Grid.Column="0" VerticalTextAlignment="Center" Text="{x:Static resource:AppResources.Messages}" />
+            <Switch Grid.Row="1" Grid.Column="1" IsToggled="{Binding IsMessageExportWished, Mode=TwoWay}" />
+
+            <Label  Grid.Row="2" Grid.Column="0" VerticalTextAlignment="Center" Text="{x:Static resource:AppResources.Builds}" />
+            <Switch Grid.Row="2" Grid.Column="1" IsToggled="{Binding IsBuildExportWished, Mode=TwoWay}" />
+
+            <Label  Grid.Row="3" Grid.Column="0" VerticalTextAlignment="Center" Text="{x:Static resource:AppResources.Raid}" />
+            <Switch Grid.Row="3" Grid.Column="1" IsToggled="{Binding IsRaidExportWished, Mode=TwoWay}" />
+
+            <Label  Grid.Row="4" Grid.Column="0" VerticalTextAlignment="Center" Text="{x:Static resource:AppResources.RaidResult}" />
+            <Switch Grid.Row="4" Grid.Column="1" IsToggled="{Binding IsRaidResultExportWished, Mode=TwoWay}" />
+            
+            <Label  Grid.Row="5" Grid.Column="0" VerticalTextAlignment="Center" Text="{x:Static resource:AppResources.Member}" />
+            <Switch Grid.Row="5" Grid.Column="1" IsToggled="{Binding IsMemberExportWished, Mode=TwoWay}" />
+
+            <Label  Grid.Row="6" Grid.Column="0" VerticalTextAlignment="Center" Text="{x:Static resource:AppResources.Clipboard}" />
+            <Switch Grid.Row="6" Grid.Column="1" IsToggled="{Binding IsClipboardExportWished, Mode=TwoWay}" />
+
+            <Label  Grid.Row="7" Grid.Column="0" VerticalTextAlignment="Center" Text="{x:Static resource:AppResources.MaxClanMsgAmount}" />
+            <Entry  Grid.Row="7" Grid.Column="1" Text="{Binding MaxMsgAmount, Mode=TwoWay}" Keyboard="Numeric"/>
+            
+            <!-- Buttons -->
+            <Button Grid.Row="8" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.ExportTitle}" Command="{Binding ExportCommand}" />
+            <Button Grid.Row="9" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.CancelText}" Command="{Binding CancelCommand}"/>
+        </Grid>
+    </ScrollView>
+</ContentPage>

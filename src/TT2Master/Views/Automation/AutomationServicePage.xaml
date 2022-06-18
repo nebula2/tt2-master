@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             x:Class="TT2Master.AutomationServicePage"
+             Title="{Binding Title}"
+             >
+
+    <ScrollView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            
+            <!-- description -->
+            <Label  Grid.Row="0" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.AutoServiceDescription}"/>
+            
+            <!-- enable/ disable IsArtifactCheckWished -->
+            <Label  Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.ArtifactHeader}"/>
+            <Switch Grid.Row="1" Grid.Column="1" IsToggled="{Binding IsArtifactCheckWished, Mode=TwoWay}"/>
+            
+            <!-- enable/ disable IsSkillCheckWished -->
+            <Label  Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.Skills}"/>
+            <Switch Grid.Row="2" Grid.Column="1" IsToggled="{Binding IsSkillCheckWished, Mode=TwoWay}"/>
+            
+            <!-- enable/ disable IsEquipCheckWished -->
+            <Label  Grid.Row="3" Grid.Column="0" Text="{x:Static resource:AppResources.Equipment}"/>
+            <Switch Grid.Row="3" Grid.Column="1" IsToggled="{Binding IsEquipCheckWished, Mode=TwoWay}"/>
+
+            <!-- enable/ disable IsDiamondFairyWished -->
+            <Label  Grid.Row="4" Grid.Column="0" Text="{x:Static resource:AppResources.DiamondFairy}"/>
+            <Switch Grid.Row="4" Grid.Column="1" IsToggled="{Binding IsDiamondFairyWished, Mode=TwoWay}"/>
+
+            <!-- enable/ disable IsFatFairyWished -->
+            <Label  Grid.Row="5" Grid.Column="0" Text="{x:Static resource:AppResources.FatFairy}"/>
+            <Switch Grid.Row="5" Grid.Column="1" IsToggled="{Binding IsFatFairyWished, Mode=TwoWay}"/>
+
+            <!-- enable/ disable IsFreeEquipWished -->
+            <Label  Grid.Row="6" Grid.Column="0" Text="{x:Static resource:AppResources.FreeEquipment}"/>
+            <Switch Grid.Row="6" Grid.Column="1" IsToggled="{Binding IsFreeEquipWished, Mode=TwoWay}"/>
+
+            <!-- interval -->
+            <Label  Grid.Row="7" Grid.Column="0" Text="{x:Static resource:AppResources.MinuteTimeInterval}"/>
+            <Slider Grid.Row="7" Grid.Column="1" Maximum="60.0" Minimum="1.0" Value="{Binding AutoExportSchedule, Mode=TwoWay}"/>
+            <Label  Grid.Row="8" Grid.Column="1" Text="{Binding AutoExportSchedule}"/>
+            
+            <!-- save -->
+            <Button Grid.Row="9" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.SaveText}" Command="{Binding SaveCommand}"/>
+            
+            <!-- Start -->
+            <Button Grid.Row="10" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.StartService}" Command="{Binding StartCommand}"/>
+        </Grid>
+    </ScrollView>
+</ContentPage>

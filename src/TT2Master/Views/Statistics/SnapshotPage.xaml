@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             xmlns:local="clr-namespace:TT2Master"
+             x:Class="TT2Master.SnapshotPage"
+             x:Name="SnapshotContentPage"
+             Title="{Binding Title}"
+             >
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Delete" Command="{Binding DeleteCommand}" Icon="delete_icon" />
+        <ToolbarItem Name="Export" Command="{Binding ExportCommand}" Icon="export_icon"/>
+        <ToolbarItem Name="Export" Command="{Binding ReportCommand}" Icon="report_icon"/>
+    </ContentPage.ToolbarItems>
+
+    <Grid Margin="2">
+
+        <ListView CachingStrategy="RetainElement" ItemsSource="{Binding Snapshots}" x:Name="listViewBuilds" HasUnevenRows="True" SelectionMode="None">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Chicken" 
+                                      Command="{Binding Source={x:Reference SnapshotContentPage}, Path=BindingContext.GoToIdentityCommand}" 
+                                      CommandParameter="{Binding .}"/>
+                            <MenuItem Text="SmellyFarts" 
+                                      Command="{Binding Source={x:Reference SnapshotContentPage}, Path=BindingContext.UpsertSnapshotsCommand}" 
+                                      CommandParameter="{Binding .}"/>
+                        </ViewCell.ContextActions>
+
+                        <Frame OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="5">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+
+                                <!-- Who -->
+                                <Label Grid.Row="0" Grid.Column="0" Text="{x:Static resource:AppResources.NameHeader}" VerticalTextAlignment="Center"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="{Binding Name}" VerticalTextAlignment="Center"/>
+
+                                <!-- MS -->
+                                <Label Grid.Row="0" Grid.Column="2" Text="MS:" VerticalTextAlignment="Center"/>
+                                <Label Grid.Row="0" Grid.Column="3" Text="{Binding StageMax}" VerticalTextAlignment="Center"/>
+
+                                <!-- CQ -->
+                                <Label Grid.Row="1" Grid.Column="0" Text="RaidExp:" VerticalTextAlignment="Center"/>
+                                <Label Grid.Row="1" Grid.Column="1" Text="{Binding RaidTotalXP}" VerticalTextAlignment="Center"/>
+
+                                <!-- Weekly Ticket Count -->
+                                <Label Grid.Row="1" Grid.Column="2" Text="Tickets/Week:" VerticalTextAlignment="Center"/>
+                                <Label Grid.Row="1" Grid.Column="3" Text="{Binding WeeklyTicketCount}" VerticalTextAlignment="Center"/>
+
+                                <!-- Tourney -->
+                                <Label Grid.Row="2" Grid.Column="0" Text="Tourn.:" VerticalTextAlignment="Center"/>
+                                <Label Grid.Row="2" Grid.Column="1" Text="{Binding TournamentCount}" VerticalTextAlignment="Center"/>
+
+                                <!-- Raid Tickets -->
+                                <Label Grid.Row="2" Grid.Column="2" Text="Tickets/Total:" VerticalTextAlignment="Center"/>
+                                <Label Grid.Row="2" Grid.Column="3" Text="{Binding RaidTicketsCollected}" VerticalTextAlignment="Center"/>
+
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>

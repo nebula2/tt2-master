@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             x:Class="TT2Master.InfoPage"
+             Title="{Binding Title}"
+            >
+
+    <ContentPage.Resources>
+        <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter"/>
+    </ContentPage.Resources>
+
+    <!-- Info Entries -->
+    <ListView  SeparatorVisibility="None" BackgroundColor="Transparent" 
+                          ItemsSource="{Binding InfoList}" HasUnevenRows="True"
+                          SelectionMode="None" CachingStrategy="RetainElement">
+        <ListView.Behaviors>
+            <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding NavigateCommand}" Converter="{StaticResource ItemTappedConverter}"/>
+        </ListView.Behaviors>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Frame Margin="5" BackgroundColor="{StaticResource FrameBackground}">
+                        <Label Text="{Binding Title}"/>
+                    </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

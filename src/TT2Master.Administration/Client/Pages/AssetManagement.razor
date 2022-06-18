@@ -1,0 +1,49 @@
+@page "/assetmanagement"
+@using TT2MasterAdministrationApp.Shared
+@inject HttpClient Http
+@inject NavigationManager  NavigationManager
+
+<h1>Asset management</h1>
+
+@if (containers == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Reference</th>
+                <th>Latest version</th>
+                <th>Items</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in containers)
+            {
+                <tr @onclick="@(e => NavigateToContainer(@item.ContainerReference))">
+                    <td>@item.ContainerReference</td>
+                    <td>@item.LatestVersion</td>
+                    <td>@item.ItemsCount</td>
+                    <td>@item.ContainerType</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private AssetContainer[] containers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        containers = await Http.GetFromJsonAsync<AssetContainer[]>("Asset");
+    }
+
+    private void NavigateToContainer(string reference)
+    {
+        NavigationManager.NavigateTo("/assetcontainerdetail/" + reference);
+    }
+}

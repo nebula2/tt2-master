@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Frame xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:dashboard="clr-namespace:TT2Master.Model.Dashboard" 
+       x:Class="TT2Master.Views.Dashboard.DashboardShortcutViewCell"
+       x:DataType="dashboard:DashboardShortcut"
+       CornerRadius="4"
+       HeightRequest="52"
+       WidthRequest="100"
+       Margin="4"
+       Padding="2"
+       HasShadow="True"
+       BorderColor="Gray"
+       BackgroundColor="Transparent">
+    <Grid BackgroundColor="{StaticResource OptimizerLevelFrameColor}">
+        <StackLayout>
+            <Label HorizontalOptions="Center" Margin="2, 2, 2, 0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="{Binding Icon}"
+                                  FontFamily="{StaticResource FontAwesome}" 
+                                  TextColor="{Binding TextColor}" />
+                            <Span Text=" " />
+                            <Span Text="{Binding Header}" 
+                                  TextColor="{Binding TextColor}" 
+                                  FontSize="Small" />
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label HorizontalOptions="Center" Margin="2, 0, 2, 2"
+                   Text="{Binding Content, FallbackValue=[Loading...], TargetNullValue=?}"
+                   FontSize="Medium"
+                   TextColor="{Binding TextColor}" />
+        </StackLayout>
+
+        <Button BackgroundColor="Transparent" 
+                Margin="0" 
+                Padding="0"
+                BorderColor="{StaticResource OptimizerLevelFrameColor}" 
+                Command="{Binding ItemTappedAction}"
+                BorderWidth="1" 
+                BorderRadius="4">
+        </Button>
+    </Grid>
+</Frame>

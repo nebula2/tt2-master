@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <!-- Header aligned to TOP -->
+  <RelativeLayout
+    android:id="@+id/header_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="#d85511"
+    >
+
+    <!-- App Logo -->
+    <ImageView 
+      android:id="@+id/logo"
+      android:src="@drawable/logo_clean"
+      android:layout_marginTop="8dp"
+      android:layout_marginLeft="4dp"
+      android:layout_marginRight="4dp"
+      android:layout_width="25dp"
+      android:layout_height="30dp"
+      android:adjustViewBounds="true"
+      />
+
+  <!-- App Name -->
+    <TextView
+      android:id="@+id/appname"
+      android:textColor="#ffffff"
+      android:text="@string/app_name"
+      android:textSize="30sp"
+      android:layout_toRightOf="@id/logo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+    
+  <!-- Reload Button -->
+  <ImageButton
+      android:id="@+id/reload"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:scaleType="fitCenter"
+      android:adjustViewBounds="true"
+      android:layout_toRightOf="@id/appname"
+      android:layout_alignParentRight="true"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:src="@drawable/reload_icon" 
+      android:background="@android:color/transparent"/>
+    
+  </RelativeLayout>
+
+  <!-- Footer aligned to BOTTOM -->
+  <RelativeLayout
+  android:id="@+id/footer_layout"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_alignParentBottom="true"
+  >
+
+    <!-- Last updated... -->
+    <TextView
+      android:id="@+id/last_update"
+      android:layout_marginBottom="4dp"
+      android:layout_marginLeft="4dp"
+      android:layout_marginRight="4dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="#000000"
+      android:text="@string/last_updateText"
+      android:textSize="15sp" />
+  </RelativeLayout>
+
+  <!-- Content -->
+  <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_above="@id/footer_layout"
+    android:layout_below="@id/header_layout"
+    >
+    
+    <!-- List Content -->
+    <ListView
+      android:id="@+id/list1"
+      android:layout_marginBottom="4dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#fafafa"/>
+    
+  </RelativeLayout>
+</RelativeLayout>

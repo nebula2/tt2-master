@@ -1,0 +1,101 @@
+[
+    {
+        "ID": "y6x9pxb",
+        "rank": 1,
+        "name": "Kalle Koksnase",
+        "stage": 90001,
+        "flag": "AT",
+        "avatarID": "AvatarUndisputed4",
+        "honour": 0,
+        "undisputed_count": 25,
+        "highlight_player": false
+    },
+    {
+        "ID": "7qy6r8",
+        "rank": 2,
+        "name": "[UNION] Ole",
+        "stage": 89473,
+        "flag": "DE",
+        "avatarID": "AvatarMilestones80",
+        "honour": 0,
+        "undisputed_count": 27,
+        "highlight_player": true
+    },
+    {
+        "ID": "6g97652",
+        "rank": 3,
+        "name": "L\\\\u00e6derMester",
+        "stage": 88793,
+        "flag": "DK",
+        "avatarID": "Avatar24",
+        "honour": 0,
+        "undisputed_count": 18,
+        "highlight_player": false
+    },
+    {
+        "ID": "8g7d9mp",
+        "rank": 4,
+        "name": "[RB] \\\\u4ec1\\\\u4ee8\\\\u4ec0\\\\u2edc\\\\u2ed3\\\\u4e39",
+        "stage": 88773,
+        "flag": "RU",
+        "avatarID": "Avatar11",
+        "honour": 0,
+        "undisputed_count": 23,
+        "highlight_player": false
+    },
+    {
+        "ID": "pm37ypd",
+        "rank": 5,
+        "name": "Bandoh",
+        "stage": 88590,
+        "flag": "UX",
+        "avatarID": "AvatarMilestones80",
+        "honour": 0,
+        "undisputed_count": 22,
+        "highlight_player": false
+    },
+    {
+        "ID": "pd7bk3y",
+        "rank": 6,
+        "name": "oppy",
+        "stage": 88520,
+        "flag": "GB",
+        "avatarID": "AvatarHolidayHalloween2020",
+        "honour": 0,
+        "undisputed_count": 18,
+        "highlight_player": false
+    },
+    {
+        "ID": "e2e9pm",
+        "rank": 7,
+        "name": "Tonko the Vulgar",
+        "stage": 88475,
+        "flag": "UX",
+        "avatarID": "AvatarHolidaySummer2020",
+        "honour": 0,
+        "undisputed_count": 13,
+        "highlight_player": false
+    },
+    {
+        "ID": "59n8bm7",
+        "rank": 8,
+        "name": "this guy",
+        "stage": 88292,
+        "flag": "US",
+        "avatarID": "AvatarUndisputed4",
+        "honour": 0,
+        "undisputed_count": 25,
+        "highlight_player": false
+    },
+    {
+        "ID": "nygxgd4",
+        "rank": 9,
+        "name": "\\\\u6797\\\\u5fc3\\\\u5982\\\\u5200\\\\u5272\\\\u6211",
+        "stage": 88085,
+        "flag": "CN",
+        "avatarID": "Avatar5",
+        "honour": 0,
+        "undisputed_count": 26,
+        "highlight_player": false
+    }
+]

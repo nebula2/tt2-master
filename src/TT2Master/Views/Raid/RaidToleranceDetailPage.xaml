@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             mc:Ignorable="d"
+             x:Class="TT2Master.Views.Raid.RaidToleranceDetailPage"
+             Title="{Binding Title}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:IntEnumConverter x:Key="IntEnum"/>
+            <converter:DoubleValueConverter x:Key="DoubleConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Save" Command="{Binding SaveCommand}"  Icon="save_icon" />
+    </ContentPage.ToolbarItems>
+    
+    <ScrollView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Name -->
+            <Label Grid.Row="0" Grid.Column="0" 
+                   Text="{x:Static resource:AppResources.NameHeader}" 
+                   VerticalTextAlignment="Center"/>
+            <Entry Grid.Row="0" Grid.Column="1" 
+                   Text="{Binding SelectedConfig.Name}" 
+                   IsEnabled="{Binding IsNameEditable}"/>
+
+            <!-- Description -->
+            <Label Grid.Row="1" Grid.Column="0" 
+                   Text="{x:Static resource:AppResources.Description}" 
+                   VerticalTextAlignment="Center"/>
+            <Editor Grid.Row="1" Grid.Column="1" 
+                    Text="{Binding SelectedConfig.Description}"/>
+
+            <!-- Max overkill description -->
+            <Label Grid.Row="2" Grid.ColumnSpan="2" 
+                   Text="{x:Static resource:AppResources.MaxOverkillDescription}"
+                   VerticalTextAlignment="Center"/>
+            
+            <!-- Max overkill type -->
+            <Label  Grid.Row="3" Grid.Column="0" 
+                    Text="{x:Static resource:AppResources.Type}" 
+                    VerticalTextAlignment="Center"/>
+            <Picker Grid.Row="3" Grid.Column="1" 
+                    VerticalOptions="Center" 
+                    ItemsSource="{Binding OverkillCalculationTypes}" 
+                    SelectedIndex="{Binding SelectedConfig.OverkillType, Converter={StaticResource IntEnum}, Mode=TwoWay}" />
+
+            <!-- Max overkill tolerance -->
+            <Label Grid.Row="4" Grid.Column="0" 
+                   Text="{x:Static resource:AppResources.Value}"
+                   VerticalTextAlignment="Center"/>
+            <Entry Grid.Row="4" Grid.Column="1" 
+                   Text="{Binding SelectedConfig.OverkillTolerance, Converter={StaticResource DoubleConverter}, Mode=TwoWay}" 
+                   Keyboard="Numeric"/>
+
+            <!-- Min attack amount description -->
+            <Label Grid.Row="5" Grid.ColumnSpan="2" 
+                   Text="{x:Static resource:AppResources.MinAttackAmountDescription}"
+                   VerticalTextAlignment="Center"/>
+            
+            <!-- Min attack amount type -->
+            <Label  Grid.Row="6" Grid.Column="0" 
+                    Text="{x:Static resource:AppResources.Type}" 
+                    VerticalTextAlignment="Center"/>
+            <Picker Grid.Row="6" Grid.Column="1" 
+                    VerticalOptions="Center" 
+                    ItemsSource="{Binding AmountCalculationTypes}" 
+                    SelectedIndex="{Binding SelectedConfig.AmountType, Converter={StaticResource IntEnum}, Mode=TwoWay}" />
+
+            <!-- information text for capped value -->
+            <Label Grid.Row="7" Grid.Column="1"
+                   Text="{x:Static resource:AppResources.ValueIsCappedAtTwoPercent}"
+                   VerticalOptions="Center" 
+                   IsVisible="{Binding IsPercentageCapVisisble}"/>
+
+            <!-- information text for capped value -->
+            <Label Grid.Row="7" Grid.Column="1"
+                   Text="{x:Static resource:AppResources.WaveToleranceInfotext}"
+                   VerticalOptions="Center" 
+                   IsVisible="{Binding IsWaveInfoTextVisisble}"/>
+
+            <!-- information text for absolute value -->
+            <Label Grid.Row="7" Grid.Column="1"
+                   Text="{x:Static resource:AppResources.AbsoluteAttackToleranceInfotext}"
+                   VerticalOptions="Center" 
+                   IsVisible="{Binding IsAbsoluteAttackVisisble}"/>
+
+            <!-- Min attack amount tolerance -->
+            <Label Grid.Row="8" Grid.Column="0" 
+                   Text="{x:Static resource:AppResources.Value}"
+                   VerticalTextAlignment="Center"/>
+            <Entry Grid.Row="8" Grid.Column="1" 
+                   Text="{Binding SelectedConfig.AmountTolerance, Converter={StaticResource DoubleConverter}, Mode=TwoWay}"
+                   Keyboard="Numeric"/>
+
+            <!-- Average damage description -->
+            <Label Grid.Row="9" Grid.ColumnSpan="2" 
+                   Text="{x:Static resource:AppResources.AverageDamageDescription}"
+                   VerticalTextAlignment="Center"/>
+
+            <!-- Average damage type -->
+            <Label  Grid.Row="10" Grid.Column="0" 
+                    Text="{x:Static resource:AppResources.Type}" 
+                    VerticalTextAlignment="Center"/>
+            <Picker Grid.Row="10" Grid.Column="1" 
+                    VerticalOptions="Center" 
+                    ItemsSource="{Binding AverageCalculationTypes}" 
+                    SelectedIndex="{Binding SelectedConfig.AverageType, Converter={StaticResource IntEnum}, Mode=TwoWay}" />
+
+            <!-- Average damage tolerance -->
+            <Label Grid.Row="11" Grid.Column="0" 
+                   Text="{x:Static resource:AppResources.Value}"
+                   VerticalTextAlignment="Center"/>
+            <Entry Grid.Row="11" Grid.Column="1" 
+                   Text="{Binding SelectedConfig.AverageTolerance, Converter={StaticResource DoubleConverter}, Mode=TwoWay}"
+                   Keyboard="Numeric"/>
+        </Grid>
+    </ScrollView>
+</ContentPage>

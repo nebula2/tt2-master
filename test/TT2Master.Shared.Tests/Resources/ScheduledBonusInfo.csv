@@ -1,0 +1,5 @@
+BonusType,BonusAmount,MaximumPrestigesFree,MaximumPrestigesPaid,MaximumPrestigesVIP,PreviewStartDate,StartDate,DurationDays,EndDateNoTime,StartDateNoTime,Note
+OnlyPrestigeRelic,2.00,16,24,32,2020-11-24T00:00:00Z,2020-11-28T00:00:00Z,3,2020-12-01,2020-11-28,increases relics earned on prestige
+,,,,,,,,,,"""AmountA"" is for non-paying players"
+,,,,,,,,,,"""AmountB"" is for paying players"
+,,,,,,,,,,"""AmountC"" is for vip players"

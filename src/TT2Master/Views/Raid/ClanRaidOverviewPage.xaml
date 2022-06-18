@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:TT2Master"
+             xmlns:resource="clr-namespace:TT2Master.Resources" 
+             xmlns:raid="clr-namespace:TT2Master.ViewModels.Raid" xmlns:raid1="clr-namespace:TT2Master.Model.Raid"
+             x:DataType="raid:ClanRaidOverviewViewModel"
+             mc:Ignorable="d"
+             x:Class="TT2Master.Views.Raid.ClanRaidOverviewPage"
+             x:Name="rootPage"
+             Title="{Binding Title}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Add" Command="{Binding AddCommand}" Icon="add_icon"/>
+    </ContentPage.ToolbarItems>
+
+    <!-- Items -->
+    <ListView CachingStrategy="RetainElement" 
+              ItemsSource="{Binding Items}" 
+              HasUnevenRows="True" 
+              SelectionMode="None"
+              BackgroundColor="Transparent">
+
+        <ListView.Behaviors>
+            <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EditCommand}" Converter="{StaticResource ItemTappedConverter}" />
+        </ListView.Behaviors>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.ContextActions>
+                        <MenuItem Text="{x:Static resource:AppResources.DeleteText}" 
+                                  Command="{Binding Source={x:Reference rootPage}, Path=BindingContext.DeleteCommand}" 
+                                  CommandParameter="{Binding .}"/>
+                    </ViewCell.ContextActions>
+                    
+                    <Frame OutlineColor="{StaticResource ForegroundDark}" 
+                           BackgroundColor="{StaticResource FrameBackground}" 
+                           Margin="5"
+                           x:DataType="raid1:ClanRaid">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            
+                            <Label Grid.Row="0">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <Span Text="{Binding ID, StringFormat='ID: {0} /'}" />
+                                            <!-- Enemy -->
+                                            <Span Text="{Binding Tier}" />
+                                            <Span Text=" - " />
+                                            <!-- Name -->
+                                            <Span Text="{Binding Level}" />
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label Grid.Row="1" Text="{Binding Description}" />
+                        </Grid>
+                    </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

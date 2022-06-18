@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:TT2Master"
+            xmlns:resource="clr-namespace:TT2Master.Resources"
+            x:Class="TT2Master.Views.Equip.CraftingAdvisorPage"
+            Title="{Binding Title}">
+
+    <ContentPage.Resources>
+        <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter"/>
+
+        <Style TargetType="ListView">
+            <Setter Property="BackgroundColor" Value="Transparent" />
+            <Setter Property="HasUnevenRows" Value="True" />
+            <Setter Property="SelectionMode" Value="None" />
+            <Setter Property="Margin" Value="2" />
+        </Style>
+
+        <Style TargetType="Frame">
+            <Setter Property="Margin" Value="5" />
+        </Style>
+
+        <DataTemplate x:Key="itemTemplate">
+            <ViewCell>
+                <Frame BorderColor="{Binding RarityColor}" BackgroundColor="Transparent">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <!-- Name -->
+                            <ColumnDefinition Width="*" />
+                            <!-- Level -->
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <!-- Description -->
+                        <Label Grid.Column="0" Text="{Binding Name}" TextColor="{Binding RarityColor}" FontAttributes="Bold"/>
+
+                        <!-- Primary Boost and pure boost eff -->
+                        <Label Grid.Row="1" Grid.Column="0" Text="{Binding BonusTypeDisplay}"/>
+                        <Label Grid.Row="1" Grid.Column="1" Text="{Binding PrimaryBonusEff, StringFormat='Eff. {0:#.###e+00}'}"/>
+
+                        <!-- Set -->
+                        <Label Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.EquipmentSet}"/>
+                        <Label Grid.Row="2" Grid.Column="1" Text="{Binding EquipmentSet}"/>
+                    </Grid>
+                </Frame>
+            </ViewCell>
+        </DataTemplate>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0"
+               VerticalTextAlignment="Center"
+               Text="{x:Static resource:AppResources.CategoryHeader}" />
+
+        <Picker Grid.Row="0" Grid.Column="1" 
+                        VerticalOptions="Center" 
+                        ItemsSource="{Binding EquipCategories}" 
+                        SelectedItem="{Binding CategoryChoice, Mode=TwoWay}"/>
+
+        <Label  Grid.Row="1" Grid.Column="0"
+                VerticalTextAlignment="Center"
+               Text="{x:Static resource:AppResources.BoostType}" />
+
+        <Picker Grid.Row="1" Grid.Column="1" 
+                        VerticalOptions="Center" 
+                        ItemsSource="{Binding BoostTypes}" 
+                        SelectedItem="{Binding BoostChoice, Mode=TwoWay}"/>
+        
+        <ListView Grid.ColumnSpan="2" Grid.Row="2"
+            CachingStrategy="RetainElement" 
+            ItemsSource="{Binding FilteredEquipment}" 
+            ItemTemplate="{StaticResource itemTemplate}"
+            IsRefreshing="{Binding IsRefreshing}">
+        </ListView>
+    </Grid>
+    
+
+</ContentPage>

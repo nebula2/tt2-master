@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+             x:Class="TT2Master.ArtifactOverviewPage"
+             Title="{Binding Title}"
+             >
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:IntEnumConverter x:Key="IntEnum"/>
+            <converter:CoinStringConverter x:Key="CoinStr" />
+            <converter:ArtPercentageConverter x:Key="ArtPerc" />
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ListView CachingStrategy="RetainElement" 
+              Margin="2" 
+              ItemsSource="{Binding OptimizeList}" 
+              HasUnevenRows="True" 
+              SelectionMode="None" 
+              BackgroundColor="Transparent">
+
+        <ListView.Behaviors>
+            <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EnterDetailCommand}" Converter="{StaticResource ItemTappedConverter}" />
+        </ListView.Behaviors>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                <Frame Margin="4" BackgroundColor="{StaticResource FrameBackground}">
+                    <Grid HorizontalOptions="FillAndExpand"
+                          ColumnDefinitions="50, *">
+
+                        <!-- Artifact Image -->
+                        <Image Grid.Column="0" Source="{Binding ImagePath}" WidthRequest="50" HeightRequest="50" />
+
+                        <!-- Artifact Text -->
+                        <Grid Grid.Column="1" RowDefinitions="*, *">
+
+                            <!-- Name -->
+                            <Label Grid.Row="0" Text="{Binding Name}" FontAttributes="Bold"/>
+
+                            <Label Grid.Row="1">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <!-- Current Level -->
+                                            <Span Text="{Binding Level, StringFormat='Lvl: {0}', FallbackValue='0', Converter={StaticResource CoinStr}}" />
+                                            <Span Text=" " />
+                                            <!-- Current Percentage -->
+                                            <Span Text="{Binding CurrPercentage, FallbackValue='0', StringFormat='({0} %)'}" />
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Grid>
+                    </Grid>
+                    </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

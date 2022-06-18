@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="1"
+    >
+
+  <!-- Header -->
+  <TextView
+    android:id="@+id/header"
+    android:text="Header"
+    android:layout_marginLeft="6dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_row="0"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    />
+
+  <!-- Info -->
+  <TextView
+      android:id="@+id/content"
+      android:text="Content"
+      android:layout_marginLeft="6dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_row="1"
+      android:textSize="12sp"
+      android:textColor="#000000"
+      />
+</GridLayout>

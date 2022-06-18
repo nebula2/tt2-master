@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{528BB7A4-1806-486E-BE4C-28219CA17913}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TT2Master.Droid</RootNamespace>
+    <AssemblyName>TT2Master.Android</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize />
+    <JavaOptions />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <EnableLLVM>false</EnableLLVM>
+    <BundleAssemblies>false</BundleAssemblies>
+    <AndroidSupportedAbis />
+    <MandroidI18n />
+    <AndroidSigningKeyAlias>
+    </AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>
+    </AndroidSigningKeyPass>
+    <AndroidUseAapt2>true</AndroidUseAapt2>
+    <AndroidCreatePackagePerAbi>false</AndroidCreatePackagePerAbi>
+    <AndroidDexTool>d8</AndroidDexTool>
+    <EmbedAssembliesIntoApk>false</EmbedAssembliesIntoApk>
+    <AotAssemblies>false</AotAssemblies>
+    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <AndroidUseSharedRuntime>true</AndroidUseSharedRuntime>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <AndroidCreatePackagePerAbi>true</AndroidCreatePackagePerAbi>
+    <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <AotAssemblies>false</AotAssemblies>
+    <AndroidAotAdditionalArguments>no-write-symbols,nodebug</AndroidAotAdditionalArguments>
+    <DebugSymbols>false</DebugSymbols>
+    <BundleAssemblies>false</BundleAssemblies>
+    <Debugger>Xamarin</Debugger>
+    <AndroidEnableMultipleDex>true</AndroidEnableMultipleDex>
+    <AndroidExplicitCrunch>false</AndroidExplicitCrunch>
+    <AndroidEnableProfiledAot>true</AndroidEnableProfiledAot>
+    <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
+    <AndroidSupportedAbis>armeabi-v7a;x86;x86_64;arm64-v8a</AndroidSupportedAbis>
+    <EnableLLVM>false</EnableLLVM>
+    <AndroidUseAapt2>true</AndroidUseAapt2>
+    <AndroidDexTool>d8</AndroidDexTool>
+    <AndroidPackageFormat>aab</AndroidPackageFormat>
+    <LangVersion>8.0</LangVersion>
+    <AndroidLinkSkip>Plugin.InAppBilling;Xamarin.Android.Google.BillingClient;</AndroidLinkSkip>
+    <!--<DebugType>pdbonly</DebugType>-->
+    <!--<AndroidManagedSymbols>true</AndroidManagedSymbols>-->
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'APKRelease|AnyCPU'">
+    <OutputPath>bin\APKRelease\</OutputPath>
+    <DebugType>portable</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <LangVersion>8.0</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <AndroidEnableProfiledAot>true</AndroidEnableProfiledAot>
+    <BundleAssemblies>false</BundleAssemblies>
+    <AndroidPackageFormat>apk</AndroidPackageFormat>
+    <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <AndroidCreatePackagePerAbi>true</AndroidCreatePackagePerAbi>
+    <AndroidUseAapt2>true</AndroidUseAapt2>
+    <AndroidDexTool>d8</AndroidDexTool>
+    <AndroidSupportedAbis>armeabi-v7a;x86;x86_64;arm64-v8a</AndroidSupportedAbis>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="GoogleGson" Version="2.8.6" />
+    <PackageReference Include="IdentityModel.OidcClient" Version="4.0.0" />
+    <PackageReference Include="Microcharts" Version="0.9.5.9" />
+    <PackageReference Include="Microcharts.Forms" Version="0.9.5.9" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.3.0" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="4.3.0" />
+    <PackageReference Include="Plugin.CurrentActivity" Version="2.1.0.4" />
+    <PackageReference Include="Plugin.LocalNotification" Version="5.2.0" />
+    <PackageReference Include="Prism.Plugin.Popups" Version="8.0.76" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="2.80.3" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="Xam.Plugin.Connectivity" Version="4.0.0.190-beta" />
+    <PackageReference Include="Xam.Plugin.HtmlLabel" Version="5.0.0" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="4.0.0.7" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat.AppCompatResources" Version="1.2.0.7" />
+    <PackageReference Include="Xamarin.AndroidX.Core" Version="1.3.2.3" />
+    <PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.1.0.8" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2083" />
+    <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.Interpolator" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.Annotations" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.Core.UI" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.Collections" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.Compat" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.v4" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="28.0.0.3" />
+    <PackageReference Include="Prism.DryIoc.Forms" Version="8.1.97" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Basement" Version="117.6.0.1" />
+    <PackageReference Include="Xamarin.Plugins.Clipboard" Version="2.3.0" />
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.2.0.4" />
+    <PackageReference Include="Xamarin.AndroidX.ConstraintLayout" Version="2.0.4.2" />
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.2.1.1" />
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.7" />
+    <PackageReference Include="Xamarin.AndroidX.MediaRouter" Version="1.2.4" />
+    <PackageReference Include="Xamarin.AndroidX.Palette" Version="1.0.0.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Automation\AutomationService.cs" />
+    <Compile Include="Automation\SnapshotExport.cs" />
+    <Compile Include="ChromeCustomTabsBrowser.cs" />
+    <Compile Include="Converter\TypeConverter.cs" />
+    <Compile Include="FilePicker\FilePickerActivity.cs" />
+    <Compile Include="FilePicker\FilePickerImplementation.cs" />
+    <Compile Include="FilePicker\IOUtil.cs" />
+    <Compile Include="Helper\WindowModeHelper.cs" />
+    <Compile Include="Helper\AskForAttPermissionHelper.cs" />
+    <Compile Include="Helper\ClanAutoExportHelper.cs" />
+    <Compile Include="Helper\CloseApplicationHelper.cs" />
+    <Compile Include="Helper\ClientOSVersionHelper.cs" />
+    <Compile Include="Helper\InstallationSourceHelper.cs" />
+    <Compile Include="Helper\MediationTestHelper.cs" />
+    <Compile Include="Helper\PhotoLibraryHelper.cs" />
+    <Compile Include="Helper\BitmapResourceHelper.cs" />
+    <Compile Include="Helper\AutomationServiceHelper.cs" />
+    <Compile Include="Helper\SendLogfileHelper.cs" />
+    <Compile Include="Helper\ScreenshotHelper.cs" />
+    <Compile Include="Extensions\ForegroundServiceStarter.cs" />
+    <Compile Include="Helper\NotificationHelper.cs" />
+    <Compile Include="Helper\MessageHelper.cs" />
+    <Compile Include="Helper\DBPathHelper.cs" />
+    <Compile Include="Helper\DirectoryHelper.cs" />
+    <Compile Include="Helper\TapTitansPathHelper.cs" />
+    <Compile Include="Helper\UriToPath.cs" />
+    <Compile Include="Loggers\AutoServiceLogger.cs" />
+    <Compile Include="Loggers\BaseAndroidLogger.cs" />
+    <Compile Include="Loggers\ClanExportLogger.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="OidcCallbackActivity.cs" />
+    <Compile Include="Renderers\AdInterstitialDroid.cs" />
+    <Compile Include="Renderers\CustomProgressbarRenderer.cs" />
+    <Compile Include="Renderers\CustomPickerRenderer.cs" />
+    <Compile Include="Renderers\CustomEntryRenderer.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Widget\ListProvider\NoLoadListProvider.cs" />
+    <Compile Include="Widget\Services\TourneyWidgetNoLoadService.cs" />
+    <Compile Include="Widget\ListProvider\NextTourneyListProvider.cs" />
+    <Compile Include="Widget\ListProvider\TournamentListProvider.cs" />
+    <Compile Include="Widget\StageLogic\Stage.cs" />
+    <Compile Include="Widget\Tournament\TT2IntentReceiver.cs" />
+    <Compile Include="Widget\Tournament\NextTournament.cs" />
+    <Compile Include="Widget\Tournament\Test\TournamentMemberTestResult.cs" />
+    <Compile Include="Widget\Tournament\TournamentInfo.cs" />
+    <Compile Include="Widget\Tournament\TournamentMember.cs" />
+    <Compile Include="Widget\Tournament\TournamentModel.cs" />
+    <Compile Include="Widget\Tournament\TourneyWidgetNoLoad.cs" />
+    <Compile Include="Widget\TT2Widget.cs" />
+    <Compile Include="Widget\Services\NextTourneyService.cs" />
+    <Compile Include="Widget\Services\RunningTournamentService.cs" />
+    <Compile Include="Widget\WidgetLogger.cs" />
+    <Compile Include="Extensions\JobSchedulerHelpers.cs" />
+    <Compile Include="Automation\SnapshotExportJob.cs" />
+    <Compile Include="Automation\SnapshotExportReceiver.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\fontawesomeWebfont.ttf" />
+    <AndroidAsset Include="Assets\fa-solid-900.ttf" />
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\drawable\bg_shadow.webp" />
+    <AndroidResource Include="Resources\drawable\howto_customCats_2.webp" />
+    <AndroidResource Include="Resources\drawable\howto_customCats_3.webp" />
+    <AndroidResource Include="Resources\drawable\howto_editBuild_1.webp" />
+    <AndroidResource Include="Resources\drawable\howto_editBuild_3.webp" />
+    <AndroidResource Include="Resources\drawable\howto_optimizer_2.webp" />
+    <AndroidResource Include="Resources\drawable\howto_optimizer_3.webp" />
+    <AndroidResource Include="Resources\drawable\howto_optimizer_4.webp" />
+    <AndroidResource Include="Resources\drawable\howto_spfollow_1.webp" />
+    <AndroidResource Include="Resources\drawable\howto_statistics_1.webp" />
+    <AndroidResource Include="Resources\drawable\howto_statistics_2.webp" />
+    <AndroidResource Include="Resources\drawable\howto_statistics_3.webp" />
+    <AndroidResource Include="Resources\drawable\howtoBuildImport_1.webp" />
+    <AndroidResource Include="Resources\drawable\howtoBuildImport_2.webp" />
+    <AndroidResource Include="Resources\drawable\LPA.webp" />
+    <AndroidResource Include="Resources\drawable\widget_outtaTourney.webp" />
+    <AndroidResource Include="Resources\drawable\widget_pic.webp" />
+    <AndroidResource Include="Resources\drawable\widgetPreview.webp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\styles.xml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Tabbar.axml" />
+    <AndroidResource Include="Resources\layout\Toolbar.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TT2Master.Shared\TT2Master.Shared.csproj">
+      <Project>{3ac7f1be-b761-454d-ae0d-c1c5780bf2e1}</Project>
+      <Name>TT2Master.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TT2Master\TT2Master.csproj">
+      <Project>{A682884C-CB44-4A89-B752-27BB634E0ABE}</Project>
+      <Name>TT2Master</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\info_row.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\ToolbarLogo.axml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Artifact1.png" />
+    <AndroidResource Include="Resources\drawable\Artifact10.png" />
+    <AndroidResource Include="Resources\drawable\Artifact11.png" />
+    <AndroidResource Include="Resources\drawable\Artifact12.png" />
+    <AndroidResource Include="Resources\drawable\Artifact13.png" />
+    <AndroidResource Include="Resources\drawable\Artifact14.png" />
+    <AndroidResource Include="Resources\drawable\Artifact15.png" />
+    <AndroidResource Include="Resources\drawable\Artifact16.png" />
+    <AndroidResource Include="Resources\drawable\Artifact17.png" />
+    <AndroidResource Include="Resources\drawable\Artifact18.png" />
+    <AndroidResource Include="Resources\drawable\Artifact19.png" />
+    <AndroidResource Include="Resources\drawable\Artifact2.png" />
+    <AndroidResource Include="Resources\drawable\Artifact20.png" />
+    <AndroidResource Include="Resources\drawable\Artifact21.png" />
+    <AndroidResource Include="Resources\drawable\Artifact22.png" />
+    <AndroidResource Include="Resources\drawable\Artifact23.png" />
+    <AndroidResource Include="Resources\drawable\Artifact24.png" />
+    <AndroidResource Include="Resources\drawable\Artifact25.png" />
+    <AndroidResource Include="Resources\drawable\Artifact26.png" />
+    <AndroidResource Include="Resources\drawable\Artifact27.png" />
+    <AndroidResource Include="Resources\drawable\Artifact28.png" />
+    <AndroidResource Include="Resources\drawable\Artifact29.png" />
+    <AndroidResource Include="Resources\drawable\Artifact3.png" />
+    <AndroidResource Include="Resources\drawable\Artifact30.png" />
+    <AndroidResource Include="Resources\drawable\Artifact31.png" />
+    <AndroidResource Include="Resources\drawable\Artifact32.png" />
+    <AndroidResource Include="Resources\drawable\Artifact33.png" />
+    <AndroidResource Include="Resources\drawable\Artifact34.png" />
+    <AndroidResource Include="Resources\drawable\Artifact35.png" />
+    <AndroidResource Include="Resources\drawable\Artifact36.png" />
+    <AndroidResource Include="Resources\drawable\Artifact37.png" />
+    <AndroidResource Include="Resources\drawable\Artifact38.png" />
+    <AndroidResource Include="Resources\drawable\Artifact39.png" />
+    <AndroidResource Include="Resources\drawable\Artifact4.png" />
+    <AndroidResource Include="Resources\drawable\Artifact40.png" />
+    <AndroidResource Include="Resources\drawable\Artifact41.png" />
+    <AndroidResource Include="Resources\drawable\Artifact42.png" />
+    <AndroidResource Include="Resources\drawable\Artifact43.png" />
+    <AndroidResource Include="Resources\drawable\Artifact44.png" />
+    <AndroidResource Include="Resources\drawable\Artifact45.png" />
+    <AndroidResource Include="Resources\drawable\Artifact46.png" />
+    <AndroidResource Include="Resources\drawable\Artifact47.png" />
+    <AndroidResource Include="Resources\drawable\Artifact48.png" />
+    <AndroidResource Include="Resources\drawable\Artifact49.png" />
+    <AndroidResource Include="Resources\drawable\Artifact5.png" />
+    <AndroidResource Include="Resources\drawable\Artifact50.png" />
+    <AndroidResource Include="Resources\drawable\Artifact51.png" />
+    <AndroidResource Include="Resources\drawable\Artifact52.png" />
+    <AndroidResource Include="Resources\drawable\Artifact53.png" />
+    <AndroidResource Include="Resources\drawable\Artifact54.png" />
+    <AndroidResource Include="Resources\drawable\Artifact55.png" />
+    <AndroidResource Include="Resources\drawable\Artifact56.png" />
+    <AndroidResource Include="Resources\drawable\Artifact57.png" />
+    <AndroidResource Include="Resources\drawable\Artifact58.png" />
+    <AndroidResource Include="Resources\drawable\Artifact59.png" />
+    <AndroidResource Include="Resources\drawable\Artifact6.png" />
+    <AndroidResource Include="Resources\drawable\Artifact60.png" />
+    <AndroidResource Include="Resources\drawable\Artifact61.png" />
+    <AndroidResource Include="Resources\drawable\Artifact62.png" />
+    <AndroidResource Include="Resources\drawable\Artifact63.png" />
+    <AndroidResource Include="Resources\drawable\Artifact64.png" />
+    <AndroidResource Include="Resources\drawable\Artifact65.png" />
+    <AndroidResource Include="Resources\drawable\Artifact66.png" />
+    <AndroidResource Include="Resources\drawable\Artifact67.png" />
+    <AndroidResource Include="Resources\drawable\Artifact68.png" />
+    <AndroidResource Include="Resources\drawable\Artifact69.png" />
+    <AndroidResource Include="Resources\drawable\Artifact7.png" />
+    <AndroidResource Include="Resources\drawable\Artifact70.png" />
+    <AndroidResource Include="Resources\drawable\Artifact8.png" />
+    <AndroidResource Include="Resources\drawable\Artifact9.png" />
+    <AndroidResource Include="Resources\drawable\Artifact71.png" />
+    <AndroidResource Include="Resources\drawable\Artifact72.png" />
+    <AndroidResource Include="Resources\drawable\Artifact73.png" />
+    <AndroidResource Include="Resources\drawable\reload_icon.png" />
+    <AndroidResource Include="Resources\drawable\add_icon.png" />
+    <AndroidResource Include="Resources\drawable\edit_icon.png" />
+    <AndroidResource Include="Resources\drawable\delete_icon.png" />
+    <AndroidResource Include="Resources\drawable\save_icon.png" />
+    <AndroidResource Include="Resources\drawable\copy_icon.png" />
+    <AndroidResource Include="Resources\drawable\export_icon.png" />
+    <AndroidResource Include="Resources\drawable\import_icon.png" />
+    <AndroidResource Include="Resources\drawable\tt2masterIcon.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\tt2masterIcon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\tt2masterIcon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\tt2masterIcon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\tt2masterIcon.png" />
+    <AndroidResource Include="Resources\drawable\info_icon.png" />
+    <AndroidResource Include="Resources\drawable\Artifact74.PNG" />
+    <AndroidResource Include="Resources\drawable\Artifact75.PNG" />
+    <AndroidResource Include="Resources\drawable\Artifact76.PNG" />
+    <AndroidResource Include="Resources\drawable\Artifact77.PNG" />
+    <AndroidResource Include="Resources\drawable\Artifact78.PNG" />
+    <AndroidResource Include="Resources\drawable\AllHelperDmg.png" />
+    <AndroidResource Include="Resources\drawable\AutoAdvance.png" />
+    <AndroidResource Include="Resources\drawable\BossDmgQTE.png" />
+    <AndroidResource Include="Resources\drawable\BossTimer.png" />
+    <AndroidResource Include="Resources\drawable\BurstSkillBoost.png" />
+    <AndroidResource Include="Resources\drawable\ChestGold.png" />
+    <AndroidResource Include="Resources\drawable\ClanQTE.png" />
+    <AndroidResource Include="Resources\drawable\ClanShipDmg.png" />
+    <AndroidResource Include="Resources\drawable\ClanShipStun.png" />
+    <AndroidResource Include="Resources\drawable\CloneDmg.png" />
+    <AndroidResource Include="Resources\drawable\CloneSkillBoost.png" />
+    <AndroidResource Include="Resources\drawable\CritSkillBoost.png" />
+    <AndroidResource Include="Resources\drawable\CritSkillBoostDmg.png" />
+    <AndroidResource Include="Resources\drawable\Fairy.png" />
+    <AndroidResource Include="Resources\drawable\FireTapSkillBoost.png" />
+    <AndroidResource Include="Resources\drawable\Frenzy.png" />
+    <AndroidResource Include="Resources\drawable\HeavyStrikes.png" />
+    <AndroidResource Include="Resources\drawable\HelperBoost.png" />
+    <AndroidResource Include="Resources\drawable\HelperDmgQTE.png" />
+    <AndroidResource Include="Resources\drawable\HelperDmgSkillBoost.png" />
+    <AndroidResource Include="Resources\drawable\InactiveClanShip.png" />
+    <AndroidResource Include="Resources\drawable\ManaMonster.png" />
+    <AndroidResource Include="Resources\drawable\ManaStealSkillBoost.png" />
+    <AndroidResource Include="Resources\drawable\MidasSkillBoost.png" />
+    <AndroidResource Include="Resources\drawable\MPCapacityBoost.png" />
+    <AndroidResource Include="Resources\drawable\MultiMonsters.png" />
+    <AndroidResource Include="Resources\drawable\OfflineCloneDmg.png" />
+    <AndroidResource Include="Resources\drawable\OfflineGold.png" />
+    <AndroidResource Include="Resources\drawable\PetDmg.png" />
+    <AndroidResource Include="Resources\drawable\PetGoldQTE.png" />
+    <AndroidResource Include="Resources\drawable\BurstBoost.PNG" />
+    <AndroidResource Include="Resources\drawable\BurstCount.PNG" />
+    <AndroidResource Include="Resources\drawable\DecayingAttack.PNG" />
+    <AndroidResource Include="Resources\drawable\Disease.PNG" />
+    <AndroidResource Include="Resources\drawable\ExecutionersAxe.PNG" />
+    <AndroidResource Include="Resources\drawable\FinisherAttack.PNG" />
+    <AndroidResource Include="Resources\drawable\Fuse.PNG" />
+    <AndroidResource Include="Resources\drawable\Fragmentize.PNG" />
+    <AndroidResource Include="Resources\drawable\ImpactAttack.PNG" />
+    <AndroidResource Include="Resources\drawable\InnerTruth.PNG" />
+    <AndroidResource Include="Resources\drawable\LimbBurst.PNG" />
+    <AndroidResource Include="Resources\drawable\LimbSupport.PNG" />
+    <AndroidResource Include="Resources\drawable\MentalFocus.PNG" />
+    <AndroidResource Include="Resources\drawable\MoonBeam.PNG" />
+    <AndroidResource Include="Resources\drawable\PlagueAttack.PNG" />
+    <AndroidResource Include="Resources\drawable\PoisonAttack.PNG" />
+    <AndroidResource Include="Resources\drawable\Purify.PNG" />
+    <AndroidResource Include="Resources\drawable\RazorWind.PNG" />
+    <AndroidResource Include="Resources\drawable\Shadow.PNG" />
+    <AndroidResource Include="Resources\drawable\SkullBash.PNG" />
+    <AndroidResource Include="Resources\drawable\SuperheatMetal.PNG" />
+    <AndroidResource Include="Resources\drawable\WhipOfLightning.PNG" />
+    <AndroidResource Include="Resources\drawable\TapDamage.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet1.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet10.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet11.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet12.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet13.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet14.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet15.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet16.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet2.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet3.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet4.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet5.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet6.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet7.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet8.PNG" />
+    <AndroidResource Include="Resources\drawable\Pet9.PNG" />
+    <AndroidResource Include="Resources\drawable\help_icon.png" />
+    <AndroidResource Include="Resources\drawable\TotemFairySkill.png" />
+    <AndroidResource Include="Resources\drawable\Swarm.png" />
+    <AndroidResource Include="Resources\drawable\Pet17.png" />
+    <AndroidResource Include="Resources\drawable\Pet18.png" />
+    <AndroidResource Include="Resources\drawable\Pet19.png" />
+    <AndroidResource Include="Resources\drawable\Pet21.png" />
+    <AndroidResource Include="Resources\drawable\Pet22.png" />
+    <AndroidResource Include="Resources\drawable\Pet23.png" />
+    <AndroidResource Include="Resources\drawable\Pet20.png" />
+    <AndroidResource Include="Resources\drawable\Pet24.png" />
+    <AndroidResource Include="Resources\drawable\Pet25.png" />
+    <AndroidResource Include="Resources\drawable\Pet26.png" />
+    <AndroidResource Include="Resources\drawable\Pet27.png" />
+    <AndroidResource Include="Resources\drawable\Pet28.png" />
+    <AndroidResource Include="Resources\drawable\Pet29.png" />
+    <AndroidResource Include="Resources\drawable\Pet30.png" />
+    <AndroidResource Include="Resources\drawable\warning.png" />
+    <AndroidResource Include="Resources\drawable\new_logo.png" />
+    <AndroidResource Include="Resources\drawable\new_logo_round.png" />
+    <AndroidResource Include="Resources\drawable\logo_clean.png" />
+    <AndroidResource Include="Resources\drawable\Cloaking.png" />
+    <AndroidResource Include="Resources\drawable\ForbiddenContract.png" />
+    <AndroidResource Include="Resources\drawable\GuidedBlade.png" />
+    <AndroidResource Include="Resources\drawable\PoisonedBlade.png" />
+    <AndroidResource Include="Resources\drawable\SoulBlade.png" />
+    <AndroidResource Include="Resources\drawable\StrokeOfLuck.png" />
+    <AndroidResource Include="Resources\drawable\UltraDagger.png" />
+    <AndroidResource Include="Resources\drawable\FlakShot.png" />
+    <AndroidResource Include="Resources\drawable\Haymaker.png" />
+    <AndroidResource Include="Resources\drawable\Artifact96.png" />
+    <AndroidResource Include="Resources\drawable\Artifact97.png" />
+    <AndroidResource Include="Resources\drawable\aspect_icon.png" />
+    <AndroidResource Include="Resources\drawable\report_icon.png" />
+    <AndroidResource Include="Resources\drawable\Terro.png" />
+    <AndroidResource Include="Resources\drawable\Takedar.png" />
+    <AndroidResource Include="Resources\drawable\Sterl.png" />
+    <AndroidResource Include="Resources\drawable\Mohaca.png" />
+    <AndroidResource Include="Resources\drawable\Lojak.png" />
+    <AndroidResource Include="Resources\drawable\Jukk.png" />
+    <AndroidResource Include="Resources\drawable\no.png" />
+    <AndroidResource Include="Resources\drawable\yes.png" />
+    <AndroidResource Include="Resources\drawable\PetOfflineDmg.png" />
+    <AndroidResource Include="Resources\drawable\PetQTE.png" />
+    <AndroidResource Include="Resources\drawable\TapDmg.png" />
+    <AndroidResource Include="Resources\drawable\TapDmgFromHelpers.png" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\mipmap-mdpi\tt2masterIcon.png" />
+    <AndroidResource Include="Resources\mipmap-ldpi\tt2masterIcon.png" />
+    <AndroidResource Include="Resources\layout\list_row.xml" />
+    <AndroidResource Include="Resources\layout\widget_layout.xml" />
+    <AndroidResource Include="Resources\xml\widgetinfo.xml" />
+    <AndroidResource Include="Resources\drawable\notfound.png" />
+    <AndroidResource Include="Resources\drawable\HelperInspiredWeaken.png" />
+    <AndroidResource Include="Resources\drawable\Artifact79.png" />
+    <AndroidResource Include="Resources\drawable\Artifact82.PNG" />
+    <AndroidResource Include="Resources\drawable\Artifact83.PNG" />
+    <AndroidResource Include="Resources\drawable\tt2masterIconSmall.png" />
+    <AndroidResource Include="Resources\drawable\ic_stat_notifications_active.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\reload_icon.png" />
+    <AndroidResource Include="Resources\mipmap-ldpi\reload_icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\reload_icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\reload_icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\reload_icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\reload_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_stat_notifications_active.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\reload_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tt2masterIcon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_stat_notifications_active.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\reload_icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tt2masterIcon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_stat_notifications_active.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\reload_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tt2masterIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_stat_notifications_active.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\reload_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tt2masterIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_stat_notifications_active.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\reload_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\tt2masterIcon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\bg_shadow.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\bg_shadow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\bg_shadow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\bg_shadow.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\bg_shadow.png" />
+    <AndroidResource Include="Resources\values\Colors.xml" />
+    <AndroidResource Include="Resources\drawable\Artifact80.jpg" />
+    <AndroidResource Include="Resources\drawable\Artifact81.jpg" />
+    <AndroidResource Include="Resources\drawable\Artifact85.jpg" />
+    <AndroidResource Include="Resources\drawable\Artifact84.jpg" />
+    <AndroidResource Include="Resources\drawable\Artifact86.jpg" />
+    <AndroidResource Include="Resources\drawable\Artifact87.jpg" />
+    <AndroidResource Include="Resources\drawable\Artifact88.jpg" />
+    <AndroidResource Include="Resources\drawable\Artifact89.jpg" />
+    <AndroidResource Include="Resources\drawable\Artifact90.jpg" />
+    <AndroidResource Include="Resources\drawable\howto_customCats_1.png" />
+    <AndroidResource Include="Resources\drawable\howto_editBuild_2.png" />
+    <AndroidResource Include="Resources\drawable\howto_optimizer_1.png" />
+    <AndroidResource Include="Resources\drawable\history_icon.png" />
+    <AndroidResource Include="Resources\drawable\ic_action_restart_timer.png" />
+    <AndroidResource Include="Resources\drawable\ic_stat_name.png" />
+    <AndroidResource Include="Resources\drawable\transfer_icon.png" />
+    <AndroidResource Include="Resources\drawable\Artifact91.jpg" />
+    <AndroidResource Include="Resources\drawable\Artifact95.jpg" />
+    <AndroidResource Include="Resources\drawable\Artifact92.jpg" />
+    <AndroidResource Include="Resources\drawable\Artifact93.jpg" />
+    <AndroidResource Include="Resources\drawable\Artifact94.jpg" />
+    <AndroidResource Include="Resources\drawable\arrow_left.png" />
+    <AndroidResource Include="Resources\drawable\arrow_right.png" />
+    <AndroidResource Include="Resources\drawable\expand_less.png" />
+    <AndroidResource Include="Resources\drawable\expand_more.png" />
+    <AndroidResource Include="Resources\drawable\BurningAttack.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\network_security_config.xml" />
+    <AndroidResource Include="Resources\drawable\info_new_item_icon.png" />
+    <AndroidResource Include="Resources\drawable\eye_icon.png" />
+    <AndroidResource Include="Resources\drawable\Eight.png" />
+    <AndroidResource Include="Resources\drawable\Five.png" />
+    <AndroidResource Include="Resources\drawable\Four.png" />
+    <AndroidResource Include="Resources\drawable\One.png" />
+    <AndroidResource Include="Resources\drawable\Seven.png" />
+    <AndroidResource Include="Resources\drawable\Six.png" />
+    <AndroidResource Include="Resources\drawable\Three.png" />
+    <AndroidResource Include="Resources\drawable\Two.png" />
+    <AndroidResource Include="Resources\drawable\CrushingVoid.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\RuneAttack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\HelperBoostMultiCastSkill.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\TapBoostMultiCastSkill.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Artifact98.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\BurstDamageMultiCastSkill.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ShadowCloneMultiCastSkill.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Artifact99.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties TriggeredFromHotReload="False" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

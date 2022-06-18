@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             x:Class="TT2Master.SPBuildsPage"
+             Title="{Binding Title}"
+             >
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <!-- //TODO zu einem späteren Zeitpunkt hinzufügen -->
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem Name="Add" Command="{Binding AddBuildCommand}" Icon="add_icon"/>
+        <ToolbarItem Name="Add" Command="{Binding ImportBuildCommand}" Icon="import_icon"/>
+    </ContentPage.ToolbarItems>-->
+
+    <Grid Margin="2">
+
+        <!-- Builds -->
+        <ListView CachingStrategy="RetainElement" ItemsSource="{Binding Builds}" x:Name="listViewBuilds" HasUnevenRows="True" SelectionMode="None">
+
+            <ListView.Behaviors>
+                <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding OpenOptionsCommand}" Converter="{StaticResource ItemTappedConverter}" />
+            </ListView.Behaviors>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="5">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding ID}" FontSize="Medium" Margin="2"/>
+                                    <Label Text="{Binding Version, StringFormat=' Version {0}'}" FontSize="Default" Margin="2" HorizontalTextAlignment="End"/>
+                                    
+                                </StackLayout>
+                                <Label Grid.Row="1" Text="{Binding Description}" FontSize="Small" MaxLines="99"/>
+                                
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+
+</ContentPage>

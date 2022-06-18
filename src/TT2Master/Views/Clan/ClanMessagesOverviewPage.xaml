@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:TT2Master"
+            xmlns:resource="clr-namespace:TT2Master.Resources"
+            x:Class="TT2Master.ClanMessagesOverviewPage"
+            Title="{Binding Title}"
+            x:Name="MessageOverview">
+
+    <TabbedPage.Resources>
+        <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter"/>
+    </TabbedPage.Resources>
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Command="{Binding ExportMessagesCommand}" Icon="export_icon"/>
+    </TabbedPage.ToolbarItems>
+
+    <ContentPage Title="{Binding MsgHeader}">
+        <StackLayout>
+            <SearchBar Placeholder="{x:Static resource:AppResources.Search}" 
+                       Text="{Binding SearchString, Mode=TwoWay}" 
+                       PlaceholderColor="{StaticResource EntryColor}" 
+                       TextColor="White"/>
+            <ListView CachingStrategy="RetainElement" 
+                      Margin="2" 
+                      ItemsSource="{Binding Messages}" 
+                      HasUnevenRows="True" 
+                      SelectionMode="None"
+                      IsPullToRefreshEnabled="True" 
+                      RefreshCommand="{Binding RefreshCommand}" 
+                      IsRefreshing="{Binding IsRefreshing}">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Margin="5" BackgroundColor="{StaticResource FrameBackground}">
+                                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <!-- Name -->
+                                        <ColumnDefinition Width="*" />
+                                        <!-- Time -->
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+
+                                    <Label Grid.Column="0" Text="{Binding MemberName}" HorizontalOptions="StartAndExpand" LineBreakMode="NoWrap"/>
+
+                                    <Label Grid.Column="1" Text="{Binding TimeStamp}" HorizontalOptions="EndAndExpand" LineBreakMode="NoWrap"/>
+
+                                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding Message}" TextColor="{Binding Color}" MaxLines="99" HorizontalOptions="StartAndExpand" LineBreakMode="NoWrap"/>
+                                </Grid>
+                            </Frame>
+                            <ViewCell.ContextActions>
+                                <MenuItem IconImageSource="copy_icon" 
+                                          Command="{Binding Source={x:Reference MessageOverview}, Path=BindingContext.CopyMessageCommand}" CommandParameter="{Binding .}"/>
+                            </ViewCell.ContextActions>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="{Binding BuildHeader}">
+        <StackLayout>
+            <SearchBar Placeholder="{x:Static resource:AppResources.Search}" Text="{Binding SearchString, Mode=TwoWay}" PlaceholderColor="{StaticResource EntryColor}" TextColor="White"/>
+
+            <ListView CachingStrategy="RetainElement" Margin="2" ItemsSource="{Binding BuildShares}" HasUnevenRows="True" SelectionMode="None" 
+                  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
+
+            <ListView.Behaviors>
+                <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EnterDetailCommand}" Converter="{StaticResource ItemTappedConverter}" />
+            </ListView.Behaviors>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Margin="5" BackgroundColor="{StaticResource FrameBackground}">
+                                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                <Grid.ColumnDefinitions>
+                                    <!-- Name -->
+                                    <ColumnDefinition Width="*" />
+                                    <!-- Time -->
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+
+                                <Label Grid.Column="0" Text="{Binding MemberName}" />
+
+                                <Label Grid.Column="1" Text="{Binding TimeStamp}" />
+
+                                <Label Grid.Row="1" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.ClickToView}" TextColor="{Binding Color}"/>
+                            </Grid>
+                        </Frame>
+
+                            <ViewCell.ContextActions>
+                                <MenuItem IconImageSource="copy_icon" 
+                                          Command="{Binding Source={x:Reference MessageOverview}, Path=BindingContext.CopyMessageCommand}" CommandParameter="{Binding .}"/>
+                            </ViewCell.ContextActions>
+                        </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="{Binding RaidHeader}">
+        <StackLayout>
+            <SearchBar Placeholder="{x:Static resource:AppResources.Search}" Text="{Binding SearchString, Mode=TwoWay}" PlaceholderColor="{StaticResource EntryColor}" TextColor="White"/>
+
+            <ListView CachingStrategy="RetainElement" Margin="2" ItemsSource="{Binding RaidMessages}" HasUnevenRows="True" SelectionMode="None"
+                  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Margin="5" BackgroundColor="{StaticResource FrameBackground}">
+                                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                <Grid.ColumnDefinitions>
+                                    <!-- Name -->
+                                    <ColumnDefinition Width="*" />
+                                    <!-- Time -->
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+
+                                <Label Grid.Column="0" Text="{Binding MemberName}" />
+
+                                <Label Grid.Column="1" Text="{Binding TimeStamp}" />
+
+                                <Label Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding Message}" TextColor="{Binding Color}"/>
+                            </Grid>
+                        </Frame>
+                            <ViewCell.ContextActions>
+                                <MenuItem IconImageSource="copy_icon" 
+                                          Command="{Binding Source={x:Reference MessageOverview}, Path=BindingContext.CopyMessageCommand}" CommandParameter="{Binding .}"/>
+                            </ViewCell.ContextActions>
+                        </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="{Binding MemberHeader}">
+        <StackLayout>
+            <SearchBar Placeholder="{x:Static resource:AppResources.Search}" Text="{Binding SearchString, Mode=TwoWay}" PlaceholderColor="{StaticResource EntryColor}" TextColor="White"/>
+
+            <ListView CachingStrategy="RetainElement" Margin="2" ItemsSource="{Binding History}" HasUnevenRows="True" SelectionMode="None"
+                  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                        <ViewCell>
+                            <Frame Margin="5" BackgroundColor="{StaticResource FrameBackground}">
+                                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <!-- Name -->
+                                        <ColumnDefinition Width="*" />
+                                        <!-- Time -->
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+
+                                    <Label Grid.Column="0" Text="{Binding MemberName}" />
+
+                                    <Label Grid.Column="1" Text="{Binding TimeStamp}" />
+
+                                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding Message}" TextColor="{Binding Color}"/>
+                                </Grid>
+                            </Frame>
+                            <ViewCell.ContextActions>
+                                <MenuItem IconImageSource="copy_icon" 
+                                          Command="{Binding Source={x:Reference MessageOverview}, Path=BindingContext.CopyMessageCommand}" CommandParameter="{Binding .}"/>
+                            </ViewCell.ContextActions>
+                        </ViewCell>
+                    </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="{Binding RaidResultHeader}">
+        <StackLayout>
+            <SearchBar Placeholder="{x:Static resource:AppResources.Search}" Text="{Binding SearchString, Mode=TwoWay}" PlaceholderColor="{StaticResource EntryColor}" TextColor="White"/>
+
+            <ListView CachingStrategy="RetainElement" Margin="2" ItemsSource="{Binding RaidResults}" HasUnevenRows="True" SelectionMode="None" 
+                  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
+
+                <ListView.Behaviors>
+                    <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding OpenRaidResultCommand}" Converter="{StaticResource ItemTappedConverter}" />
+                </ListView.Behaviors>
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Margin="5" BackgroundColor="{StaticResource FrameBackground}">
+                                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <!-- Name -->
+                                        <ColumnDefinition Width="*" />
+                                        <!-- Time -->
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+
+                                    <Label Grid.Column="0" Text="{Binding MemberName}" />
+
+                                    <Label Grid.Column="1" Text="{Binding TimeStamp}" />
+
+                                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.ClickToView}" TextColor="{Binding Color}"/>
+                                </Grid>
+                            </Frame>
+                            <ViewCell.ContextActions>
+                                <MenuItem IconImageSource="copy_icon" 
+                                          Command="{Binding Source={x:Reference MessageOverview}, Path=BindingContext.CopyMessageCommand}" CommandParameter="{Binding .}"/>
+                            </ViewCell.ContextActions>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="{Binding TournamentResultHeader}">
+        <StackLayout>
+            <SearchBar Placeholder="{x:Static resource:AppResources.Search}" Text="{Binding SearchString, Mode=TwoWay}" PlaceholderColor="{StaticResource EntryColor}" TextColor="White"/>
+
+            <ListView CachingStrategy="RetainElement" Margin="2" 
+                      ItemsSource="{Binding TournamentResults}" 
+                      HasUnevenRows="True" 
+                      SelectionMode="None" 
+                      IsPullToRefreshEnabled="True" 
+                      RefreshCommand="{Binding RefreshCommand}" 
+                      IsRefreshing="{Binding IsRefreshing}">
+
+                <ListView.Behaviors>
+                    <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding OpenTournamentResultCommand}" Converter="{StaticResource ItemTappedConverter}" />
+                </ListView.Behaviors>
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Margin="5" BackgroundColor="{StaticResource FrameBackground}">
+                                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <!-- Name -->
+                                        <ColumnDefinition Width="*" />
+                                        <!-- Time -->
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+
+                                    <Label Grid.Column="0" Text="{Binding MemberName}" />
+
+                                    <Label Grid.Column="1" Text="{Binding TimeStamp}" />
+
+                                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.ClickToView}" TextColor="{Binding Color}"/>
+                                </Grid>
+                            </Frame>
+                            <ViewCell.ContextActions>
+                                <MenuItem IconImageSource="copy_icon" 
+                                          Command="{Binding Source={x:Reference MessageOverview}, Path=BindingContext.CopyMessageCommand}" CommandParameter="{Binding .}"/>
+                            </ViewCell.ContextActions>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>

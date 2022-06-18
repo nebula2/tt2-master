@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:resource="clr-namespace:TT2Master.Resources"
+            xmlns:converter="clr-namespace:TT2Master.ValueConverter" xmlns:tt2master="clr-namespace:TT2Master" x:DataType="tt2master:SettingsViewModel"
+            x:Class="TT2Master.SettingsPage"
+            Title="{Binding Title}">
+
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+            <converter:IntEnumConverter x:Key="IntEnum" />
+        </ResourceDictionary>
+    </TabbedPage.Resources>
+
+    <ContentPage Title="Info">
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="info_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+        <ScrollView>
+            <Grid Margin="2"
+                  ColumnDefinitions="Auto, *">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- TT2 Version -->
+                <Label Grid.Row="0" Grid.Column="0" Text="{x:Static resource:AppResources.FoundTT2Version}"  VerticalTextAlignment="Center"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="{Binding TTVersion}"  VerticalTextAlignment="Center"/>
+
+                <!-- Various Asset Version -->
+                <Label Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.VariousVersion}"  VerticalTextAlignment="Center"/>
+                <Label Grid.Row="1" Grid.Column="1" Text="{Binding VariousAssetVersion}"  VerticalTextAlignment="Center"/>
+                
+                <!-- CSV Delimiter -->
+                <Label  Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.CsvDelimiterHeader}"  VerticalTextAlignment="Center"/>
+                <Entry  Grid.Row="2" Grid.Column="1" Text="{Binding CsvDelimiter, Mode=TwoWay}" />
+
+                <!-- Logging -->
+                <Label  Grid.Row="3" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.LoggingHeader}" FontSize="Medium" FontAttributes="Bold" VerticalTextAlignment="Center"/>
+
+                <Label  Grid.Row="4" Grid.Column="0" Text="{x:Static resource:AppResources.OptimizerHeader}"  VerticalTextAlignment="Center"/>
+                <Button Grid.Row="4" Grid.Column="1" Text="{x:Static resource:AppResources.LoggingSwitch}" Command="{Binding WriteOptiLogCommand}" />
+
+                <!-- Language -->
+                <Label  Grid.Row="5" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.LocalizationHeader}" FontSize="Medium" FontAttributes="Bold" VerticalTextAlignment="Center"/>
+                <Label  Grid.Row="6" Grid.Column="0" Text="{Binding CurrentLanguage.ShortName}" VerticalTextAlignment="Center" />
+                <Picker Grid.Row="6" Grid.Column="1" ItemsSource="{Binding Languages}" ItemDisplayBinding="{Binding DisplayName}" SelectedItem="{Binding CurrentLanguage, Mode=TwoWay}"/>
+
+                <!-- New Language -->
+                <Label  Grid.Row="7" Grid.Column="0" Text="{x:Static resource:AppResources.NewLanguageHeader}"  VerticalTextAlignment="Center"/>
+                <Label  Grid.Row="7" Grid.Column="1" Text="{x:Static resource:AppResources.NewLanguageText}"  VerticalTextAlignment="Center"/>
+
+                <!-- Snapshots -->
+                <Label  Grid.Row="8" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.Statistics}" FontSize="Medium" FontAttributes="Bold"/>
+
+                <!-- Delete old clan data -->
+                <Button Grid.Row="9" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.DeleteOldClanData}" Command="{Binding DeleteOldClanDataCommand}" />
+
+                <!-- Max Snapshot-Amount -->
+                <Label Grid.Row="10" Grid.Column="0" Text="{x:Static resource:AppResources.MaxSnapshotAmount}" VerticalTextAlignment="Center"/>
+                <Entry Grid.Row="10" Grid.Column="1" Text="{Binding MaxSnapshots}" Keyboard="Numeric" />
+
+                <!-- ClanMessageAmount -->
+                <Label Grid.Row="11" Grid.Column="0" Text="{x:Static resource:AppResources.MaxClanMsgAmount}" VerticalTextAlignment="Center"/>
+                <Entry Grid.Row="11" Grid.Column="1" Text="{Binding ClanMessageAmount}" Keyboard="Numeric" />
+
+                <!-- Snapshot-Dashboard -->
+                <Label  Grid.Row="12" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.CreateSnapshotOnDashboardReload}"  VerticalTextAlignment="Center" IsVisible="{Binding IsLoadingDataFromSavefile}"/>
+                <Switch Grid.Row="13" Grid.Column="1" IsToggled="{Binding IsCreatingSnapshotOnDashboardReload, Mode=TwoWay}" HorizontalOptions="Start" IsVisible="{Binding IsLoadingDataFromSavefile}"/>
+
+                <!-- Download assets again -->
+                <Button Grid.Row="14" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.DownloadAssetsAgain}" Command="{Binding DownloadAssetsAgainCommand}" />
+                
+                <!-- Change path to savefile -->
+                <Button Grid.Row="15" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.ChangeSavefilePath}" Command="{Binding ChangeSavefilePathCommand}" IsVisible="{Binding IsLoadingDataFromSavefile}"/>
+                
+                <!-- check purchases -->
+                <Button Grid.Row="16" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.CheckPurchases}" Command="{Binding CheckPurchasesCommand}"/>
+                
+                <!-- export db -->
+                <Button Grid.Row="17" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.ExportDatabase}" Command="{Binding ExportDatabaseFileCommand}">
+                    <Button.IsVisible>
+                        <OnPlatform x:TypeArguments="x:Boolean">
+                            <On Platform="iOS" Value="false" />
+                            <On Platform="Android" Value="true" />
+                        </OnPlatform>
+                    </Button.IsVisible>
+                </Button>
+
+                <!-- Change Data Source -->
+                <Button Grid.Row="18" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.ChangeDataSourceButtonText}" Command="{Binding ChangeDataSourceCommand}">
+                    <Button.IsVisible>
+                        <OnPlatform x:TypeArguments="x:Boolean">
+                            <On Platform="iOS" Value="false" />
+                            <On Platform="Android" Value="true" />
+                        </OnPlatform>
+                    </Button.IsVisible>
+                </Button>
+
+                <!-- Change path to abyss savefile -->
+                <Button Grid.Row="19" 
+                        Grid.ColumnSpan="2" 
+                        Text="{x:Static resource:AppResources.ChangeAbyssSavefilePath}" 
+                        Command="{Binding ChangeAbyssSavefilePathCommand}" 
+                        IsVisible="{Binding IsLoadingDataFromSavefile}"/>
+
+                <!-- DailyAutoSnapshotThreshold -->
+                <Label  Grid.Row="20" 
+                        Grid.ColumnSpan="2"
+                        VerticalTextAlignment="Center" 
+                        Text="{x:Static resource:AppResources.DailyAutoSnapshotThreshold}"
+                        IsVisible="{Binding IsLoadingDataFromSavefile}"/>
+                <Entry Grid.Row="21" 
+                       Grid.Column="1" 
+                       Text="{Binding DailyAutoSnapshotThreshold, Mode=TwoWay}"
+                       Keyboard="Numeric"
+                       HorizontalOptions="Start"
+                       IsVisible="{Binding IsLoadingDataFromSavefile}"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="Optimizers">
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="tree_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+        <ScrollView>
+            <Grid Margin="2"
+                  ColumnDefinitions="Auto, *"
+                  RowDefinitions="Auto, Auto, Auto, Auto">
+
+                <!-- Reload Default Builds -->
+                <Label  Grid.Row="0" Grid.Column="0" Text="{x:Static resource:AppResources.ReloadDefaultBuilds}" VerticalTextAlignment="Center"/>
+                <Button Grid.Row="0" Grid.Column="1" Text="{x:Static resource:AppResources.Load}" Command="{Binding ReloadDefaultBuildsCommand}"/>
+
+                <!-- Number Conversion -->
+                <Label  Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.NumbersScientific}" VerticalTextAlignment="Center"/>
+                <Switch Grid.Row="1" Grid.Column="1" IsToggled="{Binding ScientificConversion, Mode=TwoWay}" HorizontalOptions="Start" />
+
+                <!-- DeleteArtSettingsCommand -->
+                <Button Grid.Row="2" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.DeleteArtSettings}" Command="{Binding DeleteArtSettingsCommand}" />
+
+                <Button Grid.Row="3" Grid.ColumnSpan="2" Text="Test Mediation" Command="{Binding TestAdmobMediationCommand}" IsVisible="{Binding IsInDebugMode}" />
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

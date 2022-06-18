@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+             x:Class="TT2Master.SPSplashCalculatorPage"
+             Title="{Binding Title}"
+             >
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:IntEnumConverter x:Key="IntEnum"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <Grid Margin="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Skill-Choice -->
+            <Label  Grid.Row="0" Grid.Column="0" Text="{x:Static resource:AppResources.SkipSkillHeader}" VerticalTextAlignment="Center"/>
+            <Picker Grid.Row="0" Grid.Column="1" 
+                        ItemsSource="{Binding SplashSkills}" 
+                        SelectedIndex="{Binding SplashSkill, Converter={StaticResource IntEnum}, Mode=TwoWay}" 
+                        />
+
+            <!-- Splash Choice -->
+            <Label  Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.SkipSnapHeader}" VerticalTextAlignment="Center"/>
+            <Picker Grid.Row="1" Grid.Column="1" 
+                        ItemsSource="{Binding SplashSnaps}" 
+                        SelectedIndex="{Binding SplashSnap, Converter={StaticResource IntEnum}, Mode=TwoWay}" 
+                        />
+
+            <!-- MS -->
+            <Label  Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.MaximumStage}" VerticalTextAlignment="Center"/>
+            <Entry  Grid.Row="2" Grid.Column="1" Text="{Binding MaxStageString, Mode=TwoWay}" Keyboard="Numeric"/>
+
+            <!-- Normal Mob Count -->
+            <Label  Grid.Row="3" Grid.Column="0" Text="{x:Static resource:AppResources.NormalTitanCount}" VerticalTextAlignment="Center"/>
+            <Label  Grid.Row="3" Grid.Column="1" Text="{Binding NormalTitanCount}" VerticalTextAlignment="Center"/>
+
+            <!-- Reduction from passive skills -->
+            <Label  Grid.Row="4" Grid.Column="0" Text="{x:Static resource:AppResources.PassiveSkillReduction}" VerticalTextAlignment="Center"/>
+            <Label  Grid.Row="4" Grid.Column="1" Text="{Binding PassiveSkillReduction}" VerticalTextAlignment="Center"/>
+
+            <!-- Stages to skip -->
+            <Label  Grid.Row="5" Grid.Column="0" Text="{x:Static resource:AppResources.StagesToSkip}" VerticalTextAlignment="Center"/>
+            <Label  Grid.Row="5" Grid.Column="1" Text="{Binding StagesToSplash}" VerticalTextAlignment="Center"/>
+            
+            <!-- AG Set Completed-->
+            <Label  Grid.Row="6" Grid.Column="0" Text="{x:Static resource:AppResources.AGSetCompleted}" VerticalTextAlignment="Center" VerticalOptions="Center" Margin="0, 0, 0, 24"/>
+            <Label  Grid.Row="6" Grid.Column="1" Text="{Binding AGSetCompleted}" VerticalOptions="Center" HorizontalOptions="Start" Margin="0, 0, 0, 24"/>
+
+            <!-- ED Level -->
+            <Label  Grid.Row="8" Grid.Column="0" Text="ED Lvl" VerticalTextAlignment="Center" IsVisible="{Binding IsEDSkillSelected}"/>
+            <Label  Grid.Row="8" Grid.Column="1" Text="{Binding EDSkill.CurrentLevel}" VerticalTextAlignment="Center" IsVisible="{Binding IsEDSkillSelected}"/>
+
+            <Label  Grid.Row="9" Grid.Column="0" Text="ED Skip" VerticalTextAlignment="Center" IsVisible="{Binding IsEDSkillSelected}"/>
+            <Label  Grid.Row="9" Grid.Column="1" Text="{Binding EDSkill.SplashEffectAtLevel}" VerticalTextAlignment="Center" IsVisible="{Binding IsEDSkillSelected}"/>
+
+            <Label  Grid.Row="10" Grid.Column="0" Text="Okay?" VerticalTextAlignment="Center" IsVisible="{Binding IsEDSkillSelected}"/>
+            <Label  Grid.Row="10" Grid.Column="1" Text="{Binding IsEDSkillSkipGood}" VerticalOptions="Center" HorizontalOptions="Start" IsVisible="{Binding IsEDSkillSelected}"/>
+
+            <Label  Grid.Row="11" Grid.Column="0" Text="ED SP" VerticalTextAlignment="Center" IsVisible="{Binding IsEDSkillSelected}"/>
+            <Label  Grid.Row="11" Grid.Column="1" Text="{Binding EDSPSpent}" VerticalTextAlignment="Center" IsVisible="{Binding IsEDSkillSelected}"/>
+
+            <!-- AR Level -->
+            <Label  Grid.Row="8" Grid.Column="0" Text="AR Level" VerticalTextAlignment="Center" IsVisible="{Binding IsARSkillSelected}"/>
+            <Label  Grid.Row="8" Grid.Column="1" Text="{Binding HeavenlyStrikeSkill.CurrentLevel}" VerticalTextAlignment="Center" IsVisible="{Binding IsARSkillSelected}"/>
+
+            <Label  Grid.Row="9" Grid.Column="0" Text="AR Skip" VerticalTextAlignment="Center" IsVisible="{Binding IsARSkillSelected}"/>
+            <Label  Grid.Row="9" Grid.Column="1" Text="{Binding HeavenlyStrikeSkill.SplashEffectAtLevel}" VerticalTextAlignment="Center" IsVisible="{Binding IsARSkillSelected}"/>
+
+            <Label  Grid.Row="10" Grid.Column="0" Text="Okay?" VerticalTextAlignment="Center" IsVisible="{Binding IsARSkillSelected}"/>
+            <Label  Grid.Row="10" Grid.Column="1" Text="{Binding IsARSkillSkipGood}" VerticalOptions="Center" HorizontalOptions="Start" IsVisible="{Binding IsARSkillSelected}"/>
+
+            <Label  Grid.Row="11" Grid.Column="0" Text="AR Cost" VerticalTextAlignment="Center" IsVisible="{Binding IsARSkillSelected}"/>
+            <Label  Grid.Row="11" Grid.Column="1" Text="{Binding ARSPSpent}" VerticalTextAlignment="Center" IsVisible="{Binding IsARSkillSelected}"/>
+
+            <!-- LB Level -->
+            <Label  Grid.Row="8" Grid.Column="0" Text="LB Level" VerticalTextAlignment="Center" IsVisible="{Binding IsLBSkillSelected}"/>
+            <Label  Grid.Row="8" Grid.Column="1" Text="{Binding LBSkill.CurrentLevel}" VerticalTextAlignment="Center" IsVisible="{Binding IsLBSkillSelected}"/>
+
+            <Label  Grid.Row="9" Grid.Column="0" Text="LB Skip" VerticalTextAlignment="Center" IsVisible="{Binding IsLBSkillSelected}"/>
+            <Label  Grid.Row="9" Grid.Column="1" Text="{Binding LBSkill.SplashEffectAtLevel}" VerticalTextAlignment="Center" IsVisible="{Binding IsLBSkillSelected}"/>
+
+            <Label  Grid.Row="10" Grid.Column="0" Text="Okay?" VerticalTextAlignment="Center" IsVisible="{Binding IsLBSkillSelected}"/>
+            <Label  Grid.Row="10" Grid.Column="1" Text="{Binding IsLBSkillSkipGood}" VerticalOptions="Center" HorizontalOptions="Start" IsVisible="{Binding IsLBSkillSelected}"/>
+
+            <Label  Grid.Row="11" Grid.Column="0" Text="LB SP" VerticalTextAlignment="Center" IsVisible="{Binding IsLBSkillSelected}"/>
+            <Label  Grid.Row="11" Grid.Column="1" Text="{Binding LBSPSpent}" VerticalTextAlignment="Center" IsVisible="{Binding IsLBSkillSelected}"/>
+            
+            <!-- AA Level -->
+            <Label  Grid.Row="8" Grid.Column="0" Text="AA Lvl" VerticalTextAlignment="Center" IsVisible="{Binding IsAASkillSelected}"/>
+            <Label  Grid.Row="8" Grid.Column="1" Text="{Binding AASkill.CurrentLevel}" VerticalTextAlignment="Center" IsVisible="{Binding IsAASkillSelected}"/>
+
+            <Label  Grid.Row="9" Grid.Column="0" Text="AA Skip" VerticalTextAlignment="Center" IsVisible="{Binding IsAASkillSelected}"/>
+            <Label  Grid.Row="9" Grid.Column="1" Text="{Binding AASkill.SplashEffectAtLevel}" VerticalTextAlignment="Center" IsVisible="{Binding IsAASkillSelected}"/>
+
+            <Label  Grid.Row="10" Grid.Column="0" Text="Okay?" VerticalTextAlignment="Center" IsVisible="{Binding IsAASkillSelected}"/>
+            <Label  Grid.Row="10" Grid.Column="1" Text="{Binding IsAASkillSkipGood}" VerticalOptions="Center" HorizontalOptions="Start" IsVisible="{Binding IsAASkillSelected}"/>
+
+            <Label  Grid.Row="11" Grid.Column="0" Text="AA SP" VerticalTextAlignment="Center" IsVisible="{Binding IsAASkillSelected}"/>
+            <Label  Grid.Row="11" Grid.Column="1" Text="{Binding AASPSpent}" VerticalTextAlignment="Center" IsVisible="{Binding IsAASkillSelected}"/>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

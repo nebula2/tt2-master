@@ -1,0 +1,1193 @@
+Version,Changes,Don't DELETE
+"5.9.0 (September 14, 2021)","New Content : 
+* New Alchemist Skill Tree 
+     - Transmutation: All Gold + Jackpot Gold Chance 
+     - Gold Gun: Gold Gun Damage + Magnum Opus Splash Count 
+     - Magnum Opus: Magnum Opus Damage + Magnum Opus Splash Skip
+     - Auric Shot: Alchemist Boost + Magnum Opus Duration
+     - Chesterson Incense: Chesterson Gold + Chesterson Stages
+     - Love Potion: Special Titan Spawn Chance + Multiple Spawn Chance
+     - Midas Ultimate: Hand of Midas Gold + Hand of Midas Duration
+     - Midas Overflow: Hand of Midas Gold per Multi-Cast + Hand of Midas Max Multi-Cast 
+     - Royal Contract: Royal Contract Max Gold + Royal Contract Time Until Max Gold 
+* New Gold Gun Damage Source 
+     - Scales off All Hero Damage, Critical Damage, Deadly Strike Damage, Wielder Damage, Tap Damage, and Gold Gun Damage 
+* Golden Forge Talent: Magnum Opus Splash Skip
+* Golden Scope Artifact: Gold Gun Damage 
+* New Jackpot Gold and Jackpot Gold Chance bonuses
+     - Inactive Gold bonuses changed to Jackpot Gold bonuses
+     - Stealth Gold bonuses changed to Prize Gold bonuses
+     - Prize Gold: All Gold + Jackpot Gold
+     - Inactive Gold removed from Trickster Boost
+     - New Jackpot Gold armor bonus replacing old Stealth Gold armor bonus
+* Shae, The Radiant Beacon mythic equipment set
+     - +1 Level to Tier 4 Knight Skills
+     - Paladin Boost
+     - Prestige Relic Bonus
+* Eclectic Inventory legendary equipment set
+     - Gold Gun Damage
+     - Magnum Opus Duration
+* Chaotic Alchemist rare equipment set
+     - Gold Gun Damage
+* Milestones on main screen HUD 
+* Samosek Sword artifact enchantment
+* Prestige Firestone Event begins on September 15th, 2021
+* 100% Off Skill Tree Reset Promotion
+* Mandatory Skill Tree Reset during server maintenance
+* 2x Dust Titan Chest Promotion
+
+General Changes:
+* Moved Will of Midas to tier 2 of Knight tree
+* Moved Fairy Charm to tier 3 of Knight tree
+* Increased Dual Burst Splash Count of Companion Warfare skill
+* Increased Pet Splash Count of Lightning Burst skill
+* Moved Tactical Insight to tier 2 of Warlord tree
+* Moved Coordinated Offensive to tier 3 of Warlord tree
+* Moved Anchoring Shot to tier 3 of Warlord tree
+* Moved Voltaic Sails to tier 4 of Warlord tree
+* Changed Master Thief All Gold bonus to Prize Gold bonus
+* Increased Player Raid Level Limit to 500
+* Changed secondary pet from Dual Summon to benefit from Companion Attack Rate bonuses
+* Added support for Android “Back” button
+* Improved new user tutorials
+* Increased visual contrast for Cursed Armor bonuses in the Clan Raid panel
+* Default artifact sorting on prestige in Abyssal Tournaments
+* Automatic equipping of starting inventory equipment sets in Abyssal Tournaments
+* Sword Attack Damage renamed to Wielder Damage
+* Confirmation on perk refresh
+* Forbidden Contract recolored
+* Tweaked Heavenly Strike splash skip values for early spell levels
+* Increased power of Fruit of Eden, Shimmering Oil, Titan’s Mask, and Elixir of Eden artifact enchantments
+* Reduced power of Crown of the Constellation artifact enchantment
+* Tweaked balance of various hero powers 
+* Lowered requirements to level Cloak and Dagger talent
+* Lowered cooldown randomness of Forbidden Contract
+
+Bug Fixes:
+* Performance Optimizations
+* Resolved Thunder Volley charge up animation issues
+* Fixed issues with Blade Cyclone crashing in tournaments 
+* Fixed issues with equipment transmorph tracking
+* Raid completion duration will now correctly extend after fixes
+* Tweaked particle effects for Affliction raid cards to improve performance
+* Tweaked mana particle effects to improve performance
+* Fixed Stone of the Valrunes not affecting Prestige and Inactive Gold correctly
+* Fixed Copy Raid button on Practice Raid panel not copying Morale correctly
+* Fixed issue with multiple sets of Daggers spawning
+* Fixed Stage Rush cap being visually exceeded in Stats panel
+* Fixed spacing in HUD dropdown for iPad resolutions
+* Fixed miscellaneous visual and localization issues",
+"5.8.1 (August 24, 2021)","- Lowered target leg position for Totem Fairy
+- Fixed Skill Tree icons on iOS and multicast icons on Rogue Skill Tree
+- Fixed Tournament prestige gold
+- Fixed Anchoring Shot stun not applying
+- Fixed Dual Summon disappearing in ATs
+- Fixed certain artifacts not being affected by other artifacts
+- Fixed Mana potions filling Dual Summon spell meter
+- Fixed power options for Thunder Volley damage text",
+"5.8.0 (August 17, 2021)","New Content:
+- Knight Skill Tree Changes:
+     - Boosted efficiency of Chivalric Order
+     - Decreased skill point cost of Rejuvenation
+- Warlord Skill Tree Changes:
+     - Astral Awakening: All Hero Damage + Clan Ship Splash Skip
+     - Anchoring Shot: Clan Ship
+     - Voltaic Sails: Thunder Ship Damage + Thunder Volley Damage + Thunder Ship Duration, unlocks the Thunder Ship spell
+- Sorcerer Skill Tree Changes:
+     - Decreased skill point cost of Eternal Darkness
+- Rogue Skill Tree Changes:
+     - Skill tiers rearranged
+     - Stroke of Luck: Companion Deadly Strike Damage + Deadly Strike Boost
+     - Deadly Focus: Deadly Strike Damage per Multi-Cast + Deadly Strike Max Multi-Cast
+     - Weakpoint Throw:  Blade Stream Damage + Blade Stream Duration, unlocks the Blade Stream spell
+     - Dagger Storm: Blade Stream Target Damage + Dagger Cooldown
+     - Mark of Death: Blade Stream Damage per Multi-Cast + Blade Stream Max Multi-Cast
+     - Master Thief: All Gold + Dagger Splash Skip
+- Blade Stream Spell
+     - Increases Dagger Damage
+     - Spawns targets that boost Dagger Damage and add Dagger Splash Count
+     - Hitting several targets in a row fires a Blade Cyclone for extra Dagger Damage and Dagger Splash Count
+- Thunder Ship Spell
+     - Increases Clan Ship Damage
+     - Clan Ship shots charge up Thunder Volley
+     - Thunder Volley deals increased Clan Ship Damage
+- Jonalyn, the Deadly Flower mythic equipment set
+     - 2x Blade Stream Target Splash Count
+     - Blade Cyclone Damage
+     - Prestige Relic Bonus
+- Chief Mechanic legendary equipment set
+     - Thunder Ship Damage
+     - 1.5x Thunder Volley Charge Speed
+- Aquatic Defender event equipment set
+     - All Hero Damage
+- Increased Raid Card Level Cap from 50 to 60
+- Added 10 new Tier 4 Raid Levels
+- Fruit of Eden, Shimmering Oil, and Titan's Mask artifact enchantments
+- Tournament Titan Land Theme Park Event begins on August 18, 2021
+-  50% more Watermelons from Tournament rewards
+-  Dedicated Fan, Grill Master, and Surf Strike event equipment drops
+-  Titan Land raid profile background
+- Skill Point Titan Chest and 100% Off Skill Tree Reset Promotions
+- Mandatory Skill Tree Reset during patch maintenance
+
+General Changes:
+- Improved Inactive Gold, Prestige Gold, and Portar Gold
+     - Gives one Fairy Gold, Heart of Midas Gold, Boss Gold, and Multi-Spawn Chesterson Gold drop
+     - Inactive Gold multipliers no longer apply
+     - Prestige Gold multipliers still apply
+- Multi-Spawn removed from Silent March
+     - Multi-Spawn Chance and Max Multi-Spawn Count will no longer speed up Silent March
+     - Sneak Count increased by roughly 10x
+- Replaced Damage-Based Enemy Bonuses (Tier 3 debuffs)
+     - Armor Damage -> All Armor Health
+     - Arm Damage -> Arm Armor Health
+     - Leg Damage -> Leg Armor Health
+     - Torso Damage -> Torso Armor Health
+- One Coin Mode Changes
+     - Automatically collects Hand of Midas Tap Gold coins
+UI Changes
+     - Expand two tabs on the main screen
+     - Added clarity to Bear Shop purchases
+     - Added clarity to Not Enough Funds panel
+- Diamond First Purchase Bonus
+     - Receive 100% more diamonds on your first purchase of a diamond pack
+     - All players will be able to receive the first purchase bonus, even if you have previously purchased a diamond pack
+- Clan Raid Preparation Time Changes
+     - Tier 1: 10 minutes
+     - Tier 2: 6 hours
+     - Tier 3: 12 hours
+     - Tier 4: 12 hours
+- Clan Purge Protection
+     - Limit on number of kicks Knights and Captains can do at a single time
+     - Limit on how often players can rejoin the same clan after being kicked
+- Solo Raid Fast Travel shown on Clan Solo Raid Leaderboard
+- Raid Attacks Incomplete Notification
+     - Notifies if you have Raid Attacks remaining in the last hour of a Clan Raid cycle
+- Decaying Strike Changes
+     - Fixed issue leading to a damage increase of roughly 1.25x at all levels
+- Stats Panel Changes
+     - Blade Stream Damage
+     - Dagger Splash Skip
+     - Dual Summon Damage
+     - Thunder Ship Damage
+- Added a second starting pet to all Abyssal Tournaments
+- Shimmering Blacksmith Abyssal Tournament Changes
+     - 95% Crafting Power Cost
+     - Improved artifact pools
+- Tweaked Deadly Strike Multi-Cast values
+     - Very slightly reduced Dagger Cooldown multiplier
+
+Bug Fixes: 
+- Performance improvements to reduce crashes, lag, and load times
+- Fixed Portar Stage Skip progressing your Chesterson Stages
+- Fixed rounding issues with Shimmering Blacksmith crafting power
+- Fixed Pet Damage increasing sporadically
+- Fixed Dual Summon spell dropping from fairies
+- Fixed Dual Summon spell description linking to the wrong skill
+- Fixed Dual Summon base duration
+- Fixed Dual Burst not activating
+- Fixed positioning of Flash Zip and Dual Zip so your pets won’t be stranded
+- Fixed normal Pet attacks bypassing the Portar Spawn Delay and Snap Spawn Delay
+- Fixed text spacing in polls
+- Fixed blue bars under heroes not updating when Auto-Buy Heroes is active
+- Fixed lag on Strongest Hero Indicator ",
+"5.7.1 (July 27, 2021)","- Performance Optimizations
+- Resetting the skill tree will now correctly cancel active spells
+- Fixed 90% Cost Reduction fairy
+- Fixed auto-unlocked heroes not appearing after prestige
+- Excluded Helmet bonuses and Inspired Hero bonuses from Strongest Hero Indicator
+- Fixed second pet staying active until Dual Summon cooldown is complete if spell ends during a Dual Zip
+- Fixed All Spells fairy appearing on Welcome Back Panel when insufficient spells were unlocked
+- Fixed Build Overview and Clan Settings panels not closing when tapping outside the panel
+- Fixed Daily Limit Reached overlapping event currency in the Prestige panel
+- Fixed HP slider on Practice Titan showing incorrect HP amount
+- Fixed incorrect notification counter when swapping spells
+- Fixed misc crashes, localizations, and UI elements",
+"5.7.0 (July 20, 2021)","New Content: 
+- New Summoner Skill Tree
+     - Ember Arts: Summoner Boost + Pet Splash Skip
+     - Companion Warfare: Equipment Pet Effect + Dual Burst Splash Count
+     - Summoning Circle: Dual Summon Damage + Dual Summon Duration
+     - Burning Passion: Dual Summon Max Multi-Cast + Dual Summon Damage per Multi-Cast
+     - Lightning Burst: Pet Splash Count
+     - Flash Zip: Splashes through Bosses
+- Reworked Knight Skill Tree
+     - Chivalric Order: Multiplicative Tap Damage from Heroes
+     - Rejuvenation: Heavenly Strike Mana Cost Reduction + Heavenly Strike Splash Skip
+     - Midas Ultimate: Hand of Midas Gold + Hand of Midas Duration
+     - Will of Midas: Fairy Gold
+- Reworked Sorcerer Skill Tree
+- New Spell: Dual Summon
+     - Increases Pet damage
+     - Dual Burst pet attacks that splash through bosses
+     - Dual Zip pet attacks that have more splash
+     - Cooldown by attacking with your Pet
+- Spell Selection
+     - Select your six preferred spells in the slot of your choice
+- Customizable Practice Titan
+     - Change titan, tier, HP, armor, bonuses, and morale
+     - Copy Raid button
+- New Skybound Shepherd Legendary set
+     - Pet Damage + Dual Zip Splash Count
+- Moonlight Bracelet artifact enchantment
+- Player Polls
+- Raid Attack Catch-Up
+     - Number of available attacks increase each cycle
+     - Use your attacks whenever you have time
+
+General Changes:
+- Equipment Comparison UI change
+- Strongest Hero Indicator
+- Increased saved raid decks from 6 to 8
+- Max Clan Raid Event Currency per day increased from 8 to 10 attacks
+- Lowered Fire Sword Multi-Casting values for Pet Skill Cooldown Reduction to accommodate skill tree changes
+- Heir of Light and Heir of Shadows equipment available to drop
+- Abyssal Tournament Firestone event
+- 100% Off Skill Tree Reset Promotion
+- Mandatory Skill Tree Reset during patch maintenance
+- 2x Crafting Shard Titan Chest Promotion
+
+Bug Fixes:
+- Fixed gold rounding issue with Sword Master and Hero leveling
+- Fixed issues joining private clans
+- Fixed display issues with the Complete the Set offers
+- Fixed New Story bug in Abyssal Tournaments
+- Fixed Raid Master avatar scaling
+- Fixed miscellaneous visual and localization issues",
+"5.6.1 (June 30, 2021)","- Advanced Start shown as percentage
+- Fixed AT Crafting Shard Mismatch
+- Fixed incorrect mana cost for Heavenly Strike multi-cast
+- Fixed mana consumption by Heavenly Strike not being affected by mana refund %
+- Fixed Heavenly Strike displaying incorrect cooldown
+- Fixed All Spells Fairy not always activating
+- Fixed Snap bonus showing incorrect value with Thundering Deity Set (visual only)
+- Fixed misc crashes, localizations and UI",
+"5.6.0 (June 22, 2021)","New Content:
+- Stage Rush: Additive Advance Start
+- Clan Loyalty bonuses from collecting Clan Morale
+     * Up to 15% Advance Start
+     * Up to 30% Raid Damage
+- Chesterson Rework
+     * 50 stages of Chesterson Gold drops from non-boss titans
+- Artifact Favoriting: Favorite artifacts sort to top
+- New Notification System: Toggleable notifications in Options panel
+- Shimmering Blacksmith Abyssal Tournament
+     * -98% Crafting Power Cost
+     * 1500 Crafting Shards
+- Heavenly Strike Multi-Casting
+     * Heavenly Strike Damage
+     * Heavenly Strike Splash Count
+- Shadow Clone Multi-Cast
+     * Shadow Clone Damage
+     * Shadow Clone Splash Through Bosses Chance
+- Divine Supremacy: New Tier 5 Sorcerer Skill
+     * Heavenly Strike Damage per Multi-Cast
+     * Heavenly Strike Max Multi-Cast
+- Phantom Supremacy: New Tier 5 Sorcerer Skill
+     * Shadow Clone Damage per Multi-Cast
+     * Shadow Clone Max Multi-Cast
+- Spoils of War: Reworked Tier 2 Warlord Skill
+     * Changed Chesterson Chance to Chesterson Stages
+- Ambush: Reworked Tier 2 Rogue Skill
+     * Changed Multi-Spawn Chance to Multi-Spawn Gold
+     * Raised max level to 25
+     * Max Multi-Spawn Count still caps at +20 at Ambush level 10
+- New Twilight Templar Legendary equipment set
+     * 0.75x Mystical Impact Cost
+     * 10x Twilight Damage (Shadow Clone Damage and Heavenly Strike Damage)
+- Sequence Bundles: Purchasing a bundle can unlock additional bundle offerings
+- The Bronzed Compass artifact enchantment
+- Prestige Firestone Event begins on June 22nd, 2021
+- Digital Idol equipment drops
+- Dust Titan Chest and Skill Tree Reset promotions 
+
+
+General Changes:
+- Changed 12 Hero Powers from Fairy Gold to Specialty Gold
+- Changed all Chesterson Chance Hero Powers to Multi-Spawn Gold
+- New caps for Essence of the Kitsune and Egg of Fortune
+- Decreased cost of Mystical Impact talent levels
+- Increased scaling of Fluffers and Xander
+- Changed color of Ravenous Swarm’s damage text
+- Raised Advance Start cap to 95%
+- Tweaks to Solo Raid decks
+- Reduced Solo Raid difficulty for specific portals
+
+
+Bug Fixes:
+- Adjusted Totem of Power fairies to match Titan Lord hitboxes
+- Fixed gap in Titan Lord hitboxes between the head and torso
+- Fixed players above raid level 49 not seeing XP bonus on Solo Raid portals
+- Fixed card bundles in Bear Shop not displaying level increases
+- Fixed Pet Quest icon for Deadly Strike
+- Fixed Mana Cost numbers disappearing on spells after spell cooldown
+- Added raid card to Solar Eclipse abyssal tournament
+- Rounded event currency tournament rewards to multiples of 5
+- Fixed misc. localization issues",
+"5.5.2 (May 25, 2021)","- Fixed Cursed Armour debuff not being removed
+- Fixed Tactical Insight applying incorrectly
+- Fixed Abyssal and regular Tournament showing ineligible holiday currency rewards
+- Fixed Event panel showing incorrect holiday currency amount
+- Fixed Welcome back panel overlap
+- Fixed text disappearing after collecting clan mate season pass rewards in inbox
+- Fixed Cloak and Dagger icon
+- Titan HP rounded up instead of down on clan info panel
+- Increased build overview number size for better visibility
+- Misc Localization fixes",
+"5.5.1 (May 19, 2021)","- Fixed ""Decaying Strike"" raid card scaling on entire titan rather than individual part
+- Fixed ""Victory March"" and ""Insanity Void"" raid cards not offering damage boost",
+"5.5.0 (May 18, 2021)","New Content:
+- 3 new Event Types:
+     - Prestige: Up to 99 daily prestiges
+     - Tournament: 1.5x tournament event currency, up to 10 daily prestiges
+     - Abyssal: 1.5x Abyssal Tournament event currency, up to 10 daily prestiges
+- Daggers as a main damage source
+     - Dagger slash equipment
+     - Cloak and Dagger Talent: Dagger Splash Skip
+     - Shimmering Oil artifact: Dagger Damage
+     - Summon Dagger skill: Added Dagger Splash Count
+- Reworked Decaying Strike
+     - 2.515x Damage
+     - 0.5x Duration
+     - 20% Part Health Damage Cap
+- Reworked Whip of Lightning
+     - 2x Chance per Afflicted Part
+     - Chance per Afflicted Parts capped to 5 parts
+- Equipment tab damage comparison
+     - + sign to display stronger options of the same equipment type
+- Cutthroat Razorfist legendary equipment set
+     - +2 Cloaked Skip Amount
+     - 8x Dagger Damage
+- Rock Queen event equipment set
+     - 10x Dagger Damage
+- The Retaliator artifact enchantment
+
+General Changes:
+- Event currency added to Abyssal Tournament rewards
+- Main screen cleanup
+     - Collapsible DPS
+     - One Coin Mode power option
+     - Disable Hero Projectile power option
+- Revamped Welcome Back Panel
+     - Reworked UI
+     - All Spells Fairy on Welcome Back
+- Added ability to skip reward animations
+- Changed Area and Enemy Bonuses to be multiplicative
+- Removed Affliction Damage, Affliction Duration, Affliction Chance, Burst Damage, and Burst Chance Enemy Bonuses from Tier 4 Raids
+- Improved Solo Raid flow with a Next Portal button
+- Reworked Titan Lord hitboxes
+     - Lowered Torso hitbox
+     - Removed the gap between the Leg parts
+- Improved suggested clans in Clan Directory
+- Updated Clan Raid seed reset to match the weekly raid reset
+- Revamped Options and Skill Tree panels
+- Stage cap increase to 125k
+- Crafting Shard Titan Chest and Skill Tree Reset promotions
+- Rock Star Event
+- Milestone bundles at 110k and 120k
+
+Bug Fixes
+- Fixed Clan Info panel not updating when a Clan Raid is initiated
+- Fixed Totem of Power showing incorrect max stacks
+- Fixed Hero Weapon bug for high level accounts
+- Fixed Clan Notifications being cut off",
+"5.4.2 (April 29, 2021)",- App Tracking Transparency (iOS Only),
+"5.4.1 (April 27, 2021)","- Improved Solo Raid Fast Travel confirmation panel flow
+- Fixed Morale and Raid Keys not showing updated values in Clan Panel
+- Fixed players losing stacks of multi-cast when entering/exiting Abyssal Tournaments
+- Fixed Auto-Raid changes not updating for Masters
+- Fixed Fusion Bomb visuals not appearing after breaking armor
+- Fixed Clan Crate perk dropping in Abyssal Tournaments
+- Fixed Solo Raid Titans incorrectly showing X’s on their portraits
+- Fixed spell cooldown not visually updating with ""Hourglass of the Impatient""",
+"5.4.0 (April 20, 2021)","Clan Raid Changes
+- Raid Keys: Receive two Raid Keys each week to start your Clan Raids
+- Clan Morale: Receive Clan Morale when completing your daily achievements to boost your clan’s damage in raids
+     - Gain 10 Clan Morale when completing a Daily Achievement
+     - Choose between the Build Morale and Team Assault options to save your Clan Morale or use it all up for a large damage boost
+     - Gain a Clan Morale bonus when attacking higher tier raids, even if you choose the Build Morale option
+          * Tier 1: 0%
+          * Tier 2: 5%
+          * Tier 3: 10%
+          * Tier 4: 15%
+- Tier 4 Raids: Tackle Titan Lords covered in Cursed Armor
+     - Titan Lords will have 2-4 Cursed Armor parts that decrease your Raid Card’s effectiveness. Destroy them to remove the curse!
+     - Use your fifth attack slot to help defeat these stronger foes.
+- Auto-Raid Clan Option: Choose to have your clan automatically start raids when possible
+- Titan Targeting: Grand Masters and Masters can select Titan Lord parts to focus or ignore, allowing your clan to share a strategy
+- Numerical Titan HP bars: see how much health the Titan Lords have remaining
+- Attack Cooldown Reduced between Clan Raid Attacks
+- Titan Lord Armor Balance Changes: Terro and Sterl have more armor than before
+- Area Bonuses for Tier 3 and 4 Raids Rebalanced
+     - Removed Leg Damage, Arm Damage, and Affliction Stack Count buffs
+     - Added the Raid Attack Duration buff
+- Enemy Bonuses for Tier 3 and 4 Raids Rebalanced
+     - Removed the All Raid Damage, Support Effect, Body Damage, and Affliction Stack Count debuffs
+     - Added new bonuses that increase the health of the Titan Lord’s Armor and Body on certain parts
+
+Raid Card Changes
+- Acid Drench damage increased by 2%
+- Ancestral Favor chance increased by 2%
+- Blazing Inferno damage increased by 20%
+- Cosmic Haymaker damage increased by 4%
+- Grim Shadow chance increased by 1%
+- Insanity Void chance increased by 1%
+- Insanity Void duration increased by 1 second
+- Purifying Blast chance increased by 2x
+- Purifying Blast base damage decreased by 2x
+- Purifying Blast bonus damage increased by 2x
+- Radioactivity damage increased by 5%
+- Rancid Gas chance increased by 2%
+- Ravenous Swarm damage increased by 8%
+- Totem of Power fairy spawn rate increased by 1.66x
+- Totem of Power duration decreased by 1.66x
+- Totem of Power base boost decreased by 3%
+- Victory March chance increased by 1%
+- Victory March duration increased by 1 second
+- Card Scaling increased for level 28+ cards
+
+Solo Raid Changes
+- Solo Raid Fast Travel: Choose to start on Portal 40 if you have previously completed all fifty Portals
+- Increased Bonus XP Level: Receive bonus Raid XP when completing Portals up until Raid Level 100
+- Removed Maelstrom from Solo Raid decks without another Burst or Affliction card
+
+Abyssal Tournament Changes
+- Portars spawn above your max stage in Time Storm Abyssal Tournaments
+- New Solar Eclipse Abyssal Tournament type
+- +15% Shadow Clone Splash Through Bosses Chance
+- 25x Shadow Clone Damage
+- 1000x All Spells Boost
+- +500 Mana Capacity
+- 2x All Spell Duration
+- +50 Max Splash Count
+
+General Changes
+- Inspiring Captain Legendary Set
+     - 10% Clan Morale Earned
+     - 15x War Cry Damage
+- Charm of the Ancients, Furies Bow, and The Sword of Storms artifact enchantments
+- Crafting Shard Titan Chest and Skill Tree Reset Promotions
+- Firestone Event
+
+Bug Fixes
+- Fixed diamond sync issues
+- Fixed Make it Rain description to show amount of gold and time
+- Fixed various visual bugs
+- Minor text fixes",
+"5.3.1 (March 30, 2021)","- Ties in Abyssal Tournaments reward the lowest tied rank
+- Fairy gold drops when spells are activated
+- Fixed incorrect Abyssal Tournament leaderboard ranks being shown
+- Fixed crash when resetting skill tree while spells are multi-casted
+- Fixed Season Pass VIP perks not carrying over to Abyssal Tournament
+- Fixed misc ad chest bugs
+- Fixed misc localizations",
+"5.3.0 (March 23, 2021)","New Content:
+- Multi-Cast Perks: stack perks to increase the effects of each perk
+     - Mega Boost: increased damage
+     - Power of Swiping: increased Bonus Taps Per Second
+     - Adrenaline Rush: increased damage and decreased titan spawn delay
+     - Make it Rain: decreases Auto Buy Hero timer
+     - Mana Potion: increased mana from all sources
+     - Doom: increased damage and decreased time to max Doom's damage bonus
+- Multi-cast Spells with skill tree changes: stack spells to receive additional bonuses
+     - Deadly Strike: decreased Dagger Cooldown
+     - Fire Sword: decreased Pet Cooldown
+     - War Cry: increased Companion Attack Rate
+- Three new and reworked skills:
+     - Volcanic Supremacy: increases Fire Sword Damage per Multi-Cast
+     - Command Supremacy: increases War Cry Damage per Multi-Cast
+     - Dagger Storm: increases Deadly Strike Damage per Multi-Cast
+- Auto Buy Heroes option available when Make it Rain is active
+- Improved Video Chests in Bear Shop
+     - Video Chest rewards increase with each chest opened
+     - Three tiers of Video Chests
+- New ""Forsaken Battlemage"" Legendary equipment set
+     - +1 All Spell Multi-Cast
+     - x0.8 Multi-Cast Mana Cost
+- ""Earrings of Portara"" artifact enchantment
+- Dust Titan Chest and Skill Tree Reset Promotions
+ 
+General Changes:
+- Renaming of skills, weapon upgrades, and hero types to add clarity
+- Firestone Event begins on March 30th, 2021
+
+Fixes and Misc:
+- Fixed misc localization and bugs
+- Database optimization",
+"5.2.2 (March 11, 2021)",- Fixed Starter Bundle not appearing for new players,
+"5.2.1 (March 2, 2021)","- Fixed visual bug with ""Diamonds Rewarded"" popup appearing on account import
+- Fixed Abyssal Tournament HUD timer showing incorrect time
+- Fixed overlap between avatar frame and ""New"" icon",
+"5.2.0 (February 23, 2021)","New Content:
+- Added ability to turn off stage transitions
+- ""Savage Pyromancer"" Legendary equipment set
+- ""Great Fay Medallion"", ""Neko Sculpture"" and ""Coins of Ebizu"" artifact enchantments
+- Artifact pools for Abyssal Tournaments
+- Titan Chest Promo: Skill Point, and skills tree reset
+- Added avatar for 50 solo raid leaderboard wins
+
+General Changes:
+- Swordmaster icon replaced by avatar of choice
+- Improved diamond purchase flow for Abyssal Tournaments
+- Added notification icon to Abyssal Tournament icon during join window
+- ""Report Player"" Button added to Abyssal Tournaments
+- Simplified HUD Timers
+
+Fixes and Misc:
+- Increased preview period for Abyssal Tournaments
+- UI tweaks to inbox message
+- Added notification when trying to upgrade artifacts repeatedly without % mode
+- Improved Raid Card upgrade reward banner animation
+- Various improvements to Abyssal Tournaments
+- Preparations for Upcoming Tavern Event
+- Fixed diamond loss from progression achievements
+- Fixed Power Surge resetting when prestige count is off sync 
+- Fixed Update Game panel crashing instead of directing to app store
+- Fixed ability to click through frame selector",
+"5.1.1 (February 2, 2021)","- Added 3rd row to dust shop
+- Increased Raid level cap from 300 to 400
+- Fixed certain ""Complete the Set"" offers crashing the game
+- Fixed missing Season ranking borders
+- Fixed autosalvage equipment in AT not showing updated corrupted diamonds before resync
+- Fixed passive skills resetting
+- Fixed avatar frames disappearing from clan admin announcements",
+"5.1.0 (January 26, 2021)","New Content:
+- Abyssal Tournament Cosmetic Shop: Purchase Avatars, Frames and Profile Backgrounds!
+- New ""Immaculate Arbiter"" Legendary equipment set
+- Stage Cap increase to 116k with new milestone profile background
+- ""Flute of the Soloist"" artifact enchantment
+- Crafting Shard Titan Chest and Skill Tree Reset Promotions
+
+General Changes:
+- Added corrupted effects to Abyssal Tournaments
+- Added mechanism to discourage clan hoppers
+- Preparations for upcoming Valentines Event
+- Full inclusion of Relics in Tournament matchmaking 
+
+Fixes and Misc:
+- Fixed equipment auto-salvage not giving correct corrupted diamonds in Abyssal Tournaments
+- Fixed passive skills carrying over between Abyssal Tournaments
+- Misc UI tweaks and optimizations",
+"5.0.3 (January 12, 2021)","- Fixed prestige count off sync error preventing players from prestiging in Abyssal Tournaments
+- Fixed Highest Abyssal Tournament Rank not appearing in profile panel
+- Fixed Maelstrom damage bonus after destroying armor
+- Fixed Abyssal Tournament icons appearing in main game",
+"5.0.2 (December 22, 2020)","- Tweaked HUD dropdown menu when only 1 item is present
+- Fixed Cosmic Haymaker description not showing the correct number of taps
+- Fixed text alignment in shop
+- Fixed white lines in event panel
+- Fixed missing “Abyssal Coin” icon in certain places
+- Misc. game improvements",
+"5.0.1 (December 15, 2020)","- Fixed issue where multiple Abyssal Tournament panels could be opened simultaneously
+- Fixed diamonds in main game not matching AT
+- Fixed player stats not loading in AT
+- Fixed AT preview icon not appearing during preview window
+- Fixed visual bug of bundle and season pass purchases
+- Fixed misc. crashes",
+"5.0.0 (December 8, 2020)","New Content:
+- Abyssal Tournaments: enter the Dark Lord's Abyss and prepare to fight!
+- Stage cap increase to 112k with new milestone avatar (at 110k)
+- Winterfest Event with new profile background clan reward
+- New ""Spartan Champion"" Legendary set and ""Chills and Thrills"" Event set
+- ""Avian Feather"" artifact enchantment
+- Titan Chest Promo: Skill Tree Reset and x2 Dust
+
+General Changes:
+- Added ""Sell All Unlocked Equipment"" button
+- Added ability to share Tournament Results to Clan members
+- Increased Raid XP from Solo Raids for players under Raid level 50
+
+Fixes and Misc:
+- Fixed Power of Swiping not working with Astral Awakening
+- Tweaks to Forbidden Contract skill
+- Balancing tweaks for Eternal Darkness skill and Reckless Necromancer equipment set
+        - We’ve moved 5% of the Shadow Clone boss splash chance off of the Ruthless Necromancer set and put it on to the first level of Eternal Darkness rank 1. 
+        - This change was made to provide a little boost to SC players who haven’t completed the Reckless Necromancer set yet, but still keeping the power the same for those who have it completed already.
+- Misc bug fixes and optimizations",
+"3.15.3 (November 17, 2020)		",- Fixed HUD icons blocking Astral Awakening,
+"3.15.2 (November 10, 2020)","- Fixed small image in ""Complete the Set"" offer
+- Fixed solo raid info panel overlapping on some devices
+- Fixed skill cost changing
+- Misc setup for upcoming event",
+"3.15.1 (November 4, 2020)","- Fixed missing clan reward progress bar
+- Fixed incorrect event currency icon being displayed in event panel",
+"3.15.0 (November 3, 2020)","New Content:
+- New ""The Fallen Angel"" Mythic Set
+        - +5 Active Skills Level Cap
+        - x100 Damage Per Activated Skill (Max 4)
+        - +244% Prestige Relics
+- New “Anniversary Jade” Legendary Set
+        - +4% All Raid Damage
+        - +4% All Damage Per Total Card Levels
+- New ""Tiny Titan"" Event Set
+- Stage cap increase to 108k with new profile background milestone (at 106k)
+- ""Crown of the Constellation"" artifact enchantment
+- Groundwork for the upcoming Anniversary Event happening in early November
+
+General Changes:
+- Rebalancing of Heroes
+- HUD Rework
+- Added 100k Milestone Bundle
+- Solo Raid UI tweaks to Victory Screen and Info Panel
+- Removed first completion raid tickets from Clan Raids
+
+Bug Fixes and Misc:
+- Fixed export button in all languages
+- Fixed clan crate animation looping
+- Fixed bug: Armor keeping stacks of Afflictions if broken by Purify.
+- Fixed bug: Sometimes players could bypass needing to be in a clan for 24 hours before counting raid ticket contribution.  Now all players will have a 24 hour cooldown period when  joining a new clan where they cannot contribute raid tickets.
+- Fixed various Chinese translations",
+"3.14.15 (October 13, 2020)","- Halloween themed assets
+- Improved Shop Bundle UI for better visibility and clarity",
+"3.14.1 (October 5, 2020)","- Fixed Thriving Plague behaving incorrectly with Fuse
+- Fixed ""Just Enough"" diamond offer not recommending correct diamond pack",
+"3.14.0 (September 29, 2020)","New Content:
+- Tier 4 Hero Ascension
+- Stage Cap increase to 104k
+- ""Stone of the Valrunes"" artifact enchantment
+- New ""Black Knight"" Legendary Set
+
+General Changes:
+- ""Thriving Plague"" raid skill rebalancing
+     - Receives bonus damage from all Titan Lord parts under the effect of any affliction, not just itself
+
+Bugs / Misc Fixes:
+- Fixed  ""Complete the Set"" offer appearing after crafting equipment
+- Fixed Pet Quest Level visual desync
+- Fixed tickets/week showing 0 when viewing other clans
+- Fixed misc localizations and uncompressed textures",
+"3.13.0 (August 25, 2020)","New Content:
+- Pet Quest: gain Pet XP and level up pets by sending them on quests!
+- Extended Tier 3 Raid levels
+- Stage cap increase to 100k
+- Artifact Enchantments for: ""Elixir of Eden"", ""Chest of Contentment"", and ""Heroic Shield""
+- New ""Beast Rancher"" Legendary set
+
+Quality of Life / Small Changes:
+- Firestone Event begins
+- Balance tweaks to Solo Raid decks
+- Solo Raid leaderboard run timer added to Portals panel
+- ""Collect All"" button added to clan tab of inbox
+- ""Undo"" button added to skill tree panel
+- Pet Quest Re-Balance: limit decreased from 6 to 4 pet quests
+- Buffed Pet Powers
+
+Misc:
+- Export player save button added to settings panel
+- Affliction stacks on destroyed armor transfer to body part
+- Fixed score not being submitted on an already destroyed titan
+- Fixed misc crashes and bugs",
+"3.12.2 (July 30, 2020)","- Solo Raid button always lands on portal selection screen
+- Retry button added to Solo Raids
+- Card level upgrade progress bars added to Solo Raid deck selector
+- Dust displayed when solo raid card panel is opened
+- Portal number and card levels shown on Solo Raid completion screen
+- Added 40k,50k,60k to clan stage requirements
+- Fixed spend menu closing after upgrading artifacts in quick succession
+- Fixed incorrect text shown on Clan tab of Solo Raid Leaderboard
+- Fixed misc localization and visual bugs",
+"3.12.1 (July 17/18, 2020)",- Fixed Season Pass disappearing after prestige,
+"3.12.0 (July 17, 2020)","New Content:
+- Solo Raids: collect rewards by defeating Titan Lords behind portals!
+- New UI visuals to represent Artifact Tiers: S, A, B, C
+- Summer Themed Event with new raid profile background clan reward
+- New ""Kor, the Whispering Wave"" Mythic Set
+- New ""Golden Monarch"" Legendary and ""Grill Master"" Event sets
+- Fagin's Grip artifact enchantment unlocked
+- Raid Cards re-balancing and extension of card levels to 50
+
+Card Changes:
+- Flak Shot
+     - Ricochet projective damage buffed from x0.4 -> x0.85
+     - Armor Bonus Removed
+     - Note: This should help Flak Shot be more competitive with Fragmentize, being stronger when conditions are met
+- Thriving Plague
+     - Thriving Plague Duration increased 3.5s -> 4.5s
+     - Note: The extended duration should help Thriving Plague benefit more consistently from the stack bonus.
+- Decaying Strike
+     - Exponential Drop off decreased
+     - Note: Damage will stay higher for significantly longer.
+
+Quality of Life / Small Changes:
+- Season Pass addition: unlimited Raid Stones for Solo Raids
+- Charged Card and Evergrowing Stack Artifact re-balanced for new card levels
+- Rate Game added to ""Free Diamonds"" section of Bear Shop
+
+Misc Fixes:
+- Fixed autobuy heroes defaulting to off when first unlocked
+- Prestige relics counter hidden until after first prestige
+- Enlarged ""skip"" button during intro cinematic
+- Differentiation between Season Pass and VIP skippable video icons",
+"3.11.1 (June 23, 2020)","- Improved granting of badges and ranks at the end of the season
+- Uncollected season rewards appear in main inbox
+- Fixed avatar tooltip in profile panel
+- Fixed misc localization",
+"3.11.0 (June 16, 2020)","New Content:
+- Player Titles and Season Badges
+- ""Ignus, the Volcanic Phoenix"" Mythic Set
+- ""Reckless Firepower"" Legendary
+- ""Digital Idol"" Event Set
+- Stage Cap increase to 98k
+- Spearit's Vigil and The Cobalt Plate artifact enchantments
+- Ad chest in Bear Shop
+
+Quality of Life:
+- Turned off Honor Tournaments
+- Fairy Totem rework
+- Improved Titan Lord hit boxes
+
+Bugs / Misc Fixes:
+- Removed Bonus Bank from event panel, replaced with Season Ranking rewards.
+- Info button disabled after bundle purchase
+- Fixed negative timer when event ends
+- Fixed alignment issues
+- Fixed icons appearing in split screen mode
+- Fixed misc. crashes",
+"3.10.2 (June 3, 2020)",- Improved ad video unavailability issues,
+"3.10.1 (May 12, 2020)","- UI tweak to clan chat message for clan diamond reward
+- Hero Autobuy optimizations to reduce lag
+- Fixed HP Scaling after retiring from Honor Tournament
+- Fixed Honor UI momentarily appearing when joining a non-Honor Tournament
+- Fixed icons appearing on the side in split screen view
+- Fixed misc. alignment, layering, and crashes",
+"3.10.0 (May 5, 2020)","- Season Pass additions: unlocking autobuy heroes on prestige, 75% off skill tree reset and salvaging, skippable video ads, diamond gift to clan mates
+- Honor Tournaments: competition for the top tournament bucket
+- New Mythic Set
+- New ""Azure Knight"" Legendary equipment set
+- Invader's Gjallarhorn Artifact Enchantment
+- Misc. Helper Optimizations",
+"3.9.2 (April 14, 2020)","- Fixed lag on certain devices
+- Fixed Titan HP bar showing changes after exiting raid without submission
+- Fixed Complete the Set offer timers not matching",
+"3.9.1 (April 13, 2020)","- Fixed visual bug where reward path displays incorrect rewards
+- Fixed raid retry button lowering damage and causing raid card bugs
+- Fixed ""exit"" button getting cut off on iPad resolution
+- Fixed prestige relic text not updating immediately when language is changed
+- Fixed misc. crashes",
+"3.9.0 (April 7, 2020)","New Content:
+- New Mythic Set
+- New Event panel with Event Pass
+- Raid Attack retry button
+- Prestige Relic counter added to main screen
+- 2 New Exotic Pet Artifacts: Hades Orb, Strange Fruit
+- 3 New Artifact Enchantments: Charged Card, Durendal Sword,Helheim Skull
+- Stage Cap increase to 96k with new profile background Milestone
+- Complete the set offer for Legendary Equipment
+
+Quality of Life:
+- Header bars anchored to the top for all scrolling tabs
+- Minor visual tweaks to Ultra Dagger and Forbidden Contract
+
+Bug Fixes and Misc: 
+- Fixed Flak Shot heat hitbox ricochet bug
+- Fixed some cases of dropped equipment carrying over on the tracker
+- Fixed large space at the bottom of clan announcements
+- Fixed clan member list reordering",
+"3.8.1 (March 12, 2020)","- Forbidden Contract visual tweaks
+- Welcome back panel shows additional stages advanced for video bonus
+- Fixed button on purchased bundles
+- Fixed purchasing of Rogue bundle hiding other offer bundles
+- Fixed Arcane Bargain not applying to sneak count 
+- Misc announcements fixes",
+"3.8.0 (March10, 2020)","New Content:
+- 7 New Rogue Skills
+- Silent March reworked into a passive skill with introduction of offline sneak count.
+- Seeded Raid Generation
+- New flexible Announcement system
+- Diamond/Mama Fairy trackers added to daily collectibles
+- New “Hidden Viper” Legendary equipment set
+- New “Heir of Shadows” and “Heir of Light"" Event equipment sets
+- New artifact enchantment for Drunken Hammer
+
+Quality of Life Changes:
+- Prestige relics bonus given from mythic sets changed from multiplicative to additive
+- Achievement Panel opens to tab with most collectable items
+- New Bear Shop and Bundle popup UI
+
+Bug Fixes and Misc Changes:
+- Privacy policy panel UI update
+- Facebook Sign Up removed (New accounts cannot link to Facebook, this does not remove the ability to log-in with a pre-existing Facebook account)
+- Fixed clan icon sometimes missing “notification fire” effect when raid is active
+- Fixed error when collecting several holiday clan event rewards
+- Misc. memory optimizations and desync errors",
+"3.7.1 (February 18, 2020)","- Added notification to HUD event icon when rewards are collectible
+- Fixed daily farmed equipment not syncing correctly 
+- Fixed incorrect event avatar in event panel
+- Fixed Swordmaster tab scrolling down after prestige
+- Fixed clan chat clickthrough
+- Misc SDK updates",
+"3.7.0 (February 11, 2020)","- Love is in the air! Check out the new Valentines Event where you'll be collecting tasty treats to earn lovely rewards!
+- Raised the Stage Cap to 92k and added new Milestones and Milestone Bundle.
+- Unlocked the ""Heavenly Sword"" artifact enchantment.
+- Added new legendary ""Nimble Hunter"" and event ""Sweets and Treats"" equipment sets.
+- Added a daily equipment counter to the Achievement Panel. More counters are on the way!
+- Reduced the variance on the ""Fairy Totem"" card.
+- Prestiging is now enabled after reaching a percentage of your max stage, instead of reaching Sword Master Level 500.
+- The Prestige button has been moved closer to the top of the Sword Master Tab.
+- Added a new tutorial system for beginner Sword Masters.
+- Clans are now unlocked at Stage 100.
+- Fixed issue where Perks Used achievement would sometimes require one extra usage.
+- Fixed clan ship splash not applying correctly when Snap was active.
+- Early Artifact Unlock Pools Adjusted
+- Early Artifacts Improved
+- Several Exotic Pet Buffs
+- T2/T3 Raid HP Reduction
+- Fairy Totem Balance Changes
+- Misc bug fixes
+- Misc memory optimizations",
+"3.6.1 (January 7, 2020)","- Bear Shop, Dust Shop, Daily Achievements, and Daily Farmable Equipment Count will now all refresh at UTC midnight
+- Added progress bars to passive skills
+- Updated UI for Daily and Progression tabs in Achievement Panel
+- Updated UI for Pet Quest pet selection
+- Your current number of cards is now displayed before buying new cards in the dust shop
+- Added New Year themed loading screen and stage background
+- Fixed Active Skill Info Panel not showing the correct duration when shadow clone was active
+- Fixed visual bug where equipment drops were continuously spawning from enemies
+- Fixed issue where hero scrolls were appearing as 0 for other players
+- Fixed edge case with empty password reset email",
+"3.6.0 (December 17, 2019)","- The Holiday Season is here, and with it comes a new event! Collect festive ornaments and decorate the tree in order to receive magnificent rewards!
+- We've added a new bonus bank to this event, which will grant you extra rewards based on the final number of ornaments you collect!
+- If your Clan gathers enough ornaments, each member will receive an exclusive Raid Profile Background!
+- We've added a new Legendary Equipment Set to celebrate the third anniversary of Tap Titans 2! Keep your eyes out for the new winter event set as well!
+- Added an additional Artifact Enchantment
+- Fixed Mega Boost not counting towards Perk Achievements
+- Fixed an issue where the number of relics contained in bundles was sometimes displayed as 0
+- Fixed ""New"" icon not disappearing when new pets were sent out on Pet Quests
+- Fixed Chestersons not counting as titans when calculating career stats
+- Improved game stability",
+"3.5.1 (November 29, 2019)","- Fixed Prestige Event icon appearing at the wrong times for some players. 
+- Fixed Prestige Event icon disappearing at the wrong times for some players.
+- Countdown timer reset to the correct times for all players.",
+"3.5.0 (November 26, 2019)","- Pet Quests are here! Send your pets on quests to bring back powerful boosts.
+- Added 14 new Exotic Pets. The original 16 pets will be tagged as Legacy Pets.
+- Added a limited time Ultra Prestige Weekend event, where you can earn tons of bonus relics!
+- Added a new damage-boosting Perk which can be activated by watching a video.
+- Added new Milestone Bundles which become available after completing certain Milestones.
+- Reduced the Daily Deal and Card Shop refresh times to 6 hours.
+- Increased the Stage Cap to 88k. Unlock a new Profile Background by reaching this stage!
+- Unlocked the ""Ring of Calisto"" Artifact Enchantment
+- Fixed ""Dimensional Shift"" skill values not matching between skill tree panel and book panel
+- Fixed miscellaneous crashes",
+3.4.2,"- New Loading Screen
+- Raid log damage correctly calculated for each titan and sorted by titan order
+- Tournament ID's no longer cut off on iPad resolutions
+- Balance tweaks to Tier 3 Area and Enemy effects",
+3.4.1,"- 8 new horror themed pet loading screens
+- Raid Log now shows full damage amounts
+- Raid Log now shows total damage per Titan Lord
+- Undisputed Champion count in profile
+- Total Raid attack count shown in active raid info
+- Soul Counter reflects the correct value when High Quality animations are turned off
+- Clan chat colors have been reverted to 3.3.1 values
+- Tournament rewards no longer show through profile panel",
+3.4.0,"- Hallow's Eve has arrived! Collect Evil Souls from chests, tournaments, raids, diamond fairies, daily rewards, and daily achievements to move up the spooky path and earn epic rewards. Can you make it all the way to the haunted house?
+- Enjoy the randomized loading screens. Try and catch them all!
+- Raid logs exported via the ""Copy to Clipboard"" button now list how much damage was done to each part.
+- Added a Monthly Clan Leaderboard
+- New Reddit and Instagram icons added to Bear Shop for diamonds rewards
+- Artifact info panel updated to show invested relics/salvage value, lifetime relics invested, and disenchantment cost
+- Added a panel that summarizes new content on every major release
+- Stage cap increased to 84k
+- Unlocked ""Titania's Sceptre"" artifact enchantment
+- Added 2 new equipment sets: ""Bone Mender"" legendary set and ""Grim Reaper"" event set
+- Pet Skill Cooldown % and Companion Skill Cooldown % added to stats panel
+- Fixed diamond animation appearing behind panels
+- Fixed sharing across different versions of the game (applies to skill tree builds and attack summaries)
+- Fixed visual issue where small bits of titan lord armor would remain after destroying a part.",
+3.3.1,"- Randomization of tier 3 area/enemy effects
+- Rescaled practice titan Lemmy HP
+- Clicking on ""Clan Info"" button opens the ""Members"" tab first
+- Edited clan chat colours
+- Improved fairy ad load reliability",
+3.3.0,"- Milestone achievements (including new avatar rewards)
+- Player and raid profile backgrounds
+- Tier 3 with raid area and enemy effects
+- Automatic inactive clan leader demotion
+- Stage cap increased to 80k
+- Unlocked ""Sigils of Judgement"" artifact enchantment
+- 2 new equipment sets (""Combo Breaker"" event set and ""Celestial Enchanter"" legendary set)
+- In-game password reset
+- Sped up reward animations
+- Raid skill maximum increased to level 13
+- Clan panel UI update
+- New gamer theme
+- Tier 1 balance tweaks
+- Fixed Titan Lord kill pattern
+- Fixed Non-English characters not showing up in clan crate confirmation panel
+- Fixed raid help panel opening twice on tall devices",
+3.2.3 / 3.2.4,"- Clan chat sharing fix (3.2.4 iOS Hotfix)
+- Unlocked Sword of the Royals Artifact Enchantment
+- New daily achievement to watch a video
+- Changed ""watch 1 diamond fairy"" to ""tap on 5 fairies"" daily achievement
+- Reward animation for daily achievement removed
+- Memory optimizations to reduce lag
+- Coordinated Offensive animation fix: previously, the animation looked sped up
+- Bundle equipment level fix: equipment level was inaccurate in shop
+- Android app icon fix: with certain android versions, a square version of the app would be inside a circle icon",
+3.2.2,"- Unlocked Foliage of the Keeper Artifact Enchantment
+- Stage transitions now smoother
+- Titan Lord optimizations
+- Fixed salvage relic display amount
+- Fixed a bug with artifact enchantment UI
+- Fixed issue with salvage after a prestige
+- Fixed bonus reward tickets not showing during finalization
+- Fixed iOS chat going offscreen
+- Fixed hero evolution cost not being reduced with reduction fairy
+- Fixed miscellaneous crashes",
+3.2.1,"Fixes:
+- iOS crashes related to non-English system language settings have been fixed.
+- Attack summary now shows card levels of the player and not your own.
+- Artifact disenchantment cost fixed.",
+3.2.0,"Features:
+- Summer is back with a brand new sports theme and a stage cap increase to 75k!
+- Make artifacts even stronger with artifact enchantments!
+- Raid attack summaries can now be directly shared in the clan chat!
+- Active skill level cap increased!
+- Raid reward and ticket cost balance improvements!
+- Tournament matching improvements!
+- New help panels for achievements and raids.
+- See more stats on the updated raid card extended description panel.
+- New raid cards: limb damage burst and limb damage support.
+- New equipment sets, featuring the Legendary Noble Fencer set!
+- Brand new Game Hive support system, which allows for support directly in-game along with a new FAQ.
+
+Artifact Enchantment:
+- The artifact tab and info panel has been updated with a new look.
+- Enchantment becomes available after all artifacts have been unlocked.
+- Artifacts have now been assigned pools that determines when they first become available to drop.
+- 3 Artifacts will be initially available to enchant (including Book of Shadows), and more will become available over time.
+
+Active Skills:
+- Level cap increased from 25 to 30.
+- Heavenly Strike upgrades now increase splash skip instead of splash count.
+- Angelic Radiance now increases splash count instead of splash skip.
+- Heavenly Strike base splash count increased from +3 to +9 (from x4 to x10).
+
+Raid Rewards:
+- Ticket costs now scale up to a maximum of 1000 tickets to start a raid.
+- Raid rewards have been adjusted to match the increased ticket costs.
+- The goal of these changes is to make harder raids more optimal to farm relative to easier raids.
+
+Equipment Sets:
+- [Legendary] Musketeer: 25% Advance Start and x1M Prestige Gold.
+- [Event] Sports: x10 Fairy Gold.
+
+Balance:
+- Prestige Gold now includes bonuses that boost Hand of Midas.
+- Fusion Bomb damage increased by 10%.
+- Victory March damage bonus increased by 25%.
+- Advance Start bonus on tournament join increased to 75%.
+
+Fixes:
+- Updated our game engine and video reward framework.
+- Over damage from simultaneous raid attacks that all destroy the same part now no longer each reduce the total HP of the Titan Lord.
+- Fixed some issues where Titan Lords were not being spawned correctly.
+- The player profile improvement bar now displays text values on top of the bar.
+- Turning off the high animation setting now affects raid animations as well, making them smoother on older devices.
+- Shadow Clone slash animations no longer get stuck on the screen in some cases.
+- An issue with clan chat messages getting moved too far up in the chat window.
+- Several issues where hero upgrades were be grayed out when they should have been usable.
+- Splash kills were not always being calculated correctly when the player had two stacks of the Snap effect active.
+- Updated raid attack validation to prevent errors from happening before attacks are made.
+- Added a skip button to the intro animation.
+- Split screen mode now correctly hides UI elements that were meant to be hidden.
+- The Daily achievement timer wasn't resetting properly while the achievement panel was open with the progression tab active.",
+3.1.1,"Fixes:
+- Arcane Bargaining level was getting reduced in some cases after prestiging.
+- Failed card shop purchases were still counting towards dust spent requirements for Arcane Bargain.",
+3.1.0,"Features:
+- Tier 2 Raids now available!
+- Ascension Lv. 3 added!
+
+Balance:
+- Heavenly Strike slash damage scaling increased.
+- Angelic Radiance splash skip increased (matches Eternal Darkness).
+- Tier 1, Zone 1 Titan Lord HP was reduced and scaling is now smoother through Tier 1.
+
+Fixes:
+- Swapped achievement panel tabs and updated achivement display to fix issue where stars kept redrawing.
+- Fixed issue where the purchase artifact button could appear under some artifacts.
+- Fixed issue where multiple attack screens could be opened at the same time.
+- Fixed several alignment issues with panels and text.
+- Heavenly Strike damage now shows on the main screen when a Heavenly Strike slash is equipped.
+- Fixed issue with Arcane Bargain level increasing when no Dust was spent.
+- Titan Lord names are now displayed on the raid attack screen.
+- Fixed an issue where cards weren't correctly loaded when starting the game.
+- Cleaned up several sound effects.",
+3.0.0,"Features:
+- The long awaited Clan Raid update is finally here, along with Stage 70k!
+- Titan Lords have evolved... battle as a clan against 6 new powerful Titan Lords in brand new raid environments.
+- Collect 21 new Raid Cards to learn as you construct the perfect Deck to use in Raids!
+- Plan out precise attacks as Power of Swiping is now always active during Raid attacks!
+- Earn new Hero Scrolls to increase the strength of your Hero Skills!
+- Acquire Dust from Raid Rewards to upgrade your Raid Cards or unlock new Cards in the Dust Shop!
+- Arcane Bargain is a new passive skill that increases the strength of all other passive skills!
+- Earn Raid Tickets and Diamonds through new and improved Daily Achievements!
+- 5 new artifacts have been added, bringing the total to up to 95! (Only 1 of these will be immediately available).
+- 2 new equipment sets: Including the Thundering Deity legendary set!
+- Major main progression balance improvements!
+
+Hero Scrolls:
+- Scrolls boost Hero Skills similar to how Weapons boost Hero Damage.
+- +100% Hero Skill strength from Scrolls is equivalent to the bonus that skills receive from a Hero Ascension.
+- The additive skill bonus given by Tactical Insight has been reduced in order to maintain balance.
+
+Shop Chest Contents:
+- Silver and Titan Chests now feature Dust!
+- Dust has replaced equipment in each of these chests.
+- Additionally, more Crafting Shards have been added to some Titan Chests.
+
+Artifact Balancing:
+- The gap between the best and worst artifacts was reduced, as some of the strength from the strongest artifacts was redistributed to the weaker artifacts.
+- The overall strength of artifact bonuses was increased.
+
+Heavenly Strike Slash:
+- Heavenly Strike builds gain a ton of power with the new Heavenly Strike Slash!
+- Some existing Slash equipment has been converted to this new bonus type as well.
+- In order to keep this power growth in check, we made the following two adjustments:
+- Heavenly Strike no longer receives a damage bonus from Deadly Strike.
+- Angelic Radiance skill tree upgrade strength was slightly reduced.
+
+Titan and Hero Scaling:
+- Titans now have much smoother HP growth, as the large difficulty ramp at stage 42k has been removed.
+- This also means that Titans have much more HP in some of the earlier stages of the game now, but Hero damage has been increased to compensate for this change.
+- New Hero Ascension tiers now give a much bigger jump in power.
+- The first several heroes in a new Ascension tier unlock quicker now, while the last several heroes are more spaced out.
+- Hero evolves are now much stronger and more meaningful.
+- The ""final three"" heroes no longer unlock at the same gold cost.
+
+Balance:
+- Snap spawn chance was reduced, but Snap can now spawn even when a Snap effect is already active.
+- The Clan Quest damage bonus was removed.
+- Equipment now scales stronger with increasing stage, and different equipment bonuses now scale at different rates.
+- Pet Attacks now get a stronger boost from Deadly Strike.
+- Crafting Power benefits were reduced depending on the Rarity of the equipment set (Mythic Set primary bonuses were not reduced).
+- Rare equipment sets now start with a stronger bonus at the first Crafting Level.
+- The Anti-Titan Cannon passive skill now uses Hero Masteries (Weapons and Scrolls) as its upgrade cost.
+- In general, all passive skills are now easier to upgrade.
+- The Mechanized Warrior passive skill cost reduction bonus was improved from x0.8 to x0.75.
+- Four of Damon's skills were changed from Mana Capacity to Shadow Clone Damage (to keep scrolls balanced).
+- Damon's final Mana Capacity bonus was increased from +30 to +50.
+- Hero weapon set damage has increased from x4 to x5 per set.
+- Pet improvement bonuses now unlock every 20 additional pet levels, starting at pet level 100.
+
+Fixes:
+- Fixed several panels that could be tapped through.
+- Fixed a rare bug where the Sword Master could disappear on the pet tutorial boss (stage 8).
+- Tapping while using Power of Swiping no longer exceeds the 20 taps per second limit.
+- Fixed the auto-salvage diamond text sometimes being displayed incorrectly.
+- Fixed several translation issues as well as text overflow.
+- Fixed a memory leak when loading Titan Lords.
+- Clan Ship Coordinated Offensive now activates Anchoring Shot (when upgraded).
+- New Artifact unlocks now appear at the top of the scroll list.
+",
+2.12.2,"Features:
+- Winter ends early with the introduction of stage 55k!
+- Increase your Sorcerer splash skip with the new Mystic Impact passive skill.
+- 2 new equipment sets: Including the Eternal Monk legendary set!
+- Major performance optimizations!
+
+Sorcerer Splash Skip:
+- Increases splash skip of both Heavenly Strike and Shadow Clone.
+- Upgrade levels are based on total tournament points owned.
+
+Equipment Sets:
+- [Legendary] Eternal Monk: x1.2 Portar stage skip, +2% Portar spawn chance.
+- [Event] Lunar Festival: x10 Specialty Gold.
+
+Performance Optimizations:
+- We have implemented several changes that have greatly reduced average CPU usage.
+- Newer devices should see a noticable improvement in battery life and older devices should experience smoother gameplay.
+
+Balance:
+- Titan HP base scaling at stage 42k has been decreased from 1.28 to 1.26.
+- Coordinated Offensive bonus clan ship shot now receives x2 clan ship splash skip.
+- Coordinated Offensive skill tree cooldown reduction improved at higher levels.
+- Stunned titans no longer give a splash skip bonus to the clan ship.
+
+Fixes:
+- Many translation improvements in regards to missing characters.
+- Fixed crashes with auto upgrade all heroes, and fixed a case where the upgrade button was disabled after a hero was automatically purchased.
+- Fixed potential crashes related to server interactions with the client.
+- Fixed a rare crash that could happen when changing the language after restarting the game.
+- Fixed an issue where an option to ascend a hero would not immediately show, even if the player could afford the upgrade.",
+2.12.1,"Features:
+- Celebrate the end of the year by climbing to stage 50k!
+- Auto upgrade all heroes after each prestige! Unlock this feature for free by reaching stage 10k!
+
+Balance:
+- Titan HP scaling has been increased starting on stage 42k.
+- Starting gold after each prestige has been greatly increased.
+
+Fixes:
+- Fixed loading screen crash for accounts with save files from version 2.10.3 and older.
+- Fixed an issue where bundles could show the wrong price and reward incorrect items.
+- Sophia and Nohni themed artifacts had visuals and text swapped.
+- Removed the gold per active skill bonus from affecting starting gold.
+- Increased max limit for letter notation.",
+2.12.0: Anniversary Update,"Features:
+- Winter is here along with a strong push to stage 42k!
+- 2 New equipment sets: including the new Mechanized Sword mythic set!
+- 5 New artifacts: each new bonus is themed after around one of your heroes!
+- Memory optimizations during clan quests!
+
+Equipment Sets:
+- [Mythic] Mechanized Sword: x0.8 passive skill costs, x2 all damage per mythic set, x1.5 relics earned.
+- [Legendary] Anniversary Platinum: x8 companion damage, x1.1 all stage skip.
+
+Artifacts:
+- Sword of the Royals: Gives a sword equipment boost and increases melee hero damage.
+- Spearit's Vigil: Gives a helmet equipment boost and increases flying hero damage.
+- The Cobalt Plate: Gives an armor equipment boost and increases ground hero damage.
+- Sigils of Judgement: Gives an aura equipment boost and increases spell hero damage.
+- Foliage of the Keeper: Gives a slash equipment boost and increases ranged hero damage.
+
+Fixes:
+- Memory usage has been decreased by up to 10% during clan quests.",
+2.11.2,"Balance:
+- Ascension Lv.2 damage increased for all heroes.
+
+Fixes:
+- Better memory handling after each clan quest attack to help with memory related crashes.
+- Damage per running active skill bonus was affecting inactive DPS.
+- Tactical Insight bonus was being over-counted both when heroes were first ascended, as well as when the game was restarted.
+- Shadow Clone damage snapshot becoming permanently disabled while Doom was active.
+- Hero ascension gold cost bugs and rounding errors when using the buy max option.
+- Various hero ascension visual fixes.
+- Clan chat panel visual fixes and fixed issues where various objects could be tapped through this panel. 
+- Owned equipment no longer shows as being new when collected equipment is auto-salvaged.
+- Diamonds earned from auto-salvaging equipment now clearly displayed in the equipment rewards screen.
+- Purchased equipment was being auto-salvaged in some cases.
+- Issue where clan code search was limited to 5 characters.
+- Various tutorial fixes.",
+2.11.0: Halloween Update,"Features:
+- Reach stage 35k in this special spooky Halloween update!
+- Hero Ascension level 2 is here; make your heroes stronger than ever!
+- Share your skill tree builds with your clan mates directly in the clan chat!
+- UI DPS display improvements: See the damage of your slash bonus type on the main screen!
+- 2 New equipment sets, including the new Scarecrow Jack set!
+- 2 New artifacts: active skill and artifact related damage boosts!
+
+Equipment Sets:
+- [Legendary] Titan Attack: x3 Fundamental Damage and -10% active Titan spawn time.
+- [Event] Scarecrow Jack: x10 Shadow Clone Damage.
+
+Artifacts:
+- Damage per Active Skill: Increase your damage for each running active skill (capped at 4 active skills).
+- Damage per Owned Artifact: Increase your damage for each artifact you own (salvaged artifacts don't count).
+
+Balance:
+- Pet splash skip is now twice as strong for Lightning Burst attacks.
+- Clan ship splash skip is now twice as strong against stunned Titans.
+- Flash Zip now requires 3 taps instead of 5 before triggering the final attack.
+- Active skills now all have a 20s cooldown (other than Heavenly Strike).
+- Fairy gold was given a slight boost.
+
+Fixes:
+- Additional improvements to our tournament matching system.
+- Email backed accounts can no longer also link to Facebook.
+- Equipment collection would sometimes auto-salvage stronger equipment instead of weaker equipment.
+- Active skill rewards from fairies no longer display the timer duration in the fairy reward bar message.
+- Welcome back panel messages were sometimes incorrect during an active tournament.
+- Player names now correctly saved when importing progress.
+- Several avatars were missing descriptions.",

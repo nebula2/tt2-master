@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:views="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+            xmlns:behaviors="clr-namespace:TT2Master.Behaviors"
+            xmlns:sp="clr-namespace:TT2Master.Views.SP"
+            xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+            xmlns:resource="clr-namespace:TT2Master.Resources"
+            x:Class="TT2Master.SPOptResultPage"
+            Title="{Binding Title}"
+            >
+
+    <TabbedPage.BarBackgroundColor>
+        <OnPlatform x:TypeArguments="Color">
+            <On Platform="iOS" Value="{StaticResource BackgroundColor}"></On>
+        </OnPlatform>
+    </TabbedPage.BarBackgroundColor>
+
+    <TabbedPage.SelectedTabColor>
+        <OnPlatform x:TypeArguments="Color">
+            <On Platform="iOS" Value="White"></On>
+        </OnPlatform>
+    </TabbedPage.SelectedTabColor>
+
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+            <converter:IntEnumConverter x:Key="IntEnum"/>
+            <converter:ArtPercentageConverter x:Key="ArtPerc" />
+        </ResourceDictionary>
+    </TabbedPage.Resources>
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Command="{Binding FollowCommand}" Icon="save_icon"/>
+        <ToolbarItem Command="{Binding ExportCommand}" Icon="export_icon"/>
+    </TabbedPage.ToolbarItems>
+    
+    <!-- General and Settings -->
+    <ContentPage Title="{x:Static resource:AppResources.Result}">
+
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="upgrade_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+
+        <ScrollView>
+            <Grid Margin="2"
+                  RowDefinitions="Auto, *">
+
+                <!-- Attention Text -->
+                <Frame Grid.Row="0" BackgroundColor="{StaticResource OptimizerLevelFrameColor}" Margin="5"
+                       IsVisible="{Binding IsAttentionTextVisible}">
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="{Binding AttentionText}" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Skills to follow -->
+                <ListView Grid.Row="1" CachingStrategy="RetainElement" ItemsSource="{Binding UpgradeCollection}" HasUnevenRows="True" SelectionMode="None" BackgroundColor="Transparent">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="5">
+                                    <Grid  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                                           ColumnDefinitions="50, *, Auto"
+                                           RowDefinitions="*, Auto">
+
+                                        <!-- Skill Image -->
+                                        <Image Grid.Column="0" Source="{Binding ImagePath}" WidthRequest="50" HeightRequest="50" />
+
+                                        <!-- Skill Name -->
+                                        <Grid Grid.Column="1" RowDefinitions="Auto, Auto">
+                                            <!-- Name -->
+                                            <Label Grid.Row="0" Text="{Binding Name}" FontAttributes="Bold"/>
+
+                                            <!-- Level -->
+                                            <Label Grid.Row="1">
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <FormattedString.Spans>
+                                                            <Span Text="{Binding CurrentLevel, StringFormat='Lvl: {0}'}" />
+                                                            <Span Text=" " />
+                                                            <Span Text="{Binding WeightedTotalEfficiency, StringFormat='Eff: {0:#.####}'}" />
+                                                        </FormattedString.Spans>
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                        </Grid>
+
+                                        <!-- Upgrade -->
+                                        <Frame Grid.Column="2" 
+                                               OutlineColor="{StaticResource ForegroundDark}" 
+                                               BackgroundColor="{StaticResource OptimizerLevelFrameColor}" 
+                                               Margin="1" Padding="1">
+
+                                            <!-- Cost -->
+                                            <StackLayout Orientation="Vertical">
+                                                <Label Margin="2">
+                                                    <Label.FormattedText>
+                                                        <FormattedString>
+                                                            <FormattedString.Spans>
+                                                                <Span Text="{x:Static resource:AppResources.CostText}" />
+                                                                <Span Text=" " />
+                                                                <Span Text="{Binding UpgradeCost}" />
+                                                            </FormattedString.Spans>
+                                                        </FormattedString>
+                                                    </Label.FormattedText>
+                                                </Label>
+                                            </StackLayout>
+                                        </Frame>
+
+                                        <!-- Upgrade-Information -->
+                                        <Label Grid.Row="1" Grid.ColumnSpan="3">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <FormattedString.Spans>
+                                                        <Span Text="{x:Static resource:AppResources.UpgradeReason}" />
+                                                        <Span Text=": " />
+                                                        <Span Text="{Binding Information}" />
+                                                    </FormattedString.Spans>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </Grid>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+
+    <!-- Skill Tree -->
+    <ContentPage Title="{x:Static resource:AppResources.Tree}">
+        
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="tree_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+
+        <ScrollView>
+            <sp:SPTreeCanvasView Color="{Binding TreePseudoColor}">
+                <views:SKCanvasView.Behaviors>
+                    <behaviors:PaintSurfaceCommandBehavior Command="{Binding PaintCommand}" />
+                </views:SKCanvasView.Behaviors>
+            </sp:SPTreeCanvasView>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

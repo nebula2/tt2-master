@@ -1,0 +1,80 @@
+@page "/assetcontainerdetail/{ContainerReference}"
+@using TT2MasterAdministrationApp.Shared
+@inject HttpClient Http
+@inject NavigationManager  NavigationManager
+@inject IJSRuntime JSRuntime
+
+<h1>@ContainerReference</h1>
+<div class="form-group">
+    <a class="btn btn-success" href="assetmanagement"><i class="oi oi-arrow-left"></i> Navigate back</a>
+</div>
+
+@if (thisContainer == null)
+{
+    <p><em>Loading container...</em></p>
+}
+else if (thisContainer.Provider == AssetProvider.GameHive && thisContainer.ContainerType == AssetContainerType.Staging)
+{
+    <div class="form-group">
+        <a class="btn btn-success" href="assets/downloadghversion/@ContainerReference"><i class="oi oi-cloud-download"></i> Get Version</a>
+    </div>
+}
+else if (thisContainer.Provider == AssetProvider.Admin && thisContainer.ContainerType == AssetContainerType.Staging)
+{
+    <div class="form-group">
+        <a class="btn btn-success" href="assets/uploadDivVersion/@ContainerReference"><i class="oi oi-cloud-upload"></i> Upload Version</a>
+    </div>
+}
+
+@if (versions == null)
+{
+    <p><em>Loading versions...</em></p>
+}
+else if (versions.Count == 0)
+{
+    <p><em>Nothing found :/</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Version</th>
+                <th>Download</th>
+                @if (thisContainer != null && thisContainer.ContainerType == AssetContainerType.Staging)
+                {
+                    <th>Validate</th>
+                }
+                @if (prodContainers != null && prodContainers.Count > 0)
+                {
+                    <th>Push to production</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in versions)
+            {
+                <tr>
+                    <td>@item.ToString()</td>
+                    <td><a class="btn btn-info" href="javascript:void(0)" @onclick="@(async () => await DownloadAssetsAsync(item.ToString()))"><i class="oi oi-cloud-download"></i> Download</a></td>
+                    @if (thisContainer != null && thisContainer.ContainerType == AssetContainerType.Staging)
+                    {
+                        <td>
+                            <div class="form-group">
+                                <a class="btn btn-success" @onclick="() => ValidateAssetVersion(item.ToString())"><i class="oi oi-check"></i> Validate</a>
+                            </div>
+                        </td>
+                    }
+                    @if (prodContainers != null && prodContainers.Count > 0)
+                    {
+                        <td>
+                            <div class="form-group">
+                                <a class="btn btn-warning" @onclick="() => PushToProduction(item.ToString())"><i class="oi oi-cloud-upload"></i> Push</a>
+                            </div>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}

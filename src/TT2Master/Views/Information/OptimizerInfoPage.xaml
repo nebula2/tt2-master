@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             x:Class="TT2Master.OptimizerInfoPage"
+             Title="{Binding Title}"
+             BackgroundColor="Transparent">
+
+    <ScrollView>
+        <Grid Padding="4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Header -->
+            <Label Grid.Row="0" Text="{Binding HeaderText}" TextColor="{StaticResource EntryColor}" FontSize="Large" Margin="0,0,0,10"/>
+
+            <!-- Intro -->
+            <Label Grid.Row="1" Text="{x:Static resource:AppResources.OptimizerIntroduction}"/>
+
+            <!-- Image one -->
+            <Image  Grid.Row="2" Source="{Binding ImageOne}" Margin="4"/>
+
+            <!-- Descr one -->
+            <Label Grid.Row="3" Text="{Binding ImageOneDescription}"/>
+
+            <!-- Image 2 -->
+            <Image  Grid.Row="4" Source="{Binding ImageTwo}" Margin="4"/>
+
+            <!-- Descr 2 -->
+            <Label Grid.Row="5" Text="{Binding ImageTwoDescription}"/>
+
+            <!-- Image 3 -->
+            <Image  Grid.Row="6" Source="{Binding ImageThree}" Margin="4"/>
+
+            <!-- Descr 3 -->
+            <Label Grid.Row="7" Text="{Binding ImageThreeDescription}"/>
+
+            <!-- Image 4 -->
+            <Image  Grid.Row="8" Source="{Binding ImageFour}" Margin="4"/>
+
+            <!-- Descr 4 -->
+            <Label Grid.Row="9" Text="{Binding ImageFourDescription}"/>
+        </Grid>
+    </ScrollView>
+</ContentPage>

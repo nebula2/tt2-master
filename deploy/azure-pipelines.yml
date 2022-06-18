@@ -1,0 +1,101 @@
+# Xamarin.Android
+# Build a Xamarin.Android project.
+# Add steps that test, sign, and distribute an app, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/xamarin
+
+trigger:
+- master
+
+stages:
+- stage: Apps
+  variables:
+  - group: 'TT2Master'
+  - name: buildConfiguration
+    value: 'Release'
+  - name: outputDirectory
+    value: '$(build.binariesDirectory)/$(buildConfiguration)'
+  jobs:
+  - job: Android
+    pool:
+      vmImage: 'windows-latest'
+    steps:
+    - task: NuGetToolInstaller@1
+    - task: NuGetCommand@2
+      inputs:
+        restoreSolution: '**/*.sln'
+        vstsFeed: 'Nugetti'
+    - task: DownloadSecureFile@1
+      displayName: "Download keystore from secure files"
+      name: keyStore
+      inputs:
+        secureFile: 'TT2Master.jks'
+    - task: XamarinAndroid@1
+      inputs:
+        projectFile: '**/*droid*.csproj'
+        outputDirectory: '$(outputDirectory)'
+        configuration: '$(buildConfiguration)'
+        msbuildVersionOption: 'latest'
+        msbuildArchitectureOption: 'x64'
+        msbuildArguments: '-restore -t:SignAndroidPackage -p:AndroidPackageFormat=aab -p:AndroidKeyStore=True -p:AndroidSigningKeyStore=$(keyStore.secureFilePath) -p:AndroidSigningStorePass=$(keystorePassword) -p:AndroidSigningKeyAlias=$(keyAlias) -p:AndroidSigningKeyPass=$(keyPassword)'
+        jdkOption: 'JDKVersion'
+    - task: CopyFiles@2
+      displayName: 'Copy deliverables'
+      inputs:
+        SourceFolder: '$(outputDirectory)'
+        Contents: '*.aab'
+        TargetFolder: 'drop'
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish release'
+      inputs:
+        pathToPublish: 'drop'
+        artifactName: 'release'
+  - job: iOS
+    pool: 
+      vmImage: 'macOS-latest'
+    steps:
+    - task: InstallAppleCertificate@2
+      displayName: 'Install Apple Signing Identity'
+      inputs:
+        certSecureFile: 'iphone_distribution.p12'
+        certPwd: '$(p12Password)'
+        keychain: 'temp'
+        deleteCert: true
+    - task: InstallAppleProvisioningProfile@1
+      displayName: 'Install Apple Provisioning Profile'
+      inputs:
+        provisioningProfileLocation: 'secureFiles'
+        provProfileSecureFile: 'TT2Master_Distribution_alda.mobileprovision'
+        removeProfile: true
+    - task: NuGetToolInstaller@1
+      displayName: 'Install NuGet'
+      inputs:
+        checkLatest: true
+    - task: NuGetCommand@2
+      displayName: 'Restore Nuget Packages'
+      inputs:
+        restoreSolution: '**/*.sln'
+        vstsFeed: 'Nugetti'
+    - task: XamariniOS@2
+      displayName: 'Build iOS Package'
+      inputs:
+        solutionFile: '**/*iOS.csproj'
+        configuration: '$(buildConfiguration)'
+        buildForSimulator: false
+        packageApp: true
+        runNugetRestore: false
+        signingIdentity: '$(APPLE_CERTIFICATE_SIGNING_IDENTITY)'
+        signingProvisioningProfileID: '$(APPLE_PROV_PROFILE_UUID)'
+        args: '/p:OutputPath="$(Build.BinariesDirectory)"'
+    - task: CopyFiles@2
+      displayName: 'Copy iOS deliverables'
+      inputs:
+        SourceFolder: '$(Build.BinariesDirectory)'
+        Contents: |
+          **/*.ipa
+          **/*.dSYM/**
+        TargetFolder: '$(outputDirectory)'
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish iOS Artifacts'
+      inputs:
+        pathToPublish: '$(outputDirectory)'
+        artifactName: 'iOS'

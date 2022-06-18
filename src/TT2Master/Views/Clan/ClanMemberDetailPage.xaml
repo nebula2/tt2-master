@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+            xmlns:charts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+            xmlns:valueConv="clr-namespace:TT2Master.ValueConverter"
+            xmlns:controls="clr-namespace:TT2Master.Controls"
+            xmlns:resource="clr-namespace:TT2Master.Resources"
+            x:Class="TT2Master.ClanMemberDetailPage"
+            Title="{Binding Title}">
+
+    <TabbedPage.Resources>
+        <converter:CoinStringConverter x:Key="CoinStr" />
+        <valueConv:BoolConverter x:Key="BoolConverter" />
+    </TabbedPage.Resources>
+    
+    <TabbedPage.ToolbarItems>
+        <controls:BindableToolbarItem Command="{Binding GoToPreviousCommand}"   Icon="arrow_left"  IsVisible="{Binding IsNavigateEnabled}"/>
+        <controls:BindableToolbarItem Command="{Binding GoToNextCommand}"       Icon="arrow_right" IsVisible="{Binding IsNavigateEnabled}"/>
+        <controls:BindableToolbarItem Command="{Binding BanCommand}"            Icon="delete_icon" IsVisible="{Binding IsNotMyself}"/>
+    </TabbedPage.ToolbarItems>
+
+    <ContentPage Title="{x:Static resource:AppResources.Player}">
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="eye_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+        
+        <ScrollView>
+            <Grid Padding="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- BANNED -->
+                <Frame Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="{StaticResource OptimizerLevelFrameColor}" Margin="5"
+                       IsVisible="{Binding CurrentPlayer.IsBanned}">
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="{x:Static resource:AppResources.PlayerIsBanned}" />
+                    </StackLayout>
+                </Frame>
+            
+                <!-- ID -->
+                <Frame Grid.Row="1" Grid.Column="0" 
+                       BackgroundColor="{StaticResource FrameBackground}" 
+                       Margin="5"
+                       IsVisible="{Binding IsLoadingDataFromSavefile}">
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="ID" />
+                        <Label Text="{Binding CurrentPlayer.PlayerId}" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- StageMax -->
+                <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="{StaticResource FrameBackground}" Margin="5">
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="{x:Static resource:AppResources.MaximumStage}" />
+                        <Label Text="{Binding CurrentPlayer.StageMax}" />
+                    </StackLayout>
+                </Frame>
+
+                <Grid Grid.Row="2" Grid.ColumnSpan="2" BackgroundColor="{StaticResource FrameBackground}" Margin="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Last seen -->
+                    <Label Grid.Row="0" Grid.Column="0" Text="{x:Static resource:AppResources.LastTimeSeen}" IsVisible="{Binding IsNotMyself}"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="{Binding CurrentPlayer.LastTimestamp}" IsVisible="{Binding IsNotMyself}"/>
+
+                    <!-- Artifacts -->
+                    <Label Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.ArtifactHeader}" />
+                    <Label Grid.Row="1" Grid.Column="1" Text="{Binding ArtifactProgress}" />
+                    
+                    <!-- LTR -->
+                    <Label Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.LTR}" IsVisible="{Binding IsMyself}"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="{Binding LTRValue, Converter={StaticResource CoinStr}}" IsVisible="{Binding IsMyself}"/>
+
+                    <!-- Bos% -->
+                    <Label Grid.Row="3" Grid.Column="0" Text="BoS %" IsVisible="{Binding IsMyself}"/>
+                    <Label Grid.Row="3" Grid.Column="1" Text="{Binding BoSProgress}" IsVisible="{Binding IsMyself}"/>
+
+                    <!-- Crafting Power -->
+                    <Label Grid.Row="4" Grid.Column="0" Text="{x:Static resource:AppResources.CraftingPower}" />
+                    <Label Grid.Row="4" Grid.Column="1" Text="{Binding CraftingPower}" />
+
+                    <!-- Shards spent -->
+                    <Label Grid.Row="5" Grid.Column="0" Text="{x:Static resource:AppResources.ShardsSpent}" IsVisible="{Binding IsLoadingDataFromSavefile}"/>
+                    <Label Grid.Row="5" Grid.Column="1" Text="{Binding CurrentPlayer.CraftingShardsSpent}" IsVisible="{Binding IsLoadingDataFromSavefile}"/>
+                    
+                    <!-- Equipment Sets -->
+                    <Label Grid.Row="6" Grid.Column="0" Text="{x:Static resource:AppResources.CompletedSets}" />
+                    <Label Grid.Row="6" Grid.Column="1" Text="{Binding CurrentPlayer.EquipmentSetCount}" />
+
+                    <!-- Pet Level -->
+                    <Label Grid.Row="7" Grid.Column="0" Text="{x:Static resource:AppResources.PetLevel}" />
+                    <Label Grid.Row="7" Grid.Column="1" Text="{Binding CurrentPlayer.TotalPetLevels}" />
+
+                    <!-- SP -->
+                    <Label Grid.Row="8" Grid.Column="0" Text="{x:Static resource:AppResources.SkillPoints}" />
+                    <Label Grid.Row="8" Grid.Column="1" Text="{Binding CurrentPlayer.TotalSkillPoints}" />
+                    
+                    <!-- Helper Level -->
+                    <Label Grid.Row="9" Grid.Column="0" Text="{x:Static resource:AppResources.HelperLevel}" />
+                    <Label Grid.Row="9" Grid.Column="1" Text="{Binding CurrentPlayer.TotalHelperWeapons}" />
+
+                    <!-- Helper Scrolls -->
+                    <Label Grid.Row="10" Grid.Column="0" Text="{x:Static resource:AppResources.TotalHelperScrolls}" />
+                    <Label Grid.Row="10" Grid.Column="1" Text="{Binding CurrentPlayer.TotalHelperScrolls}" />
+
+                    <!-- TournamentCount -->
+                    <Label Grid.Row="11" Grid.Column="0" Text="{x:Static resource:AppResources.TournamenAmount}" />
+                    <Label Grid.Row="11" Grid.Column="1" Text="{Binding CurrentPlayer.TournamentCount}" />
+
+                    <!-- TournamentPoints -->
+                    <Label Grid.Row="12" Grid.Column="0" Text="{x:Static resource:AppResources.TournamentPoints}" />
+                    <Label Grid.Row="12" Grid.Column="1" Text="{Binding CurrentPlayer.TitanPoints}" />
+
+                    <!-- Clan Crates shared -->
+                    <Label Grid.Row="13" Grid.Column="0" Text="{x:Static resource:AppResources.CratesShared}" IsVisible="{Binding IsLoadingDataFromSavefile}"/>
+                    <Label Grid.Row="13" Grid.Column="1" Text="{Binding CurrentPlayer.ClanCratesShared}" IsVisible="{Binding IsLoadingDataFromSavefile}"/>
+
+
+                    <!-- Passive Skills -->
+
+                    <!-- ArcaneBargainLevel -->
+                    <Label Grid.Row="14" Grid.Column="0" Margin="0, 20, 0, 0" Text="{x:Static resource:AppResources.ArcaneBargain}" IsVisible="{Binding IsMyself}"/>
+                    <Label Grid.Row="14" Grid.Column="1" Margin="0, 20, 0, 0" Text="{Binding ArcaneBargainLevel}" IsVisible="{Binding IsMyself}"/>
+
+                    <!-- PowerSurgeLevel -->
+                    <Label Grid.Row="15" Grid.Column="0" Text="{x:Static resource:AppResources.PowerSurge}" IsVisible="{Binding IsMyself}"/>
+                    <Label Grid.Row="15" Grid.Column="1" Text="{Binding PowerSurgeLevel}" IsVisible="{Binding IsMyself}"/>
+
+                    <!-- AntiTitanCannonLevel -->
+                    <Label Grid.Row="16" Grid.Column="0" Text="{x:Static resource:AppResources.AntiTitanCannon}" IsVisible="{Binding IsMyself}"/>
+                    <Label Grid.Row="16" Grid.Column="1" Text="{Binding AntiTitanCannonLevel}" IsVisible="{Binding IsMyself}"/>
+
+                    <!-- MysticalImpactLevel -->
+                    <Label Grid.Row="17" Grid.Column="0" Text="{x:Static resource:AppResources.MysticalImpact}" IsVisible="{Binding IsMyself}"/>
+                    <Label Grid.Row="17" Grid.Column="1" Text="{Binding MysticalImpactLevel}" IsVisible="{Binding IsMyself}"/>
+
+                    <!-- IntimidatingPresenceLevel -->
+                    <Label Grid.Row="18" Grid.Column="0" Text="{x:Static resource:AppResources.IntimidatingPresence}" IsVisible="{Binding IsMyself}"/>
+                    <Label Grid.Row="18" Grid.Column="1" Text="{Binding IntimidatingPresenceLevel}" IsVisible="{Binding IsMyself}"/>
+                    
+                    <!-- Silent March Level -->
+                    <Label Grid.Row="19" Grid.Column="0" Text="{x:Static resource:AppResources.SilentMarch}" IsVisible="{Binding IsMyself}"/>
+                    <Label Grid.Row="19" Grid.Column="1" Text="{Binding SilentMarchLevel}" IsVisible="{Binding IsMyself}"/>
+                </Grid>
+
+                <!-- Days -->
+                <Label  Grid.Row="3" Grid.Column="0" Text="{x:Static resource:AppResources.Days}" VerticalTextAlignment="Center" IsVisible="{Binding ShowCharts}"/>
+
+                <Picker Grid.Row="3" Grid.Column="1" ItemsSource="{Binding Times}" SelectedIndex="{Binding StatTimeId, Mode=TwoWay}" 
+                        ItemDisplayBinding="{Binding Description}" IsVisible="{Binding ShowCharts}"/>
+            
+                <!-- MS -->
+                <Label Grid.Row="4" Grid.ColumnSpan="2" Text="{Binding MsIncreaseText}" IsVisible="{Binding ShowCharts}"/>
+            
+                <!-- TP And CQ -->
+                <Label Grid.Row="5" Grid.Column="0" Text="{Binding TpIncreaseText}" IsVisible="{Binding ShowCharts}"/>
+                <Label Grid.Row="5" Grid.Column="1" Text="{Binding CqIncreaseText}" IsVisible="{Binding IsClanQuestDataAvailable}"/>
+
+                <!-- MS Chart -->
+                <charts:ChartView Grid.Row="6" Grid.ColumnSpan="2" HeightRequest="150" Chart="{Binding LChart}" IsVisible="{Binding ShowCharts}"/>
+
+                <!-- Prestige Chart -->
+                <Label Grid.Row="7" Grid.ColumnSpan="2" Text="{Binding PrestigeIncreaseText}" IsVisible="{Binding IsLoadingDataFromSavefileAndMyself}"/>
+                <charts:ChartView Grid.Row="8" Grid.ColumnSpan="2" HeightRequest="150" Chart="{Binding PrestigeChart}" IsVisible="{Binding IsLoadingDataFromSavefileAndMyself}"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="{x:Static resource:AppResources.RaidClan}">
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="bullet_list_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+        
+        <ScrollView>
+            <Grid Padding="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- BANNED -->
+                <Frame Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="{StaticResource OptimizerLevelFrameColor}" Margin="5"
+                       IsVisible="{Binding CurrentPlayer.IsBanned}">
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="{x:Static resource:AppResources.PlayerIsBanned}" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Raid Player Level -->
+                <Label Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.PlayerLevel}" />
+                <Label Grid.Row="1" Grid.Column="1" Text="{Binding CurrentPlayer.RaidPlayerLevel}" />
+
+                <!-- Raid base Damage -->
+                <Label Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.BaseDamage}" />
+                <Label Grid.Row="2" Grid.Column="1" Text="{Binding CurrentPlayer.RaidBaseDamage}" />
+
+                <!-- Raid Total EXP -->
+                <Label Grid.Row="3" Grid.Column="0" Text="{x:Static resource:AppResources.TotalEXP}" />
+                <Label Grid.Row="3" Grid.Column="1" Text="{Binding CurrentPlayer.RaidTotalXP}" />
+
+                <!-- Raid Attack Count -->
+                <Label Grid.Row="4" Grid.Column="0" Text="{x:Static resource:AppResources.AttackCount}" />
+                <Label Grid.Row="4" Grid.Column="1" Text="{Binding CurrentPlayer.RaidAttackCount}" />
+
+                <!-- Raid Total Card Level -->
+                <Label Grid.Row="5" Grid.Column="0" Text="{x:Static resource:AppResources.TotalCardLevel}" />
+                <Label Grid.Row="5" Grid.Column="1" Text="{Binding CurrentPlayer.RaidTotalCardLevel}" />
+
+                <!-- Raid Unique Skill Count -->
+                <Label Grid.Row="6" Grid.Column="0" Text="{x:Static resource:AppResources.UniqueSkillCount}" />
+                <Label Grid.Row="6" Grid.Column="1" Text="{Binding CurrentPlayer.RaidUniqueSkillCount}" />
+
+                <!-- Raid Tickets collected -->
+                <Label Grid.Row="7" Grid.Column="0" Text="{x:Static resource:AppResources.TicketsCollected}" />
+                <Label Grid.Row="7" Grid.Column="1" Text="{Binding CurrentPlayer.RaidTicketsCollected}" />
+
+                <!-- Raid Weekly Ticket Count -->
+                <Label Grid.Row="8" Grid.Column="0" Text="{x:Static resource:AppResources.WeeklyTicketCount}" IsVisible="{Binding IsLoadingDataFromSavefile}"/>
+                <Label Grid.Row="8" Grid.Column="1" Text="{Binding CurrentPlayer.WeeklyTicketCount}"  IsVisible="{Binding IsLoadingDataFromSavefile}"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TT2Master.SplashPage"
+             >
+
+    <StackLayout Margin="2">
+        <Label Text="TT2 Master" 
+               HorizontalOptions="Center" 
+               TextColor="{StaticResource NavigationBarColor}"
+               FontSize="50" 
+               FontAttributes="Bold" 
+               MaxLines="99"
+               VerticalOptions="CenterAndExpand" />
+        
+        <Image Source="{Binding LogoImage}" 
+               Aspect="AspectFill" 
+               HorizontalOptions="Center" 
+               VerticalOptions="Center"/>
+
+        <ActivityIndicator IsRunning="true"
+                           IsVisible="true"
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"/>
+        
+        <Label Text="{Binding ProgressText}" 
+               HorizontalOptions="Center" 
+               FontSize="Medium" 
+               MaxLines="99"
+               VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+</ContentPage>

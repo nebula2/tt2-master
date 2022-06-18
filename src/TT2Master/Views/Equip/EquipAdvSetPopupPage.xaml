@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:resource="clr-namespace:TT2Master.Resources"
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+    xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+    x:Class="TT2Master.EquipAdvSetPopupPage">
+
+    <pages:PopupPage.Resources>
+        <ResourceDictionary>
+            <converter:IntEnumConverter x:Key="IntEnum"/>
+        </ResourceDictionary>
+    </pages:PopupPage.Resources>
+    
+    <!--You can set an animation in the xaml file or in the csharp code behind-->
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="400"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+    <!--You can use any elements here which are extended from Xamarin.Forms.View-->
+    <ScrollView >
+        <Grid BackgroundColor="{StaticResource FrameBackground}" Padding="4"
+              ColumnDefinitions="Auto, *"
+              RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto">
+
+            <!-- Build -->
+            <Label  Grid.Row="0" Grid.Column="0" Text="{x:Static resource:AppResources.BuildHeader}" VerticalTextAlignment="Center"/>
+            <Picker Grid.Row="0" Grid.Column="1" ItemsSource="{Binding EquipBuilds}" SelectedIndex="{Binding EquipBuild, Converter={StaticResource IntEnum}, Mode=TwoWay}" />
+
+            <!-- Gold Type -->
+            <Label  Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.GoldSourceHeader}" VerticalTextAlignment="Center"/>
+            <Picker Grid.Row="1" Grid.Column="1" ItemsSource="{Binding GoldTypes}" SelectedIndex="{Binding CurrGoldType, Converter={StaticResource IntEnum}, Mode=TwoWay}" />
+
+            <!-- Dmg -->
+            <Label  Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.HeroHeader}" VerticalTextAlignment="Center"/>
+            <Picker Grid.Row="2" Grid.Column="1" ItemsSource="{Binding HeroDmgTypes}" SelectedIndex="{Binding CurrHeroDmgType, Converter={StaticResource IntEnum}, Mode=TwoWay}" />
+           
+            <!-- Range -->
+            <Label  Grid.Row="3" Grid.Column="0" Text="{x:Static resource:AppResources.RangeHeader}" VerticalTextAlignment="Center"/>
+            <Picker Grid.Row="3" Grid.Column="1" ItemsSource="{Binding HeroBaseTypes}" SelectedIndex="{Binding CurrHeroBaseType, Converter={StaticResource IntEnum}, Mode=TwoWay}" />
+            
+            <!-- Save -->
+            <Button Grid.Row="4" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.SaveText}" Command="{Binding SaveCommand}" />
+
+            <!-- EquipAdvisorSpecialThanks -->
+            <Label  Grid.Row="5" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.EquipAdvisorSpecialThanks}" VerticalTextAlignment="Center" MaxLines="99"/>
+        </Grid>
+    </ScrollView>
+</pages:PopupPage>

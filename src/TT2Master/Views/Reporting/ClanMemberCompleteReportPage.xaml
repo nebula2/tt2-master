@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:local="clr-namespace:TT2Master"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             xmlns:dg="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid"
+             mc:Ignorable="d"
+             x:Class="TT2Master.Views.Reporting.ClanMemberCompleteReportPage"
+             Title="{Binding Title}">
+
+
+    <ScrollView Orientation="Horizontal">
+        <dg:DataGrid ItemsSource="{Binding Member}" 
+                     BorderColor="#CCCCCC" 
+                     HeaderBackground="#E0E6F8"
+                     HeaderHeight="35"
+                     SelectionEnabled="False"
+                     HeaderFontSize="13">
+            <dg:DataGrid.Columns>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.Rank}" PropertyName="ClanRank" Width="0.5*" />
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.Name}" PropertyName="PlayerName"/>
+                <dg:DataGridColumn Title="MS" PropertyName="StageMax"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.ShardsSpent}" PropertyName="CraftingShardsSpent"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.CompletedSets}" PropertyName="EquipmentSetCount"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.PetLevel}" PropertyName="TotalPetLevels"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.SkillPoints}" PropertyName="TotalSkillPoints"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.TotalHelperScrolls}" PropertyName="TotalHelperScrolls"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.TournamenAmount}" PropertyName="TournamentCount"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.TournamentPoints}" PropertyName="TitanPoints"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.CratesShared}" PropertyName="ClanCratesShared"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.PlayerLevel}" PropertyName="RaidPlayerLevel"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.BaseDamage}" PropertyName="RaidBaseDamage"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.TotalEXP}" PropertyName="RaidTotalXP"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.AttackCount}" PropertyName="RaidAttackCount"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.TotalCardLevel}" PropertyName="RaidTotalCardLevel"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.UniqueSkillCount}" PropertyName="RaidUniqueSkillCount"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.TicketsCollected}" PropertyName="RaidTicketsCollected"/>
+                <dg:DataGridColumn Title="{x:Static resource:AppResources.WeeklyTicketCount}" PropertyName="WeeklyTicketCount"/>
+            </dg:DataGrid.Columns>
+            <dg:DataGrid.RowsBackgroundColorPalette>
+                <dg:PaletteCollection>
+                    <Color>#1A2634</Color>
+                    <Color>#344860</Color>
+                </dg:PaletteCollection>
+            </dg:DataGrid.RowsBackgroundColorPalette>
+            <dg:DataGrid.RowsTextColorPalette>
+                <dg:PaletteCollection>
+                    <Color>#FFFFFF</Color>
+                </dg:PaletteCollection>
+            </dg:DataGrid.RowsTextColorPalette>
+        </dg:DataGrid>
+    </ScrollView>
+</ContentPage>

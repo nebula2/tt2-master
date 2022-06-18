@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             x:Class="TT2Master.AboutPage"
+             Title="{Binding Title}">
+
+    <ScrollView>
+        <Grid Margin="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- About Me -->
+            <Label Grid.Row="0" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.AboutThisApp}" HorizontalOptions="Center" Margin="2" FontAttributes="Bold" FontSize="Large"/>
+
+            <!-- Name -->
+            <Label Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.MyNameHeader}" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"  />
+            <Label Grid.Row="1" Grid.Column="1" Text="Jack" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+
+            <!-- Contact -->
+            <Button Grid.Row="2" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.MyMailText}" Command="{Binding OpenMailCommand}"/>
+
+            <!-- Discord -->
+            <Label Grid.Row="3" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.MyDiscordHeader}" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+            <Button Grid.Row="4" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.MyDiscordButton}" Command="{Binding OpenDiscordCommand}"/>
+            
+            <!-- Some Text -->
+            <Label Grid.Row="5" Grid.ColumnSpan="2" Text="{Binding MyMessage}" MaxLines="99" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+            
+            <!-- Credits -->
+            <Label Grid.Row="6" 
+                   Grid.ColumnSpan="2" 
+                   Text="{x:Static resource:AppResources.Credits}" 
+                   HorizontalOptions="Center" 
+                   Margin="2" 
+                   FontAttributes="Bold" 
+                   FontSize="Large"/>
+            <ListView Grid.Row="7" Grid.ColumnSpan="2" 
+                      CachingStrategy="RetainElement" 
+                      ItemsSource="{Binding CreditsTo}" 
+                      HasUnevenRows="True" 
+                      SelectionMode="None" 
+                      SeparatorVisibility="None" 
+                      BackgroundColor="Transparent">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BackgroundColor="{StaticResource OptimizerLevelFrameColor}" Margin="2" Padding="2">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    
+                                    <Label Grid.Row="0" Text="{Binding Name}" FontSize="Medium" VerticalTextAlignment="Center"/>
+                                    <Label Grid.Row="1" Text="{Binding Text}" FontSize="Small" VerticalTextAlignment="Center" MaxLines="99"/>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </ScrollView>
+</ContentPage>

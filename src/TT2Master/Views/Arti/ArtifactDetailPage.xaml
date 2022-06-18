@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             x:Class="TT2Master.ArtifactDetailPage"
+             Title="{Binding Title}"
+             >
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:CoinStringConverter x:Key="CoinStr" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <Grid Margin="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- artifact pic and name -->
+            <Frame OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="5">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <!-- Image -->
+                        <ColumnDefinition Width="50" />
+                        <!-- Text -->
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Artifact Image -->
+                    <Image Grid.Column="0" Source="{Binding ThisArtifact.ImagePath}" WidthRequest="50" HeightRequest="50" />
+
+                    <!-- Artifact Text -->
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <!-- Name -->
+                        <Label Grid.Row="0" Text="{Binding ThisArtifact.Name}" FontAttributes="Bold"/>
+
+                        <!-- ID -->
+                        <Label Grid.Row="1" Text="{Binding ThisArtifact.ID, StringFormat='ID: {0}'}"/>
+
+                        <!-- Sort-ID -->
+                        <Label Grid.Row="2" Text="{Binding ThisArtifact.SortIndex, StringFormat='Sort-ID: {0}'}"/>
+                    </Grid>
+                </Grid>
+            </Frame>
+
+            <!-- Stats -->
+            <Frame OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="5" Grid.Row="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Effect -->
+                    <Label Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.EffectHeader}" VerticalOptions="Center"  />
+                    <Label Grid.Row="1" Grid.Column="1" Text="{Binding ThisArtifact.Effect}" VerticalOptions="Center" />
+
+                    <!-- Level -->
+                    <Label Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.LevelHeader}" VerticalOptions="Center" />
+                    <Label Grid.Row="2" Grid.Column="1" Text="{Binding ThisArtifact.Level, StringFormat=' {0}', Converter={StaticResource CoinStr}}" VerticalOptions="Center"/>
+
+                    <!-- Relics spent -->
+                    <Label Grid.Row="7" Grid.Column="0" Text="{x:Static resource:AppResources.RelicsSpentHeader}" VerticalOptions="Center" />
+                    <Label Grid.Row="7" Grid.Column="1" Text="{Binding ThisArtifact.RelicsSpent, StringFormat=' {0}', Converter={StaticResource CoinStr}}" VerticalOptions="Center" />
+
+                    <!-- Effect per Level -->
+                    <Label Grid.Row="8" Grid.Column="0" Text="{x:Static resource:AppResources.EffectPerLvlHeader}" VerticalOptions="Center" />
+                    <Label Grid.Row="8" Grid.Column="1" Text="{Binding ThisArtifact.EffectPerLevel}" VerticalOptions="Center" />
+
+                    <!-- GrowthMaximum -->
+                    <Label Grid.Row="9" Grid.Column="0" Text="{x:Static resource:AppResources.GrowthMaximumHeader}" VerticalOptions="Center" />
+                    <Label Grid.Row="9" Grid.Column="1" Text="{Binding ThisArtifact.GrowthMaximum}" VerticalOptions="Center" />
+
+                    <!-- GrowthRate -->
+                    <Label Grid.Row="10" Grid.Column="0" Text="{x:Static resource:AppResources.GrowthRateHeader}" VerticalOptions="Center" />
+                    <Label Grid.Row="10" Grid.Column="1" Text="{Binding ThisArtifact.GrowthRate}" VerticalOptions="Center" />
+
+                    <!-- GrowthExpo -->
+                    <Label Grid.Row="11" Grid.Column="0" Text="{x:Static resource:AppResources.GrowthExpoHeader}" VerticalOptions="Center" />
+                    <Label Grid.Row="11" Grid.Column="1" Text="{Binding ThisArtifact.GrowthExpo}" VerticalOptions="Center" />
+
+                    <!-- DamageBonus -->
+                    <Label Grid.Row="12" Grid.Column="0" Text="{x:Static resource:AppResources.DamageBonusHeader}" VerticalOptions="Center" />
+                    <Label Grid.Row="12" Grid.Column="1" Text="{Binding ThisArtifact.DamageBonus}" VerticalOptions="Center" />
+
+                    <!-- CostCoefficient -->
+                    <Label Grid.Row="13" Grid.Column="0" Text="{x:Static resource:AppResources.CostCoefficientHeader}" VerticalOptions="Center" />
+                    <Label Grid.Row="13" Grid.Column="1" Text="{Binding ThisArtifact.CostCoefficient}" VerticalOptions="Center" />
+
+                    <!-- CostExpo -->
+                    <Label Grid.Row="14" Grid.Column="0" Text="{x:Static resource:AppResources.CostExpoHeader}" VerticalOptions="Center" />
+                    <Label Grid.Row="14" Grid.Column="1" Text="{Binding ThisArtifact.CostExpo}" VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+        </Grid>
+    </ScrollView>
+</ContentPage>

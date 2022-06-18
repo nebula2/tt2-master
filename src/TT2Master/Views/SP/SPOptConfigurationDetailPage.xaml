@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:TT2Master"
+            xmlns:resource="clr-namespace:TT2Master.Resources"
+            xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+            x:Class="TT2Master.SPOptConfigurationDetailPage"
+            Title="{Binding Title}"
+            x:Name="SPOptConfigDetail">
+
+    <TabbedPage.BarBackgroundColor>
+        <OnPlatform x:TypeArguments="Color">
+            <On Platform="iOS" Value="{StaticResource BackgroundColor}"></On>
+        </OnPlatform>
+    </TabbedPage.BarBackgroundColor>
+
+    <TabbedPage.SelectedTabColor>
+        <OnPlatform x:TypeArguments="Color">
+            <On Platform="iOS" Value="White"></On>
+        </OnPlatform>
+    </TabbedPage.SelectedTabColor>
+
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+            <converter:DoubleValueConverter x:Key="DoubleConverter" />
+        </ResourceDictionary>
+    </TabbedPage.Resources>
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Name="Save" Command="{Binding SaveCommand}"  Icon="save_icon" />
+        <ToolbarItem Name="Delete" Command="{Binding DeleteCommand}"  Icon="delete_icon" />
+    </TabbedPage.ToolbarItems>
+
+    <ContentPage Title="{x:Static resource:AppResources.SettingsHeader}">
+
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="settings_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+
+        <ScrollView>
+            <Grid ColumnDefinitions="Auto, Auto, *" RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto">
+
+                <!-- Configuration Name -->
+                <Grid Grid.Row="0" Grid.Column="0" WidthRequest="20" HeightRequest="20">
+                <Label FontFamily="{StaticResource FontAwesome}" Text="{StaticResource FontAwesomeInfoIcon}"
+                       HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" TextColor="{StaticResource NavigationBarColor}" />
+                <Button Margin="0" BackgroundColor="Transparent"
+                                TextColor="{StaticResource WordBlue}"
+                                Command="{Binding ConfigInfoCommand}"/>
+            </Grid>
+                    
+                <Label  Grid.Row="0" Grid.Column="1" Text="{x:Static resource:AppResources.Name}" VerticalTextAlignment="Center" />
+                <Entry  Grid.Row="0" Grid.Column="2" Text="{Binding SelectedConfig.Name, Mode=TwoWay}" Placeholder="{x:Static resource:AppResources.GiveAName}" PlaceholderColor="Gray" IsEnabled="{Binding IsNameEditable}"/>
+
+                <Label  Grid.Row="1" Grid.Column="1" Text="{x:Static resource:AppResources.Description}" VerticalTextAlignment="Center" />
+                <Editor Grid.Row="1" Grid.Column="2" Text="{Binding SelectedConfig.Description}" />
+
+                <!-- Is Default Configuration -->
+                <Grid   Grid.Row="2" Grid.Column="0" WidthRequest="20" HeightRequest="20" Margin="0,20,0,0">
+                    <Label FontFamily="{StaticResource FontAwesome}" Text="{StaticResource FontAwesomeInfoIcon}"
+                           HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center" TextColor="{StaticResource NavigationBarColor}" />
+                    <Button Margin="0" BackgroundColor="Transparent"
+                           TextColor="{StaticResource WordBlue}"
+                           Command="{Binding IsDefaultInfoCommand}"/>
+                </Grid>
+                <Label   Grid.Row="2" Grid.Column="1" Text="{x:Static resource:AppResources.Default}" VerticalTextAlignment="Center"  Margin="0,20,0,0"/>
+                <Switch  Grid.Row="2" Grid.Column="2" IsToggled="{Binding IsDefault, Mode=TwoWay}" VerticalOptions="Center"  Margin="0,20,0,0" HorizontalOptions="Start" IsEnabled="{Binding IsNameEditable}"/>
+
+                <!-- Mode -->
+                <Grid   Grid.Row="3" Grid.Column="0" WidthRequest="20" HeightRequest="20">
+                    <Label FontFamily="{StaticResource FontAwesome}" Text="{StaticResource FontAwesomeInfoIcon}"
+                        HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center" TextColor="{StaticResource NavigationBarColor}" />
+                    <Button Margin="0" BackgroundColor="Transparent" TextColor="{StaticResource WordBlue}" Command="{Binding ModeInfoCommand}"/>
+                </Grid>
+                <Label  Grid.Row="3" Grid.Column="1" Text="{x:Static resource:AppResources.Mode}" VerticalTextAlignment="Center" />
+                <Picker Grid.Row="3" Grid.Column="2" VerticalOptions="Center" ItemsSource="{Binding ModeTypes}" SelectedIndex="{Binding SelectedConfig.ModeInt, Mode=TwoWay}" />
+
+                <!-- Damage Source -->
+                <Grid   Grid.Row="4" Grid.Column="0" WidthRequest="20" HeightRequest="20">
+                        <Label FontFamily="{StaticResource FontAwesome}" Text="{StaticResource FontAwesomeInfoIcon}"
+                               HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center" TextColor="{StaticResource NavigationBarColor}" />
+                        <Button Margin="0" BackgroundColor="Transparent"
+                                        TextColor="{StaticResource WordBlue}"
+                                        Command="{Binding DamageSourceInfoCommand}"/>
+                </Grid>
+                <Label  Grid.Row="4" Grid.Column="1" Text="{x:Static resource:AppResources.DamageSource}" VerticalTextAlignment="Center" />
+                <Picker Grid.Row="4" Grid.Column="2" VerticalOptions="Center" ItemsSource="{Binding DmgTypes}" SelectedIndex="{Binding SelectedConfig.DamageSourceInt, Mode=TwoWay}"/>
+
+                <!-- Gold Source -->
+                <Grid   Grid.Row="5" Grid.Column="0" WidthRequest="20" HeightRequest="20">
+                        <Label FontFamily="{StaticResource FontAwesome}" Text="{StaticResource FontAwesomeInfoIcon}"
+                               HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center" TextColor="{StaticResource NavigationBarColor}" />
+                        <Button Margin="0" BackgroundColor="Transparent"
+                                        TextColor="{StaticResource WordBlue}"
+                                        Command="{Binding GoldSourceInfoCommand}"/>
+                </Grid>
+                <Label  Grid.Row="5" Grid.Column="1" Text="{x:Static resource:AppResources.GoldSourceHeader}" VerticalTextAlignment="Center" />
+                <Picker Grid.Row="5" Grid.Column="2" VerticalOptions="Center" ItemsSource="{Binding GoldTypes}" SelectedIndex="{Binding SelectedConfig.GoldSourceInt, Mode=TwoWay}"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+
+    <!-- Skill Overview (what is set) -->
+    <ContentPage Title="{x:Static resource:AppResources.Skills}">
+
+        <ContentPage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS" Value="bullet_list_icon"></On>
+            </OnPlatform>
+        </ContentPage.IconImageSource>
+
+        <Grid Margin="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <ListView CachingStrategy="RetainElement" Grid.Row="0" ItemsSource="{Binding SelectedConfig.SkillSettings}" HasUnevenRows="True" SelectionMode="None" BackgroundColor="Transparent">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="5">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <!-- Image -->
+                                        <ColumnDefinition Width="Auto" />
+                                        <!-- Text -->
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid.RowDefinitions>
+                                        <!-- Header -->
+                                        <RowDefinition Height="Auto" />
+                                        
+                                        <!-- Special Calculation -->
+                                        <RowDefinition Height="Auto" />
+                                        
+                                        <!-- Damage reduction -->
+                                        <RowDefinition Height="Auto" />
+
+                                        <!-- Custom Damage reduction -->
+                                        <RowDefinition Height="Auto" />
+
+                                        <!-- Gold reduction -->
+                                        <RowDefinition Height="Auto" />
+
+                                        <!-- Custom Gold reduction -->
+                                        <RowDefinition Height="Auto" />
+
+                                        <!-- Fixed Level -->
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+    
+                                    <!-- Identifier -->
+                                    <Grid Grid.Column="0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <!-- Skill Image -->
+                                        <Image Grid.Column="0" Source="{Binding MySPOptSkill.ImagePath}" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start" />
+                                        
+                                        <!-- Name -->
+                                        <Label Grid.Column="1" Text="{Binding MySPOptSkill.Name}" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                        
+                                        <!-- Is tolerated -->
+                                        <Switch Grid.Column="2" IsToggled="{Binding IsTolerated, Mode=TwoWay}" HorizontalOptions="Start" />
+                                    </Grid>
+
+                                    <!-- Reset Button -->
+                                    <Grid  Grid.Column="1" WidthRequest="20" HeightRequest="20">
+                                        <Label FontFamily="{StaticResource FontAwesome}" Text="{StaticResource FontAwesomeResetIcon}" HorizontalOptions="End" HorizontalTextAlignment="End" VerticalOptions="Center"
+                                               VerticalTextAlignment="Center" TextColor="{StaticResource NavigationBarColor}" />
+                                        <Button Margin="0" BackgroundColor="Transparent" TextColor="{StaticResource WordBlue}">
+                                            <Button.Behaviors>
+                                                <local:EventToCommandBehavior EventName="Clicked" Command="{Binding Source={x:Reference SPOptConfigDetail}, Path=BindingContext.UndoCommand}"
+                                            Converter="{StaticResource ItemTappedConverter}" CommandParameter="{Binding .}"/>
+                                            </Button.Behaviors>
+                                        </Button>
+                                    </Grid>
+                                    
+                                    <!-- Special Calculation -->
+                                    <Label  Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.SpecialCalculation}" IsVisible="{Binding IsSpecialOptionShown}" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Switch Grid.Row="1" Grid.Column="1" IsToggled="{Binding IsSpecialCalculationEnabled, Mode=TwoWay}" IsVisible="{Binding IsSpecialOptionShown}" HorizontalOptions="Start" />
+
+                                    <!-- Damage Reduction -->
+                                    <Label Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.DefaultDamageReduction}" IsVisible="{Binding IsDmgOptionShown}" />
+                                    <Label Grid.Row="2" Grid.Column="1" Text="{Binding DefaultDmgReduction}" IsVisible="{Binding IsDmgOptionShown}"/>
+
+                                    <!-- Custom Damage Reduction -->
+                                    <Label Grid.Row="3" Grid.Column="0" Text="{x:Static resource:AppResources.CustomDamageReduction}" IsVisible="{Binding IsDmgOptionShown}" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Entry Grid.Row="3" Grid.Column="1" Text="{Binding CustomDmgReduction, Mode=TwoWay, Converter={StaticResource DoubleConverter}}" Keyboard="Numeric" IsVisible="{Binding IsDmgOptionShown}"/>
+
+                                    <!-- Gold Reduction -->
+                                    <Label Grid.Row="4" Grid.Column="0" Text="{x:Static resource:AppResources.DefaultGoldReduction}" IsVisible="{Binding IsGoldOptionShown}" />
+                                    <Label Grid.Row="4" Grid.Column="1" Text="{Binding DefaultGoldReduction}" IsVisible="{Binding IsGoldOptionShown}"/>
+                                    
+                                    <!-- Custom Gold Reduction -->
+                                    <Label Grid.Row="5" Grid.Column="0" Text="{x:Static resource:AppResources.CustomGoldReduction}" IsVisible="{Binding IsGoldOptionShown}" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Entry Grid.Row="5" Grid.Column="1" Text="{Binding CustomGoldReduction, Converter={StaticResource DoubleConverter}, Mode=TwoWay}" Keyboard="Numeric" IsVisible="{Binding IsGoldOptionShown}"/>
+
+                                    <!-- Fixed Level -->
+                                    <Label Grid.Row="6" Grid.Column="0" Text="{x:Static resource:AppResources.FixedLevel}" IsVisible="{Binding IsFixedLevelShown}" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Entry Grid.Row="6" Grid.Column="1" Text="{Binding FixedLevel, Mode=TwoWay}" Keyboard="Numeric" IsVisible="{Binding IsFixedLevelShown}"/>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </ContentPage>
+</TabbedPage>

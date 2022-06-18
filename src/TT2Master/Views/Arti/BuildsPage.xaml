@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             xmlns:controls="clr-namespace:TT2Master.Controls"
+             x:Class="TT2Master.BuildsPage"
+             Title="{Binding Title}"
+             >
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Add" Command="{Binding AddBuildCommand}" Icon="add_icon"/>
+        <controls:BindableToolbarItem Name="Add" Command="{Binding ImportBuildCommand}" Icon="import_icon" IsVisible="{Binding IsImportVisible}"/>
+    </ContentPage.ToolbarItems>
+    
+    <Grid Margin="2">
+        
+        <!-- Builds -->
+        <ListView CachingStrategy="RetainElement" 
+                  ItemsSource="{Binding Builds}" 
+                  x:Name="listViewBuilds" 
+                  HasUnevenRows="True" 
+                  SelectionMode="None" 
+                  BackgroundColor="Transparent">
+
+            <ListView.Behaviors>
+                <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EditBuildCommand}" Converter="{StaticResource ItemTappedConverter}" />
+            </ListView.Behaviors>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="5">
+                            <Grid>
+                                <Label Grid.Column="0" Text="{Binding Name}" FontSize="Large" VerticalTextAlignment="Center"/>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>

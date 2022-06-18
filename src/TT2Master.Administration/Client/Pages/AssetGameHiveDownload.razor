@@ -1,0 +1,55 @@
+﻿@page "/assets/downloadghversion/{ContainerReference}"
+@implements IAsyncDisposable
+@inject HttpClient http
+@inject NavigationManager NavigationManager
+
+<h3>Download assets from GH</h3>
+
+<div class="form-group">
+    <a class="btn btn-success" href="assetcontainerdetail/@ContainerReference"><i class="oi oi-arrow-left"></i> Navigate back</a>
+</div>
+
+<AssetGameHiveDownloadForm ButtonText="Download Assets from GameHive Server to staging directory"
+                           Container="@Container"
+                           IsEnabled="@(IsConnected && !isWorking)"
+                           OnValidSubmit="@DownloadAssets" />
+<hr />
+@if (downloadResult != null)
+{
+    <div>
+        <span>Download Results:</span><br />
+        <ul>
+            <li>Success: @downloadResult.IsSuccessful</li>
+            <li>Already existed: @downloadResult.IsVersionAlreadyExisting</li>
+            <li>Files downloaded: @downloadResult.DownloadedInfofilesCount</li>
+            <li>Message: @downloadResult.Message</li>
+        </ul>
+    </div>
+    <hr />
+}
+
+@if (messages.Count == 0)
+{
+    <p><em>Download log</em></p>
+}
+else
+{
+    <p><em>@(messages.First().PercentDone) %</em></p>
+    <table class="table-bordered">
+        <thead>
+            <tr>
+                <td>FinishedWorkItemCount</td>
+                <td>Message</td>
+            </tr>
+        </thead>
+        <tbody id="messagesList">
+            @foreach (var msg in messages)
+            {
+                <tr>
+                    <td>@(msg.FinishedWorkItemCount)</td>
+                    <td>@(msg.Message)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

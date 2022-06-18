@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+             xmlns:arti="clr-namespace:TT2Master.Views.Arti"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             x:Class="TT2Master.Views.Arti.ArtOptVisualSettingsPage"
+             x:Name="root"
+             Title="{Binding Title}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:BoolConverter x:Key="boolConvert" />
+            <converter:DirectionConverter x:Key="directionConvert" />
+            <converter:IntEnumConverter x:Key="IntEnum"/>
+
+            <DataTemplate x:Key="ArtOptCellTemplate">
+                <arti:ArtOptCell />
+            </DataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Save"  Command="{Binding SaveCommand}"  Icon="save_icon" />
+        <ToolbarItem Name="Reset" Command="{Binding RevertToDefaultCommand}" Icon="reload_icon" />
+    </ContentPage.ToolbarItems>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Label  Grid.Row="0" Grid.Column="0" Text="{x:Static resource:AppResources.ArtOptViewModeSettingsHeader}" VerticalTextAlignment="Center"/>
+            <Picker Grid.Row="0" Grid.Column="1" 
+                        ItemsSource="{Binding ArtViewModes}" 
+                        SelectedIndex="{Binding ArtViewMode, Converter={StaticResource IntEnum}, Mode=TwoWay}" 
+                        />
+
+            <Label  Grid.Row="1" Grid.Column="0" 
+                    Text="{x:Static resource:AppResources.Direction}" 
+                    VerticalTextAlignment="Center" 
+                    IsVisible="{Binding IsDefaultViewActive, Converter={StaticResource boolConvert}, ConverterParameter=true}"/>
+            <Picker Grid.Row="1" Grid.Column="1" 
+                        ItemsSource="{Binding ArtDirectionModes}" 
+                        SelectedIndex="{Binding ArtDirectionMode, Converter={StaticResource IntEnum}, Mode=TwoWay}" 
+                        IsVisible="{Binding IsDefaultViewActive, Converter={StaticResource boolConvert}, ConverterParameter=true}"/>
+
+            <Label  Grid.Row="2" Grid.Column="0" 
+                    Text="{x:Static resource:AppResources.Size}" 
+                    VerticalTextAlignment="Center" 
+                    IsVisible="{Binding IsDefaultViewActive, Converter={StaticResource boolConvert}, ConverterParameter=true}"/>
+            <Entry  Grid.Row="2" Grid.Column="1" 
+                    Text="{Binding CellSize, Mode=TwoWay}" 
+                    Keyboard="Numeric"
+                    IsVisible="{Binding IsDefaultViewActive, Converter={StaticResource boolConvert}, ConverterParameter=true}"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0"
+                  IsVisible="{Binding IsDefaultViewActive}"
+                  HorizontalOptions="FillAndExpand" 
+                  VerticalOptions="FillAndExpand">
+
+                <ListView CachingStrategy="RetainElement" 
+                  Grid.Row="0" 
+                  ItemsSource="{Binding OptimizeList}" 
+                  ItemTemplate="{StaticResource ArtOptCellTemplate}"
+                  HasUnevenRows="True" 
+                  Margin="2"
+                  BackgroundColor="Transparent" 
+                  SelectionMode="None" 
+                  HorizontalOptions="FillAndExpand" 
+                  VerticalOptions="FillAndExpand">
+                </ListView>
+            </Grid>
+
+            <Grid Grid.Row="1" 
+              IsVisible="{Binding IsDefaultViewActive, Converter={StaticResource boolConvert}, ConverterParameter=true}">
+                    <FlexLayout BindableLayout.ItemsSource="{Binding OptimizeList}"
+                        Wrap="Wrap"
+                        Direction="{Binding ArtDirectionMode, Converter={StaticResource directionConvert}}"
+                        JustifyContent="SpaceAround"
+                        AlignItems="Start"
+                        AlignContent="Start"
+                        Padding="8">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <Grid FlexLayout.AlignSelf="Center" HeightRequest="{Binding Source={x:Reference root}, Path=BindingContext.CellSize}">
+                                    <Frame Margin="1" Padding="8" BackgroundColor="{StaticResource FrameBackground}">
+                                        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="50" />
+                                            </Grid.ColumnDefinitions>
+
+                                            <Label Grid.Column="0" Text="{Binding Rank}" VerticalOptions="Center"/>
+                                            <Image Grid.Column="1" Source="{Binding ImagePath}" 
+                                                   WidthRequest="{Binding Source={x:Reference root}, Path=BindingContext.CellSize}" 
+                                                   HeightRequest="{Binding Source={x:Reference root}, Path=BindingContext.CellSize}" />
+                                        </Grid>
+                                    </Frame>
+                                </Grid>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </FlexLayout>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

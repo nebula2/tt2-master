@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resource="clr-namespace:TT2Master.Resources"
+             x:Class="TT2Master.Views.Clan.TournamentResultPopupPage"
+             Title="{Binding Title}">
+
+    <Grid Padding="4" ColumnDefinitions="*" RowDefinitions="*, Auto">
+
+        <ListView CachingStrategy="RetainElement" Margin="2" ItemsSource="{Binding Members}"
+                  HasUnevenRows="True"
+                  SelectionMode="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Margin="5" BackgroundColor="{StaticResource FrameBackground}">
+                            <Grid ColumnDefinitions="Auto, *" RowDefinitions="Auto, Auto, Auto, Auto">
+                                <Label Grid.Column="0" Grid.Row="0" Text="Name" />
+                                <Label Grid.Column="1" Grid.Row="0" Text="{Binding Name}" />
+
+                                <Label Grid.Column="0" Grid.Row="1" Text="Stage" />
+                                <Label Grid.Column="1" Grid.Row="1" Text="{Binding Stage}" />
+                                
+                                <Label Grid.Column="0" Grid.Row="2" Text="Undisputed Wins" />
+                                <Label Grid.Column="1" Grid.Row="2" Text="{Binding UndisputedCount}" />
+
+                                <Label Grid.Column="0" Grid.Row="3" Text="Flag" />
+                                <Label Grid.Column="1" Grid.Row="3" Text="{Binding Flag}" />
+                                
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Grid.Row="1" Text="{x:Static resource:AppResources.CancelText}" Command="{Binding CancelCommand}"/>
+    </Grid>
+</ContentPage>

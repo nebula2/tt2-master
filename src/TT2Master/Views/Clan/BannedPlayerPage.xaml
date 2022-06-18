@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             x:Class="TT2Master.BannedPlayerPage"
+             Title="{Binding Title}"
+             >
+
+    <ContentPage.Resources>
+        <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter"/>
+    </ContentPage.Resources>
+
+    <ListView CachingStrategy="RetainElement" Margin="2" ItemsSource="{Binding BannedPlayers}" HasUnevenRows="True" SelectionMode="None">
+
+        <ListView.Behaviors>
+            <local:EventToCommandBehavior EventName="ItemTapped" Command="{Binding RemoveCommand}" Converter="{StaticResource ItemTappedConverter}" />
+        </ListView.Behaviors>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Frame Margin="5" BackgroundColor="{StaticResource FrameBackground}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <!-- ID -->
+                                <ColumnDefinition Width="Auto" />
+                                <!-- PlayerName -->
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <!-- ID and Name -->
+                                <RowDefinition Height="Auto" />
+                                
+                                <!-- Reason -->
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="0" Grid.Column="0" Text="{Binding ID}" />
+
+                            <Label Grid.Row="0" Grid.Column="1" Text="{Binding Name}" />
+
+                            <Label Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding Reason}" />
+                        </Grid>
+                    </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

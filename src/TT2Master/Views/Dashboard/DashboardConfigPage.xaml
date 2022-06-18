@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:TT2Master"
+             mc:Ignorable="d"
+             x:Class="TT2Master.Views.Dashboard.DashboardConfigPage"
+             Title="{Binding Title}"
+             x:Name="pageRoot">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Command="{Binding AddCommand}" Icon="add_icon"/>
+        <ToolbarItem Command="{Binding RestoreDefaultCommand}" Icon="reload_icon" />
+        <ToolbarItem Command="{Binding SaveCommand}" Icon="save_icon"/>
+    </ContentPage.ToolbarItems>
+
+        <!-- Settings -->
+    <ScrollView Margin="2">
+        <!-- Export options -->
+        <ListView BackgroundColor="Transparent" HasUnevenRows="True" SelectionMode="None" CachingStrategy="RetainElement" ItemsSource="{Binding ShortcutConfig}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid RowSpacing="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+
+                            <Picker Grid.Column="0" 
+                                    VerticalOptions="Center" 
+                                    ItemsSource="{Binding Source={x:Reference pageRoot}, Path=BindingContext.ShortcutLookups}" 
+                                    SelectedItem="{Binding Name, Mode=TwoWay}" 
+                                    />
+
+                            <Button Grid.Column="1" 
+                                    Text="{StaticResource FontAwesomeArrowUpIcon}" 
+                                    FontFamily="{StaticResource FontAwesome}" 
+                                    Padding="1" 
+                                    WidthRequest="40"
+                                    Margin="2">
+                                <Button.Behaviors>
+                                    <local:EventToCommandBehavior EventName="Clicked" Command="{Binding Source={x:Reference pageRoot}
+                                            , Path=BindingContext.SortUpCommand}"
+                                            Converter="{StaticResource ItemTappedConverter}" CommandParameter="{Binding .}"/>
+                                </Button.Behaviors>
+                            </Button>
+
+                            <Button Grid.Column="2" 
+                                    Text="{StaticResource FontAwesomeArrowDownIcon}" 
+                                    FontFamily="{StaticResource FontAwesome}" 
+                                    Padding="1" 
+                                    WidthRequest="40"
+                                    Margin="2">
+                                <Button.Behaviors>
+                                    <local:EventToCommandBehavior EventName="Clicked" Command="{Binding Source={x:Reference pageRoot}
+                                            , Path=BindingContext.SortDownCommand}"
+                                            Converter="{StaticResource ItemTappedConverter}" CommandParameter="{Binding .}"/>
+                                </Button.Behaviors>
+                            </Button>
+
+                            <Button Grid.Column="3" 
+                                    Text="{StaticResource FontAwesomeMinusIcon}" 
+                                    FontFamily="{StaticResource FontAwesome}" 
+                                    Padding="1"
+                                    WidthRequest="40"
+                                    Margin="2">
+                                <Button.Behaviors>
+                                    <local:EventToCommandBehavior EventName="Clicked" Command="{Binding Source={x:Reference pageRoot}
+                                            , Path=BindingContext.RemoveCommand}"
+                                            Converter="{StaticResource ItemTappedConverter}" CommandParameter="{Binding .}"/>
+                                </Button.Behaviors>
+                            </Button>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </ScrollView>
+</ContentPage>

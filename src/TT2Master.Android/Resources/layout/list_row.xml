@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="5"
+    >
+
+  <!-- Rank -->
+  <TextView
+    android:id="@+id/rank"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_column="0"
+    android:layout_marginLeft="6dp"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:text="Player"/>
+
+  <!-- PlayerName -->
+  <TextView
+      android:id="@+id/player"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_column="1"
+      android:layout_columnSpan="3"
+      android:layout_gravity="left|fill"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      android:textColor="#000000"
+      android:text="Player"/>
+
+  <!-- Current Stage -->
+  <TextView
+      android:id="@+id/stage_num"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="2dp"
+      android:layout_column="4"
+      android:layout_gravity="right|clip_horizontal"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      android:textColor="#000000"
+      android:text="Stage"/>
+    
+</GridLayout>

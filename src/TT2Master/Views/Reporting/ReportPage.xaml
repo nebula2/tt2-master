@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:eac="clr-namespace:TT2Master"
+             mc:Ignorable="d"
+             x:Class="TT2Master.Views.Reporting.ReportPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <eac:ItemTappedEventArgsConverter x:Key="ItemTappedConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ListView CachingStrategy="RetainElement" 
+              Margin="2" 
+              ItemsSource="{Binding Reports}" 
+              HasUnevenRows="True" 
+              SelectionMode="None">
+
+        <ListView.Behaviors>
+            <eac:EventToCommandBehavior EventName="ItemTapped" Command="{Binding EnterDetailCommand}" Converter="{StaticResource ItemTappedConverter}" />
+        </ListView.Behaviors>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Frame OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="5">
+                        <Grid>
+                            <Label Grid.Column="0" Text="{Binding Name}" FontSize="Large" VerticalTextAlignment="Center"/>
+                        </Grid>
+                    </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

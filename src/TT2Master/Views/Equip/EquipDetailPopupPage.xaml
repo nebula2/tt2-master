@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TT2Master"
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+    x:Class="TT2Master.EquipDetailPopupPage">
+
+    <pages:PopupPage.Resources>
+        <local:ItemTappedEventArgsConverter x:Key="ItemTappedConverter"/>
+    </pages:PopupPage.Resources>
+
+    <!--You can set an animation in the xaml file or in the csharp code behind-->
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="400"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+    <!--You can use any elements here which are extended from Xamarin.Forms.View-->
+    <ScrollView >
+        <Grid BackgroundColor="{StaticResource FrameBackground}" Padding="4"
+              ColumnDefinitions="Auto, *"
+              RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto">
+
+            <Label Grid.Row="0" Grid.ColumnSpan="2" Text="{Binding ThisEquip.Name}" FontSize="Large" FontAttributes="Bold" TextColor="{Binding ThisEquip.RarityColor}"/>
+            <Label Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding ThisEquip.LevelDisplay}" />
+
+            <Label Grid.Row="2" Grid.Column="0" Text="Bonus: " />
+            <Label Grid.Row="2" Grid.Column="1" Text="{Binding ThisEquip.BonusTypeDisplay}" />
+
+            <Label Grid.Row="3" Grid.Column="0" Text="B-Eff: " />
+            <Label Grid.Row="3" Grid.Column="1" Text="{Binding ThisEquip.PrimaryBonusEff, StringFormat=' {0:#.###e+00}'}" />
+
+            <Label Grid.Row="4" Grid.Column="0" Text="Sec 1: " />
+            <Label Grid.Row="4" Grid.Column="1" Text="{Binding ThisEquip.SecondaryBonus1Display}" />
+            
+            <Label Grid.Row="5" Grid.Column="0" Text="Stat 1: " />
+            <Label Grid.Row="5" Grid.Column="1" Text="{Binding ThisEquip.SecBonusEff1, StringFormat=' {0:#.###e+00}'}" />
+
+            <Label Grid.Row="6" Grid.Column="0" Text="Sec 2: " />
+            <Label Grid.Row="6" Grid.Column="1" Text="{Binding ThisEquip.SecondaryBonus2Display}" />
+
+            <Label Grid.Row="7" Grid.Column="0" Text="Stat 2: " />
+            <Label Grid.Row="7" Grid.Column="1" Text="{Binding ThisEquip.SecBonusEff2, StringFormat=' {0:#.###e+00}'}" />
+
+            <Label Grid.Row="8" Grid.Column="0" Text="Sec 3: " />
+            <Label Grid.Row="8" Grid.Column="1" Text="{Binding ThisEquip.SecondaryBonus3Display}" />
+
+            <Label Grid.Row="9" Grid.Column="0" Text="Stat 3: " />
+            <Label Grid.Row="9" Grid.Column="1" Text="{Binding ThisEquip.SecBonusEff3, StringFormat=' {0:#.###e+00}'}" />
+
+            <Label Grid.Row="10" Grid.Column="0" Text="Eff: " />
+            <Label Grid.Row="10" Grid.Column="1" Text="{Binding ThisEquip.EfficiencyValue, StringFormat=' {0:#.###e+00}'}" />
+
+            <Label Grid.Row="11" Grid.Column="0" Text="Set: " />
+            <Label Grid.Row="11" Grid.Column="1" Text="{Binding ThisEquip.EquipmentSet}" />
+        </Grid>
+    </ScrollView>
+</pages:PopupPage>

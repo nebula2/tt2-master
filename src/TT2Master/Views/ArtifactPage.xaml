@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TT2Master"
+             x:Class="TT2Master.ArtifactPage"
+             Title="{Binding Title}"
+             BackgroundColor="{StaticResource AppBackground}">
+
+    <Grid>
+            <ListView x:Name="artifactList" ItemsSource="{Binding ArtifactList}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <!-- Artifact Image -->
+                                    <Image Grid.Column="0" Source="{Binding ImagePath}" HeightRequest="35" WidthRequest="35"/>
+
+                                    <!-- Artifact Data -->
+                                    <Grid Grid.Column="1" RowSpacing="1">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <!-- Name -->
+                                        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding Name}" FontSize="Default"/>
+
+                                        <!-- Effect -->
+                                        <Label Grid.Row="1" Grid.Column="0" Text="{Binding Effect}"/>
+
+                                        <!-- Level -->
+                                        <Label Grid.Row="1" Grid.Column="1" Text="{Binding Path=Level, Converter={local:CoinStringConverter}, StringFormat='LV: {0}'}" />
+                                    </Grid>
+                                </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+    </Grid>
+</ContentPage>

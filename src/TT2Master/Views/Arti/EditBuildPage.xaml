@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:converter="clr-namespace:TT2Master.ValueConverter"
+              xmlns:controls="clr-namespace:TT2Master.Controls"
+              xmlns:resource="clr-namespace:TT2Master.Resources"
+              x:Class="TT2Master.EditBuildPage"
+              x:Name="editBuild"
+              Title="{Binding Title}"
+              BackgroundColor="Transparent">
+
+    <CarouselPage.Resources>
+        <ResourceDictionary>
+            <converter:IntEnumConverter x:Key="IntEnum"/>
+        </ResourceDictionary>
+    </CarouselPage.Resources>
+
+    <CarouselPage.ToolbarItems>
+        <ToolbarItem Name="Save" Command="{Binding SaveCommand}"  Icon="save_icon" />
+        <ToolbarItem Name="Delete" Command="{Binding DeleteCommand}"  Icon="delete_icon" />
+        <ToolbarItem Name="Copy" Command="{Binding CopyCommand}" Icon="copy_icon"/>
+        <controls:BindableToolbarItem Name="Export" Command="{Binding ExportCommand}" Icon="export_icon" IsVisible="{Binding IsExportVisible}"/>
+    </CarouselPage.ToolbarItems>
+
+    <!-- Main Settings -->
+    <ContentPage BackgroundColor="Transparent">
+        <Grid Margin="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Header -->
+            <Label Grid.Row="0" Grid.ColumnSpan="2" Text="{x:Static resource:AppResources.GeneralHeader}" VerticalTextAlignment="Center" HorizontalOptions="Center" 
+                   HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+            
+            <!-- Name -->
+            <Label Grid.Row="1" Grid.Column="0" Text="{x:Static resource:AppResources.NameHeader}" VerticalTextAlignment="Center"/>
+            <Entry Grid.Row="1" Grid.Column="1" Text="{Binding Build.Name}" IsEnabled="{Binding Build.Editable}"/>
+
+            <!-- Gold Source -->
+            <Label Grid.Row="2" Grid.Column="0" Text="{x:Static resource:AppResources.GoldSourceHeader}"  VerticalTextAlignment="Center"/>
+            <Picker Grid.Row="2" Grid.Column="1" ItemsSource="{Binding GoldSources}" SelectedIndex="{Binding Build.GoldSource, Converter={StaticResource IntEnum}, Mode=TwoWay}" />
+            
+            <!-- Page Indicator -->
+            <Grid Grid.Row="4" Grid.ColumnSpan="2" VerticalOptions="End" HorizontalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0" Text="{StaticResource FontAwesomeCircleIcon}" FontFamily="{StaticResource FontAwesome}" />
+                <Label Grid.Column="1" Text="{StaticResource FontAwesomeCircleNotchIcon}" FontFamily="{StaticResource FontAwesome}" />
+                <Label Grid.Column="2" Text="{StaticResource FontAwesomeCircleNotchIcon}" FontFamily="{StaticResource FontAwesome}" />
+            </Grid>
+        </Grid>
+    </ContentPage>
+    
+    <!-- Weight Settings -->
+    <ContentPage BackgroundColor="Transparent">
+        <Grid Margin="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            
+            <!-- Weights-->
+            <Label Grid.Row="0" Text="{x:Static resource:AppResources.WeightsHeader}" VerticalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" FontSize="Large"/>
+
+            <ListView Grid.Row="1" ItemsSource="{Binding Build.CategoryWeights}" HasUnevenRows="True" SelectionMode="None" BackgroundColor="Transparent">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="5">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Grid.Column="0" Source="{Binding ArtifactBehind.ImagePath}" HeightRequest="50" WidthRequest="50"/>
+                                    <Label Grid.Column="1" Text="{Binding ArtifactBehind.Name}" HorizontalOptions="StartAndExpand" VerticalOptions="Center" LineBreakMode="NoWrap"/>
+                                    <Entry Grid.Column="2" Text="{Binding WeightString}" Keyboard="Numeric" 
+                                       IsEnabled="{Binding Source={x:Reference editBuild}, Path=BindingContext.Build.Editable}"
+                                       HorizontalOptions="End"/>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <!-- Page Indicator -->
+            <Grid Grid.Row="2" VerticalOptions="End" HorizontalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0" HorizontalTextAlignment="End" Text="{StaticResource FontAwesomeCircleNotchIcon}" FontFamily="{StaticResource FontAwesome}" />
+                <Label Grid.Column="1" Text="{StaticResource FontAwesomeCircleIcon}" FontFamily="{StaticResource FontAwesome}" />
+                <Label Grid.Column="2" Text="{StaticResource FontAwesomeCircleNotchIcon}" FontFamily="{StaticResource FontAwesome}" />
+            </Grid>
+        </Grid>
+    </ContentPage>
+
+    <!-- Igno Settings -->
+    <ContentPage BackgroundColor="Transparent">
+        <Grid Margin="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Ignos-->
+            <Label Grid.Row="0" Text="{x:Static resource:AppResources.IngoredArtifactsHeader}" VerticalTextAlignment="Center" 
+                   HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large"/>
+
+            <ListView CachingStrategy="RetainElement" 
+                      Grid.Row="1" 
+                      ItemsSource="{Binding Build.ArtsIgnored}" 
+                      HasUnevenRows="True" 
+                      SelectionMode="None" 
+                      BackgroundColor="Transparent">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame OutlineColor="{StaticResource ForegroundDark}" BackgroundColor="{StaticResource FrameBackground}" Margin="5">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Grid.Column="0" Source="{Binding ImagePath}" HeightRequest="50" WidthRequest="50"/>
+                                    <Label Grid.Column="1" Text="{Binding Name}" HorizontalOptions="StartAndExpand" VerticalOptions="Center" LineBreakMode="NoWrap"/>
+                                    <Switch Grid.Column="2" IsToggled="{Binding IsIgnored, Mode=TwoWay}"
+                                            IsEnabled="{Binding Source={x:Reference editBuild}, Path=BindingContext.Build.Editable}"/>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <!-- Page Indicator -->
+            <Grid Grid.Row="2" VerticalOptions="End" HorizontalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0" HorizontalTextAlignment="End" Text="{StaticResource FontAwesomeCircleNotchIcon}" FontFamily="{StaticResource FontAwesome}" />
+                <Label Grid.Column="1" Text="{StaticResource FontAwesomeCircleNotchIcon}" FontFamily="{StaticResource FontAwesome}" />
+                <Label Grid.Column="2" Text="{StaticResource FontAwesomeCircleIcon}" FontFamily="{StaticResource FontAwesome}" />
+            </Grid>
+        </Grid>
+    </ContentPage>
+</CarouselPage>
